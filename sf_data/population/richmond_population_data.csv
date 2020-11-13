@@ -1,0 +1,2701 @@
+Year,Age Group Code,Age Group Description,Gender Code,Gender Description,Race Ethnicity Code,Race/Ethnicity Description,County Code,County Name,Population
+2003,0,Total,0,Total,0,Total,7,Richmond,459737
+2003,0,Total,0,Total,1,White Non Hispanic,7,Richmond,315796
+2003,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,45572
+2003,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,32567
+2003,0,Total,0,Total,5,Hispanic,7,Richmond,65802
+2003,0,Total,1,Male,0,Total,7,Richmond,222896
+2003,0,Total,1,Male,1,White Non Hispanic,7,Richmond,152800
+2003,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,21039
+2003,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,16163
+2003,0,Total,1,Male,5,Hispanic,7,Richmond,32894
+2003,0,Total,2,Female,0,Total,7,Richmond,236841
+2003,0,Total,2,Female,1,White Non Hispanic,7,Richmond,162996
+2003,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,24533
+2003,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,16404
+2003,0,Total,2,Female,5,Hispanic,7,Richmond,32908
+2003,1,<1,0,Total,0,Total,7,Richmond,5466
+2003,1,<1,0,Total,1,White Non Hispanic,7,Richmond,3240
+2003,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,758
+2003,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,376
+2003,1,<1,0,Total,5,Hispanic,7,Richmond,1092
+2003,1,<1,1,Male,0,Total,7,Richmond,2766
+2003,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1637
+2003,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,340
+2003,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,198
+2003,1,<1,1,Male,5,Hispanic,7,Richmond,591
+2003,1,<1,2,Female,0,Total,7,Richmond,2700
+2003,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1603
+2003,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,418
+2003,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,178
+2003,1,<1,2,Female,5,Hispanic,7,Richmond,501
+2003,2,01-09,0,Total,0,Total,7,Richmond,53070
+2003,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,31862
+2003,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,7186
+2003,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3450
+2003,2,01-09,0,Total,5,Hispanic,7,Richmond,10572
+2003,2,01-09,1,Male,0,Total,7,Richmond,27135
+2003,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,16434
+2003,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3595
+2003,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,1741
+2003,2,01-09,1,Male,5,Hispanic,7,Richmond,5365
+2003,2,01-09,2,Female,0,Total,7,Richmond,25935
+2003,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,15428
+2003,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3591
+2003,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1709
+2003,2,01-09,2,Female,5,Hispanic,7,Richmond,5207
+2003,3,10-19,0,Total,0,Total,7,Richmond,62579
+2003,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,38307
+2003,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,8602
+2003,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4254
+2003,3,10-19,0,Total,5,Hispanic,7,Richmond,11416
+2003,3,10-19,1,Male,0,Total,7,Richmond,32171
+2003,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,19791
+2003,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,4354
+2003,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2216
+2003,3,10-19,1,Male,5,Hispanic,7,Richmond,5810
+2003,3,10-19,2,Female,0,Total,7,Richmond,30408
+2003,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,18516
+2003,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,4248
+2003,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2038
+2003,3,10-19,2,Female,5,Hispanic,7,Richmond,5606
+2003,4,20-24,0,Total,0,Total,7,Richmond,30884
+2003,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,19023
+2003,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,3556
+2003,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2337
+2003,4,20-24,0,Total,5,Hispanic,7,Richmond,5968
+2003,4,20-24,1,Male,0,Total,7,Richmond,15631
+2003,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,9463
+2003,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,1706
+2003,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1201
+2003,4,20-24,1,Male,5,Hispanic,7,Richmond,3261
+2003,4,20-24,2,Female,0,Total,7,Richmond,15253
+2003,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,9560
+2003,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,1850
+2003,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,1136
+2003,4,20-24,2,Female,5,Hispanic,7,Richmond,2707
+2003,5,25-34,0,Total,0,Total,7,Richmond,64194
+2003,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,40320
+2003,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6407
+2003,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,5456
+2003,5,25-34,0,Total,5,Hispanic,7,Richmond,12011
+2003,5,25-34,1,Male,0,Total,7,Richmond,31904
+2003,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,20052
+2003,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,2845
+2003,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,2748
+2003,5,25-34,1,Male,5,Hispanic,7,Richmond,6259
+2003,5,25-34,2,Female,0,Total,7,Richmond,32290
+2003,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,20268
+2003,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3562
+2003,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,2708
+2003,5,25-34,2,Female,5,Hispanic,7,Richmond,5752
+2003,6,35-44,0,Total,0,Total,7,Richmond,74624
+2003,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,50240
+2003,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,7843
+2003,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,5588
+2003,6,35-44,0,Total,5,Hispanic,7,Richmond,10953
+2003,6,35-44,1,Male,0,Total,7,Richmond,36641
+2003,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,25044
+2003,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,3473
+2003,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,2725
+2003,6,35-44,1,Male,5,Hispanic,7,Richmond,5399
+2003,6,35-44,2,Female,0,Total,7,Richmond,37983
+2003,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,25196
+2003,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,4370
+2003,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,2863
+2003,6,35-44,2,Female,5,Hispanic,7,Richmond,5554
+2003,7,45-54,0,Total,0,Total,7,Richmond,66917
+2003,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,49128
+2003,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,5599
+2003,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,5204
+2003,7,45-54,0,Total,5,Hispanic,7,Richmond,6986
+2003,7,45-54,1,Male,0,Total,7,Richmond,32083
+2003,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,23607
+2003,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,2593
+2003,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2580
+2003,7,45-54,1,Male,5,Hispanic,7,Richmond,3303
+2003,7,45-54,2,Female,0,Total,7,Richmond,34834
+2003,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,25521
+2003,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3006
+2003,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,2624
+2003,7,45-54,2,Female,5,Hispanic,7,Richmond,3683
+2003,8,55-64,0,Total,0,Total,7,Richmond,48205
+2003,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,38273
+2003,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,2995
+2003,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,3287
+2003,8,55-64,0,Total,5,Hispanic,7,Richmond,3650
+2003,8,55-64,1,Male,0,Total,7,Richmond,22804
+2003,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,18247
+2003,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,1236
+2003,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,1626
+2003,8,55-64,1,Male,5,Hispanic,7,Richmond,1695
+2003,8,55-64,2,Female,0,Total,7,Richmond,25401
+2003,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,20026
+2003,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,1759
+2003,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,1661
+2003,8,55-64,2,Female,5,Hispanic,7,Richmond,1955
+2003,9,65-74,0,Total,0,Total,7,Richmond,28182
+2003,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,23117
+2003,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,1614
+2003,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,1570
+2003,9,65-74,0,Total,5,Hispanic,7,Richmond,1881
+2003,9,65-74,1,Male,0,Total,7,Richmond,12647
+2003,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,10546
+2003,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,600
+2003,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,751
+2003,9,65-74,1,Male,5,Hispanic,7,Richmond,750
+2003,9,65-74,2,Female,0,Total,7,Richmond,15535
+2003,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,12571
+2003,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1014
+2003,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,819
+2003,9,65-74,2,Female,5,Hispanic,7,Richmond,1131
+2003,10,75-84,0,Total,0,Total,7,Richmond,18739
+2003,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,16205
+2003,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,806
+2003,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,738
+2003,10,75-84,0,Total,5,Hispanic,7,Richmond,990
+2003,10,75-84,1,Male,0,Total,7,Richmond,7171
+2003,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6273
+2003,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,255
+2003,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,286
+2003,10,75-84,1,Male,5,Hispanic,7,Richmond,357
+2003,10,75-84,2,Female,0,Total,7,Richmond,11568
+2003,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9932
+2003,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,551
+2003,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,452
+2003,10,75-84,2,Female,5,Hispanic,7,Richmond,633
+2003,11,85+,0,Total,0,Total,7,Richmond,6877
+2003,11,85+,0,Total,1,White Non Hispanic,7,Richmond,6081
+2003,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,206
+2003,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,307
+2003,11,85+,0,Total,5,Hispanic,7,Richmond,283
+2003,11,85+,1,Male,0,Total,7,Richmond,1943
+2003,11,85+,1,Male,1,White Non Hispanic,7,Richmond,1706
+2003,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,42
+2003,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,91
+2003,11,85+,1,Male,5,Hispanic,7,Richmond,104
+2003,11,85+,2,Female,0,Total,7,Richmond,4934
+2003,11,85+,2,Female,1,White Non Hispanic,7,Richmond,4375
+2003,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,164
+2003,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,216
+2003,11,85+,2,Female,5,Hispanic,7,Richmond,179
+2004,0,Total,0,Total,0,Total,7,Richmond,463314
+2004,0,Total,0,Total,1,White Non Hispanic,7,Richmond,319665
+2004,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,44526
+2004,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,33489
+2004,0,Total,0,Total,5,Hispanic,7,Richmond,65634
+2004,0,Total,1,Male,0,Total,7,Richmond,224993
+2004,0,Total,1,Male,1,White Non Hispanic,7,Richmond,154725
+2004,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,20771
+2004,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,16596
+2004,0,Total,1,Male,5,Hispanic,7,Richmond,32901
+2004,0,Total,2,Female,0,Total,7,Richmond,238321
+2004,0,Total,2,Female,1,White Non Hispanic,7,Richmond,164940
+2004,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,23755
+2004,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,16893
+2004,0,Total,2,Female,5,Hispanic,7,Richmond,32733
+2004,1,<1,0,Total,0,Total,7,Richmond,5760
+2004,1,<1,0,Total,1,White Non Hispanic,7,Richmond,3539
+2004,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,727
+2004,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,369
+2004,1,<1,0,Total,5,Hispanic,7,Richmond,1125
+2004,1,<1,1,Male,0,Total,7,Richmond,2944
+2004,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1779
+2004,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,373
+2004,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,205
+2004,1,<1,1,Male,5,Hispanic,7,Richmond,587
+2004,1,<1,2,Female,0,Total,7,Richmond,2816
+2004,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1760
+2004,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,354
+2004,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,164
+2004,1,<1,2,Female,5,Hispanic,7,Richmond,538
+2004,2,01-09,0,Total,0,Total,7,Richmond,53551
+2004,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,32635
+2004,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6965
+2004,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3404
+2004,2,01-09,0,Total,5,Hispanic,7,Richmond,10547
+2004,2,01-09,1,Male,0,Total,7,Richmond,27344
+2004,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,16774
+2004,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3510
+2004,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,1731
+2004,2,01-09,1,Male,5,Hispanic,7,Richmond,5329
+2004,2,01-09,2,Female,0,Total,7,Richmond,26207
+2004,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,15861
+2004,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3455
+2004,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1673
+2004,2,01-09,2,Female,5,Hispanic,7,Richmond,5218
+2004,3,10-19,0,Total,0,Total,7,Richmond,63914
+2004,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,39677
+2004,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,8649
+2004,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4281
+2004,3,10-19,0,Total,5,Hispanic,7,Richmond,11307
+2004,3,10-19,1,Male,0,Total,7,Richmond,32787
+2004,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,20456
+2004,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,4380
+2004,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2210
+2004,3,10-19,1,Male,5,Hispanic,7,Richmond,5741
+2004,3,10-19,2,Female,0,Total,7,Richmond,31127
+2004,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,19221
+2004,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,4269
+2004,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2071
+2004,3,10-19,2,Female,5,Hispanic,7,Richmond,5566
+2004,4,20-24,0,Total,0,Total,7,Richmond,31144
+2004,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,19248
+2004,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,3563
+2004,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2551
+2004,4,20-24,0,Total,5,Hispanic,7,Richmond,5782
+2004,4,20-24,1,Male,0,Total,7,Richmond,15808
+2004,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,9636
+2004,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,1705
+2004,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1304
+2004,4,20-24,1,Male,5,Hispanic,7,Richmond,3163
+2004,4,20-24,2,Female,0,Total,7,Richmond,15336
+2004,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,9612
+2004,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,1858
+2004,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,1247
+2004,4,20-24,2,Female,5,Hispanic,7,Richmond,2619
+2004,5,25-34,0,Total,0,Total,7,Richmond,63817
+2004,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,40007
+2004,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6068
+2004,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,5744
+2004,5,25-34,0,Total,5,Hispanic,7,Richmond,11998
+2004,5,25-34,1,Male,0,Total,7,Richmond,31951
+2004,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,19975
+2004,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,2733
+2004,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,2887
+2004,5,25-34,1,Male,5,Hispanic,7,Richmond,6356
+2004,5,25-34,2,Female,0,Total,7,Richmond,31866
+2004,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,20032
+2004,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3335
+2004,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,2857
+2004,5,25-34,2,Female,5,Hispanic,7,Richmond,5642
+2004,6,35-44,0,Total,0,Total,7,Richmond,73794
+2004,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,50070
+2004,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,7468
+2004,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,5452
+2004,6,35-44,0,Total,5,Hispanic,7,Richmond,10804
+2004,6,35-44,1,Male,0,Total,7,Richmond,36239
+2004,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,24904
+2004,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,3322
+2004,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,2661
+2004,6,35-44,1,Male,5,Hispanic,7,Richmond,5352
+2004,6,35-44,2,Female,0,Total,7,Richmond,37555
+2004,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,25166
+2004,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,4146
+2004,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,2791
+2004,6,35-44,2,Female,5,Hispanic,7,Richmond,5452
+2004,7,45-54,0,Total,0,Total,7,Richmond,67573
+2004,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,49525
+2004,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,5673
+2004,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,5308
+2004,7,45-54,0,Total,5,Hispanic,7,Richmond,7067
+2004,7,45-54,1,Male,0,Total,7,Richmond,32596
+2004,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,23920
+2004,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,2680
+2004,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2630
+2004,7,45-54,1,Male,5,Hispanic,7,Richmond,3366
+2004,7,45-54,2,Female,0,Total,7,Richmond,34977
+2004,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,25605
+2004,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,2993
+2004,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,2678
+2004,7,45-54,2,Female,5,Hispanic,7,Richmond,3701
+2004,8,55-64,0,Total,0,Total,7,Richmond,49791
+2004,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,39546
+2004,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,2914
+2004,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,3542
+2004,8,55-64,0,Total,5,Hispanic,7,Richmond,3789
+2004,8,55-64,1,Male,0,Total,7,Richmond,23444
+2004,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,18753
+2004,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,1202
+2004,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,1739
+2004,8,55-64,1,Male,5,Hispanic,7,Richmond,1750
+2004,8,55-64,2,Female,0,Total,7,Richmond,26347
+2004,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,20793
+2004,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,1712
+2004,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,1803
+2004,8,55-64,2,Female,5,Hispanic,7,Richmond,2039
+2004,9,65-74,0,Total,0,Total,7,Richmond,27848
+2004,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,22806
+2004,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,1511
+2004,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,1692
+2004,9,65-74,0,Total,5,Hispanic,7,Richmond,1839
+2004,9,65-74,1,Male,0,Total,7,Richmond,12574
+2004,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,10427
+2004,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,570
+2004,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,820
+2004,9,65-74,1,Male,5,Hispanic,7,Richmond,757
+2004,9,65-74,2,Female,0,Total,7,Richmond,15274
+2004,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,12379
+2004,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,941
+2004,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,872
+2004,9,65-74,2,Female,5,Hispanic,7,Richmond,1082
+2004,10,75-84,0,Total,0,Total,7,Richmond,19111
+2004,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,16455
+2004,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,763
+2004,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,821
+2004,10,75-84,0,Total,5,Hispanic,7,Richmond,1072
+2004,10,75-84,1,Male,0,Total,7,Richmond,7302
+2004,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6354
+2004,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,236
+2004,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,311
+2004,10,75-84,1,Male,5,Hispanic,7,Richmond,401
+2004,10,75-84,2,Female,0,Total,7,Richmond,11809
+2004,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,10101
+2004,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,527
+2004,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,510
+2004,10,75-84,2,Female,5,Hispanic,7,Richmond,671
+2004,11,85+,0,Total,0,Total,7,Richmond,7011
+2004,11,85+,0,Total,1,White Non Hispanic,7,Richmond,6157
+2004,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,225
+2004,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,325
+2004,11,85+,0,Total,5,Hispanic,7,Richmond,304
+2004,11,85+,1,Male,0,Total,7,Richmond,2004
+2004,11,85+,1,Male,1,White Non Hispanic,7,Richmond,1747
+2004,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,60
+2004,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,98
+2004,11,85+,1,Male,5,Hispanic,7,Richmond,99
+2004,11,85+,2,Female,0,Total,7,Richmond,5007
+2004,11,85+,2,Female,1,White Non Hispanic,7,Richmond,4410
+2004,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,165
+2004,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,227
+2004,11,85+,2,Female,5,Hispanic,7,Richmond,205
+2005,0,Total,0,Total,0,Total,7,Richmond,464573
+2005,0,Total,0,Total,1,White Non Hispanic,7,Richmond,317620
+2005,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,44318
+2005,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,35013
+2005,0,Total,0,Total,5,Hispanic,7,Richmond,67622
+2005,0,Total,1,Male,0,Total,7,Richmond,225598
+2005,0,Total,1,Male,1,White Non Hispanic,7,Richmond,153529
+2005,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,20747
+2005,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,17301
+2005,0,Total,1,Male,5,Hispanic,7,Richmond,34021
+2005,0,Total,2,Female,0,Total,7,Richmond,238975
+2005,0,Total,2,Female,1,White Non Hispanic,7,Richmond,164091
+2005,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,23571
+2005,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,17712
+2005,0,Total,2,Female,5,Hispanic,7,Richmond,33601
+2005,1,<1,0,Total,0,Total,7,Richmond,5866
+2005,1,<1,0,Total,1,White Non Hispanic,7,Richmond,3549
+2005,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,748
+2005,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,400
+2005,1,<1,0,Total,5,Hispanic,7,Richmond,1169
+2005,1,<1,1,Male,0,Total,7,Richmond,2910
+2005,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1740
+2005,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,378
+2005,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,192
+2005,1,<1,1,Male,5,Hispanic,7,Richmond,600
+2005,1,<1,2,Female,0,Total,7,Richmond,2956
+2005,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1809
+2005,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,370
+2005,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,208
+2005,1,<1,2,Female,5,Hispanic,7,Richmond,569
+2005,2,01-09,0,Total,0,Total,7,Richmond,53242
+2005,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,32210
+2005,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6857
+2005,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3512
+2005,2,01-09,0,Total,5,Hispanic,7,Richmond,10663
+2005,2,01-09,1,Male,0,Total,7,Richmond,27205
+2005,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,16503
+2005,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3435
+2005,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,1794
+2005,2,01-09,1,Male,5,Hispanic,7,Richmond,5473
+2005,2,01-09,2,Female,0,Total,7,Richmond,26037
+2005,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,15707
+2005,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3422
+2005,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1718
+2005,2,01-09,2,Female,5,Hispanic,7,Richmond,5190
+2005,3,10-19,0,Total,0,Total,7,Richmond,64927
+2005,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,40457
+2005,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,8612
+2005,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4395
+2005,3,10-19,0,Total,5,Hispanic,7,Richmond,11463
+2005,3,10-19,1,Male,0,Total,7,Richmond,33372
+2005,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,20936
+2005,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,4328
+2005,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2251
+2005,3,10-19,1,Male,5,Hispanic,7,Richmond,5857
+2005,3,10-19,2,Female,0,Total,7,Richmond,31555
+2005,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,19521
+2005,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,4284
+2005,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2144
+2005,3,10-19,2,Female,5,Hispanic,7,Richmond,5606
+2005,4,20-24,0,Total,0,Total,7,Richmond,28226
+2005,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,17269
+2005,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,3340
+2005,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2232
+2005,4,20-24,0,Total,5,Hispanic,7,Richmond,5385
+2005,4,20-24,1,Male,0,Total,7,Richmond,14330
+2005,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,8618
+2005,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,1694
+2005,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1153
+2005,4,20-24,1,Male,5,Hispanic,7,Richmond,2865
+2005,4,20-24,2,Female,0,Total,7,Richmond,13896
+2005,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,8651
+2005,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,1646
+2005,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,1079
+2005,4,20-24,2,Female,5,Hispanic,7,Richmond,2520
+2005,5,25-34,0,Total,0,Total,7,Richmond,63853
+2005,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,38667
+2005,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6159
+2005,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,6161
+2005,5,25-34,0,Total,5,Hispanic,7,Richmond,12866
+2005,5,25-34,1,Male,0,Total,7,Richmond,31855
+2005,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,19134
+2005,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,2798
+2005,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,3055
+2005,5,25-34,1,Male,5,Hispanic,7,Richmond,6868
+2005,5,25-34,2,Female,0,Total,7,Richmond,31998
+2005,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,19533
+2005,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3361
+2005,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,3106
+2005,5,25-34,2,Female,5,Hispanic,7,Richmond,5998
+2005,6,35-44,0,Total,0,Total,7,Richmond,73472
+2005,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,49375
+2005,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,7217
+2005,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,5795
+2005,6,35-44,0,Total,5,Hispanic,7,Richmond,11085
+2005,6,35-44,1,Male,0,Total,7,Richmond,36068
+2005,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,24457
+2005,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,3224
+2005,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,2833
+2005,6,35-44,1,Male,5,Hispanic,7,Richmond,5554
+2005,6,35-44,2,Female,0,Total,7,Richmond,37404
+2005,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,24918
+2005,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,3993
+2005,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,2962
+2005,6,35-44,2,Female,5,Hispanic,7,Richmond,5531
+2005,7,45-54,0,Total,0,Total,7,Richmond,69111
+2005,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,50197
+2005,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,5762
+2005,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,5547
+2005,7,45-54,0,Total,5,Hispanic,7,Richmond,7605
+2005,7,45-54,1,Male,0,Total,7,Richmond,33543
+2005,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,24479
+2005,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,2690
+2005,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2770
+2005,7,45-54,1,Male,5,Hispanic,7,Richmond,3604
+2005,7,45-54,2,Female,0,Total,7,Richmond,35568
+2005,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,25718
+2005,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3072
+2005,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,2777
+2005,7,45-54,2,Female,5,Hispanic,7,Richmond,4001
+2005,8,55-64,0,Total,0,Total,7,Richmond,51500
+2005,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,40486
+2005,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,3109
+2005,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,3842
+2005,8,55-64,0,Total,5,Hispanic,7,Richmond,4063
+2005,8,55-64,1,Male,0,Total,7,Richmond,24253
+2005,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,19132
+2005,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,1340
+2005,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,1871
+2005,8,55-64,1,Male,5,Hispanic,7,Richmond,1910
+2005,8,55-64,2,Female,0,Total,7,Richmond,27247
+2005,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,21354
+2005,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,1769
+2005,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,1971
+2005,8,55-64,2,Female,5,Hispanic,7,Richmond,2153
+2005,9,65-74,0,Total,0,Total,7,Richmond,27784
+2005,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,22512
+2005,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,1512
+2005,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,1890
+2005,9,65-74,0,Total,5,Hispanic,7,Richmond,1870
+2005,9,65-74,1,Male,0,Total,7,Richmond,12550
+2005,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,10287
+2005,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,542
+2005,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,951
+2005,9,65-74,1,Male,5,Hispanic,7,Richmond,770
+2005,9,65-74,2,Female,0,Total,7,Richmond,15234
+2005,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,12225
+2005,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,970
+2005,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,939
+2005,9,65-74,2,Female,5,Hispanic,7,Richmond,1100
+2005,10,75-84,0,Total,0,Total,7,Richmond,19245
+2005,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,16462
+2005,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,781
+2005,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,892
+2005,10,75-84,0,Total,5,Hispanic,7,Richmond,1110
+2005,10,75-84,1,Male,0,Total,7,Richmond,7382
+2005,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6356
+2005,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,272
+2005,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,339
+2005,10,75-84,1,Male,5,Hispanic,7,Richmond,415
+2005,10,75-84,2,Female,0,Total,7,Richmond,11863
+2005,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,10106
+2005,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,509
+2005,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,553
+2005,10,75-84,2,Female,5,Hispanic,7,Richmond,695
+2005,11,85+,0,Total,0,Total,7,Richmond,7347
+2005,11,85+,0,Total,1,White Non Hispanic,7,Richmond,6436
+2005,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,221
+2005,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,347
+2005,11,85+,0,Total,5,Hispanic,7,Richmond,343
+2005,11,85+,1,Male,0,Total,7,Richmond,2130
+2005,11,85+,1,Male,1,White Non Hispanic,7,Richmond,1887
+2005,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,46
+2005,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,92
+2005,11,85+,1,Male,5,Hispanic,7,Richmond,105
+2005,11,85+,2,Female,0,Total,7,Richmond,5217
+2005,11,85+,2,Female,1,White Non Hispanic,7,Richmond,4549
+2005,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,175
+2005,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,255
+2005,11,85+,2,Female,5,Hispanic,7,Richmond,238
+2006,0,Total,0,Total,0,Total,7,Richmond,477377
+2006,0,Total,0,Total,1,White Non Hispanic,7,Richmond,322951
+2006,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,46240
+2006,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,37032
+2006,0,Total,0,Total,5,Hispanic,7,Richmond,71154
+2006,0,Total,1,Male,0,Total,7,Richmond,231871
+2006,0,Total,1,Male,1,White Non Hispanic,7,Richmond,156257
+2006,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,21610
+2006,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,18351
+2006,0,Total,1,Male,5,Hispanic,7,Richmond,35653
+2006,0,Total,2,Female,0,Total,7,Richmond,245506
+2006,0,Total,2,Female,1,White Non Hispanic,7,Richmond,166694
+2006,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,24630
+2006,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,18681
+2006,0,Total,2,Female,5,Hispanic,7,Richmond,35501
+2006,1,<1,0,Total,0,Total,7,Richmond,5730
+2006,1,<1,0,Total,1,White Non Hispanic,7,Richmond,3312
+2006,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,816
+2006,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,390
+2006,1,<1,0,Total,5,Hispanic,7,Richmond,1212
+2006,1,<1,1,Male,0,Total,7,Richmond,2884
+2006,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1645
+2006,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,408
+2006,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,205
+2006,1,<1,1,Male,5,Hispanic,7,Richmond,626
+2006,1,<1,2,Female,0,Total,7,Richmond,2846
+2006,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1667
+2006,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,408
+2006,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,185
+2006,1,<1,2,Female,5,Hispanic,7,Richmond,586
+2006,2,01-09,0,Total,0,Total,7,Richmond,53715
+2006,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,32174
+2006,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6881
+2006,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3629
+2006,2,01-09,0,Total,5,Hispanic,7,Richmond,11031
+2006,2,01-09,1,Male,0,Total,7,Richmond,27476
+2006,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,16543
+2006,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3467
+2006,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,1853
+2006,2,01-09,1,Male,5,Hispanic,7,Richmond,5613
+2006,2,01-09,2,Female,0,Total,7,Richmond,26239
+2006,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,15631
+2006,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3414
+2006,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1776
+2006,2,01-09,2,Female,5,Hispanic,7,Richmond,5418
+2006,3,10-19,0,Total,0,Total,7,Richmond,68426
+2006,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,42503
+2006,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,9035
+2006,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4576
+2006,3,10-19,0,Total,5,Hispanic,7,Richmond,12312
+2006,3,10-19,1,Male,0,Total,7,Richmond,35232
+2006,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,22114
+2006,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,4516
+2006,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2325
+2006,3,10-19,1,Male,5,Hispanic,7,Richmond,6277
+2006,3,10-19,2,Female,0,Total,7,Richmond,33194
+2006,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,20389
+2006,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,4519
+2006,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2251
+2006,3,10-19,2,Female,5,Hispanic,7,Richmond,6035
+2006,4,20-24,0,Total,0,Total,7,Richmond,31164
+2006,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,19170
+2006,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,3940
+2006,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2273
+2006,4,20-24,0,Total,5,Hispanic,7,Richmond,5781
+2006,4,20-24,1,Male,0,Total,7,Richmond,15579
+2006,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,9528
+2006,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,1874
+2006,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1183
+2006,4,20-24,1,Male,5,Hispanic,7,Richmond,2994
+2006,4,20-24,2,Female,0,Total,7,Richmond,15585
+2006,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,9642
+2006,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,2066
+2006,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,1090
+2006,4,20-24,2,Female,5,Hispanic,7,Richmond,2787
+2006,5,25-34,0,Total,0,Total,7,Richmond,62725
+2006,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,36497
+2006,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6325
+2006,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,6637
+2006,5,25-34,0,Total,5,Hispanic,7,Richmond,13266
+2006,5,25-34,1,Male,0,Total,7,Richmond,31110
+2006,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,17820
+2006,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,2923
+2006,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,3310
+2006,5,25-34,1,Male,5,Hispanic,7,Richmond,7057
+2006,5,25-34,2,Female,0,Total,7,Richmond,31615
+2006,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,18677
+2006,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3402
+2006,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,3327
+2006,5,25-34,2,Female,5,Hispanic,7,Richmond,6209
+2006,6,35-44,0,Total,0,Total,7,Richmond,73928
+2006,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,49080
+2006,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,7240
+2006,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,6093
+2006,6,35-44,0,Total,5,Hispanic,7,Richmond,11515
+2006,6,35-44,1,Male,0,Total,7,Richmond,36286
+2006,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,24274
+2006,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,3223
+2006,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,3002
+2006,6,35-44,1,Male,5,Hispanic,7,Richmond,5787
+2006,6,35-44,2,Female,0,Total,7,Richmond,37642
+2006,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,24806
+2006,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,4017
+2006,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,3091
+2006,6,35-44,2,Female,5,Hispanic,7,Richmond,5728
+2006,7,45-54,0,Total,0,Total,7,Richmond,71692
+2006,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,51747
+2006,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,6045
+2006,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,5789
+2006,7,45-54,0,Total,5,Hispanic,7,Richmond,8111
+2006,7,45-54,1,Male,0,Total,7,Richmond,35016
+2006,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,25418
+2006,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,2840
+2006,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2890
+2006,7,45-54,1,Male,5,Hispanic,7,Richmond,3868
+2006,7,45-54,2,Female,0,Total,7,Richmond,36676
+2006,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,26329
+2006,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3205
+2006,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,2899
+2006,7,45-54,2,Female,5,Hispanic,7,Richmond,4243
+2006,8,55-64,0,Total,0,Total,7,Richmond,53842
+2006,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,41913
+2006,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,3320
+2006,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,4171
+2006,8,55-64,0,Total,5,Hispanic,7,Richmond,4438
+2006,8,55-64,1,Male,0,Total,7,Richmond,25188
+2006,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,19681
+2006,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,1440
+2006,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,2010
+2006,8,55-64,1,Male,5,Hispanic,7,Richmond,2057
+2006,8,55-64,2,Female,0,Total,7,Richmond,28654
+2006,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,22232
+2006,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,1880
+2006,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,2161
+2006,8,55-64,2,Female,5,Hispanic,7,Richmond,2381
+2006,9,65-74,0,Total,0,Total,7,Richmond,29699
+2006,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,23976
+2006,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,1611
+2006,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,2076
+2006,9,65-74,0,Total,5,Hispanic,7,Richmond,2036
+2006,9,65-74,1,Male,0,Total,7,Richmond,13549
+2006,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,11040
+2006,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,585
+2006,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,1057
+2006,9,65-74,1,Male,5,Hispanic,7,Richmond,867
+2006,9,65-74,2,Female,0,Total,7,Richmond,16150
+2006,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,12936
+2006,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1026
+2006,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,1019
+2006,9,65-74,2,Female,5,Hispanic,7,Richmond,1169
+2006,10,75-84,0,Total,0,Total,7,Richmond,19075
+2006,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,16167
+2006,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,796
+2006,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,1001
+2006,10,75-84,0,Total,5,Hispanic,7,Richmond,1111
+2006,10,75-84,1,Male,0,Total,7,Richmond,7344
+2006,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6271
+2006,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,281
+2006,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,394
+2006,10,75-84,1,Male,5,Hispanic,7,Richmond,398
+2006,10,75-84,2,Female,0,Total,7,Richmond,11731
+2006,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9896
+2006,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,515
+2006,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,607
+2006,10,75-84,2,Female,5,Hispanic,7,Richmond,713
+2006,11,85+,0,Total,0,Total,7,Richmond,7381
+2006,11,85+,0,Total,1,White Non Hispanic,7,Richmond,6412
+2006,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,231
+2006,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,397
+2006,11,85+,0,Total,5,Hispanic,7,Richmond,341
+2006,11,85+,1,Male,0,Total,7,Richmond,2207
+2006,11,85+,1,Male,1,White Non Hispanic,7,Richmond,1923
+2006,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,53
+2006,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,122
+2006,11,85+,1,Male,5,Hispanic,7,Richmond,109
+2006,11,85+,2,Female,0,Total,7,Richmond,5174
+2006,11,85+,2,Female,1,White Non Hispanic,7,Richmond,4489
+2006,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,178
+2006,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,275
+2006,11,85+,2,Female,5,Hispanic,7,Richmond,232
+2007,0,Total,0,Total,0,Total,7,Richmond,481613
+2007,0,Total,0,Total,1,White Non Hispanic,7,Richmond,324837
+2007,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,46843
+2007,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,36961
+2007,0,Total,0,Total,5,Hispanic,7,Richmond,72972
+2007,0,Total,1,Male,0,Total,7,Richmond,234359
+2007,0,Total,1,Male,1,White Non Hispanic,7,Richmond,157562
+2007,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,21941
+2007,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,18352
+2007,0,Total,1,Male,5,Hispanic,7,Richmond,36504
+2007,0,Total,2,Female,0,Total,7,Richmond,247254
+2007,0,Total,2,Female,1,White Non Hispanic,7,Richmond,167275
+2007,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,24902
+2007,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,18609
+2007,0,Total,2,Female,5,Hispanic,7,Richmond,36468
+2007,1,<1,0,Total,0,Total,7,Richmond,5836
+2007,1,<1,0,Total,1,White Non Hispanic,7,Richmond,3235
+2007,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,718
+2007,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,469
+2007,1,<1,0,Total,5,Hispanic,7,Richmond,1414
+2007,1,<1,1,Male,0,Total,7,Richmond,2992
+2007,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1659
+2007,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,366
+2007,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,241
+2007,1,<1,1,Male,5,Hispanic,7,Richmond,726
+2007,1,<1,2,Female,0,Total,7,Richmond,2844
+2007,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1576
+2007,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,352
+2007,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,228
+2007,1,<1,2,Female,5,Hispanic,7,Richmond,688
+2007,2,01-09,0,Total,0,Total,7,Richmond,53554
+2007,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,31181
+2007,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,7034
+2007,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3772
+2007,2,01-09,0,Total,5,Hispanic,7,Richmond,11567
+2007,2,01-09,1,Male,0,Total,7,Richmond,27385
+2007,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,15982
+2007,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3548
+2007,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,1924
+2007,2,01-09,1,Male,5,Hispanic,7,Richmond,5931
+2007,2,01-09,2,Female,0,Total,7,Richmond,26169
+2007,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,15199
+2007,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3486
+2007,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1848
+2007,2,01-09,2,Female,5,Hispanic,7,Richmond,5636
+2007,3,10-19,0,Total,0,Total,7,Richmond,68740
+2007,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,42481
+2007,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,9103
+2007,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4549
+2007,3,10-19,0,Total,5,Hispanic,7,Richmond,12607
+2007,3,10-19,1,Male,0,Total,7,Richmond,35401
+2007,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,22141
+2007,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,4550
+2007,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2325
+2007,3,10-19,1,Male,5,Hispanic,7,Richmond,6385
+2007,3,10-19,2,Female,0,Total,7,Richmond,33339
+2007,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,20340
+2007,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,4553
+2007,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2224
+2007,3,10-19,2,Female,5,Hispanic,7,Richmond,6222
+2007,4,20-24,0,Total,0,Total,7,Richmond,32747
+2007,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,20634
+2007,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,4128
+2007,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2078
+2007,4,20-24,0,Total,5,Hispanic,7,Richmond,5907
+2007,4,20-24,1,Male,0,Total,7,Richmond,16625
+2007,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,10484
+2007,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,1989
+2007,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1129
+2007,4,20-24,1,Male,5,Hispanic,7,Richmond,3023
+2007,4,20-24,2,Female,0,Total,7,Richmond,16122
+2007,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,10150
+2007,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,2139
+2007,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,949
+2007,4,20-24,2,Female,5,Hispanic,7,Richmond,2884
+2007,5,25-34,0,Total,0,Total,7,Richmond,61510
+2007,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,35626
+2007,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6552
+2007,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,6179
+2007,5,25-34,0,Total,5,Hispanic,7,Richmond,13153
+2007,5,25-34,1,Male,0,Total,7,Richmond,30357
+2007,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,17309
+2007,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,3045
+2007,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,3025
+2007,5,25-34,1,Male,5,Hispanic,7,Richmond,6978
+2007,5,25-34,2,Female,0,Total,7,Richmond,31153
+2007,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,18317
+2007,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3507
+2007,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,3154
+2007,5,25-34,2,Female,5,Hispanic,7,Richmond,6175
+2007,6,35-44,0,Total,0,Total,7,Richmond,72528
+2007,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,48063
+2007,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,6849
+2007,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,6076
+2007,6,35-44,0,Total,5,Hispanic,7,Richmond,11540
+2007,6,35-44,1,Male,0,Total,7,Richmond,35673
+2007,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,23761
+2007,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,3032
+2007,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,3064
+2007,6,35-44,1,Male,5,Hispanic,7,Richmond,5816
+2007,6,35-44,2,Female,0,Total,7,Richmond,36855
+2007,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,24302
+2007,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,3817
+2007,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,3012
+2007,6,35-44,2,Female,5,Hispanic,7,Richmond,5724
+2007,7,45-54,0,Total,0,Total,7,Richmond,73080
+2007,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,52398
+2007,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,6328
+2007,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,5908
+2007,7,45-54,0,Total,5,Hispanic,7,Richmond,8446
+2007,7,45-54,1,Male,0,Total,7,Richmond,35877
+2007,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,25897
+2007,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,3005
+2007,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2947
+2007,7,45-54,1,Male,5,Hispanic,7,Richmond,4028
+2007,7,45-54,2,Female,0,Total,7,Richmond,37203
+2007,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,26501
+2007,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3323
+2007,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,2961
+2007,7,45-54,2,Female,5,Hispanic,7,Richmond,4418
+2007,8,55-64,0,Total,0,Total,7,Richmond,55997
+2007,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,43443
+2007,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,3498
+2007,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,4317
+2007,8,55-64,0,Total,5,Hispanic,7,Richmond,4739
+2007,8,55-64,1,Male,0,Total,7,Richmond,26240
+2007,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,20441
+2007,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,1511
+2007,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,2076
+2007,8,55-64,1,Male,5,Hispanic,7,Richmond,2212
+2007,8,55-64,2,Female,0,Total,7,Richmond,29757
+2007,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,23002
+2007,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,1987
+2007,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,2241
+2007,8,55-64,2,Female,5,Hispanic,7,Richmond,2527
+2007,9,65-74,0,Total,0,Total,7,Richmond,30633
+2007,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,24737
+2007,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,1595
+2007,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,2196
+2007,9,65-74,0,Total,5,Hispanic,7,Richmond,2105
+2007,9,65-74,1,Male,0,Total,7,Richmond,14024
+2007,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,11445
+2007,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,568
+2007,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,1114
+2007,9,65-74,1,Male,5,Hispanic,7,Richmond,897
+2007,9,65-74,2,Female,0,Total,7,Richmond,16609
+2007,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,13292
+2007,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1027
+2007,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,1082
+2007,9,65-74,2,Female,5,Hispanic,7,Richmond,1208
+2007,10,75-84,0,Total,0,Total,7,Richmond,19174
+2007,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,16265
+2007,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,799
+2007,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,982
+2007,10,75-84,0,Total,5,Hispanic,7,Richmond,1128
+2007,10,75-84,1,Male,0,Total,7,Richmond,7465
+2007,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6405
+2007,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,274
+2007,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,389
+2007,10,75-84,1,Male,5,Hispanic,7,Richmond,397
+2007,10,75-84,2,Female,0,Total,7,Richmond,11709
+2007,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9860
+2007,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,525
+2007,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,593
+2007,10,75-84,2,Female,5,Hispanic,7,Richmond,731
+2007,11,85+,0,Total,0,Total,7,Richmond,7814
+2007,11,85+,0,Total,1,White Non Hispanic,7,Richmond,6774
+2007,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,239
+2007,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,435
+2007,11,85+,0,Total,5,Hispanic,7,Richmond,366
+2007,11,85+,1,Male,0,Total,7,Richmond,2320
+2007,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2038
+2007,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,53
+2007,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,118
+2007,11,85+,1,Male,5,Hispanic,7,Richmond,111
+2007,11,85+,2,Female,0,Total,7,Richmond,5494
+2007,11,85+,2,Female,1,White Non Hispanic,7,Richmond,4736
+2007,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,186
+2007,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,317
+2007,11,85+,2,Female,5,Hispanic,7,Richmond,255
+2008,0,Total,0,Total,0,Total,7,Richmond,487407
+2008,0,Total,0,Total,1,White Non Hispanic,7,Richmond,325665
+2008,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,47513
+2008,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,38048
+2008,0,Total,0,Total,5,Hispanic,7,Richmond,76181
+2008,0,Total,1,Male,0,Total,7,Richmond,237417
+2008,0,Total,1,Male,1,White Non Hispanic,7,Richmond,158081
+2008,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,22288
+2008,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,18933
+2008,0,Total,1,Male,5,Hispanic,7,Richmond,38115
+2008,0,Total,2,Female,0,Total,7,Richmond,249990
+2008,0,Total,2,Female,1,White Non Hispanic,7,Richmond,167584
+2008,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,25225
+2008,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,19115
+2008,0,Total,2,Female,5,Hispanic,7,Richmond,38066
+2008,1,<1,0,Total,0,Total,7,Richmond,5950
+2008,1,<1,0,Total,1,White Non Hispanic,7,Richmond,3165
+2008,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,713
+2008,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,467
+2008,1,<1,0,Total,5,Hispanic,7,Richmond,1605
+2008,1,<1,1,Male,0,Total,7,Richmond,3048
+2008,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1621
+2008,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,364
+2008,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,241
+2008,1,<1,1,Male,5,Hispanic,7,Richmond,822
+2008,1,<1,2,Female,0,Total,7,Richmond,2902
+2008,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1544
+2008,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,349
+2008,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,226
+2008,1,<1,2,Female,5,Hispanic,7,Richmond,783
+2008,2,01-09,0,Total,0,Total,7,Richmond,53704
+2008,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,30780
+2008,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6749
+2008,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3823
+2008,2,01-09,0,Total,5,Hispanic,7,Richmond,12352
+2008,2,01-09,1,Male,0,Total,7,Richmond,27455
+2008,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,15792
+2008,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3391
+2008,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,1971
+2008,2,01-09,1,Male,5,Hispanic,7,Richmond,6301
+2008,2,01-09,2,Female,0,Total,7,Richmond,26249
+2008,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,14988
+2008,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3358
+2008,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1852
+2008,2,01-09,2,Female,5,Hispanic,7,Richmond,6051
+2008,3,10-19,0,Total,0,Total,7,Richmond,68757
+2008,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,42166
+2008,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,9127
+2008,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4573
+2008,3,10-19,0,Total,5,Hispanic,7,Richmond,12891
+2008,3,10-19,1,Male,0,Total,7,Richmond,35395
+2008,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,21971
+2008,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,4564
+2008,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2342
+2008,3,10-19,1,Male,5,Hispanic,7,Richmond,6518
+2008,3,10-19,2,Female,0,Total,7,Richmond,33362
+2008,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,20195
+2008,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,4563
+2008,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2231
+2008,3,10-19,2,Female,5,Hispanic,7,Richmond,6373
+2008,4,20-24,0,Total,0,Total,7,Richmond,32940
+2008,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,20675
+2008,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,4262
+2008,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2049
+2008,4,20-24,0,Total,5,Hispanic,7,Richmond,5954
+2008,4,20-24,1,Male,0,Total,7,Richmond,16659
+2008,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,10540
+2008,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,2039
+2008,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1093
+2008,4,20-24,1,Male,5,Hispanic,7,Richmond,2987
+2008,4,20-24,2,Female,0,Total,7,Richmond,16281
+2008,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,10135
+2008,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,2223
+2008,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,956
+2008,4,20-24,2,Female,5,Hispanic,7,Richmond,2967
+2008,5,25-34,0,Total,0,Total,7,Richmond,62948
+2008,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,35896
+2008,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,7023
+2008,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,6311
+2008,5,25-34,0,Total,5,Hispanic,7,Richmond,13718
+2008,5,25-34,1,Male,0,Total,7,Richmond,31010
+2008,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,17332
+2008,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,3297
+2008,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,3096
+2008,5,25-34,1,Male,5,Hispanic,7,Richmond,7285
+2008,5,25-34,2,Female,0,Total,7,Richmond,31938
+2008,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,18564
+2008,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3726
+2008,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,3215
+2008,5,25-34,2,Female,5,Hispanic,7,Richmond,6433
+2008,6,35-44,0,Total,0,Total,7,Richmond,71859
+2008,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,47096
+2008,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,6677
+2008,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,6290
+2008,6,35-44,0,Total,5,Hispanic,7,Richmond,11796
+2008,6,35-44,1,Male,0,Total,7,Richmond,35604
+2008,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,23452
+2008,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,2952
+2008,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,3157
+2008,6,35-44,1,Male,5,Hispanic,7,Richmond,6043
+2008,6,35-44,2,Female,0,Total,7,Richmond,36255
+2008,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,23644
+2008,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,3725
+2008,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,3133
+2008,6,35-44,2,Female,5,Hispanic,7,Richmond,5753
+2008,7,45-54,0,Total,0,Total,7,Richmond,74635
+2008,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,52919
+2008,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,6560
+2008,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,6119
+2008,7,45-54,0,Total,5,Hispanic,7,Richmond,9037
+2008,7,45-54,1,Male,0,Total,7,Richmond,36598
+2008,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,26090
+2008,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,3110
+2008,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,3084
+2008,7,45-54,1,Male,5,Hispanic,7,Richmond,4314
+2008,7,45-54,2,Female,0,Total,7,Richmond,38037
+2008,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,26829
+2008,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3450
+2008,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,3035
+2008,7,45-54,2,Female,5,Hispanic,7,Richmond,4723
+2008,8,55-64,0,Total,0,Total,7,Richmond,57446
+2008,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,44104
+2008,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,3719
+2008,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,4598
+2008,8,55-64,0,Total,5,Hispanic,7,Richmond,5025
+2008,8,55-64,1,Male,0,Total,7,Richmond,26925
+2008,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,20722
+2008,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,1651
+2008,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,2218
+2008,8,55-64,1,Male,5,Hispanic,7,Richmond,2334
+2008,8,55-64,2,Female,0,Total,7,Richmond,30521
+2008,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,23382
+2008,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,2068
+2008,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,2380
+2008,8,55-64,2,Female,5,Hispanic,7,Richmond,2691
+2008,9,65-74,0,Total,0,Total,7,Richmond,32099
+2008,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,25939
+2008,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,1620
+2008,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,2332
+2008,9,65-74,0,Total,5,Hispanic,7,Richmond,2208
+2008,9,65-74,1,Male,0,Total,7,Richmond,14822
+2008,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,12110
+2008,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,573
+2008,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,1185
+2008,9,65-74,1,Male,5,Hispanic,7,Richmond,954
+2008,9,65-74,2,Female,0,Total,7,Richmond,17277
+2008,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,13829
+2008,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1047
+2008,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,1147
+2008,9,65-74,2,Female,5,Hispanic,7,Richmond,1254
+2008,10,75-84,0,Total,0,Total,7,Richmond,19247
+2008,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,16234
+2008,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,805
+2008,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,1012
+2008,10,75-84,0,Total,5,Hispanic,7,Richmond,1196
+2008,10,75-84,1,Male,0,Total,7,Richmond,7552
+2008,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6412
+2008,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,282
+2008,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,420
+2008,10,75-84,1,Male,5,Hispanic,7,Richmond,438
+2008,10,75-84,2,Female,0,Total,7,Richmond,11695
+2008,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9822
+2008,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,523
+2008,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,592
+2008,10,75-84,2,Female,5,Hispanic,7,Richmond,758
+2008,11,85+,0,Total,0,Total,7,Richmond,7822
+2008,11,85+,0,Total,1,White Non Hispanic,7,Richmond,6691
+2008,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,258
+2008,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,474
+2008,11,85+,0,Total,5,Hispanic,7,Richmond,399
+2008,11,85+,1,Male,0,Total,7,Richmond,2349
+2008,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2039
+2008,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,65
+2008,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,126
+2008,11,85+,1,Male,5,Hispanic,7,Richmond,119
+2008,11,85+,2,Female,0,Total,7,Richmond,5473
+2008,11,85+,2,Female,1,White Non Hispanic,7,Richmond,4652
+2008,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,193
+2008,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,348
+2008,11,85+,2,Female,5,Hispanic,7,Richmond,280
+2009,0,Total,0,Total,0,Total,7,Richmond,491730
+2009,0,Total,0,Total,1,White Non Hispanic,7,Richmond,326829
+2009,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,48174
+2009,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,38380
+2009,0,Total,0,Total,5,Hispanic,7,Richmond,78347
+2009,0,Total,1,Male,0,Total,7,Richmond,240090
+2009,0,Total,1,Male,1,White Non Hispanic,7,Richmond,158855
+2009,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,22741
+2009,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,19059
+2009,0,Total,1,Male,5,Hispanic,7,Richmond,39435
+2009,0,Total,2,Female,0,Total,7,Richmond,251640
+2009,0,Total,2,Female,1,White Non Hispanic,7,Richmond,167974
+2009,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,25433
+2009,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,19321
+2009,0,Total,2,Female,5,Hispanic,7,Richmond,38912
+2009,1,<1,0,Total,0,Total,7,Richmond,5916
+2009,1,<1,0,Total,1,White Non Hispanic,7,Richmond,3090
+2009,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,718
+2009,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,481
+2009,1,<1,0,Total,5,Hispanic,7,Richmond,1627
+2009,1,<1,1,Male,0,Total,7,Richmond,3031
+2009,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1581
+2009,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,367
+2009,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,248
+2009,1,<1,1,Male,5,Hispanic,7,Richmond,835
+2009,1,<1,2,Female,0,Total,7,Richmond,2885
+2009,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1509
+2009,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,351
+2009,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,233
+2009,1,<1,2,Female,5,Hispanic,7,Richmond,792
+2009,2,01-09,0,Total,0,Total,7,Richmond,54004
+2009,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,30152
+2009,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6826
+2009,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,4112
+2009,2,01-09,0,Total,5,Hispanic,7,Richmond,12914
+2009,2,01-09,1,Male,0,Total,7,Richmond,27656
+2009,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,15486
+2009,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3431
+2009,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,2130
+2009,2,01-09,1,Male,5,Hispanic,7,Richmond,6609
+2009,2,01-09,2,Female,0,Total,7,Richmond,26348
+2009,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,14666
+2009,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3395
+2009,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1982
+2009,2,01-09,2,Female,5,Hispanic,7,Richmond,6305
+2009,3,10-19,0,Total,0,Total,7,Richmond,66379
+2009,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,39151
+2009,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,9086
+2009,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4609
+2009,3,10-19,0,Total,5,Hispanic,7,Richmond,13533
+2009,3,10-19,1,Male,0,Total,7,Richmond,34016
+2009,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,20258
+2009,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,4606
+2009,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2310
+2009,3,10-19,1,Male,5,Hispanic,7,Richmond,6842
+2009,3,10-19,2,Female,0,Total,7,Richmond,32363
+2009,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,18893
+2009,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,4480
+2009,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2299
+2009,3,10-19,2,Female,5,Hispanic,7,Richmond,6691
+2009,4,20-24,0,Total,0,Total,7,Richmond,31057
+2009,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,18581
+2009,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,4164
+2009,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2054
+2009,4,20-24,0,Total,5,Hispanic,7,Richmond,6258
+2009,4,20-24,1,Male,0,Total,7,Richmond,15503
+2009,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,9219
+2009,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,2001
+2009,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1079
+2009,4,20-24,1,Male,5,Hispanic,7,Richmond,3204
+2009,4,20-24,2,Female,0,Total,7,Richmond,15554
+2009,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,9362
+2009,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,2163
+2009,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,975
+2009,4,20-24,2,Female,5,Hispanic,7,Richmond,3054
+2009,5,25-34,0,Total,0,Total,7,Richmond,65556
+2009,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,41617
+2009,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6336
+2009,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,5554
+2009,5,25-34,0,Total,5,Hispanic,7,Richmond,12049
+2009,5,25-34,1,Male,0,Total,7,Richmond,33180
+2009,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,20918
+2009,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,2940
+2009,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,2793
+2009,5,25-34,1,Male,5,Hispanic,7,Richmond,6529
+2009,5,25-34,2,Female,0,Total,7,Richmond,32376
+2009,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,20699
+2009,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3396
+2009,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,2761
+2009,5,25-34,2,Female,5,Hispanic,7,Richmond,5520
+2009,6,35-44,0,Total,0,Total,7,Richmond,70682
+2009,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,45110
+2009,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,6934
+2009,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,6301
+2009,6,35-44,0,Total,5,Hispanic,7,Richmond,12337
+2009,6,35-44,1,Male,0,Total,7,Richmond,35211
+2009,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,22536
+2009,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,3184
+2009,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,3127
+2009,6,35-44,1,Male,5,Hispanic,7,Richmond,6364
+2009,6,35-44,2,Female,0,Total,7,Richmond,35471
+2009,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,22574
+2009,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,3750
+2009,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,3174
+2009,6,35-44,2,Female,5,Hispanic,7,Richmond,5973
+2009,7,45-54,0,Total,0,Total,7,Richmond,76816
+2009,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,53658
+2009,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,7149
+2009,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,6187
+2009,7,45-54,0,Total,5,Hispanic,7,Richmond,9822
+2009,7,45-54,1,Male,0,Total,7,Richmond,37695
+2009,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,26401
+2009,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,3362
+2009,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,3096
+2009,7,45-54,1,Male,5,Hispanic,7,Richmond,4836
+2009,7,45-54,2,Female,0,Total,7,Richmond,39121
+2009,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,27257
+2009,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3787
+2009,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,3091
+2009,7,45-54,2,Female,5,Hispanic,7,Richmond,4986
+2009,8,55-64,0,Total,0,Total,7,Richmond,59926
+2009,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,45288
+2009,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,4121
+2009,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,4896
+2009,8,55-64,0,Total,5,Hispanic,7,Richmond,5621
+2009,8,55-64,1,Male,0,Total,7,Richmond,28181
+2009,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,21349
+2009,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,1881
+2009,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,2373
+2009,8,55-64,1,Male,5,Hispanic,7,Richmond,2578
+2009,8,55-64,2,Female,0,Total,7,Richmond,31745
+2009,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,23939
+2009,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,2240
+2009,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,2523
+2009,8,55-64,2,Female,5,Hispanic,7,Richmond,3043
+2009,9,65-74,0,Total,0,Total,7,Richmond,33150
+2009,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,26615
+2009,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,1599
+2009,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,2568
+2009,9,65-74,0,Total,5,Hispanic,7,Richmond,2368
+2009,9,65-74,1,Male,0,Total,7,Richmond,15225
+2009,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,12360
+2009,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,566
+2009,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,1286
+2009,9,65-74,1,Male,5,Hispanic,7,Richmond,1013
+2009,9,65-74,2,Female,0,Total,7,Richmond,17925
+2009,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,14255
+2009,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1033
+2009,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,1282
+2009,9,65-74,2,Female,5,Hispanic,7,Richmond,1355
+2009,10,75-84,0,Total,0,Total,7,Richmond,20032
+2009,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,16639
+2009,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,956
+2009,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,1108
+2009,10,75-84,0,Total,5,Hispanic,7,Richmond,1329
+2009,10,75-84,1,Male,0,Total,7,Richmond,7986
+2009,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6722
+2009,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,326
+2009,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,459
+2009,10,75-84,1,Male,5,Hispanic,7,Richmond,479
+2009,10,75-84,2,Female,0,Total,7,Richmond,12046
+2009,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9917
+2009,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,630
+2009,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,649
+2009,10,75-84,2,Female,5,Hispanic,7,Richmond,850
+2009,11,85+,0,Total,0,Total,7,Richmond,8212
+2009,11,85+,0,Total,1,White Non Hispanic,7,Richmond,6928
+2009,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,285
+2009,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,510
+2009,11,85+,0,Total,5,Hispanic,7,Richmond,489
+2009,11,85+,1,Male,0,Total,7,Richmond,2406
+2009,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2025
+2009,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,77
+2009,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,158
+2009,11,85+,1,Male,5,Hispanic,7,Richmond,146
+2009,11,85+,2,Female,0,Total,7,Richmond,5806
+2009,11,85+,2,Female,1,White Non Hispanic,7,Richmond,4903
+2009,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,208
+2009,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,352
+2009,11,85+,2,Female,5,Hispanic,7,Richmond,343
+2010,0,Total,0,Total,0,Total,7,Richmond,468730
+2010,0,Total,0,Total,1,White Non Hispanic,7,Richmond,303932
+2010,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,46455
+2010,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,37292
+2010,0,Total,0,Total,5,Hispanic,7,Richmond,81051
+2010,0,Total,1,Male,0,Total,7,Richmond,227289
+2010,0,Total,1,Male,1,White Non Hispanic,7,Richmond,147213
+2010,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,21678
+2010,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,18082
+2010,0,Total,1,Male,5,Hispanic,7,Richmond,40316
+2010,0,Total,2,Female,0,Total,7,Richmond,241441
+2010,0,Total,2,Female,1,White Non Hispanic,7,Richmond,156719
+2010,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,24777
+2010,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,19210
+2010,0,Total,2,Female,5,Hispanic,7,Richmond,40735
+2010,1,<1,0,Total,0,Total,7,Richmond,5497
+2010,1,<1,0,Total,1,White Non Hispanic,7,Richmond,2869
+2010,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,723
+2010,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,386
+2010,1,<1,0,Total,5,Hispanic,7,Richmond,1519
+2010,1,<1,1,Male,0,Total,7,Richmond,2846
+2010,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1512
+2010,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,385
+2010,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,198
+2010,1,<1,1,Male,5,Hispanic,7,Richmond,751
+2010,1,<1,2,Female,0,Total,7,Richmond,2651
+2010,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1357
+2010,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,338
+2010,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,188
+2010,1,<1,2,Female,5,Hispanic,7,Richmond,768
+2010,2,01-09,0,Total,0,Total,7,Richmond,52857
+2010,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,29007
+2010,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6394
+2010,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3925
+2010,2,01-09,0,Total,5,Hispanic,7,Richmond,13531
+2010,2,01-09,1,Male,0,Total,7,Richmond,27060
+2010,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,14901
+2010,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3203
+2010,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,2007
+2010,2,01-09,1,Male,5,Hispanic,7,Richmond,6949
+2010,2,01-09,2,Female,0,Total,7,Richmond,25797
+2010,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,14106
+2010,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3191
+2010,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1918
+2010,2,01-09,2,Female,5,Hispanic,7,Richmond,6582
+2010,3,10-19,0,Total,0,Total,7,Richmond,63726
+2010,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,36041
+2010,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,8298
+2010,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,5052
+2010,3,10-19,0,Total,5,Hispanic,7,Richmond,14335
+2010,3,10-19,1,Male,0,Total,7,Richmond,32779
+2010,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,18627
+2010,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,4199
+2010,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2565
+2010,3,10-19,1,Male,5,Hispanic,7,Richmond,7388
+2010,3,10-19,2,Female,0,Total,7,Richmond,30947
+2010,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,17414
+2010,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,4099
+2010,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2487
+2010,3,10-19,2,Female,5,Hispanic,7,Richmond,6947
+2010,4,20-24,0,Total,0,Total,7,Richmond,31458
+2010,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,18502
+2010,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,3658
+2010,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2302
+2010,4,20-24,0,Total,5,Hispanic,7,Richmond,6996
+2010,4,20-24,1,Male,0,Total,7,Richmond,16078
+2010,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,9325
+2010,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,1825
+2010,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1213
+2010,4,20-24,1,Male,5,Hispanic,7,Richmond,3715
+2010,4,20-24,2,Female,0,Total,7,Richmond,15380
+2010,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,9177
+2010,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,1833
+2010,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,1089
+2010,4,20-24,2,Female,5,Hispanic,7,Richmond,3281
+2010,5,25-34,0,Total,0,Total,7,Richmond,59847
+2010,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,35153
+2010,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6378
+2010,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,5038
+2010,5,25-34,0,Total,5,Hispanic,7,Richmond,13278
+2010,5,25-34,1,Male,0,Total,7,Richmond,29777
+2010,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,17639
+2010,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,2896
+2010,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,2462
+2010,5,25-34,1,Male,5,Hispanic,7,Richmond,6780
+2010,5,25-34,2,Female,0,Total,7,Richmond,30070
+2010,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,17514
+2010,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3482
+2010,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,2576
+2010,5,25-34,2,Female,5,Hispanic,7,Richmond,6498
+2010,6,35-44,0,Total,0,Total,7,Richmond,65630
+2010,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,41413
+2010,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,6505
+2010,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,5600
+2010,6,35-44,0,Total,5,Hispanic,7,Richmond,12112
+2010,6,35-44,1,Male,0,Total,7,Richmond,31807
+2010,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,20396
+2010,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,2879
+2010,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,2562
+2010,6,35-44,1,Male,5,Hispanic,7,Richmond,5970
+2010,6,35-44,2,Female,0,Total,7,Richmond,33823
+2010,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,21017
+2010,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,3626
+2010,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,3038
+2010,6,35-44,2,Female,5,Hispanic,7,Richmond,6142
+2010,7,45-54,0,Total,0,Total,7,Richmond,71748
+2010,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,48963
+2010,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,7038
+2010,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,6060
+2010,7,45-54,0,Total,5,Hispanic,7,Richmond,9687
+2010,7,45-54,1,Male,0,Total,7,Richmond,34590
+2010,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,23859
+2010,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,3230
+2010,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2859
+2010,7,45-54,1,Male,5,Hispanic,7,Richmond,4642
+2010,7,45-54,2,Female,0,Total,7,Richmond,37158
+2010,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,25104
+2010,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3808
+2010,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,3201
+2010,7,45-54,2,Female,5,Hispanic,7,Richmond,5045
+2010,8,55-64,0,Total,0,Total,7,Richmond,58623
+2010,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,43729
+2010,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,4263
+2010,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,5094
+2010,8,55-64,0,Total,5,Hispanic,7,Richmond,5537
+2010,8,55-64,1,Male,0,Total,7,Richmond,27702
+2010,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,20793
+2010,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,1907
+2010,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,2485
+2010,8,55-64,1,Male,5,Hispanic,7,Richmond,2517
+2010,8,55-64,2,Female,0,Total,7,Richmond,30921
+2010,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,22936
+2010,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,2356
+2010,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,2609
+2010,8,55-64,2,Female,5,Hispanic,7,Richmond,3020
+2010,9,65-74,0,Total,0,Total,7,Richmond,32631
+2010,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,25514
+2010,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,2040
+2010,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,2603
+2010,9,65-74,0,Total,5,Hispanic,7,Richmond,2474
+2010,9,65-74,1,Male,0,Total,7,Richmond,14825
+2010,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,11753
+2010,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,794
+2010,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,1229
+2010,9,65-74,1,Male,5,Hispanic,7,Richmond,1049
+2010,9,65-74,2,Female,0,Total,7,Richmond,17806
+2010,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,13761
+2010,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1246
+2010,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,1374
+2010,9,65-74,2,Female,5,Hispanic,7,Richmond,1425
+2010,10,75-84,0,Total,0,Total,7,Richmond,18858
+2010,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,15775
+2010,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,878
+2010,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,978
+2010,10,75-84,0,Total,5,Hispanic,7,Richmond,1227
+2010,10,75-84,1,Male,0,Total,7,Richmond,7486
+2010,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6332
+2010,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,293
+2010,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,420
+2010,10,75-84,1,Male,5,Hispanic,7,Richmond,441
+2010,10,75-84,2,Female,0,Total,7,Richmond,11372
+2010,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9443
+2010,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,585
+2010,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,558
+2010,10,75-84,2,Female,5,Hispanic,7,Richmond,786
+2010,11,85+,0,Total,0,Total,7,Richmond,7855
+2010,11,85+,0,Total,1,White Non Hispanic,7,Richmond,6966
+2010,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,280
+2010,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,254
+2010,11,85+,0,Total,5,Hispanic,7,Richmond,355
+2010,11,85+,1,Male,0,Total,7,Richmond,2339
+2010,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2076
+2010,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,67
+2010,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,82
+2010,11,85+,1,Male,5,Hispanic,7,Richmond,114
+2010,11,85+,2,Female,0,Total,7,Richmond,5516
+2010,11,85+,2,Female,1,White Non Hispanic,7,Richmond,4890
+2010,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,213
+2010,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,172
+2010,11,85+,2,Female,5,Hispanic,7,Richmond,241
+2011,0,Total,0,Total,0,Total,7,Richmond,470467
+2011,0,Total,0,Total,1,White Non Hispanic,7,Richmond,302572
+2011,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,47255
+2011,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,38023
+2011,0,Total,0,Total,5,Hispanic,7,Richmond,82617
+2011,0,Total,1,Male,0,Total,7,Richmond,228021
+2011,0,Total,1,Male,1,White Non Hispanic,7,Richmond,146503
+2011,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,22110
+2011,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,18468
+2011,0,Total,1,Male,5,Hispanic,7,Richmond,40940
+2011,0,Total,2,Female,0,Total,7,Richmond,242446
+2011,0,Total,2,Female,1,White Non Hispanic,7,Richmond,156069
+2011,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,25145
+2011,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,19555
+2011,0,Total,2,Female,5,Hispanic,7,Richmond,41677
+2011,1,<1,0,Total,0,Total,7,Richmond,5600
+2011,1,<1,0,Total,1,White Non Hispanic,7,Richmond,2892
+2011,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,685
+2011,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,386
+2011,1,<1,0,Total,5,Hispanic,7,Richmond,1637
+2011,1,<1,1,Male,0,Total,7,Richmond,2863
+2011,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1477
+2011,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,353
+2011,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,197
+2011,1,<1,1,Male,5,Hispanic,7,Richmond,836
+2011,1,<1,2,Female,0,Total,7,Richmond,2737
+2011,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1415
+2011,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,332
+2011,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,189
+2011,1,<1,2,Female,5,Hispanic,7,Richmond,801
+2011,2,01-09,0,Total,0,Total,7,Richmond,52451
+2011,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,28322
+2011,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6581
+2011,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3979
+2011,2,01-09,0,Total,5,Hispanic,7,Richmond,13569
+2011,2,01-09,1,Male,0,Total,7,Richmond,26792
+2011,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,14525
+2011,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3345
+2011,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,2060
+2011,2,01-09,1,Male,5,Hispanic,7,Richmond,6862
+2011,2,01-09,2,Female,0,Total,7,Richmond,25659
+2011,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,13797
+2011,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3236
+2011,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1919
+2011,2,01-09,2,Female,5,Hispanic,7,Richmond,6707
+2011,3,10-19,0,Total,0,Total,7,Richmond,61737
+2011,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,34541
+2011,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,8092
+2011,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4922
+2011,3,10-19,0,Total,5,Hispanic,7,Richmond,14182
+2011,3,10-19,1,Male,0,Total,7,Richmond,31818
+2011,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,17897
+2011,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,4089
+2011,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2484
+2011,3,10-19,1,Male,5,Hispanic,7,Richmond,7348
+2011,3,10-19,2,Female,0,Total,7,Richmond,29919
+2011,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,16644
+2011,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,4003
+2011,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2438
+2011,3,10-19,2,Female,5,Hispanic,7,Richmond,6834
+2011,4,20-24,0,Total,0,Total,7,Richmond,32695
+2011,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,19229
+2011,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,3959
+2011,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2364
+2011,4,20-24,0,Total,5,Hispanic,7,Richmond,7143
+2011,4,20-24,1,Male,0,Total,7,Richmond,16628
+2011,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,9612
+2011,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,1976
+2011,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1253
+2011,4,20-24,1,Male,5,Hispanic,7,Richmond,3787
+2011,4,20-24,2,Female,0,Total,7,Richmond,16067
+2011,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,9617
+2011,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,1983
+2011,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,1111
+2011,4,20-24,2,Female,5,Hispanic,7,Richmond,3356
+2011,5,25-34,0,Total,0,Total,7,Richmond,60205
+2011,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,35231
+2011,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6563
+2011,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,5114
+2011,5,25-34,0,Total,5,Hispanic,7,Richmond,13297
+2011,5,25-34,1,Male,0,Total,7,Richmond,29963
+2011,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,17682
+2011,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,3024
+2011,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,2525
+2011,5,25-34,1,Male,5,Hispanic,7,Richmond,6732
+2011,5,25-34,2,Female,0,Total,7,Richmond,30242
+2011,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,17549
+2011,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3539
+2011,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,2589
+2011,5,25-34,2,Female,5,Hispanic,7,Richmond,6565
+2011,6,35-44,0,Total,0,Total,7,Richmond,64376
+2011,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,40103
+2011,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,6340
+2011,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,5640
+2011,6,35-44,0,Total,5,Hispanic,7,Richmond,12293
+2011,6,35-44,1,Male,0,Total,7,Richmond,31206
+2011,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,19764
+2011,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,2819
+2011,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,2580
+2011,6,35-44,1,Male,5,Hispanic,7,Richmond,6043
+2011,6,35-44,2,Female,0,Total,7,Richmond,33170
+2011,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,20339
+2011,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,3521
+2011,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,3060
+2011,6,35-44,2,Female,5,Hispanic,7,Richmond,6250
+2011,7,45-54,0,Total,0,Total,7,Richmond,71460
+2011,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,48113
+2011,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,7132
+2011,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,6066
+2011,7,45-54,0,Total,5,Hispanic,7,Richmond,10149
+2011,7,45-54,1,Male,0,Total,7,Richmond,34452
+2011,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,23467
+2011,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,3228
+2011,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2877
+2011,7,45-54,1,Male,5,Hispanic,7,Richmond,4880
+2011,7,45-54,2,Female,0,Total,7,Richmond,37008
+2011,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,24646
+2011,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3904
+2011,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,3189
+2011,7,45-54,2,Female,5,Hispanic,7,Richmond,5269
+2011,8,55-64,0,Total,0,Total,7,Richmond,60749
+2011,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,44856
+2011,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,4575
+2011,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,5377
+2011,8,55-64,0,Total,5,Hispanic,7,Richmond,5941
+2011,8,55-64,1,Male,0,Total,7,Richmond,28721
+2011,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,21376
+2011,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,2048
+2011,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,2602
+2011,8,55-64,1,Male,5,Hispanic,7,Richmond,2695
+2011,8,55-64,2,Female,0,Total,7,Richmond,32028
+2011,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,23480
+2011,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,2527
+2011,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,2775
+2011,8,55-64,2,Female,5,Hispanic,7,Richmond,3246
+2011,9,65-74,0,Total,0,Total,7,Richmond,34214
+2011,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,26589
+2011,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,2085
+2011,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,2861
+2011,9,65-74,0,Total,5,Hispanic,7,Richmond,2679
+2011,9,65-74,1,Male,0,Total,7,Richmond,15537
+2011,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,12212
+2011,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,824
+2011,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,1340
+2011,9,65-74,1,Male,5,Hispanic,7,Richmond,1161
+2011,9,65-74,2,Female,0,Total,7,Richmond,18677
+2011,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,14377
+2011,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1261
+2011,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,1521
+2011,9,65-74,2,Female,5,Hispanic,7,Richmond,1518
+2011,10,75-84,0,Total,0,Total,7,Richmond,18849
+2011,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,15545
+2011,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,942
+2011,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,1043
+2011,10,75-84,0,Total,5,Hispanic,7,Richmond,1319
+2011,10,75-84,1,Male,0,Total,7,Richmond,7577
+2011,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6336
+2011,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,331
+2011,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,456
+2011,10,75-84,1,Male,5,Hispanic,7,Richmond,454
+2011,10,75-84,2,Female,0,Total,7,Richmond,11272
+2011,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9209
+2011,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,611
+2011,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,587
+2011,10,75-84,2,Female,5,Hispanic,7,Richmond,865
+2011,11,85+,0,Total,0,Total,7,Richmond,8131
+2011,11,85+,0,Total,1,White Non Hispanic,7,Richmond,7151
+2011,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,301
+2011,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,271
+2011,11,85+,0,Total,5,Hispanic,7,Richmond,408
+2011,11,85+,1,Male,0,Total,7,Richmond,2464
+2011,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2155
+2011,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,73
+2011,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,94
+2011,11,85+,1,Male,5,Hispanic,7,Richmond,142
+2011,11,85+,2,Female,0,Total,7,Richmond,5667
+2011,11,85+,2,Female,1,White Non Hispanic,7,Richmond,4996
+2011,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,228
+2011,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,177
+2011,11,85+,2,Female,5,Hispanic,7,Richmond,266
+2012,0,Total,0,Total,0,Total,7,Richmond,470728
+2012,0,Total,0,Total,1,White Non Hispanic,7,Richmond,302382
+2012,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,46817
+2012,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,38348
+2012,0,Total,0,Total,5,Hispanic,7,Richmond,83181
+2012,0,Total,1,Male,0,Total,7,Richmond,227763
+2012,0,Total,1,Male,1,White Non Hispanic,7,Richmond,146428
+2012,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,21632
+2012,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,18652
+2012,0,Total,1,Male,5,Hispanic,7,Richmond,41051
+2012,0,Total,2,Female,0,Total,7,Richmond,242965
+2012,0,Total,2,Female,1,White Non Hispanic,7,Richmond,155954
+2012,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,25185
+2012,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,19696
+2012,0,Total,2,Female,5,Hispanic,7,Richmond,42130
+2012,1,<1,0,Total,0,Total,7,Richmond,5438
+2012,1,<1,0,Total,1,White Non Hispanic,7,Richmond,2851
+2012,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,676
+2012,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,372
+2012,1,<1,0,Total,5,Hispanic,7,Richmond,1539
+2012,1,<1,1,Male,0,Total,7,Richmond,2778
+2012,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1455
+2012,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,347
+2012,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,193
+2012,1,<1,1,Male,5,Hispanic,7,Richmond,783
+2012,1,<1,2,Female,0,Total,7,Richmond,2660
+2012,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1396
+2012,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,329
+2012,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,179
+2012,1,<1,2,Female,5,Hispanic,7,Richmond,756
+2012,2,01-09,0,Total,0,Total,7,Richmond,52036
+2012,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,28140
+2012,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6443
+2012,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3923
+2012,2,01-09,0,Total,5,Hispanic,7,Richmond,13530
+2012,2,01-09,1,Male,0,Total,7,Richmond,26579
+2012,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,14393
+2012,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3268
+2012,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,2051
+2012,2,01-09,1,Male,5,Hispanic,7,Richmond,6867
+2012,2,01-09,2,Female,0,Total,7,Richmond,25457
+2012,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,13747
+2012,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3175
+2012,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1872
+2012,2,01-09,2,Female,5,Hispanic,7,Richmond,6663
+2012,3,10-19,0,Total,0,Total,7,Richmond,60917
+2012,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,34002
+2012,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,7873
+2012,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4864
+2012,3,10-19,0,Total,5,Hispanic,7,Richmond,14178
+2012,3,10-19,1,Male,0,Total,7,Richmond,31413
+2012,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,17674
+2012,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,3934
+2012,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2509
+2012,3,10-19,1,Male,5,Hispanic,7,Richmond,7296
+2012,3,10-19,2,Female,0,Total,7,Richmond,29504
+2012,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,16328
+2012,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,3939
+2012,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2355
+2012,3,10-19,2,Female,5,Hispanic,7,Richmond,6882
+2012,4,20-24,0,Total,0,Total,7,Richmond,33044
+2012,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,19354
+2012,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,3992
+2012,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2433
+2012,4,20-24,0,Total,5,Hispanic,7,Richmond,7265
+2012,4,20-24,1,Male,0,Total,7,Richmond,16781
+2012,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,9732
+2012,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,1972
+2012,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1260
+2012,4,20-24,1,Male,5,Hispanic,7,Richmond,3817
+2012,4,20-24,2,Female,0,Total,7,Richmond,16263
+2012,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,9622
+2012,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,2020
+2012,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,1173
+2012,4,20-24,2,Female,5,Hispanic,7,Richmond,3448
+2012,5,25-34,0,Total,0,Total,7,Richmond,59841
+2012,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,35148
+2012,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6387
+2012,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,5133
+2012,5,25-34,0,Total,5,Hispanic,7,Richmond,13173
+2012,5,25-34,1,Male,0,Total,7,Richmond,29829
+2012,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,17664
+2012,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,2955
+2012,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,2552
+2012,5,25-34,1,Male,5,Hispanic,7,Richmond,6658
+2012,5,25-34,2,Female,0,Total,7,Richmond,30012
+2012,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,17484
+2012,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3432
+2012,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,2581
+2012,5,25-34,2,Female,5,Hispanic,7,Richmond,6515
+2012,6,35-44,0,Total,0,Total,7,Richmond,63245
+2012,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,39362
+2012,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,6147
+2012,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,5492
+2012,6,35-44,0,Total,5,Hispanic,7,Richmond,12244
+2012,6,35-44,1,Male,0,Total,7,Richmond,30405
+2012,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,19339
+2012,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,2610
+2012,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,2497
+2012,6,35-44,1,Male,5,Hispanic,7,Richmond,5959
+2012,6,35-44,2,Female,0,Total,7,Richmond,32840
+2012,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,20023
+2012,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,3537
+2012,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,2995
+2012,6,35-44,2,Female,5,Hispanic,7,Richmond,6285
+2012,7,45-54,0,Total,0,Total,7,Richmond,70661
+2012,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,47218
+2012,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,7060
+2012,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,5995
+2012,7,45-54,0,Total,5,Hispanic,7,Richmond,10388
+2012,7,45-54,1,Male,0,Total,7,Richmond,34061
+2012,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,23120
+2012,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,3132
+2012,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2849
+2012,7,45-54,1,Male,5,Hispanic,7,Richmond,4960
+2012,7,45-54,2,Female,0,Total,7,Richmond,36600
+2012,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,24098
+2012,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3928
+2012,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,3146
+2012,7,45-54,2,Female,5,Hispanic,7,Richmond,5428
+2012,8,55-64,0,Total,0,Total,7,Richmond,61132
+2012,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,44697
+2012,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,4694
+2012,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,5515
+2012,8,55-64,0,Total,5,Hispanic,7,Richmond,6226
+2012,8,55-64,1,Male,0,Total,7,Richmond,28784
+2012,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,21183
+2012,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,2100
+2012,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,2647
+2012,8,55-64,1,Male,5,Hispanic,7,Richmond,2854
+2012,8,55-64,2,Female,0,Total,7,Richmond,32348
+2012,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,23514
+2012,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,2594
+2012,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,2868
+2012,8,55-64,2,Female,5,Hispanic,7,Richmond,3372
+2012,9,65-74,0,Total,0,Total,7,Richmond,36899
+2012,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,28655
+2012,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,2230
+2012,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,3161
+2012,9,65-74,0,Total,5,Hispanic,7,Richmond,2853
+2012,9,65-74,1,Male,0,Total,7,Richmond,16864
+2012,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,13236
+2012,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,885
+2012,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,1499
+2012,9,65-74,1,Male,5,Hispanic,7,Richmond,1244
+2012,9,65-74,2,Female,0,Total,7,Richmond,20035
+2012,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,15419
+2012,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1345
+2012,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,1662
+2012,9,65-74,2,Female,5,Hispanic,7,Richmond,1609
+2012,10,75-84,0,Total,0,Total,7,Richmond,19082
+2012,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,15568
+2012,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,992
+2012,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,1159
+2012,10,75-84,0,Total,5,Hispanic,7,Richmond,1363
+2012,10,75-84,1,Male,0,Total,7,Richmond,7685
+2012,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6375
+2012,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,346
+2012,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,496
+2012,10,75-84,1,Male,5,Hispanic,7,Richmond,468
+2012,10,75-84,2,Female,0,Total,7,Richmond,11397
+2012,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9193
+2012,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,646
+2012,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,663
+2012,10,75-84,2,Female,5,Hispanic,7,Richmond,895
+2012,11,85+,0,Total,0,Total,7,Richmond,8433
+2012,11,85+,0,Total,1,White Non Hispanic,7,Richmond,7387
+2012,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,323
+2012,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,301
+2012,11,85+,0,Total,5,Hispanic,7,Richmond,422
+2012,11,85+,1,Male,0,Total,7,Richmond,2584
+2012,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2257
+2012,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,83
+2012,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,99
+2012,11,85+,1,Male,5,Hispanic,7,Richmond,145
+2012,11,85+,2,Female,0,Total,7,Richmond,5849
+2012,11,85+,2,Female,1,White Non Hispanic,7,Richmond,5130
+2012,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,240
+2012,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,202
+2012,11,85+,2,Female,5,Hispanic,7,Richmond,277
+2013,10,75-84,1,Male,0,Total,7,Richmond,7838
+2013,0,Total,0,Total,0,Total,7,Richmond,472621
+2013,0,Total,0,Total,1,White Non Hispanic,7,Richmond,301789
+2013,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,47500
+2013,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,38891
+2013,0,Total,0,Total,5,Hispanic,7,Richmond,84441
+2013,0,Total,1,Male,0,Total,7,Richmond,228861
+2013,0,Total,1,Male,1,White Non Hispanic,7,Richmond,146161
+2013,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,22137
+2013,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,18964
+2013,0,Total,1,Male,5,Hispanic,7,Richmond,41599
+2013,0,Total,2,Female,0,Total,7,Richmond,243760
+2013,0,Total,2,Female,1,White Non Hispanic,7,Richmond,155628
+2013,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,25363
+2013,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,19927
+2013,0,Total,2,Female,5,Hispanic,7,Richmond,42842
+2013,1,<1,0,Total,0,Total,7,Richmond,5427
+2013,1,<1,0,Total,1,White Non Hispanic,7,Richmond,2902
+2013,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,666
+2013,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,370
+2013,1,<1,0,Total,5,Hispanic,7,Richmond,1489
+2013,1,<1,1,Male,0,Total,7,Richmond,2776
+2013,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1483
+2013,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,341
+2013,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,192
+2013,1,<1,1,Male,5,Hispanic,7,Richmond,760
+2013,1,<1,2,Female,0,Total,7,Richmond,2651
+2013,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1419
+2013,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,325
+2013,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,178
+2013,1,<1,2,Female,5,Hispanic,7,Richmond,729
+2013,2,01-09,0,Total,0,Total,7,Richmond,51874
+2013,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,27734
+2013,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6605
+2013,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3936
+2013,2,01-09,0,Total,5,Hispanic,7,Richmond,13599
+2013,2,01-09,1,Male,0,Total,7,Richmond,26435
+2013,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,14184
+2013,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3336
+2013,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,2091
+2013,2,01-09,1,Male,5,Hispanic,7,Richmond,6824
+2013,2,01-09,2,Female,0,Total,7,Richmond,25439
+2013,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,13550
+2013,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3269
+2013,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1845
+2013,2,01-09,2,Female,5,Hispanic,7,Richmond,6775
+2013,3,10-19,0,Total,0,Total,7,Richmond,60401
+2013,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,33586
+2013,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,7715
+2013,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4852
+2013,3,10-19,0,Total,5,Hispanic,7,Richmond,14248
+2013,3,10-19,1,Male,0,Total,7,Richmond,31146
+2013,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,17390
+2013,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,3877
+2013,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2528
+2013,3,10-19,1,Male,5,Hispanic,7,Richmond,7351
+2013,3,10-19,2,Female,0,Total,7,Richmond,29255
+2013,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,16196
+2013,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,3838
+2013,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2324
+2013,3,10-19,2,Female,5,Hispanic,7,Richmond,6897
+2013,4,20-24,0,Total,0,Total,7,Richmond,32912
+2013,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,19089
+2013,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,4040
+2013,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2446
+2013,4,20-24,0,Total,5,Hispanic,7,Richmond,7337
+2013,4,20-24,1,Male,0,Total,7,Richmond,16575
+2013,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,9515
+2013,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,2010
+2013,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1229
+2013,4,20-24,1,Male,5,Hispanic,7,Richmond,3821
+2013,4,20-24,2,Female,0,Total,7,Richmond,16337
+2013,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,9574
+2013,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,2030
+2013,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,1217
+2013,4,20-24,2,Female,5,Hispanic,7,Richmond,3516
+2013,5,25-34,0,Total,0,Total,7,Richmond,60600
+2013,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,35554
+2013,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6587
+2013,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,5118
+2013,5,25-34,0,Total,5,Hispanic,7,Richmond,13341
+2013,5,25-34,1,Male,0,Total,7,Richmond,30383
+2013,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,17914
+2013,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,3134
+2013,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,2578
+2013,5,25-34,1,Male,5,Hispanic,7,Richmond,6757
+2013,5,25-34,2,Female,0,Total,7,Richmond,30217
+2013,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,17640
+2013,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3453
+2013,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,2540
+2013,5,25-34,2,Female,5,Hispanic,7,Richmond,6584
+2013,6,35-44,0,Total,0,Total,7,Richmond,62612
+2013,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,38697
+2013,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,6066
+2013,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,5487
+2013,6,35-44,0,Total,5,Hispanic,7,Richmond,12362
+2013,6,35-44,1,Male,0,Total,7,Richmond,30222
+2013,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,19035
+2013,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,2630
+2013,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,2528
+2013,6,35-44,1,Male,5,Hispanic,7,Richmond,6029
+2013,6,35-44,2,Female,0,Total,7,Richmond,32390
+2013,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,19662
+2013,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,3436
+2013,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,2959
+2013,6,35-44,2,Female,5,Hispanic,7,Richmond,6333
+2013,7,45-54,0,Total,0,Total,7,Richmond,69931
+2013,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,46323
+2013,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,7107
+2013,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,5908
+2013,7,45-54,0,Total,5,Hispanic,7,Richmond,10593
+2013,7,45-54,1,Male,0,Total,7,Richmond,33668
+2013,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,22716
+2013,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,3165
+2013,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2766
+2013,7,45-54,1,Male,5,Hispanic,7,Richmond,5021
+2013,7,45-54,2,Female,0,Total,7,Richmond,36263
+2013,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,23607
+2013,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3942
+2013,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,3142
+2013,7,45-54,2,Female,5,Hispanic,7,Richmond,5572
+2013,8,55-64,0,Total,0,Total,7,Richmond,62136
+2013,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,45005
+2013,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,4936
+2013,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,5652
+2013,8,55-64,0,Total,5,Hispanic,7,Richmond,6543
+2013,8,55-64,1,Male,0,Total,7,Richmond,29312
+2013,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,21351
+2013,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,2212
+2013,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,2707
+2013,8,55-64,1,Male,5,Hispanic,7,Richmond,3042
+2013,8,55-64,2,Female,0,Total,7,Richmond,32824
+2013,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,23654
+2013,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,2724
+2013,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,2945
+2013,8,55-64,2,Female,5,Hispanic,7,Richmond,3501
+2013,9,65-74,0,Total,0,Total,7,Richmond,38758
+2013,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,29883
+2013,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,2366
+2013,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,3434
+2013,9,65-74,0,Total,5,Hispanic,7,Richmond,3075
+2013,9,65-74,1,Male,0,Total,7,Richmond,17790
+2013,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,13836
+2013,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,964
+2013,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,1634
+2013,9,65-74,1,Male,5,Hispanic,7,Richmond,1356
+2013,9,65-74,2,Female,0,Total,7,Richmond,20968
+2013,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,16047
+2013,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1402
+2013,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,1800
+2013,9,65-74,2,Female,5,Hispanic,7,Richmond,1719
+2013,10,75-84,0,Total,0,Total,7,Richmond,19257
+2013,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,15450
+2013,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,1063
+2013,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,1333
+2013,10,75-84,0,Total,5,Hispanic,7,Richmond,1411
+2013,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6382
+2013,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,376
+2013,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,588
+2013,10,75-84,1,Male,5,Hispanic,7,Richmond,492
+2013,10,75-84,2,Female,0,Total,7,Richmond,11419
+2013,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9068
+2013,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,687
+2013,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,745
+2013,10,75-84,2,Female,5,Hispanic,7,Richmond,919
+2013,11,85+,0,Total,0,Total,7,Richmond,8713
+2013,11,85+,0,Total,1,White Non Hispanic,7,Richmond,7566
+2013,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,349
+2013,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,355
+2013,11,85+,0,Total,5,Hispanic,7,Richmond,443
+2013,11,85+,1,Male,0,Total,7,Richmond,2716
+2013,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2355
+2013,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,92
+2013,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,123
+2013,11,85+,1,Male,5,Hispanic,7,Richmond,146
+2013,11,85+,2,Female,0,Total,7,Richmond,5997
+2013,11,85+,2,Female,1,White Non Hispanic,7,Richmond,5211
+2013,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,257
+2013,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,232
+2013,11,85+,2,Female,5,Hispanic,7,Richmond,297
+2014,1,<1,0,Total,2,Black Non Hispanic,7,Richmond,642
+2014,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,96
+2014,2,01-09,0,Total,0,Total,7,Richmond,51044
+2014,7,45-54,2,Female,3,Other Non Hispanic,7,Richmond,3294
+2014,4,20-24,0,Total,3,Other Non Hispanic,7,Richmond,2612
+2014,1,<1,2,Female,0,Total,7,Richmond,2590
+2014,7,45-54,0,Total,0,Total,7,Richmond,69416
+2014,3,10-19,0,Total,0,Total,7,Richmond,59871
+2014,0,Total,1,Male,5,Hispanic,7,Richmond,42080
+2014,1,<1,0,Total,5,Hispanic,7,Richmond,1506
+2014,2,01-09,2,Female,0,Total,7,Richmond,24992
+2014,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,20843
+2014,6,35-44,0,Total,1,White Non Hispanic,7,Richmond,37656
+2014,8,55-64,2,Female,2,Black Non Hispanic,7,Richmond,2759
+2014,11,85+,0,Total,1,White Non Hispanic,7,Richmond,7746
+2014,11,85+,0,Total,0,Total,7,Richmond,9006
+2014,7,45-54,1,Male,2,Black Non Hispanic,7,Richmond,3125
+2014,4,20-24,2,Female,2,Black Non Hispanic,7,Richmond,2094
+2014,9,65-74,1,Male,1,White Non Hispanic,7,Richmond,14257
+2014,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2423
+2014,4,20-24,0,Total,5,Hispanic,7,Richmond,7294
+2014,8,55-64,0,Total,2,Black Non Hispanic,7,Richmond,5080
+2014,7,45-54,1,Male,3,Other Non Hispanic,7,Richmond,2802
+2014,2,01-09,1,Male,3,Other Non Hispanic,7,Richmond,2097
+2014,9,65-74,0,Total,1,White Non Hispanic,7,Richmond,30923
+2014,8,55-64,2,Female,1,White Non Hispanic,7,Richmond,23607
+2014,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,401
+2014,2,01-09,2,Female,3,Other Non Hispanic,7,Richmond,1821
+2014,5,25-34,2,Female,2,Black Non Hispanic,7,Richmond,3555
+2014,9,65-74,2,Female,0,Total,7,Richmond,21934
+2014,1,<1,0,Total,3,Other Non Hispanic,7,Richmond,358
+2014,9,65-74,2,Female,1,White Non Hispanic,7,Richmond,16666
+2014,1,<1,2,Female,3,Other Non Hispanic,7,Richmond,174
+2014,10,75-84,1,Male,5,Hispanic,7,Richmond,522
+2014,0,Total,1,Male,1,White Non Hispanic,7,Richmond,144857
+2014,5,25-34,0,Total,5,Hispanic,7,Richmond,13386
+2014,4,20-24,2,Female,0,Total,7,Richmond,16307
+2014,10,75-84,2,Female,3,Other Non Hispanic,7,Richmond,842
+2014,6,35-44,0,Total,0,Total,7,Richmond,61923
+2014,9,65-74,0,Total,2,Black Non Hispanic,7,Richmond,2516
+2014,6,35-44,2,Female,3,Other Non Hispanic,7,Richmond,3012
+2014,0,Total,0,Total,0,Total,7,Richmond,473279
+2014,5,25-34,1,Male,1,White Non Hispanic,7,Richmond,18092
+2014,2,01-09,2,Female,5,Hispanic,7,Richmond,6712
+2014,4,20-24,1,Male,3,Other Non Hispanic,7,Richmond,1319
+2014,3,10-19,1,Male,2,Black Non Hispanic,7,Richmond,3851
+2014,2,01-09,0,Total,3,Other Non Hispanic,7,Richmond,3918
+2014,8,55-64,1,Male,3,Other Non Hispanic,7,Richmond,2842
+2014,6,35-44,0,Total,5,Hispanic,7,Richmond,12607
+2014,1,<1,1,Male,2,Black Non Hispanic,7,Richmond,330
+2014,7,45-54,0,Total,1,White Non Hispanic,7,Richmond,45358
+2014,6,35-44,0,Total,2,Black Non Hispanic,7,Richmond,6025
+2014,0,Total,0,Total,1,White Non Hispanic,7,Richmond,299281
+2014,5,25-34,2,Female,3,Other Non Hispanic,7,Richmond,2700
+2014,4,20-24,2,Female,1,White Non Hispanic,7,Richmond,9344
+2014,7,45-54,2,Female,2,Black Non Hispanic,7,Richmond,3972
+2014,4,20-24,1,Male,0,Total,7,Richmond,16173
+2014,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,25648
+2014,3,10-19,1,Male,3,Other Non Hispanic,7,Richmond,2527
+2014,9,65-74,0,Total,5,Hispanic,7,Richmond,3329
+2014,8,55-64,2,Female,3,Other Non Hispanic,7,Richmond,3113
+2014,3,10-19,2,Female,1,White Non Hispanic,7,Richmond,16037
+2014,2,01-09,1,Male,0,Total,7,Richmond,26052
+2014,9,65-74,1,Male,0,Total,7,Richmond,18500
+2014,11,85+,2,Female,0,Total,7,Richmond,6193
+2014,7,45-54,1,Male,1,White Non Hispanic,7,Richmond,22270
+2014,6,35-44,2,Female,2,Black Non Hispanic,7,Richmond,3390
+2014,7,45-54,1,Male,5,Hispanic,7,Richmond,5147
+2014,4,20-24,1,Male,1,White Non Hispanic,7,Richmond,9149
+2014,10,75-84,0,Total,5,Hispanic,7,Richmond,1458
+2014,5,25-34,2,Female,0,Total,7,Richmond,30488
+2014,3,10-19,0,Total,2,Black Non Hispanic,7,Richmond,7622
+2014,9,65-74,1,Male,5,Hispanic,7,Richmond,1476
+2014,11,85+,1,Male,0,Total,7,Richmond,2813
+2014,10,75-84,0,Total,3,Other Non Hispanic,7,Richmond,1500
+2014,7,45-54,1,Male,0,Total,7,Richmond,33344
+2014,5,25-34,1,Male,0,Total,7,Richmond,30802
+2014,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,19643
+2014,1,<1,1,Male,1,White Non Hispanic,7,Richmond,1415
+2014,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,368
+2014,8,55-64,0,Total,1,White Non Hispanic,7,Richmond,44972
+2014,11,85+,2,Female,1,White Non Hispanic,7,Richmond,5323
+2014,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,273
+2014,3,10-19,1,Male,5,Hispanic,7,Richmond,7285
+2014,11,85+,1,Male,5,Hispanic,7,Richmond,166
+2014,5,25-34,0,Total,2,Black Non Hispanic,7,Richmond,6786
+2014,9,65-74,2,Female,3,Other Non Hispanic,7,Richmond,1911
+2014,3,10-19,2,Female,5,Hispanic,7,Richmond,6948
+2014,3,10-19,1,Male,1,White Non Hispanic,7,Richmond,17042
+2014,8,55-64,2,Female,5,Hispanic,7,Richmond,3643
+2014,6,35-44,1,Male,3,Other Non Hispanic,7,Richmond,2623
+2014,10,75-84,2,Female,0,Total,7,Richmond,11554
+2014,8,55-64,0,Total,0,Total,7,Richmond,62885
+2014,1,<1,2,Female,5,Hispanic,7,Richmond,740
+2014,1,<1,2,Female,1,White Non Hispanic,7,Richmond,1364
+2014,0,Total,2,Female,1,White Non Hispanic,7,Richmond,154424
+2014,5,25-34,2,Female,5,Hispanic,7,Richmond,6615
+2014,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,128
+2014,8,55-64,2,Female,0,Total,7,Richmond,33122
+2014,4,20-24,1,Male,5,Hispanic,7,Richmond,3718
+2014,4,20-24,0,Total,0,Total,7,Richmond,32480
+2014,8,55-64,0,Total,3,Other Non Hispanic,7,Richmond,5955
+2014,9,65-74,2,Female,5,Hispanic,7,Richmond,1853
+2014,1,<1,0,Total,1,White Non Hispanic,7,Richmond,2779
+2014,10,75-84,2,Female,1,White Non Hispanic,7,Richmond,9068
+2014,2,01-09,0,Total,2,Black Non Hispanic,7,Richmond,6591
+2014,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,47909
+2014,1,<1,0,Total,0,Total,7,Richmond,5285
+2014,6,35-44,2,Female,0,Total,7,Richmond,32020
+2014,2,01-09,2,Female,2,Black Non Hispanic,7,Richmond,3311
+2014,2,01-09,1,Male,1,White Non Hispanic,7,Richmond,13831
+2014,3,10-19,2,Female,3,Other Non Hispanic,7,Richmond,2410
+2014,5,25-34,0,Total,3,Other Non Hispanic,7,Richmond,5408
+2014,7,45-54,0,Total,5,Hispanic,7,Richmond,10865
+2014,5,25-34,0,Total,1,White Non Hispanic,7,Richmond,35710
+2014,2,01-09,1,Male,5,Hispanic,7,Richmond,6844
+2014,5,25-34,2,Female,1,White Non Hispanic,7,Richmond,17618
+2014,0,Total,1,Male,0,Total,7,Richmond,228841
+2014,4,20-24,0,Total,2,Black Non Hispanic,7,Richmond,4081
+2014,10,75-84,0,Total,1,White Non Hispanic,7,Richmond,15586
+2014,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,272
+2014,10,75-84,2,Female,2,Black Non Hispanic,7,Richmond,708
+2014,9,65-74,0,Total,3,Other Non Hispanic,7,Richmond,3666
+2014,2,01-09,0,Total,5,Hispanic,7,Richmond,13556
+2014,10,75-84,0,Total,2,Black Non Hispanic,7,Richmond,1101
+2014,0,Total,2,Female,0,Total,7,Richmond,244438
+2014,8,55-64,1,Male,0,Total,7,Richmond,29763
+2014,5,25-34,1,Male,3,Other Non Hispanic,7,Richmond,2708
+2014,6,35-44,1,Male,0,Total,7,Richmond,29903
+2014,7,45-54,2,Female,0,Total,7,Richmond,36072
+2014,9,65-74,0,Total,0,Total,7,Richmond,40434
+2014,5,25-34,1,Male,2,Black Non Hispanic,7,Richmond,3231
+2014,4,20-24,1,Male,2,Black Non Hispanic,7,Richmond,1987
+2014,1,<1,1,Male,0,Total,7,Richmond,2695
+2014,10,75-84,2,Female,5,Hispanic,7,Richmond,936
+2014,3,10-19,2,Female,0,Total,7,Richmond,29166
+2014,11,85+,0,Total,5,Hispanic,7,Richmond,491
+2014,7,45-54,0,Total,3,Other Non Hispanic,7,Richmond,6096
+2014,4,20-24,2,Female,5,Hispanic,7,Richmond,3576
+2014,1,<1,2,Female,2,Black Non Hispanic,7,Richmond,312
+2014,7,45-54,2,Female,1,White Non Hispanic,7,Richmond,23088
+2014,11,85+,2,Female,5,Hispanic,7,Richmond,325
+2014,6,35-44,2,Female,1,White Non Hispanic,7,Richmond,19161
+2014,2,01-09,1,Male,2,Black Non Hispanic,7,Richmond,3280
+2014,7,45-54,2,Female,5,Hispanic,7,Richmond,5718
+2014,6,35-44,2,Female,5,Hispanic,7,Richmond,6457
+2014,0,Total,2,Female,5,Hispanic,7,Richmond,43523
+2014,4,20-24,0,Total,1,White Non Hispanic,7,Richmond,18493
+2014,1,<1,1,Male,5,Hispanic,7,Richmond,766
+2014,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,40486
+2014,9,65-74,1,Male,2,Black Non Hispanic,7,Richmond,1012
+2014,5,25-34,0,Total,0,Total,7,Richmond,61290
+2014,10,75-84,1,Male,0,Total,7,Richmond,8091
+2014,8,55-64,0,Total,5,Hispanic,7,Richmond,6878
+2014,8,55-64,1,Male,2,Black Non Hispanic,7,Richmond,2321
+2014,3,10-19,2,Female,2,Black Non Hispanic,7,Richmond,3771
+2014,5,25-34,1,Male,5,Hispanic,7,Richmond,6771
+2014,10,75-84,0,Total,0,Total,7,Richmond,19645
+2014,3,10-19,0,Total,3,Other Non Hispanic,7,Richmond,4937
+2014,2,01-09,0,Total,1,White Non Hispanic,7,Richmond,26979
+2014,0,Total,0,Total,5,Hispanic,7,Richmond,85603
+2014,3,10-19,0,Total,5,Hispanic,7,Richmond,14233
+2014,6,35-44,0,Total,3,Other Non Hispanic,7,Richmond,5635
+2014,10,75-84,1,Male,2,Black Non Hispanic,7,Richmond,393
+2014,6,35-44,1,Male,2,Black Non Hispanic,7,Richmond,2635
+2014,9,65-74,2,Female,2,Black Non Hispanic,7,Richmond,1504
+2014,3,10-19,0,Total,1,White Non Hispanic,7,Richmond,33079
+2014,2,01-09,2,Female,1,White Non Hispanic,7,Richmond,13148
+2014,1,<1,1,Male,3,Other Non Hispanic,7,Richmond,184
+2014,6,35-44,1,Male,1,White Non Hispanic,7,Richmond,18495
+2014,8,55-64,1,Male,5,Hispanic,7,Richmond,3235
+2014,4,20-24,2,Female,3,Other Non Hispanic,7,Richmond,1293
+2014,3,10-19,1,Male,0,Total,7,Richmond,30705
+2014,7,45-54,0,Total,2,Black Non Hispanic,7,Richmond,7097
+2014,10,75-84,1,Male,1,White Non Hispanic,7,Richmond,6518
+2014,10,75-84,1,Male,3,Other Non Hispanic,7,Richmond,658
+2014,6,35-44,1,Male,5,Hispanic,7,Richmond,6150
+2014,9,65-74,1,Male,3,Other Non Hispanic,7,Richmond,1755
+2014,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,22261
+2014,8,55-64,1,Male,1,White Non Hispanic,7,Richmond,21365
+2016,11,85+,0,Total,0,Total,7,Richmond,9277
+2016,5,25 to 34,2,Female,3,Other Non Hispanic,7,Richmond,3000
+2016,2,1 to 9,0,Total,0,Total,7,Richmond,50737
+2016,5,25 to 34,0,Total,0,Total,7,Richmond,63665
+2016,3,10 to 19,2,Female,0,Total,7,Richmond,29000
+2016,3,10 to 19,1,Male,3,Other Non Hispanic,7,Richmond,2691
+2016,10,75 to 84,1,Male,1,White Non Hispanic,7,Richmond,6765
+2016,1,Less than 1,0,Total,2,Black Non Hispanic,7,Richmond,632
+2016,6,35 to 44,1,Male,1,White Non Hispanic,7,Richmond,17579
+2016,7,45 to 54,1,Male,1,White Non Hispanic,7,Richmond,21437
+2016,4,20 to 24,2,Female,1,White Non Hispanic,7,Richmond,8465
+2016,5,25 to 34,2,Female,2,Black Non Hispanic,7,Richmond,3728
+2016,4,20 to 24,0,Total,1,White Non Hispanic,7,Richmond,16919
+2016,11,85+,1,Male,5,Hispanic,7,Richmond,191
+2016,10,75 to 84,2,Female,3,Other Non Hispanic,7,Richmond,964
+2016,3,10 to 19,0,Total,2,Black Non Hispanic,7,Richmond,7366
+2016,7,45 to 54,2,Female,3,Other Non Hispanic,7,Richmond,3544
+2016,0,Total,2,Female,1,White Non Hispanic,7,Richmond,153163
+2016,5,25 to 34,2,Female,0,Total,7,Richmond,31534
+2016,4,20 to 24,0,Total,2,Black Non Hispanic,7,Richmond,3893
+2016,11,85+,2,Female,0,Total,7,Richmond,6294
+2016,6,35 to 44,1,Male,2,Black Non Hispanic,7,Richmond,2676
+2016,4,20 to 24,0,Total,3,Other Non Hispanic,7,Richmond,2655
+2016,0,Total,0,Total,1,White Non Hispanic,7,Richmond,297426
+2016,1,Less than 1,2,Female,3,Other Non Hispanic,7,Richmond,176
+2016,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,110
+2016,3,10 to 19,0,Total,0,Total,7,Richmond,59753
+2016,2,1 to 9,0,Total,1,White Non Hispanic,7,Richmond,26941
+2016,4,20 to 24,2,Female,0,Total,7,Richmond,15288
+2016,9,65 to 74,2,Female,0,Total,7,Richmond,23619
+2016,2,1 to 9,0,Total,2,Black Non Hispanic,7,Richmond,6160
+2016,6,35 to 44,0,Total,0,Total,7,Richmond,60037
+2016,10,75 to 84,1,Male,3,Other Non Hispanic,7,Richmond,768
+2016,9,65 to 74,0,Total,5,Hispanic,7,Richmond,3734
+2016,8,55 to 64,1,Male,3,Other Non Hispanic,7,Richmond,2918
+2016,5,25 to 34,1,Male,3,Other Non Hispanic,7,Richmond,3015
+2016,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,22360
+2016,10,75 to 84,1,Male,0,Total,7,Richmond,8579
+2016,9,65 to 74,2,Female,5,Hispanic,7,Richmond,2103
+2016,2,1 to 9,2,Female,0,Total,7,Richmond,24691
+2016,8,55 to 64,2,Female,5,Hispanic,7,Richmond,4019
+2016,7,45 to 54,1,Male,2,Black Non Hispanic,7,Richmond,2988
+2016,1,Less than 1,2,Female,0,Total,7,Richmond,2540
+2016,4,20 to 24,0,Total,0,Total,7,Richmond,30413
+2016,3,10 to 19,2,Female,5,Hispanic,7,Richmond,7114
+2016,6,35 to 44,2,Female,3,Other Non Hispanic,7,Richmond,3162
+2016,2,1 to 9,1,Male,3,Other Non Hispanic,7,Richmond,2167
+2016,4,20 to 24,1,Male,3,Other Non Hispanic,7,Richmond,1342
+2016,7,45 to 54,1,Male,0,Total,7,Richmond,32883
+2016,1,Less than 1,0,Total,0,Total,7,Richmond,5202
+2016,9,65 to 74,0,Total,1,White Non Hispanic,7,Richmond,32791
+2016,2,1 to 9,2,Female,3,Other Non Hispanic,7,Richmond,1980
+2016,7,45 to 54,2,Female,5,Hispanic,7,Richmond,5862
+2016,0,Total,0,Total,0,Total,7,Richmond,476015
+2016,0,Total,1,Male,1,White Non Hispanic,7,Richmond,144263
+2016,3,10 to 19,0,Total,1,White Non Hispanic,7,Richmond,32640
+2016,0,Total,2,Female,0,Total,7,Richmond,245463
+2016,7,45 to 54,2,Female,0,Total,7,Richmond,35594
+2016,3,10 to 19,0,Total,5,Hispanic,7,Richmond,14584
+2016,7,45 to 54,1,Male,3,Other Non Hispanic,7,Richmond,2946
+2016,9,65 to 74,2,Female,2,Black Non Hispanic,7,Richmond,1632
+2016,1,Less than 1,0,Total,1,White Non Hispanic,7,Richmond,2704
+2016,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,158
+2016,9,65 to 74,1,Male,1,White Non Hispanic,7,Richmond,15003
+2016,3,10 to 19,2,Female,3,Other Non Hispanic,7,Richmond,2472
+2016,1,Less than 1,2,Female,1,White Non Hispanic,7,Richmond,1326
+2016,9,65 to 74,2,Female,1,White Non Hispanic,7,Richmond,17788
+2016,8,55 to 64,1,Male,2,Black Non Hispanic,7,Richmond,2448
+2016,1,Less than 1,0,Total,5,Hispanic,7,Richmond,1497
+2016,1,Less than 1,1,Male,5,Hispanic,7,Richmond,764
+2016,8,55 to 64,1,Male,0,Total,7,Richmond,30618
+2016,9,65 to 74,0,Total,3,Other Non Hispanic,7,Richmond,4049
+2016,11,85+,0,Total,1,White Non Hispanic,7,Richmond,7763
+2016,6,35 to 44,2,Female,1,White Non Hispanic,7,Richmond,18196
+2016,2,1 to 9,1,Male,2,Black Non Hispanic,7,Richmond,3137
+2016,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,20789
+2016,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,325
+2016,1,Less than 1,0,Total,3,Other Non Hispanic,7,Richmond,369
+2016,7,45 to 54,2,Female,2,Black Non Hispanic,7,Richmond,3849
+2016,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,25597
+2016,10,75 to 84,2,Female,5,Hispanic,7,Richmond,1007
+2016,2,1 to 9,1,Male,5,Hispanic,7,Richmond,6853
+2016,9,65 to 74,1,Male,3,Other Non Hispanic,7,Richmond,1953
+2016,5,25 to 34,0,Total,2,Black Non Hispanic,7,Richmond,7256
+2016,3,10 to 19,1,Male,5,Hispanic,7,Richmond,7470
+2016,2,1 to 9,2,Female,5,Hispanic,7,Richmond,6636
+2016,2,1 to 9,2,Female,2,Black Non Hispanic,7,Richmond,3023
+2016,6,35 to 44,1,Male,3,Other Non Hispanic,7,Richmond,2638
+2016,8,55 to 64,1,Male,5,Hispanic,7,Richmond,3530
+2016,7,45 to 54,1,Male,5,Hispanic,7,Richmond,5512
+2016,5,25 to 34,1,Male,2,Black Non Hispanic,7,Richmond,3528
+2016,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,22276
+2016,10,75 to 84,0,Total,3,Other Non Hispanic,7,Richmond,1732
+2016,5,25 to 34,1,Male,1,White Non Hispanic,7,Richmond,18648
+2016,0,Total,1,Male,5,Hispanic,7,Richmond,43140
+2016,8,55 to 64,0,Total,3,Other Non Hispanic,7,Richmond,6162
+2016,10,75 to 84,1,Male,5,Hispanic,7,Richmond,619
+2016,2,1 to 9,1,Male,1,White Non Hispanic,7,Richmond,13889
+2016,7,45 to 54,0,Total,3,Other Non Hispanic,7,Richmond,6490
+2016,11,85+,2,Female,1,White Non Hispanic,7,Richmond,5239
+2016,10,75 to 84,0,Total,2,Black Non Hispanic,7,Richmond,1227
+2016,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,47957
+2016,8,55 to 64,1,Male,1,White Non Hispanic,7,Richmond,21722
+2016,6,35 to 44,2,Female,0,Total,7,Richmond,30987
+2016,9,65 to 74,1,Male,0,Total,7,Richmond,19722
+2016,8,55 to 64,2,Female,2,Black Non Hispanic,7,Richmond,3044
+2016,7,45 to 54,0,Total,2,Black Non Hispanic,7,Richmond,6837
+2016,10,75 to 84,2,Female,1,White Non Hispanic,7,Richmond,9163
+2016,7,45 to 54,0,Total,5,Hispanic,7,Richmond,11374
+2016,6,35 to 44,0,Total,1,White Non Hispanic,7,Richmond,35775
+2016,6,35 to 44,0,Total,2,Black Non Hispanic,7,Richmond,5903
+2016,9,65 to 74,2,Female,3,Other Non Hispanic,7,Richmond,2096
+2016,1,Less than 1,2,Female,5,Hispanic,7,Richmond,733
+2016,5,25 to 34,1,Male,0,Total,7,Richmond,32131
+2016,2,1 to 9,0,Total,5,Hispanic,7,Richmond,13489
+2016,1,Less than 1,1,Male,0,Total,7,Richmond,2662
+2016,11,85+,0,Total,5,Hispanic,7,Richmond,607
+2016,1,Less than 1,2,Female,2,Black Non Hispanic,7,Richmond,305
+2016,0,Total,0,Total,5,Hispanic,7,Richmond,87567
+2016,5,25 to 34,2,Female,1,White Non Hispanic,7,Richmond,18144
+2016,0,Total,2,Female,5,Hispanic,7,Richmond,44427
+2016,4,20 to 24,2,Female,3,Other Non Hispanic,7,Richmond,1313
+2016,9,65 to 74,0,Total,0,Total,7,Richmond,43341
+2016,10,75 to 84,2,Female,2,Black Non Hispanic,7,Richmond,800
+2016,8,55 to 64,2,Female,3,Other Non Hispanic,7,Richmond,3244
+2016,5,25 to 34,0,Total,3,Other Non Hispanic,7,Richmond,6015
+2016,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,314
+2016,7,45 to 54,0,Total,1,White Non Hispanic,7,Richmond,43776
+2016,3,10 to 19,1,Male,1,White Non Hispanic,7,Richmond,16864
+2016,10,75 to 84,0,Total,1,White Non Hispanic,7,Richmond,15928
+2016,5,25 to 34,1,Male,5,Hispanic,7,Richmond,6940
+2016,4,20 to 24,2,Female,5,Hispanic,7,Richmond,3473
+2016,8,55 to 64,2,Female,1,White Non Hispanic,7,Richmond,23675
+2016,5,25 to 34,0,Total,1,White Non Hispanic,7,Richmond,36792
+2016,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,43065
+2016,9,65 to 74,1,Male,2,Black Non Hispanic,7,Richmond,1135
+2016,1,Less than 1,1,Male,1,White Non Hispanic,7,Richmond,1378
+2016,10,75 to 84,1,Male,2,Black Non Hispanic,7,Richmond,427
+2016,1,Less than 1,1,Male,3,Other Non Hispanic,7,Richmond,193
+2016,3,10 to 19,0,Total,3,Other Non Hispanic,7,Richmond,5163
+2016,11,85+,2,Female,5,Hispanic,7,Richmond,416
+2016,10,75 to 84,2,Female,0,Total,7,Richmond,11934
+2016,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,424
+2016,4,20 to 24,1,Male,1,White Non Hispanic,7,Richmond,8454
+2016,8,55 to 64,2,Female,0,Total,7,Richmond,33982
+2016,4,20 to 24,1,Male,2,Black Non Hispanic,7,Richmond,1856
+2016,0,Total,1,Male,0,Total,7,Richmond,230552
+2016,6,35 to 44,1,Male,0,Total,7,Richmond,29050
+2016,9,65 to 74,0,Total,2,Black Non Hispanic,7,Richmond,2767
+2016,5,25 to 34,2,Female,5,Hispanic,7,Richmond,6662
+2016,2,1 to 9,2,Female,1,White Non Hispanic,7,Richmond,13052
+2016,5,25 to 34,0,Total,5,Hispanic,7,Richmond,13602
+2016,6,35 to 44,2,Female,2,Black Non Hispanic,7,Richmond,3227
+2016,8,55 to 64,0,Total,2,Black Non Hispanic,7,Richmond,5492
+2016,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2524
+2016,3,10 to 19,2,Female,2,Black Non Hispanic,7,Richmond,3638
+2016,10,75 to 84,0,Total,0,Total,7,Richmond,20513
+2016,8,55 to 64,0,Total,5,Hispanic,7,Richmond,7549
+2016,1,Less than 1,1,Male,2,Black Non Hispanic,7,Richmond,327
+2016,9,65 to 74,1,Male,5,Hispanic,7,Richmond,1631
+2016,10,75 to 84,0,Total,5,Hispanic,7,Richmond,1626
+2016,6,35 to 44,0,Total,5,Hispanic,7,Richmond,12559
+2016,4,20 to 24,2,Female,2,Black Non Hispanic,7,Richmond,2037
+2016,2,1 to 9,0,Total,3,Other Non Hispanic,7,Richmond,4147
+2016,3,10 to 19,1,Male,0,Total,7,Richmond,30753
+2016,3,10 to 19,1,Male,2,Black Non Hispanic,7,Richmond,3728
+2016,4,20 to 24,1,Male,0,Total,7,Richmond,15125
+2016,6,35 to 44,2,Female,5,Hispanic,7,Richmond,6402
+2016,8,55 to 64,0,Total,0,Total,7,Richmond,64600
+2016,8,55 to 64,0,Total,1,White Non Hispanic,7,Richmond,45397
+2016,2,1 to 9,1,Male,0,Total,7,Richmond,26046
+2016,7,45 to 54,2,Female,1,White Non Hispanic,7,Richmond,22339
+2016,6,35 to 44,0,Total,3,Other Non Hispanic,7,Richmond,5800
+2016,7,45 to 54,0,Total,0,Total,7,Richmond,68477
+2016,4,20 to 24,1,Male,5,Hispanic,7,Richmond,3473
+2016,4,20 to 24,0,Total,5,Hispanic,7,Richmond,6946
+2016,11,85+,1,Male,0,Total,7,Richmond,2983
+2016,3,10 to 19,2,Female,1,White Non Hispanic,7,Richmond,15776
+2016,6,35 to 44,1,Male,5,Hispanic,7,Richmond,6157
+2016,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,483
+2015,9,65 to 74,0,Total,0,Total,7,Richmond,42061
+2015,7,45 to 54,2,Female,2,Black Non Hispanic,7,Richmond,3964
+2015,1,Less than 1,2,Female,5,Hispanic,7,Richmond,745
+2015,5,25 to 34,1,Male,3,Other Non Hispanic,7,Richmond,2898
+2015,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,21579
+2015,0,Total,0,Total,0,Total,7,Richmond,474558
+2015,2,1 to 9,2,Female,2,Black Non Hispanic,7,Richmond,3191
+2015,9,65 to 74,2,Female,2,Black Non Hispanic,7,Richmond,1605
+2015,2,1 to 9,1,Male,3,Other Non Hispanic,7,Richmond,2186
+2015,4,20 to 24,0,Total,0,Total,7,Richmond,31331
+2015,2,1 to 9,0,Total,2,Black Non Hispanic,7,Richmond,6472
+2015,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,394
+2015,3,10 to 19,0,Total,2,Black Non Hispanic,7,Richmond,7529
+2015,8,55 to 64,2,Female,1,White Non Hispanic,7,Richmond,23675
+2015,6,35 to 44,1,Male,3,Other Non Hispanic,7,Richmond,2678
+2015,2,1 to 9,2,Female,0,Total,7,Richmond,24683
+2015,8,55 to 64,1,Male,2,Black Non Hispanic,7,Richmond,2399
+2015,3,10 to 19,0,Total,5,Hispanic,7,Richmond,14377
+2015,3,10 to 19,1,Male,3,Other Non Hispanic,7,Richmond,2605
+2015,1,Less than 1,1,Male,3,Other Non Hispanic,7,Richmond,196
+2015,1,Less than 1,0,Total,0,Total,7,Richmond,5359
+2015,7,45 to 54,0,Total,2,Black Non Hispanic,7,Richmond,7093
+2015,3,10 to 19,1,Male,1,White Non Hispanic,7,Richmond,16839
+2015,8,55 to 64,1,Male,5,Hispanic,7,Richmond,3396
+2015,8,55 to 64,2,Female,2,Black Non Hispanic,7,Richmond,2907
+2015,2,1 to 9,1,Male,5,Hispanic,7,Richmond,6838
+2015,10,75 to 84,1,Male,1,White Non Hispanic,7,Richmond,6624
+2015,3,10 to 19,2,Female,3,Other Non Hispanic,7,Richmond,2455
+2015,8,55 to 64,1,Male,0,Total,7,Richmond,30203
+2015,8,55 to 64,0,Total,2,Black Non Hispanic,7,Richmond,5306
+2015,4,20 to 24,1,Male,5,Hispanic,7,Richmond,3631
+2015,5,25 to 34,0,Total,5,Hispanic,7,Richmond,13355
+2015,0,Total,1,Male,0,Total,7,Richmond,229782
+2015,6,35 to 44,1,Male,0,Total,7,Richmond,29685
+2015,11,85+,1,Male,5,Hispanic,7,Richmond,182
+2015,8,55 to 64,0,Total,1,White Non Hispanic,7,Richmond,45214
+2015,1,Less than 1,2,Female,0,Total,7,Richmond,2620
+2015,7,45 to 54,1,Male,2,Black Non Hispanic,7,Richmond,3129
+2015,6,35 to 44,0,Total,1,White Non Hispanic,7,Richmond,36716
+2015,4,20 to 24,2,Female,3,Other Non Hispanic,7,Richmond,1268
+2015,0,Total,0,Total,1,White Non Hispanic,7,Richmond,297622
+2015,3,10 to 19,2,Female,5,Hispanic,7,Richmond,7033
+2015,9,65 to 74,0,Total,5,Hispanic,7,Richmond,3567
+2015,5,25 to 34,2,Female,3,Other Non Hispanic,7,Richmond,2872
+2015,3,10 to 19,1,Male,0,Total,7,Richmond,30578
+2015,11,85+,2,Female,5,Hispanic,7,Richmond,367
+2015,6,35 to 44,0,Total,5,Hispanic,7,Richmond,12807
+2015,5,25 to 34,1,Male,0,Total,7,Richmond,31373
+2015,10,75 to 84,1,Male,5,Hispanic,7,Richmond,588
+2015,6,35 to 44,1,Male,1,White Non Hispanic,7,Richmond,18071
+2015,5,25 to 34,1,Male,5,Hispanic,7,Richmond,6720
+2015,8,55 to 64,2,Female,0,Total,7,Richmond,33550
+2015,6,35 to 44,0,Total,2,Black Non Hispanic,7,Richmond,5940
+2015,6,35 to 44,0,Total,3,Other Non Hispanic,7,Richmond,5834
+2015,7,45 to 54,1,Male,3,Other Non Hispanic,7,Richmond,2893
+2015,9,65 to 74,2,Female,3,Other Non Hispanic,7,Richmond,2043
+2015,2,1 to 9,1,Male,0,Total,7,Richmond,26020
+2015,10,75 to 84,1,Male,0,Total,7,Richmond,8332
+2015,1,Less than 1,2,Female,1,White Non Hispanic,7,Richmond,1380
+2015,1,Less than 1,1,Male,2,Black Non Hispanic,7,Richmond,338
+2015,9,65 to 74,0,Total,2,Black Non Hispanic,7,Richmond,2683
+2015,10,75 to 84,1,Male,3,Other Non Hispanic,7,Richmond,708
+2015,5,25 to 34,0,Total,2,Black Non Hispanic,7,Richmond,7018
+2015,11,85+,2,Female,0,Total,7,Richmond,6239
+2015,4,20 to 24,2,Female,5,Hispanic,7,Richmond,3615
+2015,9,65 to 74,0,Total,3,Other Non Hispanic,7,Richmond,3940
+2015,2,1 to 9,2,Female,1,White Non Hispanic,7,Richmond,12959
+2015,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,22520
+2015,0,Total,2,Female,0,Total,7,Richmond,244776
+2015,0,Total,0,Total,5,Hispanic,7,Richmond,86737
+2015,5,25 to 34,0,Total,3,Other Non Hispanic,7,Richmond,5770
+2015,9,65 to 74,1,Male,1,White Non Hispanic,7,Richmond,14604
+2015,2,1 to 9,2,Female,5,Hispanic,7,Richmond,6668
+2015,11,85+,1,Male,0,Total,7,Richmond,2926
+2015,10,75 to 84,2,Female,0,Total,7,Richmond,11658
+2015,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,25682
+2015,8,55 to 64,1,Male,3,Other Non Hispanic,7,Richmond,2869
+2015,4,20 to 24,0,Total,2,Black Non Hispanic,7,Richmond,3966
+2015,3,10 to 19,0,Total,0,Total,7,Richmond,59645
+2015,8,55 to 64,0,Total,5,Hispanic,7,Richmond,7228
+2015,3,10 to 19,2,Female,1,White Non Hispanic,7,Richmond,15840
+2015,0,Total,2,Female,1,White Non Hispanic,7,Richmond,153377
+2015,9,65 to 74,1,Male,5,Hispanic,7,Richmond,1565
+2015,6,35 to 44,1,Male,2,Black Non Hispanic,7,Richmond,2619
+2015,7,45 to 54,0,Total,0,Total,7,Richmond,69052
+2015,11,85+,0,Total,1,White Non Hispanic,7,Richmond,7772
+2015,7,45 to 54,2,Female,3,Other Non Hispanic,7,Richmond,3415
+2015,7,45 to 54,1,Male,0,Total,7,Richmond,33148
+2015,4,20 to 24,0,Total,5,Hispanic,7,Richmond,7246
+2015,9,65 to 74,1,Male,0,Total,7,Richmond,19144
+2015,11,85+,2,Female,1,White Non Hispanic,7,Richmond,5270
+2015,3,10 to 19,1,Male,2,Black Non Hispanic,7,Richmond,3790
+2015,9,65 to 74,2,Female,0,Total,7,Richmond,22917
+2015,10,75 to 84,0,Total,5,Hispanic,7,Richmond,1582
+2015,5,25 to 34,0,Total,0,Total,7,Richmond,62202
+2015,1,Less than 1,0,Total,2,Black Non Hispanic,7,Richmond,657
+2015,7,45 to 54,2,Female,0,Total,7,Richmond,35904
+2015,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,304
+2015,1,Less than 1,0,Total,1,White Non Hispanic,7,Richmond,2812
+2015,0,Total,1,Male,5,Hispanic,7,Richmond,42599
+2015,7,45 to 54,1,Male,5,Hispanic,7,Richmond,5245
+2015,7,45 to 54,0,Total,5,Hispanic,7,Richmond,11002
+2015,10,75 to 84,0,Total,0,Total,7,Richmond,19990
+2015,5,25 to 34,2,Female,1,White Non Hispanic,7,Richmond,17756
+2015,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,96
+2015,3,10 to 19,1,Male,5,Hispanic,7,Richmond,7344
+2015,3,10 to 19,0,Total,3,Other Non Hispanic,7,Richmond,5060
+2015,5,25 to 34,1,Male,1,White Non Hispanic,7,Richmond,18303
+2015,3,10 to 19,2,Female,0,Total,7,Richmond,29067
+2015,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,146
+2015,4,20 to 24,0,Total,3,Other Non Hispanic,7,Richmond,2610
+2015,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,41997
+2015,2,1 to 9,1,Male,2,Black Non Hispanic,7,Richmond,3281
+2015,4,20 to 24,1,Male,1,White Non Hispanic,7,Richmond,8735
+2015,9,65 to 74,1,Male,2,Black Non Hispanic,7,Richmond,1078
+2015,10,75 to 84,2,Female,3,Other Non Hispanic,7,Richmond,889
+2015,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,48202
+2015,6,35 to 44,2,Female,0,Total,7,Richmond,31612
+2015,10,75 to 84,0,Total,1,White Non Hispanic,7,Richmond,15667
+2015,5,25 to 34,0,Total,1,White Non Hispanic,7,Richmond,36059
+2015,5,25 to 34,2,Female,5,Hispanic,7,Richmond,6635
+2015,6,35 to 44,2,Female,3,Other Non Hispanic,7,Richmond,3156
+2015,9,65 to 74,2,Female,5,Hispanic,7,Richmond,2002
+2015,8,55 to 64,2,Female,5,Hispanic,7,Richmond,3832
+2015,9,65 to 74,2,Female,1,White Non Hispanic,7,Richmond,17267
+2015,1,Less than 1,2,Female,2,Black Non Hispanic,7,Richmond,319
+2015,10,75 to 84,2,Female,1,White Non Hispanic,7,Richmond,9043
+2015,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,20418
+2015,6,35 to 44,1,Male,5,Hispanic,7,Richmond,6317
+2015,9,65 to 74,1,Male,3,Other Non Hispanic,7,Richmond,1897
+2015,7,45 to 54,1,Male,1,White Non Hispanic,7,Richmond,21881
+2015,0,Total,1,Male,1,White Non Hispanic,7,Richmond,144245
+2015,10,75 to 84,0,Total,3,Other Non Hispanic,7,Richmond,1597
+2015,1,Less than 1,2,Female,3,Other Non Hispanic,7,Richmond,176
+2015,4,20 to 24,2,Female,2,Black Non Hispanic,7,Richmond,2040
+2015,8,55 to 64,0,Total,0,Total,7,Richmond,63753
+2015,3,10 to 19,0,Total,1,White Non Hispanic,7,Richmond,32679
+2015,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,450
+2015,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,298
+2015,4,20 to 24,1,Male,0,Total,7,Richmond,15634
+2015,2,1 to 9,0,Total,5,Hispanic,7,Richmond,13506
+2015,2,1 to 9,0,Total,1,White Non Hispanic,7,Richmond,26674
+2015,2,1 to 9,1,Male,1,White Non Hispanic,7,Richmond,13715
+2015,7,45 to 54,0,Total,1,White Non Hispanic,7,Richmond,44649
+2015,0,Total,2,Female,5,Hispanic,7,Richmond,44138
+2015,5,25 to 34,1,Male,2,Black Non Hispanic,7,Richmond,3452
+2015,10,75 to 84,0,Total,2,Black Non Hispanic,7,Richmond,1144
+2015,4,20 to 24,0,Total,1,White Non Hispanic,7,Richmond,17509
+2015,6,35 to 44,0,Total,0,Total,7,Richmond,61297
+2015,1,Less than 1,1,Male,1,White Non Hispanic,7,Richmond,1432
+2015,11,85+,0,Total,0,Total,7,Richmond,9165
+2015,4,20 to 24,2,Female,1,White Non Hispanic,7,Richmond,8774
+2015,6,35 to 44,2,Female,1,White Non Hispanic,7,Richmond,18645
+2015,2,1 to 9,0,Total,3,Other Non Hispanic,7,Richmond,4051
+2015,2,1 to 9,0,Total,0,Total,7,Richmond,50703
+2015,10,75 to 84,2,Female,5,Hispanic,7,Richmond,994
+2015,4,20 to 24,1,Male,3,Other Non Hispanic,7,Richmond,1342
+2015,10,75 to 84,1,Male,2,Black Non Hispanic,7,Richmond,412
+2015,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2502
+2015,8,55 to 64,1,Male,1,White Non Hispanic,7,Richmond,21539
+2015,7,45 to 54,0,Total,3,Other Non Hispanic,7,Richmond,6308
+2015,1,Less than 1,0,Total,3,Other Non Hispanic,7,Richmond,372
+2015,2,1 to 9,2,Female,3,Other Non Hispanic,7,Richmond,1865
+2015,9,65 to 74,0,Total,1,White Non Hispanic,7,Richmond,31871
+2015,5,25 to 34,2,Female,0,Total,7,Richmond,30829
+2015,10,75 to 84,2,Female,2,Black Non Hispanic,7,Richmond,732
+2015,6,35 to 44,2,Female,2,Black Non Hispanic,7,Richmond,3321
+2015,1,Less than 1,1,Male,5,Hispanic,7,Richmond,773
+2015,5,25 to 34,2,Female,2,Black Non Hispanic,7,Richmond,3566
+2015,7,45 to 54,2,Female,5,Hispanic,7,Richmond,5757
+2015,1,Less than 1,0,Total,5,Hispanic,7,Richmond,1518
+2015,7,45 to 54,2,Female,1,White Non Hispanic,7,Richmond,22768
+2015,1,Less than 1,1,Male,0,Total,7,Richmond,2739
+2015,8,55 to 64,2,Female,3,Other Non Hispanic,7,Richmond,3136
+2015,4,20 to 24,2,Female,0,Total,7,Richmond,15697
+2015,4,20 to 24,1,Male,2,Black Non Hispanic,7,Richmond,1926
+2015,6,35 to 44,2,Female,5,Hispanic,7,Richmond,6490
+2015,3,10 to 19,2,Female,2,Black Non Hispanic,7,Richmond,3739
+2015,11,85+,0,Total,5,Hispanic,7,Richmond,549
+2015,8,55 to 64,0,Total,3,Other Non Hispanic,7,Richmond,6005
+2017,0,Total,0,Total,0,Total,7,Richmond,479458
+2017,0,Total,1,Male,0,Total,7,Richmond,232308
+2017,0,Total,2,Female,0,Total,7,Richmond,247150
+2017,1,Less than 1,0,Total,0,Total,7,Richmond,5357
+2017,10,75 to 84,0,Total,0,Total,7,Richmond,21347
+2017,11,85+,0,Total,0,Total,7,Richmond,9627
+2017,2,1 to 9,0,Total,0,Total,7,Richmond,50789
+2017,3,10 to 19,0,Total,0,Total,7,Richmond,59412
+2017,4,20 to 24,0,Total,0,Total,7,Richmond,29822
+2017,5,25 to 34,0,Total,0,Total,7,Richmond,65126
+2017,6,35 to 44,0,Total,0,Total,7,Richmond,60035
+2017,7,45 to 54,0,Total,0,Total,7,Richmond,67656
+2017,8,55 to 64,0,Total,0,Total,7,Richmond,65460
+2017,9,65 to 74,0,Total,0,Total,7,Richmond,44827
+2017,0,Total,0,Total,1,White Non Hispanic,7,Richmond,295410
+2017,0,Total,0,Total,2,Black Non Hispanic,7,Richmond,48078
+2017,0,Total,0,Total,3,Other Non Hispanic,7,Richmond,46904
+2017,0,Total,0,Total,5,Hispanic,7,Richmond,89066
+2017,1,Less than 1,1,Male,0,Total,7,Richmond,2746
+2017,1,Less than 1,2,Female,0,Total,7,Richmond,2611
+2017,10,75 to 84,1,Male,0,Total,7,Richmond,9033
+2017,10,75 to 84,2,Female,0,Total,7,Richmond,12314
+2017,11,85+,1,Male,0,Total,7,Richmond,3149
+2017,11,85+,2,Female,0,Total,7,Richmond,6478
+2017,2,1 to 9,1,Male,0,Total,7,Richmond,26111
+2017,2,1 to 9,2,Female,0,Total,7,Richmond,24678
+2017,3,10 to 19,1,Male,0,Total,7,Richmond,30539
+2017,3,10 to 19,2,Female,0,Total,7,Richmond,28873
+2017,4,20 to 24,1,Male,0,Total,7,Richmond,14936
+2017,4,20 to 24,2,Female,0,Total,7,Richmond,14886
+2017,5,25 to 34,1,Male,0,Total,7,Richmond,32710
+2017,5,25 to 34,2,Female,0,Total,7,Richmond,32416
+2017,6,35 to 44,1,Male,0,Total,7,Richmond,29151
+2017,6,35 to 44,2,Female,0,Total,7,Richmond,30884
+2017,7,45 to 54,1,Male,0,Total,7,Richmond,32482
+2017,7,45 to 54,2,Female,0,Total,7,Richmond,35174
+2017,8,55 to 64,1,Male,0,Total,7,Richmond,31068
+2017,8,55 to 64,2,Female,0,Total,7,Richmond,34392
+2017,9,65 to 74,1,Male,0,Total,7,Richmond,20383
+2017,9,65 to 74,2,Female,0,Total,7,Richmond,24444
+2017,1,Less than 1,1,Male,1,White Non Hispanic,7,Richmond,1387
+2017,1,Less than 1,2,Female,1,White Non Hispanic,7,Richmond,1338
+2017,10,75 to 84,1,Male,1,White Non Hispanic,7,Richmond,7070
+2017,10,75 to 84,2,Female,1,White Non Hispanic,7,Richmond,9386
+2017,11,85+,1,Male,1,White Non Hispanic,7,Richmond,2635
+2017,11,85+,2,Female,1,White Non Hispanic,7,Richmond,5390
+2017,2,1 to 9,1,Male,1,White Non Hispanic,7,Richmond,13586
+2017,2,1 to 9,2,Female,1,White Non Hispanic,7,Richmond,12867
+2017,3,10 to 19,1,Male,1,White Non Hispanic,7,Richmond,16531
+2017,3,10 to 19,2,Female,1,White Non Hispanic,7,Richmond,15571
+2017,4,20 to 24,1,Male,1,White Non Hispanic,7,Richmond,8257
+2017,4,20 to 24,2,Female,1,White Non Hispanic,7,Richmond,8175
+2017,5,25 to 34,1,Male,1,White Non Hispanic,7,Richmond,18665
+2017,5,25 to 34,2,Female,1,White Non Hispanic,7,Richmond,18206
+2017,6,35 to 44,1,Male,1,White Non Hispanic,7,Richmond,17173
+2017,6,35 to 44,2,Female,1,White Non Hispanic,7,Richmond,17726
+2017,7,45 to 54,1,Male,1,White Non Hispanic,7,Richmond,20883
+2017,7,45 to 54,2,Female,1,White Non Hispanic,7,Richmond,21789
+2017,8,55 to 64,1,Male,1,White Non Hispanic,7,Richmond,21688
+2017,8,55 to 64,2,Female,1,White Non Hispanic,7,Richmond,23497
+2017,9,65 to 74,1,Male,1,White Non Hispanic,7,Richmond,15333
+2017,9,65 to 74,2,Female,1,White Non Hispanic,7,Richmond,18257
+2017,1,Less than 1,1,Male,2,Black Non Hispanic,7,Richmond,339
+2017,1,Less than 1,2,Female,2,Black Non Hispanic,7,Richmond,312
+2017,10,75 to 84,1,Male,2,Black Non Hispanic,7,Richmond,469
+2017,10,75 to 84,2,Female,2,Black Non Hispanic,7,Richmond,887
+2017,11,85+,1,Male,2,Black Non Hispanic,7,Richmond,117
+2017,11,85+,2,Female,2,Black Non Hispanic,7,Richmond,304
+2017,2,1 to 9,1,Male,2,Black Non Hispanic,7,Richmond,3159
+2017,2,1 to 9,2,Female,2,Black Non Hispanic,7,Richmond,2966
+2017,3,10 to 19,1,Male,2,Black Non Hispanic,7,Richmond,3614
+2017,3,10 to 19,2,Female,2,Black Non Hispanic,7,Richmond,3538
+2017,4,20 to 24,1,Male,2,Black Non Hispanic,7,Richmond,1782
+2017,4,20 to 24,2,Female,2,Black Non Hispanic,7,Richmond,1971
+2017,5,25 to 34,1,Male,2,Black Non Hispanic,7,Richmond,3630
+2017,5,25 to 34,2,Female,2,Black Non Hispanic,7,Richmond,3816
+2017,6,35 to 44,1,Male,2,Black Non Hispanic,7,Richmond,2710
+2017,6,35 to 44,2,Female,2,Black Non Hispanic,7,Richmond,3183
+2017,7,45 to 54,1,Male,2,Black Non Hispanic,7,Richmond,2874
+2017,7,45 to 54,2,Female,2,Black Non Hispanic,7,Richmond,3674
+2017,8,55 to 64,1,Male,2,Black Non Hispanic,7,Richmond,2582
+2017,8,55 to 64,2,Female,2,Black Non Hispanic,7,Richmond,3169
+2017,9,65 to 74,1,Male,2,Black Non Hispanic,7,Richmond,1213
+2017,9,65 to 74,2,Female,2,Black Non Hispanic,7,Richmond,1769
+2017,1,Less than 1,1,Male,3,Other Non Hispanic,7,Richmond,204
+2017,1,Less than 1,2,Female,3,Other Non Hispanic,7,Richmond,181
+2017,10,75 to 84,1,Male,3,Other Non Hispanic,7,Richmond,834
+2017,10,75 to 84,2,Female,3,Other Non Hispanic,7,Richmond,1009
+2017,11,85+,1,Male,3,Other Non Hispanic,7,Richmond,184
+2017,11,85+,2,Female,3,Other Non Hispanic,7,Richmond,333
+2017,2,1 to 9,1,Male,3,Other Non Hispanic,7,Richmond,2388
+2017,2,1 to 9,2,Female,3,Other Non Hispanic,7,Richmond,2166
+2017,3,10 to 19,1,Male,3,Other Non Hispanic,7,Richmond,2892
+2017,3,10 to 19,2,Female,3,Other Non Hispanic,7,Richmond,2644
+2017,4,20 to 24,1,Male,3,Other Non Hispanic,7,Richmond,1449
+2017,4,20 to 24,2,Female,3,Other Non Hispanic,7,Richmond,1367
+2017,5,25 to 34,1,Male,3,Other Non Hispanic,7,Richmond,3383
+2017,5,25 to 34,2,Female,3,Other Non Hispanic,7,Richmond,3507
+2017,6,35 to 44,1,Male,3,Other Non Hispanic,7,Richmond,2922
+2017,6,35 to 44,2,Female,3,Other Non Hispanic,7,Richmond,3454
+2017,7,45 to 54,1,Male,3,Other Non Hispanic,7,Richmond,3202
+2017,7,45 to 54,2,Female,3,Other Non Hispanic,7,Richmond,3821
+2017,8,55 to 64,1,Male,3,Other Non Hispanic,7,Richmond,3106
+2017,8,55 to 64,2,Female,3,Other Non Hispanic,7,Richmond,3507
+2017,9,65 to 74,1,Male,3,Other Non Hispanic,7,Richmond,2117
+2017,9,65 to 74,2,Female,3,Other Non Hispanic,7,Richmond,2234
+2017,1,Less than 1,1,Male,5,Hispanic,7,Richmond,816
+2017,1,Less than 1,2,Female,5,Hispanic,7,Richmond,780
+2017,10,75 to 84,1,Male,5,Hispanic,7,Richmond,660
+2017,10,75 to 84,2,Female,5,Hispanic,7,Richmond,1032
+2017,11,85+,1,Male,5,Hispanic,7,Richmond,213
+2017,11,85+,2,Female,5,Hispanic,7,Richmond,451
+2017,2,1 to 9,1,Male,5,Hispanic,7,Richmond,6978
+2017,2,1 to 9,2,Female,5,Hispanic,7,Richmond,6679
+2017,3,10 to 19,1,Male,5,Hispanic,7,Richmond,7502
+2017,3,10 to 19,2,Female,5,Hispanic,7,Richmond,7120
+2017,4,20 to 24,1,Male,5,Hispanic,7,Richmond,3448
+2017,4,20 to 24,2,Female,5,Hispanic,7,Richmond,3373
+2017,5,25 to 34,1,Male,5,Hispanic,7,Richmond,7032
+2017,5,25 to 34,2,Female,5,Hispanic,7,Richmond,6887
+2017,6,35 to 44,1,Male,5,Hispanic,7,Richmond,6346
+2017,6,35 to 44,2,Female,5,Hispanic,7,Richmond,6521
+2017,7,45 to 54,1,Male,5,Hispanic,7,Richmond,5523
+2017,7,45 to 54,2,Female,5,Hispanic,7,Richmond,5890
+2017,8,55 to 64,1,Male,5,Hispanic,7,Richmond,3692
+2017,8,55 to 64,2,Female,5,Hispanic,7,Richmond,4219
+2017,9,65 to 74,1,Male,5,Hispanic,7,Richmond,1720
+2017,9,65 to 74,2,Female,5,Hispanic,7,Richmond,2184
+2017,1,Less than 1,0,Total,1,White Non Hispanic,7,Richmond,2725
+2017,10,75 to 84,0,Total,1,White Non Hispanic,7,Richmond,16456
+2017,11,85+,0,Total,1,White Non Hispanic,7,Richmond,8025
+2017,2,1 to 9,0,Total,1,White Non Hispanic,7,Richmond,26453
+2017,3,10 to 19,0,Total,1,White Non Hispanic,7,Richmond,32102
+2017,4,20 to 24,0,Total,1,White Non Hispanic,7,Richmond,16432
+2017,5,25 to 34,0,Total,1,White Non Hispanic,7,Richmond,36871
+2017,6,35 to 44,0,Total,1,White Non Hispanic,7,Richmond,34899
+2017,7,45 to 54,0,Total,1,White Non Hispanic,7,Richmond,42672
+2017,8,55 to 64,0,Total,1,White Non Hispanic,7,Richmond,45185
+2017,9,65 to 74,0,Total,1,White Non Hispanic,7,Richmond,33590
+2017,1,Less than 1,0,Total,2,Black Non Hispanic,7,Richmond,651
+2017,10,75 to 84,0,Total,2,Black Non Hispanic,7,Richmond,1356
+2017,11,85+,0,Total,2,Black Non Hispanic,7,Richmond,421
+2017,2,1 to 9,0,Total,2,Black Non Hispanic,7,Richmond,6125
+2017,3,10 to 19,0,Total,2,Black Non Hispanic,7,Richmond,7152
+2017,4,20 to 24,0,Total,2,Black Non Hispanic,7,Richmond,3753
+2017,5,25 to 34,0,Total,2,Black Non Hispanic,7,Richmond,7446
+2017,6,35 to 44,0,Total,2,Black Non Hispanic,7,Richmond,5893
+2017,7,45 to 54,0,Total,2,Black Non Hispanic,7,Richmond,6548
+2017,8,55 to 64,0,Total,2,Black Non Hispanic,7,Richmond,5751
+2017,9,65 to 74,0,Total,2,Black Non Hispanic,7,Richmond,2982
+2017,1,Less than 1,0,Total,3,Other Non Hispanic,7,Richmond,385
+2017,10,75 to 84,0,Total,3,Other Non Hispanic,7,Richmond,1843
+2017,11,85+,0,Total,3,Other Non Hispanic,7,Richmond,517
+2017,2,1 to 9,0,Total,3,Other Non Hispanic,7,Richmond,4554
+2017,3,10 to 19,0,Total,3,Other Non Hispanic,7,Richmond,5536
+2017,4,20 to 24,0,Total,3,Other Non Hispanic,7,Richmond,2816
+2017,5,25 to 34,0,Total,3,Other Non Hispanic,7,Richmond,6890
+2017,6,35 to 44,0,Total,3,Other Non Hispanic,7,Richmond,6376
+2017,7,45 to 54,0,Total,3,Other Non Hispanic,7,Richmond,7023
+2017,8,55 to 64,0,Total,3,Other Non Hispanic,7,Richmond,6613
+2017,9,65 to 74,0,Total,3,Other Non Hispanic,7,Richmond,4351
+2017,1,Less than 1,0,Total,5,Hispanic,7,Richmond,1596
+2017,10,75 to 84,0,Total,5,Hispanic,7,Richmond,1692
+2017,11,85+,0,Total,5,Hispanic,7,Richmond,664
+2017,2,1 to 9,0,Total,5,Hispanic,7,Richmond,13657
+2017,3,10 to 19,0,Total,5,Hispanic,7,Richmond,14622
+2017,4,20 to 24,0,Total,5,Hispanic,7,Richmond,6821
+2017,5,25 to 34,0,Total,5,Hispanic,7,Richmond,13919
+2017,6,35 to 44,0,Total,5,Hispanic,7,Richmond,12867
+2017,7,45 to 54,0,Total,5,Hispanic,7,Richmond,11413
+2017,8,55 to 64,0,Total,5,Hispanic,7,Richmond,7911
+2017,9,65 to 74,0,Total,5,Hispanic,7,Richmond,3904
+2017,0,Total,1,Male,1,White Non Hispanic,7,Richmond,143208
+2017,0,Total,2,Female,1,White Non Hispanic,7,Richmond,152202
+2017,0,Total,1,Male,2,Black Non Hispanic,7,Richmond,22489
+2017,0,Total,2,Female,2,Black Non Hispanic,7,Richmond,25589
+2017,0,Total,1,Male,3,Other Non Hispanic,7,Richmond,22681
+2017,0,Total,2,Female,3,Other Non Hispanic,7,Richmond,24223
+2017,0,Total,1,Male,5,Hispanic,7,Richmond,43930
+2017,0,Total,2,Female,5,Hispanic,7,Richmond,45136

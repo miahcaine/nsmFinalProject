@@ -1,0 +1,2701 @@
+Year,Age Group Code,Age Group Description,Gender Code,Gender Description,Race Ethnicity Code,Race/Ethnicity Description,County Code,County Name,Population
+2003,0,Total,0,Total,0,Total,3,Bronx,1363198
+2003,0,Total,0,Total,1,White Non Hispanic,3,Bronx,179554
+2003,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,434154
+2003,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,50183
+2003,0,Total,0,Total,5,Hispanic,3,Bronx,699307
+2003,0,Total,1,Male,0,Total,3,Bronx,637719
+2003,0,Total,1,Male,1,White Non Hispanic,3,Bronx,84949
+2003,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,197508
+2003,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,24791
+2003,0,Total,1,Male,5,Hispanic,3,Bronx,330471
+2003,0,Total,2,Female,0,Total,3,Bronx,725479
+2003,0,Total,2,Female,1,White Non Hispanic,3,Bronx,94605
+2003,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,236646
+2003,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,25392
+2003,0,Total,2,Female,5,Hispanic,3,Bronx,368836
+2003,1,<1,0,Total,0,Total,3,Bronx,24752
+2003,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1802
+2003,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,8325
+2003,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,661
+2003,1,<1,0,Total,5,Hispanic,3,Bronx,13964
+2003,1,<1,1,Male,0,Total,3,Bronx,12484
+2003,1,<1,1,Male,1,White Non Hispanic,3,Bronx,932
+2003,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,4208
+2003,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,337
+2003,1,<1,1,Male,5,Hispanic,3,Bronx,7007
+2003,1,<1,2,Female,0,Total,3,Bronx,12268
+2003,1,<1,2,Female,1,White Non Hispanic,3,Bronx,870
+2003,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,4117
+2003,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,324
+2003,1,<1,2,Female,5,Hispanic,3,Bronx,6957
+2003,2,01-09,0,Total,0,Total,3,Bronx,198637
+2003,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,14385
+2003,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,62606
+2003,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,6435
+2003,2,01-09,0,Total,5,Hispanic,3,Bronx,115211
+2003,2,01-09,1,Male,0,Total,3,Bronx,101051
+2003,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,7462
+2003,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,31721
+2003,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3257
+2003,2,01-09,1,Male,5,Hispanic,3,Bronx,58611
+2003,2,01-09,2,Female,0,Total,3,Bronx,97586
+2003,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,6923
+2003,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,30885
+2003,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3178
+2003,2,01-09,2,Female,5,Hispanic,3,Bronx,56600
+2003,3,10-19,0,Total,0,Total,3,Bronx,213052
+2003,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,16728
+2003,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,68931
+2003,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,6730
+2003,3,10-19,0,Total,5,Hispanic,3,Bronx,120663
+2003,3,10-19,1,Male,0,Total,3,Bronx,108928
+2003,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,8813
+2003,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,35170
+2003,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3485
+2003,3,10-19,1,Male,5,Hispanic,3,Bronx,61460
+2003,3,10-19,2,Female,0,Total,3,Bronx,104124
+2003,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,7915
+2003,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,33761
+2003,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3245
+2003,3,10-19,2,Female,5,Hispanic,3,Bronx,59203
+2003,4,20-24,0,Total,0,Total,3,Bronx,105269
+2003,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,10055
+2003,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,31794
+2003,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,3616
+2003,4,20-24,0,Total,5,Hispanic,3,Bronx,59804
+2003,4,20-24,1,Male,0,Total,3,Bronx,51717
+2003,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5257
+2003,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,15341
+2003,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,1818
+2003,4,20-24,1,Male,5,Hispanic,3,Bronx,29301
+2003,4,20-24,2,Female,0,Total,3,Bronx,53552
+2003,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,4798
+2003,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,16453
+2003,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,1798
+2003,4,20-24,2,Female,5,Hispanic,3,Bronx,30503
+2003,5,25-34,0,Total,0,Total,3,Bronx,206283
+2003,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,20751
+2003,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,62925
+2003,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,8844
+2003,5,25-34,0,Total,5,Hispanic,3,Bronx,113763
+2003,5,25-34,1,Male,0,Total,3,Bronx,96319
+2003,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,10662
+2003,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,28056
+2003,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4264
+2003,5,25-34,1,Male,5,Hispanic,3,Bronx,53337
+2003,5,25-34,2,Female,0,Total,3,Bronx,109964
+2003,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,10089
+2003,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,34869
+2003,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,4580
+2003,5,25-34,2,Female,5,Hispanic,3,Bronx,60426
+2003,6,35-44,0,Total,0,Total,3,Bronx,208244
+2003,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,23046
+2003,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,70197
+2003,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,9059
+2003,6,35-44,0,Total,5,Hispanic,3,Bronx,105942
+2003,6,35-44,1,Male,0,Total,3,Bronx,97070
+2003,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,12145
+2003,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,31616
+2003,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4628
+2003,6,35-44,1,Male,5,Hispanic,3,Bronx,48681
+2003,6,35-44,2,Female,0,Total,3,Bronx,111174
+2003,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,10901
+2003,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,38581
+2003,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4431
+2003,6,35-44,2,Female,5,Hispanic,3,Bronx,57261
+2003,7,45-54,0,Total,0,Total,3,Bronx,159258
+2003,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,23731
+2003,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,53248
+2003,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,6878
+2003,7,45-54,0,Total,5,Hispanic,3,Bronx,75401
+2003,7,45-54,1,Male,0,Total,3,Bronx,72237
+2003,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,11891
+2003,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,23357
+2003,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,3357
+2003,7,45-54,1,Male,5,Hispanic,3,Bronx,33632
+2003,7,45-54,2,Female,0,Total,3,Bronx,87021
+2003,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,11840
+2003,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,29891
+2003,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,3521
+2003,7,45-54,2,Female,5,Hispanic,3,Bronx,41769
+2003,8,55-64,0,Total,0,Total,3,Bronx,110650
+2003,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,21205
+2003,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,36618
+2003,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,4304
+2003,8,55-64,0,Total,5,Hispanic,3,Bronx,48523
+2003,8,55-64,1,Male,0,Total,3,Bronx,47667
+2003,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,9922
+2003,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,14531
+2003,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,2020
+2003,8,55-64,1,Male,5,Hispanic,3,Bronx,21194
+2003,8,55-64,2,Female,0,Total,3,Bronx,62983
+2003,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,11283
+2003,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,22087
+2003,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,2284
+2003,8,55-64,2,Female,5,Hispanic,3,Bronx,27329
+2003,9,65-74,0,Total,0,Total,3,Bronx,71771
+2003,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,19127
+2003,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,21959
+2003,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,2316
+2003,9,65-74,0,Total,5,Hispanic,3,Bronx,28369
+2003,9,65-74,1,Male,0,Total,3,Bronx,28840
+2003,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,8160
+2003,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,8207
+2003,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1088
+2003,9,65-74,1,Male,5,Hispanic,3,Bronx,11385
+2003,9,65-74,2,Female,0,Total,3,Bronx,42931
+2003,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,10967
+2003,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,13752
+2003,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,1228
+2003,9,65-74,2,Female,5,Hispanic,3,Bronx,16984
+2003,10,75-84,0,Total,0,Total,3,Bronx,46309
+2003,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,18594
+2003,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,13164
+2003,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1048
+2003,10,75-84,0,Total,5,Hispanic,3,Bronx,13503
+2003,10,75-84,1,Male,0,Total,3,Bronx,16192
+2003,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,6895
+2003,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4203
+2003,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,440
+2003,10,75-84,1,Male,5,Hispanic,3,Bronx,4654
+2003,10,75-84,2,Female,0,Total,3,Bronx,30117
+2003,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,11699
+2003,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8961
+2003,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,608
+2003,10,75-84,2,Female,5,Hispanic,3,Bronx,8849
+2003,11,85+,0,Total,0,Total,3,Bronx,18973
+2003,11,85+,0,Total,1,White Non Hispanic,3,Bronx,10130
+2003,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,4387
+2003,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,292
+2003,11,85+,0,Total,5,Hispanic,3,Bronx,4164
+2003,11,85+,1,Male,0,Total,3,Bronx,5214
+2003,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2810
+2003,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1098
+2003,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,97
+2003,11,85+,1,Male,5,Hispanic,3,Bronx,1209
+2003,11,85+,2,Female,0,Total,3,Bronx,13759
+2003,11,85+,2,Female,1,White Non Hispanic,3,Bronx,7320
+2003,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,3289
+2003,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,195
+2003,11,85+,2,Female,5,Hispanic,3,Bronx,2955
+2004,4,20-24,0,Total,0,Total,3,Bronx,102498
+2004,0,Total,0,Total,0,Total,3,Bronx,1365536
+2004,0,Total,0,Total,1,White Non Hispanic,3,Bronx,184832
+2004,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,433194
+2004,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,51099
+2004,0,Total,0,Total,5,Hispanic,3,Bronx,696411
+2004,0,Total,1,Male,0,Total,3,Bronx,639736
+2004,0,Total,1,Male,1,White Non Hispanic,3,Bronx,87933
+2004,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,197617
+2004,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,25253
+2004,0,Total,1,Male,5,Hispanic,3,Bronx,328933
+2004,0,Total,2,Female,0,Total,3,Bronx,725800
+2004,0,Total,2,Female,1,White Non Hispanic,3,Bronx,96899
+2004,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,235577
+2004,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,25846
+2004,0,Total,2,Female,5,Hispanic,3,Bronx,367478
+2004,1,<1,0,Total,0,Total,3,Bronx,24415
+2004,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1788
+2004,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,8384
+2004,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,652
+2004,1,<1,0,Total,5,Hispanic,3,Bronx,13591
+2004,1,<1,1,Male,0,Total,3,Bronx,12429
+2004,1,<1,1,Male,1,White Non Hispanic,3,Bronx,903
+2004,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,4206
+2004,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,341
+2004,1,<1,1,Male,5,Hispanic,3,Bronx,6979
+2004,1,<1,2,Female,0,Total,3,Bronx,11986
+2004,1,<1,2,Female,1,White Non Hispanic,3,Bronx,885
+2004,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,4178
+2004,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,311
+2004,1,<1,2,Female,5,Hispanic,3,Bronx,6612
+2004,2,01-09,0,Total,0,Total,3,Bronx,200324
+2004,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,15408
+2004,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,63714
+2004,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,6364
+2004,2,01-09,0,Total,5,Hispanic,3,Bronx,114838
+2004,2,01-09,1,Male,0,Total,3,Bronx,102040
+2004,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,8052
+2004,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,32237
+2004,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3203
+2004,2,01-09,1,Male,5,Hispanic,3,Bronx,58548
+2004,2,01-09,2,Female,0,Total,3,Bronx,98284
+2004,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,7356
+2004,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,31477
+2004,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3161
+2004,2,01-09,2,Female,5,Hispanic,3,Bronx,56290
+2004,3,10-19,0,Total,0,Total,3,Bronx,216312
+2004,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,17693
+2004,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,69792
+2004,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,6935
+2004,3,10-19,0,Total,5,Hispanic,3,Bronx,121892
+2004,3,10-19,1,Male,0,Total,3,Bronx,110607
+2004,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,9334
+2004,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,35679
+2004,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3616
+2004,3,10-19,1,Male,5,Hispanic,3,Bronx,61978
+2004,3,10-19,2,Female,0,Total,3,Bronx,105705
+2004,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,8359
+2004,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,34113
+2004,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3319
+2004,3,10-19,2,Female,5,Hispanic,3,Bronx,59914
+2004,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,10166
+2004,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,31149
+2004,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,3875
+2004,4,20-24,0,Total,5,Hispanic,3,Bronx,57308
+2004,4,20-24,1,Male,0,Total,3,Bronx,50790
+2004,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5388
+2004,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,15149
+2004,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,1965
+2004,4,20-24,1,Male,5,Hispanic,3,Bronx,28288
+2004,4,20-24,2,Female,0,Total,3,Bronx,51708
+2004,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,4778
+2004,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,16000
+2004,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,1910
+2004,4,20-24,2,Female,5,Hispanic,3,Bronx,29020
+2004,5,25-34,0,Total,0,Total,3,Bronx,202006
+2004,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,21671
+2004,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,60587
+2004,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,8771
+2004,5,25-34,0,Total,5,Hispanic,3,Bronx,110977
+2004,5,25-34,1,Male,0,Total,3,Bronx,94403
+2004,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,11053
+2004,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,27238
+2004,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4141
+2004,5,25-34,1,Male,5,Hispanic,3,Bronx,51971
+2004,5,25-34,2,Female,0,Total,3,Bronx,107603
+2004,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,10618
+2004,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,33349
+2004,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,4630
+2004,5,25-34,2,Female,5,Hispanic,3,Bronx,59006
+2004,6,35-44,0,Total,0,Total,3,Bronx,206257
+2004,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,24040
+2004,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,69271
+2004,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,8953
+2004,6,35-44,0,Total,5,Hispanic,3,Bronx,103993
+2004,6,35-44,1,Male,0,Total,3,Bronx,96080
+2004,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,12759
+2004,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,31289
+2004,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4617
+2004,6,35-44,1,Male,5,Hispanic,3,Bronx,47415
+2004,6,35-44,2,Female,0,Total,3,Bronx,110177
+2004,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,11281
+2004,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,37982
+2004,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4336
+2004,6,35-44,2,Female,5,Hispanic,3,Bronx,56578
+2004,7,45-54,0,Total,0,Total,3,Bronx,161907
+2004,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,24341
+2004,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,54276
+2004,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,7098
+2004,7,45-54,0,Total,5,Hispanic,3,Bronx,76192
+2004,7,45-54,1,Male,0,Total,3,Bronx,73365
+2004,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,12117
+2004,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,23868
+2004,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,3461
+2004,7,45-54,1,Male,5,Hispanic,3,Bronx,33919
+2004,7,45-54,2,Female,0,Total,3,Bronx,88542
+2004,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,12224
+2004,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,30408
+2004,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,3637
+2004,7,45-54,2,Female,5,Hispanic,3,Bronx,42273
+2004,8,55-64,0,Total,0,Total,3,Bronx,114504
+2004,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,22084
+2004,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,37186
+2004,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,4667
+2004,8,55-64,0,Total,5,Hispanic,3,Bronx,50567
+2004,8,55-64,1,Male,0,Total,3,Bronx,49380
+2004,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10390
+2004,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,14772
+2004,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,2174
+2004,8,55-64,1,Male,5,Hispanic,3,Bronx,22044
+2004,8,55-64,2,Female,0,Total,3,Bronx,65124
+2004,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,11694
+2004,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,22414
+2004,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,2493
+2004,8,55-64,2,Female,5,Hispanic,3,Bronx,28523
+2004,9,65-74,0,Total,0,Total,3,Bronx,70227
+2004,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,18346
+2004,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,21211
+2004,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,2389
+2004,9,65-74,0,Total,5,Hispanic,3,Bronx,28281
+2004,9,65-74,1,Male,0,Total,3,Bronx,28304
+2004,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7819
+2004,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,7869
+2004,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1143
+2004,9,65-74,1,Male,5,Hispanic,3,Bronx,11473
+2004,9,65-74,2,Female,0,Total,3,Bronx,41923
+2004,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,10527
+2004,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,13342
+2004,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,1246
+2004,9,65-74,2,Female,5,Hispanic,3,Bronx,16808
+2004,10,75-84,0,Total,0,Total,3,Bronx,47338
+2004,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,19001
+2004,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,13018
+2004,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1081
+2004,10,75-84,0,Total,5,Hispanic,3,Bronx,14238
+2004,10,75-84,1,Male,0,Total,3,Bronx,16787
+2004,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,7149
+2004,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4183
+2004,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,469
+2004,10,75-84,1,Male,5,Hispanic,3,Bronx,4986
+2004,10,75-84,2,Female,0,Total,3,Bronx,30551
+2004,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,11852
+2004,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8835
+2004,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,612
+2004,10,75-84,2,Female,5,Hispanic,3,Bronx,9252
+2004,11,85+,0,Total,0,Total,3,Bronx,19748
+2004,11,85+,0,Total,1,White Non Hispanic,3,Bronx,10294
+2004,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,4606
+2004,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,314
+2004,11,85+,0,Total,5,Hispanic,3,Bronx,4534
+2004,11,85+,1,Male,0,Total,3,Bronx,5551
+2004,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2969
+2004,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1127
+2004,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,123
+2004,11,85+,1,Male,5,Hispanic,3,Bronx,1332
+2004,11,85+,2,Female,0,Total,3,Bronx,14197
+2004,11,85+,2,Female,1,White Non Hispanic,3,Bronx,7325
+2004,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,3479
+2004,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,191
+2004,11,85+,2,Female,5,Hispanic,3,Bronx,3202
+2005,0,Total,0,Total,0,Total,3,Bronx,1357589
+2005,0,Total,0,Total,1,White Non Hispanic,3,Bronx,180389
+2005,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,430510
+2005,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,50788
+2005,0,Total,0,Total,5,Hispanic,3,Bronx,695902
+2005,0,Total,1,Male,0,Total,3,Bronx,636132
+2005,0,Total,1,Male,1,White Non Hispanic,3,Bronx,85991
+2005,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,196609
+2005,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,25191
+2005,0,Total,1,Male,5,Hispanic,3,Bronx,328341
+2005,0,Total,2,Female,0,Total,3,Bronx,721457
+2005,0,Total,2,Female,1,White Non Hispanic,3,Bronx,94398
+2005,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,233901
+2005,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,25597
+2005,0,Total,2,Female,5,Hispanic,3,Bronx,367561
+2005,1,<1,0,Total,0,Total,3,Bronx,23368
+2005,1,<1,0,Total,1,White Non Hispanic,3,Bronx,2047
+2005,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,8085
+2005,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,696
+2005,1,<1,0,Total,5,Hispanic,3,Bronx,12540
+2005,1,<1,1,Male,0,Total,3,Bronx,11811
+2005,1,<1,1,Male,1,White Non Hispanic,3,Bronx,1055
+2005,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,4060
+2005,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,355
+2005,1,<1,1,Male,5,Hispanic,3,Bronx,6341
+2005,1,<1,2,Female,0,Total,3,Bronx,11557
+2005,1,<1,2,Female,1,White Non Hispanic,3,Bronx,992
+2005,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,4025
+2005,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,341
+2005,1,<1,2,Female,5,Hispanic,3,Bronx,6199
+2005,2,01-09,0,Total,0,Total,3,Bronx,197414
+2005,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,15438
+2005,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,63613
+2005,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,6228
+2005,2,01-09,0,Total,5,Hispanic,3,Bronx,112135
+2005,2,01-09,1,Male,0,Total,3,Bronx,100438
+2005,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,8040
+2005,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,32051
+2005,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3165
+2005,2,01-09,1,Male,5,Hispanic,3,Bronx,57182
+2005,2,01-09,2,Female,0,Total,3,Bronx,96976
+2005,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,7398
+2005,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,31562
+2005,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3063
+2005,2,01-09,2,Female,5,Hispanic,3,Bronx,54953
+2005,3,10-19,0,Total,0,Total,3,Bronx,216637
+2005,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,17860
+2005,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,69105
+2005,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7056
+2005,3,10-19,0,Total,5,Hispanic,3,Bronx,122616
+2005,3,10-19,1,Male,0,Total,3,Bronx,110725
+2005,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,9291
+2005,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,35481
+2005,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3627
+2005,3,10-19,1,Male,5,Hispanic,3,Bronx,62326
+2005,3,10-19,2,Female,0,Total,3,Bronx,105912
+2005,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,8569
+2005,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,33624
+2005,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3429
+2005,3,10-19,2,Female,5,Hispanic,3,Bronx,60290
+2005,4,20-24,0,Total,0,Total,3,Bronx,97259
+2005,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,9697
+2005,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,30866
+2005,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,3131
+2005,4,20-24,0,Total,5,Hispanic,3,Bronx,53565
+2005,4,20-24,1,Male,0,Total,3,Bronx,48221
+2005,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5358
+2005,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,14762
+2005,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,1763
+2005,4,20-24,1,Male,5,Hispanic,3,Bronx,26338
+2005,4,20-24,2,Female,0,Total,3,Bronx,49038
+2005,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,4339
+2005,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,16104
+2005,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,1368
+2005,4,20-24,2,Female,5,Hispanic,3,Bronx,27227
+2005,5,25-34,0,Total,0,Total,3,Bronx,201345
+2005,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,20313
+2005,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,59714
+2005,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,8567
+2005,5,25-34,0,Total,5,Hispanic,3,Bronx,112751
+2005,5,25-34,1,Male,0,Total,3,Bronx,94836
+2005,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,10506
+2005,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,27208
+2005,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,3999
+2005,5,25-34,1,Male,5,Hispanic,3,Bronx,53123
+2005,5,25-34,2,Female,0,Total,3,Bronx,106509
+2005,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,9807
+2005,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,32506
+2005,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,4568
+2005,5,25-34,2,Female,5,Hispanic,3,Bronx,59628
+2005,6,35-44,0,Total,0,Total,3,Bronx,202481
+2005,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,23062
+2005,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,67233
+2005,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,8946
+2005,6,35-44,0,Total,5,Hispanic,3,Bronx,103240
+2005,6,35-44,1,Male,0,Total,3,Bronx,94289
+2005,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,12128
+2005,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,30476
+2005,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4588
+2005,6,35-44,1,Male,5,Hispanic,3,Bronx,47097
+2005,6,35-44,2,Female,0,Total,3,Bronx,108192
+2005,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,10934
+2005,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,36757
+2005,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4358
+2005,6,35-44,2,Female,5,Hispanic,3,Bronx,56143
+2005,7,45-54,0,Total,0,Total,3,Bronx,164042
+2005,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,23864
+2005,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,55102
+2005,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,7209
+2005,7,45-54,0,Total,5,Hispanic,3,Bronx,77867
+2005,7,45-54,1,Male,0,Total,3,Bronx,74307
+2005,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,11918
+2005,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,24199
+2005,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,3532
+2005,7,45-54,1,Male,5,Hispanic,3,Bronx,34658
+2005,7,45-54,2,Female,0,Total,3,Bronx,89735
+2005,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,11946
+2005,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,30903
+2005,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,3677
+2005,7,45-54,2,Female,5,Hispanic,3,Bronx,43209
+2005,8,55-64,0,Total,0,Total,3,Bronx,116508
+2005,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,21756
+2005,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,37491
+2005,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,4889
+2005,8,55-64,0,Total,5,Hispanic,3,Bronx,52372
+2005,8,55-64,1,Male,0,Total,3,Bronx,50503
+2005,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10330
+2005,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,15040
+2005,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,2279
+2005,8,55-64,1,Male,5,Hispanic,3,Bronx,22854
+2005,8,55-64,2,Female,0,Total,3,Bronx,66005
+2005,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,11426
+2005,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,22451
+2005,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,2610
+2005,8,55-64,2,Female,5,Hispanic,3,Bronx,29518
+2005,9,65-74,0,Total,0,Total,3,Bronx,70890
+2005,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,17779
+2005,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,21364
+2005,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,2569
+2005,9,65-74,0,Total,5,Hispanic,3,Bronx,29178
+2005,9,65-74,1,Male,0,Total,3,Bronx,28567
+2005,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7619
+2005,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,7845
+2005,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1250
+2005,9,65-74,1,Male,5,Hispanic,3,Bronx,11853
+2005,9,65-74,2,Female,0,Total,3,Bronx,42323
+2005,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,10160
+2005,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,13519
+2005,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,1319
+2005,9,65-74,2,Female,5,Hispanic,3,Bronx,17325
+2005,10,75-84,0,Total,0,Total,3,Bronx,47268
+2005,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,18293
+2005,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,13105
+2005,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1144
+2005,10,75-84,0,Total,5,Hispanic,3,Bronx,14726
+2005,10,75-84,1,Male,0,Total,3,Bronx,16724
+2005,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,6819
+2005,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4248
+2005,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,504
+2005,10,75-84,1,Male,5,Hispanic,3,Bronx,5153
+2005,10,75-84,2,Female,0,Total,3,Bronx,30544
+2005,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,11474
+2005,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8857
+2005,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,640
+2005,10,75-84,2,Female,5,Hispanic,3,Bronx,9573
+2005,11,85+,0,Total,0,Total,3,Bronx,20377
+2005,11,85+,0,Total,1,White Non Hispanic,3,Bronx,10280
+2005,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,4832
+2005,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,353
+2005,11,85+,0,Total,5,Hispanic,3,Bronx,4912
+2005,11,85+,1,Male,0,Total,3,Bronx,5711
+2005,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2927
+2005,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1239
+2005,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,129
+2005,11,85+,1,Male,5,Hispanic,3,Bronx,1416
+2005,11,85+,2,Female,0,Total,3,Bronx,14666
+2005,11,85+,2,Female,1,White Non Hispanic,3,Bronx,7353
+2005,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,3593
+2005,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,224
+2005,11,85+,2,Female,5,Hispanic,3,Bronx,3496
+2006,0,Total,0,Total,0,Total,3,Bronx,1361473
+2006,0,Total,0,Total,1,White Non Hispanic,3,Bronx,180470
+2006,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,433622
+2006,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,53497
+2006,0,Total,0,Total,5,Hispanic,3,Bronx,693884
+2006,0,Total,1,Male,0,Total,3,Bronx,637328
+2006,0,Total,1,Male,1,White Non Hispanic,3,Bronx,86282
+2006,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,198022
+2006,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,26457
+2006,0,Total,1,Male,5,Hispanic,3,Bronx,326567
+2006,0,Total,2,Female,0,Total,3,Bronx,724145
+2006,0,Total,2,Female,1,White Non Hispanic,3,Bronx,94188
+2006,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,235600
+2006,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,27040
+2006,0,Total,2,Female,5,Hispanic,3,Bronx,367317
+2006,1,<1,0,Total,0,Total,3,Bronx,21922
+2006,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1798
+2006,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,7693
+2006,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,749
+2006,1,<1,0,Total,5,Hispanic,3,Bronx,11682
+2006,1,<1,1,Male,0,Total,3,Bronx,11179
+2006,1,<1,1,Male,1,White Non Hispanic,3,Bronx,921
+2006,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,3903
+2006,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,377
+2006,1,<1,1,Male,5,Hispanic,3,Bronx,5978
+2006,1,<1,2,Female,0,Total,3,Bronx,10743
+2006,1,<1,2,Female,1,White Non Hispanic,3,Bronx,877
+2006,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,3790
+2006,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,372
+2006,1,<1,2,Female,5,Hispanic,3,Bronx,5704
+2006,2,01-09,0,Total,0,Total,3,Bronx,189595
+2006,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,15483
+2006,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,62962
+2006,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,6298
+2006,2,01-09,0,Total,5,Hispanic,3,Bronx,104852
+2006,2,01-09,1,Male,0,Total,3,Bronx,96414
+2006,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,8144
+2006,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,31596
+2006,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3167
+2006,2,01-09,1,Male,5,Hispanic,3,Bronx,53507
+2006,2,01-09,2,Female,0,Total,3,Bronx,93181
+2006,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,7339
+2006,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,31366
+2006,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3131
+2006,2,01-09,2,Female,5,Hispanic,3,Bronx,51345
+2006,3,10-19,0,Total,0,Total,3,Bronx,223704
+2006,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,18572
+2006,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,70853
+2006,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7551
+2006,3,10-19,0,Total,5,Hispanic,3,Bronx,126728
+2006,3,10-19,1,Male,0,Total,3,Bronx,113997
+2006,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,9629
+2006,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,36403
+2006,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3851
+2006,3,10-19,1,Male,5,Hispanic,3,Bronx,64114
+2006,3,10-19,2,Female,0,Total,3,Bronx,109707
+2006,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,8943
+2006,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,34450
+2006,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3700
+2006,3,10-19,2,Female,5,Hispanic,3,Bronx,62614
+2006,4,20-24,0,Total,0,Total,3,Bronx,101917
+2006,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,10381
+2006,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,32402
+2006,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,3490
+2006,4,20-24,0,Total,5,Hispanic,3,Bronx,55644
+2006,4,20-24,1,Male,0,Total,3,Bronx,49208
+2006,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5508
+2006,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,15242
+2006,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,1857
+2006,4,20-24,1,Male,5,Hispanic,3,Bronx,26601
+2006,4,20-24,2,Female,0,Total,3,Bronx,52709
+2006,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,4873
+2006,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,17160
+2006,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,1633
+2006,4,20-24,2,Female,5,Hispanic,3,Bronx,29043
+2006,5,25-34,0,Total,0,Total,3,Bronx,195848
+2006,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,18840
+2006,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,59152
+2006,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,8668
+2006,5,25-34,0,Total,5,Hispanic,3,Bronx,109188
+2006,5,25-34,1,Male,0,Total,3,Bronx,92647
+2006,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,9985
+2006,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,26956
+2006,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4094
+2006,5,25-34,1,Male,5,Hispanic,3,Bronx,51612
+2006,5,25-34,2,Female,0,Total,3,Bronx,103201
+2006,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,8855
+2006,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,32196
+2006,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,4574
+2006,5,25-34,2,Female,5,Hispanic,3,Bronx,57576
+2006,6,35-44,0,Total,0,Total,3,Bronx,200897
+2006,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,22783
+2006,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,66356
+2006,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,9267
+2006,6,35-44,0,Total,5,Hispanic,3,Bronx,102491
+2006,6,35-44,1,Male,0,Total,3,Bronx,93549
+2006,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,11947
+2006,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,30181
+2006,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4762
+2006,6,35-44,1,Male,5,Hispanic,3,Bronx,46659
+2006,6,35-44,2,Female,0,Total,3,Bronx,107348
+2006,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,10836
+2006,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,36175
+2006,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4505
+2006,6,35-44,2,Female,5,Hispanic,3,Bronx,55832
+2006,7,45-54,0,Total,0,Total,3,Bronx,167973
+2006,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,24130
+2006,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,56588
+2006,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,7791
+2006,7,45-54,0,Total,5,Hispanic,3,Bronx,79464
+2006,7,45-54,1,Male,0,Total,3,Bronx,76148
+2006,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,12074
+2006,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,24821
+2006,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,3875
+2006,7,45-54,1,Male,5,Hispanic,3,Bronx,35378
+2006,7,45-54,2,Female,0,Total,3,Bronx,91825
+2006,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,12056
+2006,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,31767
+2006,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,3916
+2006,7,45-54,2,Female,5,Hispanic,3,Bronx,44086
+2006,8,55-64,0,Total,0,Total,3,Bronx,119362
+2006,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,22079
+2006,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,37815
+2006,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,5376
+2006,8,55-64,0,Total,5,Hispanic,3,Bronx,54092
+2006,8,55-64,1,Male,0,Total,3,Bronx,52002
+2006,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10642
+2006,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,15275
+2006,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,2463
+2006,8,55-64,1,Male,5,Hispanic,3,Bronx,23622
+2006,8,55-64,2,Female,0,Total,3,Bronx,67360
+2006,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,11437
+2006,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,22540
+2006,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,2913
+2006,8,55-64,2,Female,5,Hispanic,3,Bronx,30470
+2006,9,65-74,0,Total,0,Total,3,Bronx,73440
+2006,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,17961
+2006,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,22324
+2006,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,2824
+2006,9,65-74,0,Total,5,Hispanic,3,Bronx,30331
+2006,9,65-74,1,Male,0,Total,3,Bronx,30096
+2006,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7752
+2006,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,8345
+2006,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1378
+2006,9,65-74,1,Male,5,Hispanic,3,Bronx,12621
+2006,9,65-74,2,Female,0,Total,3,Bronx,43344
+2006,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,10209
+2006,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,13979
+2006,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,1446
+2006,9,65-74,2,Female,5,Hispanic,3,Bronx,17710
+2006,10,75-84,0,Total,0,Total,3,Bronx,45731
+2006,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,17369
+2006,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,12562
+2006,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1146
+2006,10,75-84,0,Total,5,Hispanic,3,Bronx,14654
+2006,10,75-84,1,Male,0,Total,3,Bronx,16113
+2006,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,6485
+2006,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4022
+2006,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,494
+2006,10,75-84,1,Male,5,Hispanic,3,Bronx,5112
+2006,10,75-84,2,Female,0,Total,3,Bronx,29618
+2006,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,10884
+2006,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8540
+2006,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,652
+2006,10,75-84,2,Female,5,Hispanic,3,Bronx,9542
+2006,11,85+,0,Total,0,Total,3,Bronx,21084
+2006,11,85+,0,Total,1,White Non Hispanic,3,Bronx,11074
+2006,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,4915
+2006,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,337
+2006,11,85+,0,Total,5,Hispanic,3,Bronx,4758
+2006,11,85+,1,Male,0,Total,3,Bronx,5975
+2006,11,85+,1,Male,1,White Non Hispanic,3,Bronx,3195
+2006,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1278
+2006,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,139
+2006,11,85+,1,Male,5,Hispanic,3,Bronx,1363
+2006,11,85+,2,Female,0,Total,3,Bronx,15109
+2006,11,85+,2,Female,1,White Non Hispanic,3,Bronx,7879
+2006,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,3637
+2006,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,198
+2006,11,85+,2,Female,5,Hispanic,3,Bronx,3395
+2007,0,Total,0,Total,0,Total,3,Bronx,1373659
+2007,0,Total,0,Total,1,White Non Hispanic,3,Bronx,180077
+2007,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,437343
+2007,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,54166
+2007,0,Total,0,Total,5,Hispanic,3,Bronx,702073
+2007,0,Total,1,Male,0,Total,3,Bronx,643061
+2007,0,Total,1,Male,1,White Non Hispanic,3,Bronx,86230
+2007,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,200403
+2007,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,26693
+2007,0,Total,1,Male,5,Hispanic,3,Bronx,329735
+2007,0,Total,2,Female,0,Total,3,Bronx,730598
+2007,0,Total,2,Female,1,White Non Hispanic,3,Bronx,93847
+2007,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,236940
+2007,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,27473
+2007,0,Total,2,Female,5,Hispanic,3,Bronx,372338
+2007,1,<1,0,Total,0,Total,3,Bronx,23451
+2007,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1899
+2007,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,7745
+2007,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,745
+2007,1,<1,0,Total,5,Hispanic,3,Bronx,13062
+2007,1,<1,1,Male,0,Total,3,Bronx,11954
+2007,1,<1,1,Male,1,White Non Hispanic,3,Bronx,979
+2007,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,3937
+2007,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,380
+2007,1,<1,1,Male,5,Hispanic,3,Bronx,6658
+2007,1,<1,2,Female,0,Total,3,Bronx,11497
+2007,1,<1,2,Female,1,White Non Hispanic,3,Bronx,920
+2007,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,3808
+2007,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,365
+2007,1,<1,2,Female,5,Hispanic,3,Bronx,6404
+2007,2,01-09,0,Total,0,Total,3,Bronx,185197
+2007,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,13863
+2007,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,62134
+2007,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,6124
+2007,2,01-09,0,Total,5,Hispanic,3,Bronx,103076
+2007,2,01-09,1,Male,0,Total,3,Bronx,94088
+2007,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,7284
+2007,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,31218
+2007,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3087
+2007,2,01-09,1,Male,5,Hispanic,3,Bronx,52499
+2007,2,01-09,2,Female,0,Total,3,Bronx,91109
+2007,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,6579
+2007,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,30916
+2007,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3037
+2007,2,01-09,2,Female,5,Hispanic,3,Bronx,50577
+2007,3,10-19,0,Total,0,Total,3,Bronx,222924
+2007,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,18671
+2007,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,69547
+2007,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7780
+2007,3,10-19,0,Total,5,Hispanic,3,Bronx,126926
+2007,3,10-19,1,Male,0,Total,3,Bronx,113600
+2007,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,9699
+2007,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,35724
+2007,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3946
+2007,3,10-19,1,Male,5,Hispanic,3,Bronx,64231
+2007,3,10-19,2,Female,0,Total,3,Bronx,109324
+2007,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,8972
+2007,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,33823
+2007,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3834
+2007,3,10-19,2,Female,5,Hispanic,3,Bronx,62695
+2007,4,20-24,0,Total,0,Total,3,Bronx,103477
+2007,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,11056
+2007,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,32552
+2007,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,3428
+2007,4,20-24,0,Total,5,Hispanic,3,Bronx,56441
+2007,4,20-24,1,Male,0,Total,3,Bronx,50052
+2007,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5755
+2007,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,15603
+2007,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,1774
+2007,4,20-24,1,Male,5,Hispanic,3,Bronx,26920
+2007,4,20-24,2,Female,0,Total,3,Bronx,53425
+2007,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,5301
+2007,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,16949
+2007,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,1654
+2007,4,20-24,2,Female,5,Hispanic,3,Bronx,29521
+2007,5,25-34,0,Total,0,Total,3,Bronx,199772
+2007,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,18930
+2007,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,61072
+2007,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,8764
+2007,5,25-34,0,Total,5,Hispanic,3,Bronx,111006
+2007,5,25-34,1,Male,0,Total,3,Bronx,94975
+2007,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,10021
+2007,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,28122
+2007,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4198
+2007,5,25-34,1,Male,5,Hispanic,3,Bronx,52634
+2007,5,25-34,2,Female,0,Total,3,Bronx,104797
+2007,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,8909
+2007,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,32950
+2007,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,4566
+2007,5,25-34,2,Female,5,Hispanic,3,Bronx,58372
+2007,6,35-44,0,Total,0,Total,3,Bronx,200165
+2007,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,22776
+2007,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,65724
+2007,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,9231
+2007,6,35-44,0,Total,5,Hispanic,3,Bronx,102434
+2007,6,35-44,1,Male,0,Total,3,Bronx,93260
+2007,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,11950
+2007,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,30021
+2007,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4667
+2007,6,35-44,1,Male,5,Hispanic,3,Bronx,46622
+2007,6,35-44,2,Female,0,Total,3,Bronx,106905
+2007,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,10826
+2007,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,35703
+2007,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4564
+2007,6,35-44,2,Female,5,Hispanic,3,Bronx,55812
+2007,7,45-54,0,Total,0,Total,3,Bronx,173106
+2007,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,24255
+2007,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,58751
+2007,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,7958
+2007,7,45-54,0,Total,5,Hispanic,3,Bronx,82142
+2007,7,45-54,1,Male,0,Total,3,Bronx,78338
+2007,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,12200
+2007,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,25885
+2007,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,3978
+2007,7,45-54,1,Male,5,Hispanic,3,Bronx,36275
+2007,7,45-54,2,Female,0,Total,3,Bronx,94768
+2007,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,12055
+2007,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,32866
+2007,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,3980
+2007,7,45-54,2,Female,5,Hispanic,3,Bronx,45867
+2007,8,55-64,0,Total,0,Total,3,Bronx,121301
+2007,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,21821
+2007,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,38574
+2007,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,5530
+2007,8,55-64,0,Total,5,Hispanic,3,Bronx,55376
+2007,8,55-64,1,Male,0,Total,3,Bronx,53205
+2007,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10666
+2007,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,15746
+2007,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,2540
+2007,8,55-64,1,Male,5,Hispanic,3,Bronx,24253
+2007,8,55-64,2,Female,0,Total,3,Bronx,68096
+2007,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,11155
+2007,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,22828
+2007,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,2990
+2007,8,55-64,2,Female,5,Hispanic,3,Bronx,31123
+2007,9,65-74,0,Total,0,Total,3,Bronx,75250
+2007,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,17982
+2007,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,23073
+2007,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,2910
+2007,9,65-74,0,Total,5,Hispanic,3,Bronx,31285
+2007,9,65-74,1,Male,0,Total,3,Bronx,30675
+2007,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7772
+2007,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,8527
+2007,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1399
+2007,9,65-74,1,Male,5,Hispanic,3,Bronx,12977
+2007,9,65-74,2,Female,0,Total,3,Bronx,44575
+2007,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,10210
+2007,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,14546
+2007,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,1511
+2007,9,65-74,2,Female,5,Hispanic,3,Bronx,18308
+2007,10,75-84,0,Total,0,Total,3,Bronx,46566
+2007,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,17105
+2007,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,12971
+2007,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1272
+2007,10,75-84,0,Total,5,Hispanic,3,Bronx,15218
+2007,10,75-84,1,Male,0,Total,3,Bronx,16460
+2007,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,6444
+2007,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4267
+2007,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,559
+2007,10,75-84,1,Male,5,Hispanic,3,Bronx,5190
+2007,10,75-84,2,Female,0,Total,3,Bronx,30106
+2007,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,10661
+2007,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8704
+2007,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,713
+2007,10,75-84,2,Female,5,Hispanic,3,Bronx,10028
+2007,11,85+,0,Total,0,Total,3,Bronx,22450
+2007,11,85+,0,Total,1,White Non Hispanic,3,Bronx,11719
+2007,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,5200
+2007,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,424
+2007,11,85+,0,Total,5,Hispanic,3,Bronx,5107
+2007,11,85+,1,Male,0,Total,3,Bronx,6454
+2007,11,85+,1,Male,1,White Non Hispanic,3,Bronx,3460
+2007,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1353
+2007,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,165
+2007,11,85+,1,Male,5,Hispanic,3,Bronx,1476
+2007,11,85+,2,Female,0,Total,3,Bronx,15996
+2007,11,85+,2,Female,1,White Non Hispanic,3,Bronx,8259
+2007,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,3847
+2007,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,259
+2007,11,85+,2,Female,5,Hispanic,3,Bronx,3631
+2008,0,Total,0,Total,0,Total,3,Bronx,1391903
+2008,0,Total,0,Total,1,White Non Hispanic,3,Bronx,179372
+2008,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,437507
+2008,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,55428
+2008,0,Total,0,Total,5,Hispanic,3,Bronx,719596
+2008,0,Total,1,Male,0,Total,3,Bronx,652033
+2008,0,Total,1,Male,1,White Non Hispanic,3,Bronx,86086
+2008,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,200531
+2008,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,27308
+2008,0,Total,1,Male,5,Hispanic,3,Bronx,338108
+2008,0,Total,2,Female,0,Total,3,Bronx,739870
+2008,0,Total,2,Female,1,White Non Hispanic,3,Bronx,93286
+2008,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,236976
+2008,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,28120
+2008,0,Total,2,Female,5,Hispanic,3,Bronx,381488
+2008,1,<1,0,Total,0,Total,3,Bronx,23058
+2008,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1710
+2008,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,6909
+2008,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,725
+2008,1,<1,0,Total,5,Hispanic,3,Bronx,13714
+2008,1,<1,1,Male,0,Total,3,Bronx,11769
+2008,1,<1,1,Male,1,White Non Hispanic,3,Bronx,883
+2008,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,3530
+2008,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,370
+2008,1,<1,1,Male,5,Hispanic,3,Bronx,6986
+2008,1,<1,2,Female,0,Total,3,Bronx,11289
+2008,1,<1,2,Female,1,White Non Hispanic,3,Bronx,827
+2008,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,3379
+2008,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,355
+2008,1,<1,2,Female,5,Hispanic,3,Bronx,6728
+2008,2,01-09,0,Total,0,Total,3,Bronx,189465
+2008,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,14356
+2008,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,59355
+2008,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,6362
+2008,2,01-09,0,Total,5,Hispanic,3,Bronx,109392
+2008,2,01-09,1,Male,0,Total,3,Bronx,96224
+2008,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,7490
+2008,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,29849
+2008,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3221
+2008,2,01-09,1,Male,5,Hispanic,3,Bronx,55664
+2008,2,01-09,2,Female,0,Total,3,Bronx,93241
+2008,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,6866
+2008,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,29506
+2008,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3141
+2008,2,01-09,2,Female,5,Hispanic,3,Bronx,53728
+2008,3,10-19,0,Total,0,Total,3,Bronx,222690
+2008,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,18627
+2008,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,69134
+2008,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7838
+2008,3,10-19,0,Total,5,Hispanic,3,Bronx,127091
+2008,3,10-19,1,Male,0,Total,3,Bronx,113372
+2008,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,9708
+2008,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,35487
+2008,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3945
+2008,3,10-19,1,Male,5,Hispanic,3,Bronx,64232
+2008,3,10-19,2,Female,0,Total,3,Bronx,109318
+2008,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,8919
+2008,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,33647
+2008,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3893
+2008,3,10-19,2,Female,5,Hispanic,3,Bronx,62859
+2008,4,20-24,0,Total,0,Total,3,Bronx,105305
+2008,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,11352
+2008,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,33080
+2008,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,3478
+2008,4,20-24,0,Total,5,Hispanic,3,Bronx,57395
+2008,4,20-24,1,Male,0,Total,3,Bronx,50790
+2008,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5881
+2008,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,15796
+2008,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,1799
+2008,4,20-24,1,Male,5,Hispanic,3,Bronx,27314
+2008,4,20-24,2,Female,0,Total,3,Bronx,54515
+2008,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,5471
+2008,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,17284
+2008,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,1679
+2008,4,20-24,2,Female,5,Hispanic,3,Bronx,30081
+2008,5,25-34,0,Total,0,Total,3,Bronx,202002
+2008,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,18389
+2008,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,62035
+2008,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,8705
+2008,5,25-34,0,Total,5,Hispanic,3,Bronx,112873
+2008,5,25-34,1,Male,0,Total,3,Bronx,96816
+2008,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,9894
+2008,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,28914
+2008,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4206
+2008,5,25-34,1,Male,5,Hispanic,3,Bronx,53802
+2008,5,25-34,2,Female,0,Total,3,Bronx,105186
+2008,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,8495
+2008,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,33121
+2008,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,4499
+2008,5,25-34,2,Female,5,Hispanic,3,Bronx,59071
+2008,6,35-44,0,Total,0,Total,3,Bronx,198550
+2008,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,22383
+2008,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,64526
+2008,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,9297
+2008,6,35-44,0,Total,5,Hispanic,3,Bronx,102344
+2008,6,35-44,1,Male,0,Total,3,Bronx,92303
+2008,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,11615
+2008,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,29447
+2008,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4655
+2008,6,35-44,1,Male,5,Hispanic,3,Bronx,46586
+2008,6,35-44,2,Female,0,Total,3,Bronx,106247
+2008,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,10768
+2008,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,35079
+2008,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4642
+2008,6,35-44,2,Female,5,Hispanic,3,Bronx,55758
+2008,7,45-54,0,Total,0,Total,3,Bronx,178393
+2008,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,24279
+2008,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,60718
+2008,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,8268
+2008,7,45-54,0,Total,5,Hispanic,3,Bronx,85128
+2008,7,45-54,1,Male,0,Total,3,Bronx,81081
+2008,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,12303
+2008,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,26860
+2008,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,4147
+2008,7,45-54,1,Male,5,Hispanic,3,Bronx,37771
+2008,7,45-54,2,Female,0,Total,3,Bronx,97312
+2008,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,11976
+2008,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,33858
+2008,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,4121
+2008,7,45-54,2,Female,5,Hispanic,3,Bronx,47357
+2008,8,55-64,0,Total,0,Total,3,Bronx,124324
+2008,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,21877
+2008,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,39501
+2008,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,5803
+2008,8,55-64,0,Total,5,Hispanic,3,Bronx,57143
+2008,8,55-64,1,Male,0,Total,3,Bronx,54606
+2008,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10796
+2008,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,16228
+2008,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,2691
+2008,8,55-64,1,Male,5,Hispanic,3,Bronx,24891
+2008,8,55-64,2,Female,0,Total,3,Bronx,69718
+2008,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,11081
+2008,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,23273
+2008,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,3112
+2008,8,55-64,2,Female,5,Hispanic,3,Bronx,32252
+2008,9,65-74,0,Total,0,Total,3,Bronx,77936
+2008,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,17985
+2008,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,23867
+2008,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,3148
+2008,9,65-74,0,Total,5,Hispanic,3,Bronx,32936
+2008,9,65-74,1,Male,0,Total,3,Bronx,31817
+2008,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7757
+2008,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,8808
+2008,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1494
+2008,9,65-74,1,Male,5,Hispanic,3,Bronx,13758
+2008,9,65-74,2,Female,0,Total,3,Bronx,46119
+2008,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,10228
+2008,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,15059
+2008,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,1654
+2008,9,65-74,2,Female,5,Hispanic,3,Bronx,19178
+2008,10,75-84,0,Total,0,Total,3,Bronx,47108
+2008,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,16759
+2008,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,12990
+2008,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1367
+2008,10,75-84,0,Total,5,Hispanic,3,Bronx,15992
+2008,10,75-84,1,Male,0,Total,3,Bronx,16623
+2008,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,6347
+2008,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4190
+2008,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,609
+2008,10,75-84,1,Male,5,Hispanic,3,Bronx,5477
+2008,10,75-84,2,Female,0,Total,3,Bronx,30485
+2008,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,10412
+2008,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8800
+2008,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,758
+2008,10,75-84,2,Female,5,Hispanic,3,Bronx,10515
+2008,11,85+,0,Total,0,Total,3,Bronx,23072
+2008,11,85+,0,Total,1,White Non Hispanic,3,Bronx,11655
+2008,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,5392
+2008,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,437
+2008,11,85+,0,Total,5,Hispanic,3,Bronx,5588
+2008,11,85+,1,Male,0,Total,3,Bronx,6632
+2008,11,85+,1,Male,1,White Non Hispanic,3,Bronx,3412
+2008,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1422
+2008,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,171
+2008,11,85+,1,Male,5,Hispanic,3,Bronx,1627
+2008,11,85+,2,Female,0,Total,3,Bronx,16440
+2008,11,85+,2,Female,1,White Non Hispanic,3,Bronx,8243
+2008,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,3970
+2008,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,266
+2008,11,85+,2,Female,5,Hispanic,3,Bronx,3961
+2009,0,Total,0,Total,0,Total,3,Bronx,1397287
+2009,0,Total,0,Total,1,White Non Hispanic,3,Bronx,174794
+2009,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,440400
+2009,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,55828
+2009,0,Total,0,Total,5,Hispanic,3,Bronx,726265
+2009,0,Total,1,Male,0,Total,3,Bronx,656983
+2009,0,Total,1,Male,1,White Non Hispanic,3,Bronx,83800
+2009,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,202513
+2009,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,27367
+2009,0,Total,1,Male,5,Hispanic,3,Bronx,343303
+2009,0,Total,2,Female,0,Total,3,Bronx,740304
+2009,0,Total,2,Female,1,White Non Hispanic,3,Bronx,90994
+2009,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,237887
+2009,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,28461
+2009,0,Total,2,Female,5,Hispanic,3,Bronx,382962
+2009,1,<1,0,Total,0,Total,3,Bronx,22763
+2009,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1652
+2009,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,6829
+2009,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,747
+2009,1,<1,0,Total,5,Hispanic,3,Bronx,13535
+2009,1,<1,1,Male,0,Total,3,Bronx,11604
+2009,1,<1,1,Male,1,White Non Hispanic,3,Bronx,849
+2009,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,3477
+2009,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,378
+2009,1,<1,1,Male,5,Hispanic,3,Bronx,6900
+2009,1,<1,2,Female,0,Total,3,Bronx,11159
+2009,1,<1,2,Female,1,White Non Hispanic,3,Bronx,803
+2009,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,3352
+2009,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,369
+2009,1,<1,2,Female,5,Hispanic,3,Bronx,6635
+2009,2,01-09,0,Total,0,Total,3,Bronx,195121
+2009,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,14073
+2009,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,61708
+2009,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,6739
+2009,2,01-09,0,Total,5,Hispanic,3,Bronx,112601
+2009,2,01-09,1,Male,0,Total,3,Bronx,98965
+2009,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,7337
+2009,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,31021
+2009,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3394
+2009,2,01-09,1,Male,5,Hispanic,3,Bronx,57213
+2009,2,01-09,2,Female,0,Total,3,Bronx,96156
+2009,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,6736
+2009,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,30687
+2009,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3345
+2009,2,01-09,2,Female,5,Hispanic,3,Bronx,55388
+2009,3,10-19,0,Total,0,Total,3,Bronx,217865
+2009,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,16771
+2009,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,67218
+2009,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7704
+2009,3,10-19,0,Total,5,Hispanic,3,Bronx,126172
+2009,3,10-19,1,Male,0,Total,3,Bronx,111078
+2009,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,8846
+2009,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,34411
+2009,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3899
+2009,3,10-19,1,Male,5,Hispanic,3,Bronx,63922
+2009,3,10-19,2,Female,0,Total,3,Bronx,106787
+2009,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,7925
+2009,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,32807
+2009,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3805
+2009,3,10-19,2,Female,5,Hispanic,3,Bronx,62250
+2009,4,20-24,0,Total,0,Total,3,Bronx,103125
+2009,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,10143
+2009,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,31351
+2009,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,3758
+2009,4,20-24,0,Total,5,Hispanic,3,Bronx,57873
+2009,4,20-24,1,Male,0,Total,3,Bronx,51316
+2009,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5244
+2009,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,15510
+2009,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,1839
+2009,4,20-24,1,Male,5,Hispanic,3,Bronx,28723
+2009,4,20-24,2,Female,0,Total,3,Bronx,51809
+2009,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,4899
+2009,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,15841
+2009,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,1919
+2009,4,20-24,2,Female,5,Hispanic,3,Bronx,29150
+2009,5,25-34,0,Total,0,Total,3,Bronx,200199
+2009,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,20966
+2009,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,61065
+2009,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,8524
+2009,5,25-34,0,Total,5,Hispanic,3,Bronx,109644
+2009,5,25-34,1,Male,0,Total,3,Bronx,97205
+2009,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,10774
+2009,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,28893
+2009,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4178
+2009,5,25-34,1,Male,5,Hispanic,3,Bronx,53360
+2009,5,25-34,2,Female,0,Total,3,Bronx,102994
+2009,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,10192
+2009,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,32172
+2009,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,4346
+2009,5,25-34,2,Female,5,Hispanic,3,Bronx,56284
+2009,6,35-44,0,Total,0,Total,3,Bronx,192756
+2009,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,20486
+2009,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,62954
+2009,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,8728
+2009,6,35-44,0,Total,5,Hispanic,3,Bronx,100588
+2009,6,35-44,1,Male,0,Total,3,Bronx,88967
+2009,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,10793
+2009,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,28289
+2009,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4256
+2009,6,35-44,1,Male,5,Hispanic,3,Bronx,45629
+2009,6,35-44,2,Female,0,Total,3,Bronx,103789
+2009,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,9693
+2009,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,34665
+2009,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4472
+2009,6,35-44,2,Female,5,Hispanic,3,Bronx,54959
+2009,7,45-54,0,Total,0,Total,3,Bronx,184943
+2009,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,24172
+2009,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,63265
+2009,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,8337
+2009,7,45-54,0,Total,5,Hispanic,3,Bronx,89169
+2009,7,45-54,1,Male,0,Total,3,Bronx,84282
+2009,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,12310
+2009,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,28265
+2009,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,4096
+2009,7,45-54,1,Male,5,Hispanic,3,Bronx,39611
+2009,7,45-54,2,Female,0,Total,3,Bronx,100661
+2009,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,11862
+2009,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,35000
+2009,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,4241
+2009,7,45-54,2,Female,5,Hispanic,3,Bronx,49558
+2009,8,55-64,0,Total,0,Total,3,Bronx,133027
+2009,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,23211
+2009,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,42857
+2009,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,6092
+2009,8,55-64,0,Total,5,Hispanic,3,Bronx,60867
+2009,8,55-64,1,Male,0,Total,3,Bronx,58495
+2009,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,11352
+2009,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,17879
+2009,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,2860
+2009,8,55-64,1,Male,5,Hispanic,3,Bronx,26404
+2009,8,55-64,2,Female,0,Total,3,Bronx,74532
+2009,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,11859
+2009,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,24978
+2009,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,3232
+2009,8,55-64,2,Female,5,Hispanic,3,Bronx,34463
+2009,9,65-74,0,Total,0,Total,3,Bronx,80016
+2009,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,17356
+2009,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,25157
+2009,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,3283
+2009,9,65-74,0,Total,5,Hispanic,3,Bronx,34220
+2009,9,65-74,1,Male,0,Total,3,Bronx,32714
+2009,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7519
+2009,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,9278
+2009,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1616
+2009,9,65-74,1,Male,5,Hispanic,3,Bronx,14301
+2009,9,65-74,2,Female,0,Total,3,Bronx,47302
+2009,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,9837
+2009,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,15879
+2009,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,1667
+2009,9,65-74,2,Female,5,Hispanic,3,Bronx,19919
+2009,10,75-84,0,Total,0,Total,3,Bronx,46414
+2009,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,15449
+2009,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,13288
+2009,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1471
+2009,10,75-84,0,Total,5,Hispanic,3,Bronx,16206
+2009,10,75-84,1,Male,0,Total,3,Bronx,16583
+2009,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,5854
+2009,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4321
+2009,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,666
+2009,10,75-84,1,Male,5,Hispanic,3,Bronx,5742
+2009,10,75-84,2,Female,0,Total,3,Bronx,29831
+2009,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,9595
+2009,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8967
+2009,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,805
+2009,10,75-84,2,Female,5,Hispanic,3,Bronx,10464
+2009,11,85+,0,Total,0,Total,3,Bronx,21058
+2009,11,85+,0,Total,1,White Non Hispanic,3,Bronx,10515
+2009,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,4708
+2009,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,445
+2009,11,85+,0,Total,5,Hispanic,3,Bronx,5390
+2009,11,85+,1,Male,0,Total,3,Bronx,5774
+2009,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2922
+2009,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1169
+2009,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,185
+2009,11,85+,1,Male,5,Hispanic,3,Bronx,1498
+2009,11,85+,2,Female,0,Total,3,Bronx,15284
+2009,11,85+,2,Female,1,White Non Hispanic,3,Bronx,7593
+2009,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,3539
+2009,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,260
+2009,11,85+,2,Female,5,Hispanic,3,Bronx,3892
+2010,0,Total,0,Total,0,Total,3,Bronx,1385108
+2010,0,Total,0,Total,1,White Non Hispanic,3,Bronx,155569
+2010,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,430532
+2010,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,57594
+2010,0,Total,0,Total,5,Hispanic,3,Bronx,741413
+2010,0,Total,1,Male,0,Total,3,Bronx,649633
+2010,0,Total,1,Male,1,White Non Hispanic,3,Bronx,75647
+2010,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,197605
+2010,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,27946
+2010,0,Total,1,Male,5,Hispanic,3,Bronx,348435
+2010,0,Total,2,Female,0,Total,3,Bronx,735475
+2010,0,Total,2,Female,1,White Non Hispanic,3,Bronx,79922
+2010,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,232927
+2010,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,29648
+2010,0,Total,2,Female,5,Hispanic,3,Bronx,392978
+2010,1,<1,0,Total,0,Total,3,Bronx,21054
+2010,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1473
+2010,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,6079
+2010,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,788
+2010,1,<1,0,Total,5,Hispanic,3,Bronx,12714
+2010,1,<1,1,Male,0,Total,3,Bronx,10700
+2010,1,<1,1,Male,1,White Non Hispanic,3,Bronx,758
+2010,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,3098
+2010,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,386
+2010,1,<1,1,Male,5,Hispanic,3,Bronx,6458
+2010,1,<1,2,Female,0,Total,3,Bronx,10354
+2010,1,<1,2,Female,1,White Non Hispanic,3,Bronx,715
+2010,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,2981
+2010,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,402
+2010,1,<1,2,Female,5,Hispanic,3,Bronx,6256
+2010,2,01-09,0,Total,0,Total,3,Bronx,180754
+2010,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,11459
+2010,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,53806
+2010,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,6988
+2010,2,01-09,0,Total,5,Hispanic,3,Bronx,108501
+2010,2,01-09,1,Male,0,Total,3,Bronx,92052
+2010,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,5882
+2010,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,27325
+2010,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3570
+2010,2,01-09,1,Male,5,Hispanic,3,Bronx,55275
+2010,2,01-09,2,Female,0,Total,3,Bronx,88702
+2010,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,5577
+2010,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,26481
+2010,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3418
+2010,2,01-09,2,Female,5,Hispanic,3,Bronx,53226
+2010,3,10-19,0,Total,0,Total,3,Bronx,214821
+2010,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,14043
+2010,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,65336
+2010,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7590
+2010,3,10-19,0,Total,5,Hispanic,3,Bronx,127852
+2010,3,10-19,1,Male,0,Total,3,Bronx,110144
+2010,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,7526
+2010,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,33356
+2010,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3925
+2010,3,10-19,1,Male,5,Hispanic,3,Bronx,65337
+2010,3,10-19,2,Female,0,Total,3,Bronx,104677
+2010,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,6517
+2010,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,31980
+2010,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3665
+2010,3,10-19,2,Female,5,Hispanic,3,Bronx,62515
+2010,4,20-24,0,Total,0,Total,3,Bronx,112897
+2010,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,10651
+2010,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,33022
+2010,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,4240
+2010,4,20-24,0,Total,5,Hispanic,3,Bronx,64984
+2010,4,20-24,1,Male,0,Total,3,Bronx,56609
+2010,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5549
+2010,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,16420
+2010,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,2128
+2010,4,20-24,1,Male,5,Hispanic,3,Bronx,32512
+2010,4,20-24,2,Female,0,Total,3,Bronx,56288
+2010,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,5102
+2010,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,16602
+2010,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,2112
+2010,4,20-24,2,Female,5,Hispanic,3,Bronx,32472
+2010,5,25-34,0,Total,0,Total,3,Bronx,203534
+2010,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,18891
+2010,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,60402
+2010,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,9663
+2010,5,25-34,0,Total,5,Hispanic,3,Bronx,114578
+2010,5,25-34,1,Male,0,Total,3,Bronx,94609
+2010,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,9706
+2010,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,27009
+2010,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4351
+2010,5,25-34,1,Male,5,Hispanic,3,Bronx,53543
+2010,5,25-34,2,Female,0,Total,3,Bronx,108925
+2010,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,9185
+2010,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,33393
+2010,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,5312
+2010,5,25-34,2,Female,5,Hispanic,3,Bronx,61035
+2010,6,35-44,0,Total,0,Total,3,Bronx,187089
+2010,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,17551
+2010,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,60109
+2010,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,8770
+2010,6,35-44,0,Total,5,Hispanic,3,Bronx,100659
+2010,6,35-44,1,Male,0,Total,3,Bronx,86313
+2010,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,9362
+2010,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,26869
+2010,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4326
+2010,6,35-44,1,Male,5,Hispanic,3,Bronx,45756
+2010,6,35-44,2,Female,0,Total,3,Bronx,100776
+2010,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,8189
+2010,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,33240
+2010,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4444
+2010,6,35-44,2,Female,5,Hispanic,3,Bronx,54903
+2010,7,45-54,0,Total,0,Total,3,Bronx,185598
+2010,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,21135
+2010,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,64387
+2010,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,8351
+2010,7,45-54,0,Total,5,Hispanic,3,Bronx,91725
+2010,7,45-54,1,Male,0,Total,3,Bronx,84836
+2010,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,10907
+2010,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,29292
+2010,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,4130
+2010,7,45-54,1,Male,5,Hispanic,3,Bronx,40507
+2010,7,45-54,2,Female,0,Total,3,Bronx,100762
+2010,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,10228
+2010,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,35095
+2010,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,4221
+2010,7,45-54,2,Female,5,Hispanic,3,Bronx,51218
+2010,8,55-64,0,Total,0,Total,3,Bronx,133479
+2010,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,21717
+2010,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,43607
+2010,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,6211
+2010,8,55-64,0,Total,5,Hispanic,3,Bronx,61944
+2010,8,55-64,1,Male,0,Total,3,Bronx,59083
+2010,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10697
+2010,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,18821
+2010,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,2952
+2010,8,55-64,1,Male,5,Hispanic,3,Bronx,26613
+2010,8,55-64,2,Female,0,Total,3,Bronx,74396
+2010,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,11020
+2010,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,24786
+2010,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,3259
+2010,8,55-64,2,Female,5,Hispanic,3,Bronx,35331
+2010,9,65-74,0,Total,0,Total,3,Bronx,80143
+2010,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,15921
+2010,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,25585
+2010,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,3262
+2010,9,65-74,0,Total,5,Hispanic,3,Bronx,35375
+2010,9,65-74,1,Male,0,Total,3,Bronx,33102
+2010,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7182
+2010,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,9879
+2010,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1483
+2010,9,65-74,1,Male,5,Hispanic,3,Bronx,14558
+2010,9,65-74,2,Female,0,Total,3,Bronx,47041
+2010,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,8739
+2010,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,15706
+2010,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,1779
+2010,9,65-74,2,Female,5,Hispanic,3,Bronx,20817
+2010,10,75-84,0,Total,0,Total,3,Bronx,45700
+2010,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,13876
+2010,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,12818
+2010,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1359
+2010,10,75-84,0,Total,5,Hispanic,3,Bronx,17647
+2010,10,75-84,1,Male,0,Total,3,Bronx,16499
+2010,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,5467
+2010,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4158
+2010,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,550
+2010,10,75-84,1,Male,5,Hispanic,3,Bronx,6324
+2010,10,75-84,2,Female,0,Total,3,Bronx,29201
+2010,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,8409
+2010,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8660
+2010,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,809
+2010,10,75-84,2,Female,5,Hispanic,3,Bronx,11323
+2010,11,85+,0,Total,0,Total,3,Bronx,20039
+2010,11,85+,0,Total,1,White Non Hispanic,3,Bronx,8852
+2010,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,5381
+2010,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,372
+2010,11,85+,0,Total,5,Hispanic,3,Bronx,5434
+2010,11,85+,1,Male,0,Total,3,Bronx,5686
+2010,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2611
+2010,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1378
+2010,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,145
+2010,11,85+,1,Male,5,Hispanic,3,Bronx,1552
+2010,11,85+,2,Female,0,Total,3,Bronx,14353
+2010,11,85+,2,Female,1,White Non Hispanic,3,Bronx,6241
+2010,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,4003
+2010,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,227
+2010,11,85+,2,Female,5,Hispanic,3,Bronx,3882
+2011,1,<1,1,Male,0,Total,3,Bronx,11605
+2011,1,<1,1,Male,1,White Non Hispanic,3,Bronx,796
+2011,0,Total,0,Total,0,Total,3,Bronx,1392002
+2011,0,Total,0,Total,1,White Non Hispanic,3,Bronx,158842
+2011,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,426362
+2011,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,58360
+2011,0,Total,0,Total,5,Hispanic,3,Bronx,748438
+2011,0,Total,1,Male,0,Total,3,Bronx,655357
+2011,0,Total,1,Male,1,White Non Hispanic,3,Bronx,77608
+2011,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,196443
+2011,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,28367
+2011,0,Total,1,Male,5,Hispanic,3,Bronx,352939
+2011,0,Total,2,Female,0,Total,3,Bronx,736645
+2011,0,Total,2,Female,1,White Non Hispanic,3,Bronx,81234
+2011,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,229919
+2011,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,29993
+2011,0,Total,2,Female,5,Hispanic,3,Bronx,395499
+2011,1,<1,0,Total,0,Total,3,Bronx,22690
+2011,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1553
+2011,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,6770
+2011,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,746
+2011,1,<1,0,Total,5,Hispanic,3,Bronx,13621
+2011,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,3477
+2011,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,384
+2011,1,<1,1,Male,5,Hispanic,3,Bronx,6948
+2011,1,<1,2,Female,0,Total,3,Bronx,11085
+2011,1,<1,2,Female,1,White Non Hispanic,3,Bronx,757
+2011,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,3293
+2011,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,362
+2011,1,<1,2,Female,5,Hispanic,3,Bronx,6673
+2011,2,01-09,0,Total,0,Total,3,Bronx,183122
+2011,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,15522
+2011,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,52318
+2011,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,7390
+2011,2,01-09,0,Total,5,Hispanic,3,Bronx,107892
+2011,2,01-09,1,Male,0,Total,3,Bronx,93611
+2011,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,8099
+2011,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,26721
+2011,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3771
+2011,2,01-09,1,Male,5,Hispanic,3,Bronx,55020
+2011,2,01-09,2,Female,0,Total,3,Bronx,89511
+2011,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,7423
+2011,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,25597
+2011,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3619
+2011,2,01-09,2,Female,5,Hispanic,3,Bronx,52872
+2011,3,10-19,0,Total,0,Total,3,Bronx,207867
+2011,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,14529
+2011,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,62159
+2011,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7357
+2011,3,10-19,0,Total,5,Hispanic,3,Bronx,123822
+2011,3,10-19,1,Male,0,Total,3,Bronx,106746
+2011,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,7797
+2011,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,31741
+2011,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3790
+2011,3,10-19,1,Male,5,Hispanic,3,Bronx,63418
+2011,3,10-19,2,Female,0,Total,3,Bronx,101121
+2011,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,6732
+2011,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,30418
+2011,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3567
+2011,3,10-19,2,Female,5,Hispanic,3,Bronx,60404
+2011,4,20-24,0,Total,0,Total,3,Bronx,116982
+2011,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,10948
+2011,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,34220
+2011,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,4346
+2011,4,20-24,0,Total,5,Hispanic,3,Bronx,67468
+2011,4,20-24,1,Male,0,Total,3,Bronx,59123
+2011,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5750
+2011,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,17181
+2011,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,2205
+2011,4,20-24,1,Male,5,Hispanic,3,Bronx,33987
+2011,4,20-24,2,Female,0,Total,3,Bronx,57859
+2011,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,5198
+2011,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,17039
+2011,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,2141
+2011,4,20-24,2,Female,5,Hispanic,3,Bronx,33481
+2011,5,25-34,0,Total,0,Total,3,Bronx,205202
+2011,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,18976
+2011,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,59794
+2011,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,9732
+2011,5,25-34,0,Total,5,Hispanic,3,Bronx,116700
+2011,5,25-34,1,Male,0,Total,3,Bronx,96520
+2011,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,9646
+2011,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,26997
+2011,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4448
+2011,5,25-34,1,Male,5,Hispanic,3,Bronx,55429
+2011,5,25-34,2,Female,0,Total,3,Bronx,108682
+2011,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,9330
+2011,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,32797
+2011,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,5284
+2011,5,25-34,2,Female,5,Hispanic,3,Bronx,61271
+2011,6,35-44,0,Total,0,Total,3,Bronx,183143
+2011,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,17267
+2011,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,57517
+2011,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,8753
+2011,6,35-44,0,Total,5,Hispanic,3,Bronx,99606
+2011,6,35-44,1,Male,0,Total,3,Bronx,84430
+2011,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,9102
+2011,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,25803
+2011,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4248
+2011,6,35-44,1,Male,5,Hispanic,3,Bronx,45277
+2011,6,35-44,2,Female,0,Total,3,Bronx,98713
+2011,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,8165
+2011,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,31714
+2011,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4505
+2011,6,35-44,2,Female,5,Hispanic,3,Bronx,54329
+2011,7,45-54,0,Total,0,Total,3,Bronx,186180
+2011,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,20416
+2011,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,64143
+2011,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,8213
+2011,7,45-54,0,Total,5,Hispanic,3,Bronx,93408
+2011,7,45-54,1,Male,0,Total,3,Bronx,85336
+2011,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,10628
+2011,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,29245
+2011,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,4083
+2011,7,45-54,1,Male,5,Hispanic,3,Bronx,41380
+2011,7,45-54,2,Female,0,Total,3,Bronx,100844
+2011,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,9788
+2011,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,34898
+2011,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,4130
+2011,7,45-54,2,Female,5,Hispanic,3,Bronx,52028
+2011,8,55-64,0,Total,0,Total,3,Bronx,137423
+2011,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,21690
+2011,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,44780
+2011,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,6404
+2011,8,55-64,0,Total,5,Hispanic,3,Bronx,64549
+2011,8,55-64,1,Male,0,Total,3,Bronx,61120
+2011,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10703
+2011,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,19437
+2011,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,3075
+2011,8,55-64,1,Male,5,Hispanic,3,Bronx,27905
+2011,8,55-64,2,Female,0,Total,3,Bronx,76303
+2011,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,10987
+2011,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,25343
+2011,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,3329
+2011,8,55-64,2,Female,5,Hispanic,3,Bronx,36644
+2011,9,65-74,0,Total,0,Total,3,Bronx,82491
+2011,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,15908
+2011,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,26144
+2011,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,3512
+2011,9,65-74,0,Total,5,Hispanic,3,Bronx,36927
+2011,9,65-74,1,Male,0,Total,3,Bronx,34148
+2011,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7202
+2011,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,10170
+2011,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1589
+2011,9,65-74,1,Male,5,Hispanic,3,Bronx,15187
+2011,9,65-74,2,Female,0,Total,3,Bronx,48343
+2011,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,8706
+2011,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,15974
+2011,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,1923
+2011,9,65-74,2,Female,5,Hispanic,3,Bronx,21740
+2011,10,75-84,0,Total,0,Total,3,Bronx,46293
+2011,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,13304
+2011,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,12997
+2011,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1493
+2011,10,75-84,0,Total,5,Hispanic,3,Bronx,18499
+2011,10,75-84,1,Male,0,Total,3,Bronx,16827
+2011,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,5278
+2011,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4237
+2011,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,616
+2011,10,75-84,1,Male,5,Hispanic,3,Bronx,6696
+2011,10,75-84,2,Female,0,Total,3,Bronx,29466
+2011,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,8026
+2011,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8760
+2011,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,877
+2011,10,75-84,2,Female,5,Hispanic,3,Bronx,11803
+2011,11,85+,0,Total,0,Total,3,Bronx,20609
+2011,11,85+,0,Total,1,White Non Hispanic,3,Bronx,8729
+2011,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,5520
+2011,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,414
+2011,11,85+,0,Total,5,Hispanic,3,Bronx,5946
+2011,11,85+,1,Male,0,Total,3,Bronx,5891
+2011,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2607
+2011,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1434
+2011,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,158
+2011,11,85+,1,Male,5,Hispanic,3,Bronx,1692
+2011,11,85+,2,Female,0,Total,3,Bronx,14718
+2011,11,85+,2,Female,1,White Non Hispanic,3,Bronx,6122
+2011,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,4086
+2011,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,256
+2011,11,85+,2,Female,5,Hispanic,3,Bronx,4254
+2012,0,Total,0,Total,5,Hispanic,3,Bronx,764608
+2012,0,Total,1,Male,0,Total,3,Bronx,663210
+2012,0,Total,0,Total,0,Total,3,Bronx,1408473
+2012,0,Total,0,Total,1,White Non Hispanic,3,Bronx,153997
+2012,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,430773
+2012,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,59095
+2012,0,Total,1,Male,1,White Non Hispanic,3,Bronx,75091
+2012,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,198782
+2012,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,28737
+2012,0,Total,1,Male,5,Hispanic,3,Bronx,360600
+2012,0,Total,2,Female,0,Total,3,Bronx,745263
+2012,0,Total,2,Female,1,White Non Hispanic,3,Bronx,78906
+2012,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,231991
+2012,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,30358
+2012,0,Total,2,Female,5,Hispanic,3,Bronx,404008
+2012,1,<1,0,Total,0,Total,3,Bronx,21987
+2012,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1617
+2012,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,6560
+2012,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,746
+2012,1,<1,0,Total,5,Hispanic,3,Bronx,13064
+2012,1,<1,1,Male,0,Total,3,Bronx,11225
+2012,1,<1,1,Male,1,White Non Hispanic,3,Bronx,836
+2012,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,3364
+2012,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,386
+2012,1,<1,1,Male,5,Hispanic,3,Bronx,6639
+2012,1,<1,2,Female,0,Total,3,Bronx,10762
+2012,1,<1,2,Female,1,White Non Hispanic,3,Bronx,781
+2012,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,3196
+2012,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,360
+2012,1,<1,2,Female,5,Hispanic,3,Bronx,6425
+2012,2,01-09,0,Total,0,Total,3,Bronx,185387
+2012,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,13910
+2012,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,53853
+2012,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,7124
+2012,2,01-09,0,Total,5,Hispanic,3,Bronx,110500
+2012,2,01-09,1,Male,0,Total,3,Bronx,94809
+2012,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,7144
+2012,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,27579
+2012,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3597
+2012,2,01-09,1,Male,5,Hispanic,3,Bronx,56489
+2012,2,01-09,2,Female,0,Total,3,Bronx,90578
+2012,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,6766
+2012,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,26274
+2012,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3527
+2012,2,01-09,2,Female,5,Hispanic,3,Bronx,54011
+2012,3,10-19,0,Total,0,Total,3,Bronx,205526
+2012,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,13837
+2012,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,60892
+2012,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7278
+2012,3,10-19,0,Total,5,Hispanic,3,Bronx,123519
+2012,3,10-19,1,Male,0,Total,3,Bronx,105187
+2012,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,7357
+2012,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,30950
+2012,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3773
+2012,3,10-19,1,Male,5,Hispanic,3,Bronx,63107
+2012,3,10-19,2,Female,0,Total,3,Bronx,100339
+2012,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,6480
+2012,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,29942
+2012,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3505
+2012,3,10-19,2,Female,5,Hispanic,3,Bronx,60412
+2012,4,20-24,0,Total,0,Total,3,Bronx,121830
+2012,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,10691
+2012,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,35475
+2012,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,4582
+2012,4,20-24,0,Total,5,Hispanic,3,Bronx,71082
+2012,4,20-24,1,Male,0,Total,3,Bronx,61492
+2012,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5654
+2012,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,17737
+2012,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,2275
+2012,4,20-24,1,Male,5,Hispanic,3,Bronx,35826
+2012,4,20-24,2,Female,0,Total,3,Bronx,60338
+2012,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,5037
+2012,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,17738
+2012,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,2307
+2012,4,20-24,2,Female,5,Hispanic,3,Bronx,35256
+2012,5,25-34,0,Total,0,Total,3,Bronx,208045
+2012,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,18283
+2012,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,60496
+2012,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,9905
+2012,5,25-34,0,Total,5,Hispanic,3,Bronx,119361
+2012,5,25-34,1,Male,0,Total,3,Bronx,98302
+2012,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,9254
+2012,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,27631
+2012,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4568
+2012,5,25-34,1,Male,5,Hispanic,3,Bronx,56849
+2012,5,25-34,2,Female,0,Total,3,Bronx,109743
+2012,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,9029
+2012,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,32865
+2012,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,5337
+2012,5,25-34,2,Female,5,Hispanic,3,Bronx,62512
+2012,6,35-44,0,Total,0,Total,3,Bronx,183388
+2012,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,16729
+2012,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,57168
+2012,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,8849
+2012,6,35-44,0,Total,5,Hispanic,3,Bronx,100642
+2012,6,35-44,1,Male,0,Total,3,Bronx,84641
+2012,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,8814
+2012,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,25712
+2012,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4285
+2012,6,35-44,1,Male,5,Hispanic,3,Bronx,45830
+2012,6,35-44,2,Female,0,Total,3,Bronx,98747
+2012,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,7915
+2012,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,31456
+2012,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4564
+2012,6,35-44,2,Female,5,Hispanic,3,Bronx,54812
+2012,7,45-54,0,Total,0,Total,3,Bronx,187528
+2012,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,19840
+2012,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,64032
+2012,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,8240
+2012,7,45-54,0,Total,5,Hispanic,3,Bronx,95416
+2012,7,45-54,1,Male,0,Total,3,Bronx,86066
+2012,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,10395
+2012,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,29235
+2012,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,4128
+2012,7,45-54,1,Male,5,Hispanic,3,Bronx,42308
+2012,7,45-54,2,Female,0,Total,3,Bronx,101462
+2012,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,9445
+2012,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,34797
+2012,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,4112
+2012,7,45-54,2,Female,5,Hispanic,3,Bronx,53108
+2012,8,55-64,0,Total,0,Total,3,Bronx,140769
+2012,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,21252
+2012,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,46121
+2012,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,6655
+2012,8,55-64,0,Total,5,Hispanic,3,Bronx,66741
+2012,8,55-64,1,Male,0,Total,3,Bronx,62648
+2012,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10460
+2012,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,20135
+2012,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,3209
+2012,8,55-64,1,Male,5,Hispanic,3,Bronx,28844
+2012,8,55-64,2,Female,0,Total,3,Bronx,78121
+2012,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,10792
+2012,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,25986
+2012,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,3446
+2012,8,55-64,2,Female,5,Hispanic,3,Bronx,37897
+2012,9,65-74,0,Total,0,Total,3,Bronx,85937
+2012,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,16277
+2012,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,27224
+2012,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,3697
+2012,9,65-74,0,Total,5,Hispanic,3,Bronx,38739
+2012,9,65-74,1,Male,0,Total,3,Bronx,35457
+2012,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7392
+2012,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,10551
+2012,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1674
+2012,9,65-74,1,Male,5,Hispanic,3,Bronx,15840
+2012,9,65-74,2,Female,0,Total,3,Bronx,50480
+2012,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,8885
+2012,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,16673
+2012,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,2023
+2012,9,65-74,2,Female,5,Hispanic,3,Bronx,22899
+2012,10,75-84,0,Total,0,Total,3,Bronx,46946
+2012,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,12843
+2012,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,13208
+2012,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1572
+2012,10,75-84,0,Total,5,Hispanic,3,Bronx,19323
+2012,10,75-84,1,Male,0,Total,3,Bronx,17283
+2012,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,5152
+2012,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4377
+2012,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,675
+2012,10,75-84,1,Male,5,Hispanic,3,Bronx,7079
+2012,10,75-84,2,Female,0,Total,3,Bronx,29663
+2012,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,7691
+2012,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,8831
+2012,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,897
+2012,10,75-84,2,Female,5,Hispanic,3,Bronx,12244
+2012,11,85+,0,Total,0,Total,3,Bronx,21130
+2012,11,85+,0,Total,1,White Non Hispanic,3,Bronx,8718
+2012,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,5744
+2012,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,447
+2012,11,85+,0,Total,5,Hispanic,3,Bronx,6221
+2012,11,85+,1,Male,0,Total,3,Bronx,6100
+2012,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2633
+2012,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1511
+2012,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,167
+2012,11,85+,1,Male,5,Hispanic,3,Bronx,1789
+2012,11,85+,2,Female,0,Total,3,Bronx,15030
+2012,11,85+,2,Female,1,White Non Hispanic,3,Bronx,6085
+2012,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,4233
+2012,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,280
+2012,11,85+,2,Female,5,Hispanic,3,Bronx,4432
+2013,0,Total,0,Total,0,Total,3,Bronx,1418733
+2013,0,Total,0,Total,1,White Non Hispanic,3,Bronx,152345
+2013,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,431383
+2013,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,60226
+2013,0,Total,0,Total,5,Hispanic,3,Bronx,774779
+2013,0,Total,1,Male,0,Total,3,Bronx,669055
+2013,0,Total,1,Male,1,White Non Hispanic,3,Bronx,74309
+2013,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,199336
+2013,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,29072
+2013,0,Total,1,Male,5,Hispanic,3,Bronx,366338
+2013,0,Total,2,Female,0,Total,3,Bronx,749678
+2013,0,Total,2,Female,1,White Non Hispanic,3,Bronx,78036
+2013,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,232047
+2013,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,31154
+2013,0,Total,2,Female,5,Hispanic,3,Bronx,408441
+2013,1,<1,0,Total,0,Total,3,Bronx,21988
+2013,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1467
+2013,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,6212
+2013,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,724
+2013,1,<1,0,Total,5,Hispanic,3,Bronx,13585
+2013,1,<1,1,Male,0,Total,3,Bronx,11228
+2013,1,<1,1,Male,1,White Non Hispanic,3,Bronx,758
+2013,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,3182
+2013,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,374
+2013,1,<1,1,Male,5,Hispanic,3,Bronx,6914
+2013,1,<1,2,Female,0,Total,3,Bronx,10760
+2013,1,<1,2,Female,1,White Non Hispanic,3,Bronx,709
+2013,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,3030
+2013,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,350
+2013,1,<1,2,Female,5,Hispanic,3,Bronx,6671
+2013,2,01-09,0,Total,0,Total,3,Bronx,185625
+2013,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,14696
+2013,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,53165
+2013,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,7181
+2013,2,01-09,0,Total,5,Hispanic,3,Bronx,110583
+2013,2,01-09,1,Male,0,Total,3,Bronx,94866
+2013,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,7538
+2013,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,27208
+2013,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3615
+2013,2,01-09,1,Male,5,Hispanic,3,Bronx,56505
+2013,2,01-09,2,Female,0,Total,3,Bronx,90759
+2013,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,7158
+2013,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,25957
+2013,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3566
+2013,2,01-09,2,Female,5,Hispanic,3,Bronx,54078
+2013,3,10-19,0,Total,0,Total,3,Bronx,200850
+2013,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,14267
+2013,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,59101
+2013,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7369
+2013,3,10-19,0,Total,5,Hispanic,3,Bronx,120113
+2013,3,10-19,1,Male,0,Total,3,Bronx,102811
+2013,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,7577
+2013,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,30052
+2013,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3838
+2013,3,10-19,1,Male,5,Hispanic,3,Bronx,61344
+2013,3,10-19,2,Female,0,Total,3,Bronx,98039
+2013,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,6690
+2013,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,29049
+2013,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3531
+2013,3,10-19,2,Female,5,Hispanic,3,Bronx,58769
+2013,4,20-24,0,Total,0,Total,3,Bronx,122452
+2013,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,9864
+2013,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,35401
+2013,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,4519
+2013,4,20-24,0,Total,5,Hispanic,3,Bronx,72668
+2013,4,20-24,1,Male,0,Total,3,Bronx,61570
+2013,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,5122
+2013,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,17589
+2013,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,2193
+2013,4,20-24,1,Male,5,Hispanic,3,Bronx,36666
+2013,4,20-24,2,Female,0,Total,3,Bronx,60882
+2013,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,4742
+2013,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,17812
+2013,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,2326
+2013,4,20-24,2,Female,5,Hispanic,3,Bronx,36002
+2013,5,25-34,0,Total,0,Total,3,Bronx,213332
+2013,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,18528
+2013,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,61637
+2013,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,10128
+2013,5,25-34,0,Total,5,Hispanic,3,Bronx,123039
+2013,5,25-34,1,Male,0,Total,3,Bronx,101703
+2013,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,9287
+2013,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,28580
+2013,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4615
+2013,5,25-34,1,Male,5,Hispanic,3,Bronx,59221
+2013,5,25-34,2,Female,0,Total,3,Bronx,111629
+2013,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,9241
+2013,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,33057
+2013,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,5513
+2013,5,25-34,2,Female,5,Hispanic,3,Bronx,63818
+2013,6,35-44,0,Total,0,Total,3,Bronx,182263
+2013,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,16251
+2013,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,56337
+2013,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,8916
+2013,6,35-44,0,Total,5,Hispanic,3,Bronx,100759
+2013,6,35-44,1,Male,0,Total,3,Bronx,84345
+2013,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,8627
+2013,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,25387
+2013,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4260
+2013,6,35-44,1,Male,5,Hispanic,3,Bronx,46071
+2013,6,35-44,2,Female,0,Total,3,Bronx,97918
+2013,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,7624
+2013,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,30950
+2013,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4656
+2013,6,35-44,2,Female,5,Hispanic,3,Bronx,54688
+2013,7,45-54,0,Total,0,Total,3,Bronx,189619
+2013,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,19291
+2013,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,64412
+2013,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,8327
+2013,7,45-54,0,Total,5,Hispanic,3,Bronx,97589
+2013,7,45-54,1,Male,0,Total,3,Bronx,87143
+2013,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,10096
+2013,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,29432
+2013,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,4147
+2013,7,45-54,1,Male,5,Hispanic,3,Bronx,43468
+2013,7,45-54,2,Female,0,Total,3,Bronx,102476
+2013,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,9195
+2013,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,34980
+2013,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,4180
+2013,7,45-54,2,Female,5,Hispanic,3,Bronx,54121
+2013,8,55-64,0,Total,0,Total,3,Bronx,144621
+2013,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,21025
+2013,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,47437
+2013,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,6951
+2013,8,55-64,0,Total,5,Hispanic,3,Bronx,69208
+2013,8,55-64,1,Male,0,Total,3,Bronx,64759
+2013,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10359
+2013,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,20935
+2013,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,3347
+2013,8,55-64,1,Male,5,Hispanic,3,Bronx,30118
+2013,8,55-64,2,Female,0,Total,3,Bronx,79862
+2013,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,10666
+2013,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,26502
+2013,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,3604
+2013,8,55-64,2,Female,5,Hispanic,3,Bronx,39090
+2013,9,65-74,0,Total,0,Total,3,Bronx,88267
+2013,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,16160
+2013,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,28097
+2013,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,3927
+2013,9,65-74,0,Total,5,Hispanic,3,Bronx,40083
+2013,9,65-74,1,Male,0,Total,3,Bronx,36552
+2013,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7407
+2013,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,10904
+2013,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1767
+2013,9,65-74,1,Male,5,Hispanic,3,Bronx,16474
+2013,9,65-74,2,Female,0,Total,3,Bronx,51715
+2013,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,8753
+2013,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,17193
+2013,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,2160
+2013,9,65-74,2,Female,5,Hispanic,3,Bronx,23609
+2013,10,75-84,0,Total,0,Total,3,Bronx,47912
+2013,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,12210
+2013,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,13633
+2013,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1682
+2013,10,75-84,0,Total,5,Hispanic,3,Bronx,20387
+2013,10,75-84,1,Male,0,Total,3,Bronx,17789
+2013,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,4930
+2013,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4541
+2013,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,740
+2013,10,75-84,1,Male,5,Hispanic,3,Bronx,7578
+2013,10,75-84,2,Female,0,Total,3,Bronx,30123
+2013,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,7280
+2013,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,9092
+2013,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,942
+2013,10,75-84,2,Female,5,Hispanic,3,Bronx,12809
+2013,11,85+,0,Total,0,Total,3,Bronx,21804
+2013,11,85+,0,Total,1,White Non Hispanic,3,Bronx,8586
+2013,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,5951
+2013,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,502
+2013,11,85+,0,Total,5,Hispanic,3,Bronx,6765
+2013,11,85+,1,Male,0,Total,3,Bronx,6289
+2013,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2608
+2013,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1526
+2013,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,176
+2013,11,85+,1,Male,5,Hispanic,3,Bronx,1979
+2013,11,85+,2,Female,0,Total,3,Bronx,15515
+2013,11,85+,2,Female,1,White Non Hispanic,3,Bronx,5978
+2013,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,4425
+2013,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,326
+2013,11,85+,2,Female,5,Hispanic,3,Bronx,4786
+2014,10,75-84,2,Female,1,White Non Hispanic,3,Bronx,6879
+2014,7,45-54,1,Male,5,Hispanic,3,Bronx,44203
+2014,2,01-09,0,Total,2,Black Non Hispanic,3,Bronx,53155
+2014,9,65-74,0,Total,5,Hispanic,3,Bronx,41636
+2014,1,<1,1,Male,5,Hispanic,3,Bronx,6791
+2014,5,25-34,1,Male,0,Total,3,Bronx,105921
+2014,3,10-19,1,Male,3,Other Non Hispanic,3,Bronx,3948
+2014,7,45-54,1,Male,2,Black Non Hispanic,3,Bronx,29369
+2014,9,65-74,2,Female,2,Black Non Hispanic,3,Bronx,17671
+2014,6,35-44,2,Female,3,Other Non Hispanic,3,Bronx,4978
+2014,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,62791
+2014,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,4566
+2014,2,01-09,1,Male,2,Black Non Hispanic,3,Bronx,27071
+2014,0,Total,0,Total,0,Total,3,Bronx,1438159
+2014,6,35-44,2,Female,0,Total,3,Bronx,99736
+2014,6,35-44,0,Total,3,Other Non Hispanic,3,Bronx,9385
+2014,11,85+,0,Total,5,Hispanic,3,Bronx,7281
+2014,10,75-84,0,Total,0,Total,3,Bronx,48591
+2014,2,01-09,1,Male,5,Hispanic,3,Bronx,57201
+2014,5,25-34,0,Total,2,Black Non Hispanic,3,Bronx,63859
+2014,0,Total,1,Male,1,White Non Hispanic,3,Bronx,73397
+2014,4,20-24,1,Male,3,Other Non Hispanic,3,Bronx,2274
+2014,1,<1,0,Total,3,Other Non Hispanic,3,Bronx,736
+2014,5,25-34,1,Male,1,White Non Hispanic,3,Bronx,9371
+2014,7,45-54,1,Male,3,Other Non Hispanic,3,Bronx,4253
+2014,4,20-24,0,Total,1,White Non Hispanic,3,Bronx,9290
+2014,1,<1,0,Total,2,Black Non Hispanic,3,Bronx,6085
+2014,3,10-19,0,Total,3,Other Non Hispanic,3,Bronx,7645
+2014,10,75-84,1,Male,1,White Non Hispanic,3,Bronx,4609
+2014,1,<1,1,Male,0,Total,3,Bronx,10999
+2014,1,<1,0,Total,5,Hispanic,3,Bronx,13334
+2014,1,<1,2,Female,3,Other Non Hispanic,3,Bronx,363
+2014,8,55-64,2,Female,3,Other Non Hispanic,3,Bronx,3776
+2014,0,Total,0,Total,1,White Non Hispanic,3,Bronx,150191
+2014,4,20-24,0,Total,0,Total,3,Bronx,122910
+2014,1,<1,0,Total,1,White Non Hispanic,3,Bronx,1408
+2014,0,Total,2,Female,5,Hispanic,3,Bronx,416120
+2014,10,75-84,2,Female,2,Black Non Hispanic,3,Bronx,9309
+2014,7,45-54,2,Female,5,Hispanic,3,Bronx,55063
+2014,4,20-24,1,Male,1,White Non Hispanic,3,Bronx,4836
+2014,5,25-34,1,Male,3,Other Non Hispanic,3,Bronx,4857
+2014,2,01-09,2,Female,5,Hispanic,3,Bronx,54442
+2014,8,55-64,2,Female,0,Total,3,Bronx,82552
+2014,10,75-84,1,Male,5,Hispanic,3,Bronx,7929
+2014,4,20-24,2,Female,0,Total,3,Bronx,61238
+2014,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,6184
+2014,10,75-84,2,Female,0,Total,3,Bronx,30448
+2014,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,234595
+2014,3,10-19,0,Total,1,White Non Hispanic,3,Bronx,14708
+2014,3,10-19,0,Total,0,Total,3,Bronx,199431
+2014,2,01-09,0,Total,3,Other Non Hispanic,3,Bronx,7488
+2014,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,181
+2014,3,10-19,1,Male,2,Black Non Hispanic,3,Bronx,29729
+2014,1,<1,2,Female,2,Black Non Hispanic,3,Bronx,2976
+2014,9,65-74,1,Male,0,Total,3,Bronx,37723
+2014,7,45-54,0,Total,5,Hispanic,3,Bronx,99266
+2014,8,55-64,1,Male,2,Black Non Hispanic,3,Bronx,21927
+2014,9,65-74,2,Female,3,Other Non Hispanic,3,Bronx,2281
+2014,10,75-84,2,Female,5,Hispanic,3,Bronx,13243
+2014,11,85+,2,Female,5,Hispanic,3,Bronx,5121
+2014,6,35-44,1,Male,3,Other Non Hispanic,3,Bronx,4407
+2014,2,01-09,0,Total,1,White Non Hispanic,3,Bronx,15103
+2014,3,10-19,2,Female,3,Other Non Hispanic,3,Bronx,3697
+2014,10,75-84,1,Male,3,Other Non Hispanic,3,Bronx,789
+2014,7,45-54,2,Female,0,Total,3,Bronx,102969
+2014,4,20-24,2,Female,5,Hispanic,3,Bronx,36542
+2014,8,55-64,1,Male,0,Total,3,Bronx,66881
+2014,5,25-34,2,Female,5,Hispanic,3,Bronx,65929
+2014,5,25-34,0,Total,3,Other Non Hispanic,3,Bronx,10652
+2014,2,01-09,2,Female,1,White Non Hispanic,3,Bronx,7382
+2014,6,35-44,0,Total,5,Hispanic,3,Bronx,102798
+2014,9,65-74,0,Total,2,Black Non Hispanic,3,Bronx,28941
+2014,8,55-64,0,Total,3,Other Non Hispanic,3,Bronx,7303
+2014,4,20-24,1,Male,5,Hispanic,3,Bronx,37071
+2014,9,65-74,2,Female,5,Hispanic,3,Bronx,24512
+2014,2,01-09,1,Male,0,Total,3,Bronx,95780
+2014,7,45-54,1,Male,1,White Non Hispanic,3,Bronx,9802
+2014,1,<1,2,Female,5,Hispanic,3,Bronx,6543
+2014,2,01-09,2,Female,2,Black Non Hispanic,3,Bronx,26084
+2014,0,Total,1,Male,0,Total,3,Bronx,678127
+2014,6,35-44,0,Total,0,Total,3,Bronx,184548
+2014,2,01-09,1,Male,1,White Non Hispanic,3,Bronx,7721
+2014,10,75-84,1,Male,2,Black Non Hispanic,3,Bronx,4816
+2014,10,75-84,0,Total,2,Black Non Hispanic,3,Bronx,14125
+2014,0,Total,2,Female,1,White Non Hispanic,3,Bronx,76794
+2014,10,75-84,0,Total,1,White Non Hispanic,3,Bronx,11488
+2014,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,522
+2014,0,Total,1,Male,5,Hispanic,3,Bronx,372455
+2014,3,10-19,1,Male,1,White Non Hispanic,3,Bronx,7811
+2014,8,55-64,1,Male,3,Other Non Hispanic,3,Bronx,3527
+2014,4,20-24,1,Male,2,Black Non Hispanic,3,Bronx,17491
+2014,7,45-54,0,Total,0,Total,3,Bronx,190596
+2014,3,10-19,2,Female,2,Black Non Hispanic,3,Bronx,28888
+2014,6,35-44,2,Female,5,Hispanic,3,Bronx,56087
+2014,2,01-09,0,Total,5,Hispanic,3,Bronx,111643
+2014,11,85+,1,Male,0,Total,3,Bronx,6496
+2014,9,65-74,1,Male,1,White Non Hispanic,3,Bronx,7457
+2014,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,202007
+2014,7,45-54,0,Total,3,Other Non Hispanic,3,Bronx,8516
+2014,11,85+,2,Female,1,White Non Hispanic,3,Bronx,5688
+2014,9,65-74,2,Female,0,Total,3,Bronx,53081
+2014,2,01-09,2,Female,0,Total,3,Bronx,91609
+2014,7,45-54,0,Total,1,White Non Hispanic,3,Bronx,18552
+2014,9,65-74,1,Male,5,Hispanic,3,Bronx,17124
+2014,1,<1,1,Male,2,Black Non Hispanic,3,Bronx,3109
+2014,3,10-19,2,Female,0,Total,3,Bronx,97358
+2014,7,45-54,2,Female,3,Other Non Hispanic,3,Bronx,4263
+2014,5,25-34,1,Male,2,Black Non Hispanic,3,Bronx,30228
+2014,5,25-34,2,Female,2,Black Non Hispanic,3,Bronx,33631
+2014,3,10-19,2,Female,1,White Non Hispanic,3,Bronx,6897
+2014,10,75-84,0,Total,5,Hispanic,3,Bronx,21172
+2014,1,<1,2,Female,1,White Non Hispanic,3,Bronx,682
+2014,6,35-44,2,Female,1,White Non Hispanic,3,Bronx,7469
+2014,9,65-74,0,Total,1,White Non Hispanic,3,Bronx,16074
+2014,9,65-74,0,Total,3,Other Non Hispanic,3,Bronx,4153
+2014,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2537
+2014,3,10-19,2,Female,5,Hispanic,3,Bronx,57876
+2014,7,45-54,2,Female,2,Black Non Hispanic,3,Bronx,34893
+2014,6,35-44,1,Male,2,Black Non Hispanic,3,Bronx,25379
+2014,6,35-44,0,Total,2,Black Non Hispanic,3,Bronx,56581
+2014,7,45-54,1,Male,0,Total,3,Bronx,87627
+2014,1,<1,0,Total,0,Total,3,Bronx,21563
+2014,11,85+,0,Total,1,White Non Hispanic,3,Bronx,8225
+2014,8,55-64,0,Total,0,Total,3,Bronx,149433
+2014,6,35-44,1,Male,5,Hispanic,3,Bronx,46711
+2014,4,20-24,1,Male,0,Total,3,Bronx,61672
+2014,6,35-44,0,Total,1,White Non Hispanic,3,Bronx,15784
+2014,9,65-74,0,Total,0,Total,3,Bronx,90804
+2014,11,85+,0,Total,0,Total,3,Bronx,22212
+2014,4,20-24,0,Total,5,Hispanic,3,Bronx,73613
+2014,10,75-84,1,Male,0,Total,3,Bronx,18143
+2014,4,20-24,0,Total,3,Other Non Hispanic,3,Bronx,4585
+2014,3,10-19,1,Male,0,Total,3,Bronx,102073
+2014,1,<1,1,Male,1,White Non Hispanic,3,Bronx,726
+2014,6,35-44,1,Male,0,Total,3,Bronx,84812
+2014,2,01-09,2,Female,3,Other Non Hispanic,3,Bronx,3701
+2014,8,55-64,1,Male,1,White Non Hispanic,3,Bronx,10212
+2014,8,55-64,0,Total,2,Black Non Hispanic,3,Bronx,49371
+2014,3,10-19,0,Total,2,Black Non Hispanic,3,Bronx,58617
+2014,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,32523
+2014,10,75-84,2,Female,3,Other Non Hispanic,3,Bronx,1017
+2014,6,35-44,2,Female,2,Black Non Hispanic,3,Bronx,31202
+2014,4,20-24,2,Female,3,Other Non Hispanic,3,Bronx,2311
+2014,1,<1,2,Female,0,Total,3,Bronx,10564
+2014,8,55-64,0,Total,5,Hispanic,3,Bronx,71977
+2014,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,341
+2014,7,45-54,2,Female,1,White Non Hispanic,3,Bronx,8750
+2014,4,20-24,2,Female,2,Black Non Hispanic,3,Bronx,17931
+2014,5,25-34,0,Total,5,Hispanic,3,Bronx,127394
+2014,11,85+,2,Female,0,Total,3,Bronx,15716
+2014,8,55-64,1,Male,5,Hispanic,3,Bronx,31215
+2014,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,30268
+2014,9,65-74,2,Female,1,White Non Hispanic,3,Bronx,8617
+2014,4,20-24,2,Female,1,White Non Hispanic,3,Bronx,4454
+2014,1,<1,1,Male,3,Other Non Hispanic,3,Bronx,373
+2014,2,01-09,1,Male,3,Other Non Hispanic,3,Bronx,3787
+2014,11,85+,1,Male,5,Hispanic,3,Bronx,2160
+2014,9,65-74,1,Male,3,Other Non Hispanic,3,Bronx,1872
+2014,0,Total,2,Female,0,Total,3,Bronx,760032
+2014,4,20-24,0,Total,2,Black Non Hispanic,3,Bronx,35422
+2014,5,25-34,2,Female,0,Total,3,Bronx,114761
+2014,5,25-34,2,Female,1,White Non Hispanic,3,Bronx,9406
+2014,5,25-34,0,Total,1,White Non Hispanic,3,Bronx,18777
+2014,5,25-34,0,Total,0,Total,3,Bronx,220682
+2014,8,55-64,2,Female,1,White Non Hispanic,3,Bronx,10570
+2014,0,Total,0,Total,5,Hispanic,3,Bronx,788575
+2014,7,45-54,0,Total,2,Black Non Hispanic,3,Bronx,64262
+2014,8,55-64,2,Female,2,Black Non Hispanic,3,Bronx,27444
+2014,8,55-64,0,Total,1,White Non Hispanic,3,Bronx,20782
+2014,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1618
+2014,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,436602
+2014,2,01-09,0,Total,0,Total,3,Bronx,187389
+2014,3,10-19,1,Male,5,Hispanic,3,Bronx,60585
+2014,10,75-84,0,Total,3,Other Non Hispanic,3,Bronx,1806
+2014,8,55-64,2,Female,5,Hispanic,3,Bronx,40762
+2014,5,25-34,1,Male,5,Hispanic,3,Bronx,61465
+2014,3,10-19,0,Total,5,Hispanic,3,Bronx,118461
+2014,6,35-44,1,Male,1,White Non Hispanic,3,Bronx,8315
+2014,5,25-34,2,Female,3,Other Non Hispanic,3,Bronx,5795
+2014,9,65-74,1,Male,2,Black Non Hispanic,3,Bronx,11270
+2016,5,25 to 34,2,Female,0,Total,3,Bronx,119631
+2016,2,1 to 9,2,Female,2,Black Non Hispanic,3,Bronx,26149
+2016,6,35 to 44,2,Female,2,Black Non Hispanic,3,Bronx,30156
+2016,10,75 to 84,0,Total,1,White Non Hispanic,3,Bronx,10953
+2016,5,25 to 34,1,Male,3,Other Non Hispanic,3,Bronx,5017
+2016,1,Less than 1,1,Male,1,White Non Hispanic,3,Bronx,697
+2016,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,203501
+2016,8,55 to 64,0,Total,0,Total,3,Bronx,155879
+2016,4,20 to 24,0,Total,1,White Non Hispanic,3,Bronx,8211
+2016,3,10 to 19,1,Male,0,Total,3,Bronx,101723
+2016,3,10 to 19,1,Male,3,Other Non Hispanic,3,Bronx,4047
+2016,5,25 to 34,0,Total,2,Black Non Hispanic,3,Bronx,67587
+2016,1,Less than 1,1,Male,2,Black Non Hispanic,3,Bronx,3049
+2016,4,20 to 24,1,Male,1,White Non Hispanic,3,Bronx,4307
+2016,6,35 to 44,0,Total,0,Total,3,Bronx,184440
+2016,11,85+,0,Total,1,White Non Hispanic,3,Bronx,7885
+2016,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2428
+2016,10,75 to 84,1,Male,3,Other Non Hispanic,3,Bronx,896
+2016,7,45 to 54,1,Male,1,White Non Hispanic,3,Bronx,8547
+2016,3,10 to 19,1,Male,1,White Non Hispanic,3,Bronx,6957
+2016,1,Less than 1,2,Female,3,Other Non Hispanic,3,Bronx,368
+2016,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,231
+2016,8,55 to 64,0,Total,1,White Non Hispanic,3,Bronx,19402
+2016,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,440
+2016,10,75 to 84,2,Female,0,Total,3,Bronx,31746
+2016,8,55 to 64,1,Male,0,Total,3,Bronx,70069
+2016,1,Less than 1,2,Female,2,Black Non Hispanic,3,Bronx,2934
+2016,5,25 to 34,0,Total,3,Other Non Hispanic,3,Bronx,11103
+2016,8,55 to 64,1,Male,3,Other Non Hispanic,3,Bronx,3814
+2016,2,1 to 9,0,Total,3,Other Non Hispanic,3,Bronx,7066
+2016,8,55 to 64,1,Male,1,White Non Hispanic,3,Bronx,9471
+2016,1,Less than 1,1,Male,0,Total,3,Bronx,10910
+2016,9,65 to 74,0,Total,3,Other Non Hispanic,3,Bronx,4618
+2016,7,45 to 54,2,Female,1,White Non Hispanic,3,Bronx,7690
+2016,1,Less than 1,1,Male,5,Hispanic,3,Bronx,6793
+2016,6,35 to 44,2,Female,0,Total,3,Bronx,99380
+2016,5,25 to 34,0,Total,5,Hispanic,3,Bronx,135185
+2016,8,55 to 64,0,Total,5,Hispanic,3,Bronx,76580
+2016,11,85+,0,Total,5,Hispanic,3,Bronx,8006
+2016,6,35 to 44,0,Total,1,White Non Hispanic,3,Bronx,14364
+2016,4,20 to 24,0,Total,0,Total,3,Bronx,116347
+2016,3,10 to 19,2,Female,1,White Non Hispanic,3,Bronx,5907
+2016,9,65 to 74,1,Male,3,Other Non Hispanic,3,Bronx,2041
+2016,6,35 to 44,2,Female,5,Hispanic,3,Bronx,57175
+2016,7,45 to 54,1,Male,3,Other Non Hispanic,3,Bronx,4365
+2016,5,25 to 34,1,Male,5,Hispanic,3,Bronx,65858
+2016,11,85+,2,Female,0,Total,3,Bronx,16246
+2016,10,75 to 84,2,Female,3,Other Non Hispanic,3,Bronx,1111
+2016,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,235329
+2016,3,10 to 19,1,Male,5,Hispanic,3,Bronx,61385
+2016,10,75 to 84,2,Female,2,Black Non Hispanic,3,Bronx,9949
+2016,10,75 to 84,0,Total,0,Total,3,Bronx,50785
+2016,10,75 to 84,1,Male,0,Total,3,Bronx,19039
+2016,4,20 to 24,2,Female,3,Other Non Hispanic,3,Bronx,2206
+2016,8,55 to 64,0,Total,2,Black Non Hispanic,3,Bronx,52182
+2016,4,20 to 24,2,Female,0,Total,3,Bronx,58149
+2016,3,10 to 19,0,Total,3,Other Non Hispanic,3,Bronx,7843
+2016,2,1 to 9,2,Female,0,Total,3,Bronx,92496
+2016,2,1 to 9,0,Total,0,Total,3,Bronx,188095
+2016,5,25 to 34,2,Female,2,Black Non Hispanic,3,Bronx,35305
+2016,6,35 to 44,1,Male,3,Other Non Hispanic,3,Bronx,4263
+2016,6,35 to 44,0,Total,2,Black Non Hispanic,3,Bronx,55050
+2016,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,4742
+2016,9,65 to 74,2,Female,0,Total,3,Bronx,56373
+2016,8,55 to 64,1,Male,5,Hispanic,3,Bronx,33427
+2016,7,45 to 54,0,Total,3,Other Non Hispanic,3,Bronx,8853
+2016,9,65 to 74,0,Total,2,Black Non Hispanic,3,Bronx,30881
+2016,1,Less than 1,2,Female,5,Hispanic,3,Bronx,6517
+2016,7,45 to 54,2,Female,3,Other Non Hispanic,3,Bronx,4488
+2016,11,85+,2,Female,1,White Non Hispanic,3,Bronx,5457
+2016,2,1 to 9,2,Female,1,White Non Hispanic,3,Bronx,5783
+2016,0,Total,2,Female,5,Hispanic,3,Bronx,429900
+2016,11,85+,2,Female,5,Hispanic,3,Bronx,5607
+2016,3,10 to 19,2,Female,5,Hispanic,3,Bronx,58597
+2016,2,1 to 9,1,Male,3,Other Non Hispanic,3,Bronx,3568
+2016,10,75 to 84,2,Female,1,White Non Hispanic,3,Bronx,6507
+2016,2,1 to 9,2,Female,5,Hispanic,3,Bronx,57066
+2016,8,55 to 64,0,Total,3,Other Non Hispanic,3,Bronx,7715
+2016,3,10 to 19,2,Female,2,Black Non Hispanic,3,Bronx,28495
+2016,4,20 to 24,2,Female,1,White Non Hispanic,3,Bronx,3904
+2016,9,65 to 74,2,Female,5,Hispanic,3,Bronx,26629
+2016,9,65 to 74,0,Total,1,White Non Hispanic,3,Bronx,16216
+2016,10,75 to 84,0,Total,3,Other Non Hispanic,3,Bronx,2007
+2016,8,55 to 64,2,Female,2,Black Non Hispanic,3,Bronx,28825
+2016,4,20 to 24,1,Male,3,Other Non Hispanic,3,Bronx,2251
+2016,7,45 to 54,2,Female,0,Total,3,Bronx,102016
+2016,2,1 to 9,1,Male,5,Hispanic,3,Bronx,59562
+2016,6,35 to 44,1,Male,1,White Non Hispanic,3,Bronx,7408
+2016,2,1 to 9,0,Total,1,White Non Hispanic,3,Bronx,11650
+2016,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1724
+2016,3,10 to 19,2,Female,3,Other Non Hispanic,3,Bronx,3796
+2016,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,64428
+2016,3,10 to 19,0,Total,2,Black Non Hispanic,3,Bronx,57829
+2016,2,1 to 9,0,Total,5,Hispanic,3,Bronx,116628
+2016,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,6466
+2016,2,1 to 9,1,Male,2,Black Non Hispanic,3,Bronx,26602
+2016,8,55 to 64,2,Female,5,Hispanic,3,Bronx,43153
+2016,3,10 to 19,0,Total,0,Total,3,Bronx,198518
+2016,1,Less than 1,1,Male,3,Other Non Hispanic,3,Bronx,371
+2016,9,65 to 74,2,Female,1,White Non Hispanic,3,Bronx,8620
+2016,6,35 to 44,2,Female,3,Other Non Hispanic,3,Bronx,5093
+2016,0,Total,2,Female,0,Total,3,Bronx,769135
+2016,5,25 to 34,2,Female,1,White Non Hispanic,3,Bronx,8913
+2016,1,Less than 1,0,Total,1,White Non Hispanic,3,Bronx,1371
+2016,10,75 to 84,2,Female,5,Hispanic,3,Bronx,14179
+2016,4,20 to 24,1,Male,2,Black Non Hispanic,3,Bronx,16244
+2016,4,20 to 24,0,Total,2,Black Non Hispanic,3,Bronx,32909
+2016,5,25 to 34,2,Female,3,Other Non Hispanic,3,Bronx,6086
+2016,6,35 to 44,0,Total,3,Other Non Hispanic,3,Bronx,9356
+2016,10,75 to 84,1,Male,2,Black Non Hispanic,3,Bronx,5176
+2016,3,10 to 19,0,Total,1,White Non Hispanic,3,Bronx,12864
+2016,8,55 to 64,2,Female,1,White Non Hispanic,3,Bronx,9931
+2016,5,25 to 34,0,Total,1,White Non Hispanic,3,Bronx,17887
+2016,0,Total,0,Total,5,Hispanic,3,Bronx,815422
+2016,7,45 to 54,2,Female,2,Black Non Hispanic,3,Bronx,33562
+2016,5,25 to 34,0,Total,0,Total,3,Bronx,231762
+2016,6,35 to 44,0,Total,5,Hispanic,3,Bronx,105670
+2016,1,Less than 1,2,Female,1,White Non Hispanic,3,Bronx,674
+2016,7,45 to 54,1,Male,2,Black Non Hispanic,3,Bronx,28505
+2016,2,1 to 9,1,Male,1,White Non Hispanic,3,Bronx,5867
+2016,7,45 to 54,2,Female,5,Hispanic,3,Bronx,56276
+2016,0,Total,0,Total,1,White Non Hispanic,3,Bronx,137040
+2016,5,25 to 34,1,Male,0,Total,3,Bronx,112131
+2016,9,65 to 74,1,Male,0,Total,3,Bronx,40729
+2016,0,Total,0,Total,0,Total,3,Bronx,1455720
+2016,6,35 to 44,2,Female,1,White Non Hispanic,3,Bronx,6956
+2016,4,20 to 24,0,Total,5,Hispanic,3,Bronx,70770
+2016,7,45 to 54,1,Male,0,Total,3,Bronx,86345
+2016,6,35 to 44,1,Male,2,Black Non Hispanic,3,Bronx,24894
+2016,2,1 to 9,1,Male,0,Total,3,Bronx,95599
+2016,4,20 to 24,2,Female,2,Black Non Hispanic,3,Bronx,16665
+2016,4,20 to 24,1,Male,0,Total,3,Bronx,58198
+2016,10,75 to 84,0,Total,5,Hispanic,3,Bronx,22700
+2016,0,Total,1,Male,5,Hispanic,3,Bronx,385522
+2016,9,65 to 74,2,Female,3,Other Non Hispanic,3,Bronx,2577
+2016,8,55 to 64,2,Female,3,Other Non Hispanic,3,Bronx,3901
+2016,1,Less than 1,0,Total,0,Total,3,Bronx,21403
+2016,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,33564
+2016,3,10 to 19,1,Male,2,Black Non Hispanic,3,Bronx,29334
+2016,1,Less than 1,0,Total,2,Black Non Hispanic,3,Bronx,5983
+2016,1,Less than 1,0,Total,5,Hispanic,3,Bronx,13310
+2016,5,25 to 34,1,Male,1,White Non Hispanic,3,Bronx,8974
+2016,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,30864
+2016,1,Less than 1,0,Total,3,Other Non Hispanic,3,Bronx,739
+2016,4,20 to 24,1,Male,5,Hispanic,3,Bronx,35396
+2016,10,75 to 84,1,Male,1,White Non Hispanic,3,Bronx,4446
+2016,8,55 to 64,1,Male,2,Black Non Hispanic,3,Bronx,23357
+2016,2,1 to 9,2,Female,3,Other Non Hispanic,3,Bronx,3498
+2016,11,85+,1,Male,0,Total,3,Bronx,6782
+2016,7,45 to 54,0,Total,5,Hispanic,3,Bronx,101204
+2016,2,1 to 9,0,Total,2,Black Non Hispanic,3,Bronx,52751
+2016,8,55 to 64,2,Female,0,Total,3,Bronx,85810
+2016,9,65 to 74,2,Female,2,Black Non Hispanic,3,Bronx,18547
+2016,9,65 to 74,0,Total,0,Total,3,Bronx,97102
+2016,10,75 to 84,1,Male,5,Hispanic,3,Bronx,8521
+2016,1,Less than 1,2,Female,0,Total,3,Bronx,10493
+2016,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,438830
+2016,7,45 to 54,0,Total,0,Total,3,Bronx,188361
+2016,0,Total,2,Female,1,White Non Hispanic,3,Bronx,70342
+2016,5,25 to 34,1,Male,2,Black Non Hispanic,3,Bronx,32282
+2016,4,20 to 24,0,Total,3,Other Non Hispanic,3,Bronx,4457
+2016,5,25 to 34,2,Female,5,Hispanic,3,Bronx,69327
+2016,9,65 to 74,0,Total,5,Hispanic,3,Bronx,45387
+2016,6,35 to 44,1,Male,0,Total,3,Bronx,85060
+2016,7,45 to 54,0,Total,2,Black Non Hispanic,3,Bronx,62067
+2016,3,10 to 19,0,Total,5,Hispanic,3,Bronx,119982
+2016,7,45 to 54,1,Male,5,Hispanic,3,Bronx,44928
+2016,4,20 to 24,2,Female,5,Hispanic,3,Bronx,35374
+2016,3,10 to 19,2,Female,0,Total,3,Bronx,96795
+2016,0,Total,1,Male,1,White Non Hispanic,3,Bronx,66698
+2016,6,35 to 44,1,Male,5,Hispanic,3,Bronx,48495
+2016,9,65 to 74,1,Male,1,White Non Hispanic,3,Bronx,7596
+2016,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,671
+2016,7,45 to 54,0,Total,1,White Non Hispanic,3,Bronx,16237
+2016,0,Total,1,Male,0,Total,3,Bronx,686585
+2016,10,75 to 84,0,Total,2,Black Non Hispanic,3,Bronx,15125
+2016,9,65 to 74,1,Male,5,Hispanic,3,Bronx,18758
+2016,11,85+,1,Male,5,Hispanic,3,Bronx,2399
+2016,9,65 to 74,1,Male,2,Black Non Hispanic,3,Bronx,12334
+2016,11,85+,0,Total,0,Total,3,Bronx,23028
+2015,5,25 to 34,2,Female,2,Black Non Hispanic,3,Bronx,34797
+2015,10,75 to 84,1,Male,1,White Non Hispanic,3,Bronx,4508
+2015,8,55 to 64,0,Total,2,Black Non Hispanic,3,Bronx,51156
+2015,6,35 to 44,0,Total,3,Other Non Hispanic,3,Bronx,9479
+2015,11,85+,0,Total,1,White Non Hispanic,3,Bronx,7962
+2015,5,25 to 34,1,Male,5,Hispanic,3,Bronx,63410
+2015,9,65 to 74,1,Male,0,Total,3,Bronx,39217
+2015,1,Less than 1,2,Female,2,Black Non Hispanic,3,Bronx,3034
+2015,6,35 to 44,2,Female,5,Hispanic,3,Bronx,57098
+2015,5,25 to 34,2,Female,0,Total,3,Bronx,117694
+2015,8,55 to 64,1,Male,1,White Non Hispanic,3,Bronx,10023
+2015,9,65 to 74,2,Female,1,White Non Hispanic,3,Bronx,8600
+2015,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,4625
+2015,7,45 to 54,2,Female,3,Other Non Hispanic,3,Bronx,4503
+2015,1,Less than 1,0,Total,5,Hispanic,3,Bronx,13443
+2015,6,35 to 44,2,Female,1,White Non Hispanic,3,Bronx,7494
+2015,4,20 to 24,0,Total,0,Total,3,Bronx,120998
+2015,8,55 to 64,0,Total,1,White Non Hispanic,3,Bronx,20432
+2015,10,75 to 84,0,Total,5,Hispanic,3,Bronx,21993
+2015,10,75 to 84,0,Total,2,Black Non Hispanic,3,Bronx,14548
+2015,10,75 to 84,0,Total,1,White Non Hispanic,3,Bronx,11151
+2015,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,65147
+2015,7,45 to 54,1,Male,3,Other Non Hispanic,3,Bronx,4455
+2015,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,604
+2015,11,85+,2,Female,1,White Non Hispanic,3,Bronx,5510
+2015,8,55 to 64,0,Total,0,Total,3,Bronx,154231
+2015,2,1 to 9,0,Total,5,Hispanic,3,Bronx,113291
+2015,3,10 to 19,1,Male,1,White Non Hispanic,3,Bronx,8077
+2015,5,25 to 34,1,Male,1,White Non Hispanic,3,Bronx,9428
+2015,4,20 to 24,0,Total,1,White Non Hispanic,3,Bronx,8947
+2015,4,20 to 24,2,Female,1,White Non Hispanic,3,Bronx,4307
+2015,1,Less than 1,2,Female,1,White Non Hispanic,3,Bronx,695
+2015,9,65 to 74,1,Male,2,Black Non Hispanic,3,Bronx,11736
+2015,6,35 to 44,0,Total,0,Total,3,Bronx,185942
+2015,8,55 to 64,2,Female,3,Other Non Hispanic,3,Bronx,3910
+2015,6,35 to 44,0,Total,5,Hispanic,3,Bronx,104824
+2015,0,Total,2,Female,5,Hispanic,3,Bronx,422608
+2015,0,Total,0,Total,1,White Non Hispanic,3,Bronx,149393
+2015,11,85+,0,Total,0,Total,3,Bronx,22512
+2015,9,65 to 74,1,Male,1,White Non Hispanic,3,Bronx,7539
+2015,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,211
+2015,2,1 to 9,2,Female,0,Total,3,Bronx,92369
+2015,2,1 to 9,2,Female,2,Black Non Hispanic,3,Bronx,25798
+2015,4,20 to 24,1,Male,3,Other Non Hispanic,3,Bronx,2323
+2015,1,Less than 1,1,Male,1,White Non Hispanic,3,Bronx,728
+2015,2,1 to 9,1,Male,0,Total,3,Bronx,96790
+2015,7,45 to 54,0,Total,3,Other Non Hispanic,3,Bronx,8958
+2015,3,10 to 19,0,Total,3,Other Non Hispanic,3,Bronx,7779
+2015,11,85+,1,Male,0,Total,3,Bronx,6582
+2015,5,25 to 34,1,Male,3,Other Non Hispanic,3,Bronx,5158
+2015,10,75 to 84,1,Male,0,Total,3,Bronx,18626
+2015,8,55 to 64,1,Male,3,Other Non Hispanic,3,Bronx,3782
+2015,5,25 to 34,1,Male,0,Total,3,Bronx,109480
+2015,3,10 to 19,1,Male,3,Other Non Hispanic,3,Bronx,3995
+2015,6,35 to 44,1,Male,2,Black Non Hispanic,3,Bronx,25134
+2015,0,Total,1,Male,1,White Non Hispanic,3,Bronx,73059
+2015,10,75 to 84,0,Total,0,Total,3,Bronx,49607
+2015,7,45 to 54,1,Male,2,Black Non Hispanic,3,Bronx,29100
+2015,8,55 to 64,0,Total,3,Other Non Hispanic,3,Bronx,7692
+2015,5,25 to 34,2,Female,5,Hispanic,3,Bronx,67286
+2015,9,65 to 74,0,Total,1,White Non Hispanic,3,Bronx,16139
+2015,7,45 to 54,1,Male,5,Hispanic,3,Bronx,45255
+2015,7,45 to 54,1,Male,1,White Non Hispanic,3,Bronx,9548
+2015,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2452
+2015,3,10 to 19,2,Female,0,Total,3,Bronx,96557
+2015,5,25 to 34,2,Female,1,White Non Hispanic,3,Bronx,9485
+2015,2,1 to 9,2,Female,3,Other Non Hispanic,3,Bronx,3710
+2015,7,45 to 54,1,Male,0,Total,3,Bronx,88358
+2015,3,10 to 19,1,Male,2,Black Non Hispanic,3,Bronx,29325
+2015,8,55 to 64,2,Female,5,Hispanic,3,Bronx,42351
+2015,6,35 to 44,0,Total,2,Black Non Hispanic,3,Bronx,56032
+2015,4,20 to 24,2,Female,3,Other Non Hispanic,3,Bronx,2312
+2015,5,25 to 34,0,Total,5,Hispanic,3,Bronx,130696
+2015,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,203121
+2015,2,1 to 9,1,Male,1,White Non Hispanic,3,Bronx,8003
+2015,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,33735
+2015,2,1 to 9,1,Male,3,Other Non Hispanic,3,Bronx,3912
+2015,10,75 to 84,2,Female,5,Hispanic,3,Bronx,13651
+2015,10,75 to 84,2,Female,0,Total,3,Bronx,30981
+2015,0,Total,1,Male,0,Total,3,Bronx,687205
+2015,7,45 to 54,0,Total,5,Hispanic,3,Bronx,101035
+2015,2,1 to 9,0,Total,0,Total,3,Bronx,189159
+2015,4,20 to 24,2,Female,2,Black Non Hispanic,3,Bronx,17487
+2015,1,Less than 1,1,Male,3,Other Non Hispanic,3,Bronx,376
+2015,3,10 to 19,0,Total,5,Hispanic,3,Bronx,117742
+2015,9,65 to 74,1,Male,5,Hispanic,3,Bronx,17960
+2015,10,75 to 84,1,Male,5,Hispanic,3,Bronx,8342
+2015,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,438683
+2015,3,10 to 19,2,Female,2,Black Non Hispanic,3,Bronx,28233
+2015,7,45 to 54,0,Total,0,Total,3,Bronx,191591
+2015,10,75 to 84,2,Female,2,Black Non Hispanic,3,Bronx,9613
+2015,3,10 to 19,1,Male,5,Hispanic,3,Bronx,60306
+2015,9,65 to 74,0,Total,0,Total,3,Bronx,94162
+2015,8,55 to 64,2,Female,2,Black Non Hispanic,3,Bronx,28341
+2015,3,10 to 19,2,Female,3,Other Non Hispanic,3,Bronx,3784
+2015,1,Less than 1,0,Total,2,Black Non Hispanic,3,Bronx,6205
+2015,2,1 to 9,0,Total,2,Black Non Hispanic,3,Bronx,52480
+2015,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,393
+2015,1,Less than 1,2,Female,5,Hispanic,3,Bronx,6567
+2015,6,35 to 44,0,Total,1,White Non Hispanic,3,Bronx,15607
+2015,4,20 to 24,0,Total,3,Other Non Hispanic,3,Bronx,4635
+2015,11,85+,1,Male,5,Hispanic,3,Bronx,2252
+2015,7,45 to 54,2,Female,1,White Non Hispanic,3,Bronx,8324
+2015,5,25 to 34,1,Male,2,Black Non Hispanic,3,Bronx,31484
+2015,10,75 to 84,1,Male,3,Other Non Hispanic,3,Bronx,841
+2015,9,65 to 74,2,Female,5,Hispanic,3,Bronx,25775
+2015,1,Less than 1,1,Male,0,Total,3,Bronx,11151
+2015,7,45 to 54,0,Total,2,Black Non Hispanic,3,Bronx,63726
+2015,5,25 to 34,0,Total,3,Other Non Hispanic,3,Bronx,11284
+2015,8,55 to 64,2,Female,1,White Non Hispanic,3,Bronx,10409
+2015,6,35 to 44,1,Male,3,Other Non Hispanic,3,Bronx,4377
+2015,6,35 to 44,2,Female,2,Black Non Hispanic,3,Bronx,30898
+2015,2,1 to 9,1,Male,5,Hispanic,3,Bronx,58193
+2015,3,10 to 19,0,Total,2,Black Non Hispanic,3,Bronx,57558
+2015,10,75 to 84,1,Male,2,Black Non Hispanic,3,Bronx,4935
+2015,1,Less than 1,1,Male,2,Black Non Hispanic,3,Bronx,3171
+2015,4,20 to 24,0,Total,5,Hispanic,3,Bronx,72857
+2015,9,65 to 74,0,Total,5,Hispanic,3,Bronx,43735
+2015,0,Total,0,Total,5,Hispanic,3,Bronx,802221
+2015,9,65 to 74,1,Male,3,Other Non Hispanic,3,Bronx,1982
+2015,2,1 to 9,0,Total,1,White Non Hispanic,3,Bronx,15766
+2015,2,1 to 9,2,Female,5,Hispanic,3,Bronx,55098
+2015,4,20 to 24,2,Female,5,Hispanic,3,Bronx,36164
+2015,3,10 to 19,0,Total,1,White Non Hispanic,3,Bronx,15181
+2015,0,Total,0,Total,0,Total,3,Bronx,1455444
+2015,9,65 to 74,0,Total,2,Black Non Hispanic,3,Bronx,29846
+2015,6,35 to 44,1,Male,0,Total,3,Bronx,85350
+2015,3,10 to 19,2,Female,1,White Non Hispanic,3,Bronx,7104
+2015,7,45 to 54,2,Female,0,Total,3,Bronx,103233
+2015,4,20 to 24,0,Total,2,Black Non Hispanic,3,Bronx,34559
+2015,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,235562
+2015,11,85+,2,Female,0,Total,3,Bronx,15930
+2015,3,10 to 19,1,Male,0,Total,3,Bronx,101703
+2015,7,45 to 54,2,Female,2,Black Non Hispanic,3,Bronx,34626
+2015,8,55 to 64,2,Female,0,Total,3,Bronx,85011
+2015,1,Less than 1,1,Male,5,Hispanic,3,Bronx,6876
+2015,4,20 to 24,1,Male,5,Hispanic,3,Bronx,36693
+2015,5,25 to 34,0,Total,0,Total,3,Bronx,227174
+2015,5,25 to 34,0,Total,2,Black Non Hispanic,3,Bronx,66281
+2015,10,75 to 84,0,Total,3,Other Non Hispanic,3,Bronx,1915
+2015,9,65 to 74,2,Female,2,Black Non Hispanic,3,Bronx,18110
+2015,5,25 to 34,0,Total,1,White Non Hispanic,3,Bronx,18913
+2015,4,20 to 24,1,Male,0,Total,3,Bronx,60728
+2015,7,45 to 54,0,Total,1,White Non Hispanic,3,Bronx,17872
+2015,4,20 to 24,1,Male,2,Black Non Hispanic,3,Bronx,17072
+2015,0,Total,2,Female,0,Total,3,Bronx,768239
+2015,6,35 to 44,2,Female,0,Total,3,Bronx,100592
+2015,11,85+,2,Female,5,Hispanic,3,Bronx,5402
+2015,1,Less than 1,0,Total,1,White Non Hispanic,3,Bronx,1423
+2015,9,65 to 74,2,Female,3,Other Non Hispanic,3,Bronx,2460
+2015,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,31412
+2015,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,6292
+2015,9,65 to 74,2,Female,0,Total,3,Bronx,54945
+2015,0,Total,2,Female,1,White Non Hispanic,3,Bronx,76334
+2015,4,20 to 24,1,Male,1,White Non Hispanic,3,Bronx,4640
+2015,1,Less than 1,0,Total,0,Total,3,Bronx,21808
+2015,6,35 to 44,1,Male,5,Hispanic,3,Bronx,47726
+2015,8,55 to 64,1,Male,2,Black Non Hispanic,3,Bronx,22815
+2015,1,Less than 1,2,Female,0,Total,3,Bronx,10657
+2015,3,10 to 19,0,Total,0,Total,3,Bronx,198260
+2015,6,35 to 44,2,Female,3,Other Non Hispanic,3,Bronx,5102
+2015,2,1 to 9,0,Total,3,Other Non Hispanic,3,Bronx,7622
+2015,11,85+,0,Total,5,Hispanic,3,Bronx,7654
+2015,4,20 to 24,2,Female,0,Total,3,Bronx,60270
+2015,8,55 to 64,1,Male,5,Hispanic,3,Bronx,32600
+2015,2,1 to 9,2,Female,1,White Non Hispanic,3,Bronx,7763
+2015,2,1 to 9,1,Male,2,Black Non Hispanic,3,Bronx,26682
+2015,9,65 to 74,0,Total,3,Other Non Hispanic,3,Bronx,4442
+2015,1,Less than 1,2,Female,3,Other Non Hispanic,3,Bronx,361
+2015,8,55 to 64,1,Male,0,Total,3,Bronx,69220
+2015,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1667
+2015,5,25 to 34,2,Female,3,Other Non Hispanic,3,Bronx,6126
+2015,10,75 to 84,2,Female,3,Other Non Hispanic,3,Bronx,1074
+2015,6,35 to 44,1,Male,1,White Non Hispanic,3,Bronx,8113
+2015,0,Total,1,Male,5,Hispanic,3,Bronx,379613
+2015,1,Less than 1,0,Total,3,Other Non Hispanic,3,Bronx,737
+2015,8,55 to 64,0,Total,5,Hispanic,3,Bronx,74951
+2015,10,75 to 84,2,Female,1,White Non Hispanic,3,Bronx,6643
+2015,3,10 to 19,2,Female,5,Hispanic,3,Bronx,57436
+2015,7,45 to 54,2,Female,5,Hispanic,3,Bronx,55780
+2017,0,Total,0,Total,0,Total,3,Bronx,1471160
+2017,0,Total,1,Male,0,Total,3,Bronx,693801
+2017,0,Total,2,Female,0,Total,3,Bronx,777359
+2017,1,Less than 1,0,Total,0,Total,3,Bronx,21492
+2017,10,75 to 84,0,Total,0,Total,3,Bronx,54301
+2017,11,85+,0,Total,0,Total,3,Bronx,25612
+2017,2,1 to 9,0,Total,0,Total,3,Bronx,187375
+2017,3,10 to 19,0,Total,0,Total,3,Bronx,196584
+2017,4,20 to 24,0,Total,0,Total,3,Bronx,112970
+2017,5,25 to 34,0,Total,0,Total,3,Bronx,237371
+2017,6,35 to 44,0,Total,0,Total,3,Bronx,186492
+2017,7,45 to 54,0,Total,0,Total,3,Bronx,187199
+2017,8,55 to 64,0,Total,0,Total,3,Bronx,160364
+2017,9,65 to 74,0,Total,0,Total,3,Bronx,101400
+2017,0,Total,0,Total,1,White Non Hispanic,3,Bronx,138539
+2017,0,Total,0,Total,2,Black Non Hispanic,3,Bronx,440515
+2017,0,Total,0,Total,3,Other Non Hispanic,3,Bronx,65930
+2017,0,Total,0,Total,5,Hispanic,3,Bronx,826176
+2017,1,Less than 1,1,Male,0,Total,3,Bronx,10972
+2017,1,Less than 1,2,Female,0,Total,3,Bronx,10520
+2017,10,75 to 84,1,Male,0,Total,3,Bronx,20553
+2017,10,75 to 84,2,Female,0,Total,3,Bronx,33748
+2017,11,85+,1,Male,0,Total,3,Bronx,7624
+2017,11,85+,2,Female,0,Total,3,Bronx,17988
+2017,2,1 to 9,1,Male,0,Total,3,Bronx,95046
+2017,2,1 to 9,2,Female,0,Total,3,Bronx,92329
+2017,3,10 to 19,1,Male,0,Total,3,Bronx,100738
+2017,3,10 to 19,2,Female,0,Total,3,Bronx,95846
+2017,4,20 to 24,1,Male,0,Total,3,Bronx,56441
+2017,4,20 to 24,2,Female,0,Total,3,Bronx,56529
+2017,5,25 to 34,1,Male,0,Total,3,Bronx,115163
+2017,5,25 to 34,2,Female,0,Total,3,Bronx,122208
+2017,6,35 to 44,1,Male,0,Total,3,Bronx,86155
+2017,6,35 to 44,2,Female,0,Total,3,Bronx,100337
+2017,7,45 to 54,1,Male,0,Total,3,Bronx,86166
+2017,7,45 to 54,2,Female,0,Total,3,Bronx,101033
+2017,8,55 to 64,1,Male,0,Total,3,Bronx,72018
+2017,8,55 to 64,2,Female,0,Total,3,Bronx,88346
+2017,9,65 to 74,1,Male,0,Total,3,Bronx,42925
+2017,9,65 to 74,2,Female,0,Total,3,Bronx,58475
+2017,1,Less than 1,1,Male,1,White Non Hispanic,3,Bronx,664
+2017,1,Less than 1,2,Female,1,White Non Hispanic,3,Bronx,640
+2017,10,75 to 84,1,Male,1,White Non Hispanic,3,Bronx,4735
+2017,10,75 to 84,2,Female,1,White Non Hispanic,3,Bronx,6677
+2017,11,85+,1,Male,1,White Non Hispanic,3,Bronx,2722
+2017,11,85+,2,Female,1,White Non Hispanic,3,Bronx,5891
+2017,2,1 to 9,1,Male,1,White Non Hispanic,3,Bronx,6015
+2017,2,1 to 9,2,Female,1,White Non Hispanic,3,Bronx,5861
+2017,3,10 to 19,1,Male,1,White Non Hispanic,3,Bronx,6844
+2017,3,10 to 19,2,Female,1,White Non Hispanic,3,Bronx,5854
+2017,4,20 to 24,1,Male,1,White Non Hispanic,3,Bronx,4283
+2017,4,20 to 24,2,Female,1,White Non Hispanic,3,Bronx,3920
+2017,5,25 to 34,1,Male,1,White Non Hispanic,3,Bronx,8991
+2017,5,25 to 34,2,Female,1,White Non Hispanic,3,Bronx,8962
+2017,6,35 to 44,1,Male,1,White Non Hispanic,3,Bronx,7539
+2017,6,35 to 44,2,Female,1,White Non Hispanic,3,Bronx,6980
+2017,7,45 to 54,1,Male,1,White Non Hispanic,3,Bronx,8438
+2017,7,45 to 54,2,Female,1,White Non Hispanic,3,Bronx,7439
+2017,8,55 to 64,1,Male,1,White Non Hispanic,3,Bronx,9364
+2017,8,55 to 64,2,Female,1,White Non Hispanic,3,Bronx,9752
+2017,9,65 to 74,1,Male,1,White Non Hispanic,3,Bronx,8073
+2017,9,65 to 74,2,Female,1,White Non Hispanic,3,Bronx,8895
+2017,1,Less than 1,1,Male,2,Black Non Hispanic,3,Bronx,3096
+2017,1,Less than 1,2,Female,2,Black Non Hispanic,3,Bronx,2975
+2017,10,75 to 84,1,Male,2,Black Non Hispanic,3,Bronx,5545
+2017,10,75 to 84,2,Female,2,Black Non Hispanic,3,Bronx,10328
+2017,11,85+,1,Male,2,Black Non Hispanic,3,Bronx,1840
+2017,11,85+,2,Female,2,Black Non Hispanic,3,Bronx,5176
+2017,2,1 to 9,1,Male,2,Black Non Hispanic,3,Bronx,26076
+2017,2,1 to 9,2,Female,2,Black Non Hispanic,3,Bronx,25936
+2017,3,10 to 19,1,Male,2,Black Non Hispanic,3,Bronx,28811
+2017,3,10 to 19,2,Female,2,Black Non Hispanic,3,Bronx,27795
+2017,4,20 to 24,1,Male,2,Black Non Hispanic,3,Bronx,15873
+2017,4,20 to 24,2,Female,2,Black Non Hispanic,3,Bronx,16238
+2017,5,25 to 34,1,Male,2,Black Non Hispanic,3,Bronx,33451
+2017,5,25 to 34,2,Female,2,Black Non Hispanic,3,Bronx,36090
+2017,6,35 to 44,1,Male,2,Black Non Hispanic,3,Bronx,24955
+2017,6,35 to 44,2,Female,2,Black Non Hispanic,3,Bronx,30270
+2017,7,45 to 54,1,Male,2,Black Non Hispanic,3,Bronx,27968
+2017,7,45 to 54,2,Female,2,Black Non Hispanic,3,Bronx,32842
+2017,8,55 to 64,1,Male,2,Black Non Hispanic,3,Bronx,24111
+2017,8,55 to 64,2,Female,2,Black Non Hispanic,3,Bronx,29487
+2017,9,65 to 74,1,Male,2,Black Non Hispanic,3,Bronx,12806
+2017,9,65 to 74,2,Female,2,Black Non Hispanic,3,Bronx,18846
+2017,1,Less than 1,1,Male,3,Other Non Hispanic,3,Bronx,368
+2017,1,Less than 1,2,Female,3,Other Non Hispanic,3,Bronx,372
+2017,10,75 to 84,1,Male,3,Other Non Hispanic,3,Bronx,962
+2017,10,75 to 84,2,Female,3,Other Non Hispanic,3,Bronx,1227
+2017,11,85+,1,Male,3,Other Non Hispanic,3,Bronx,274
+2017,11,85+,2,Female,3,Other Non Hispanic,3,Bronx,493
+2017,2,1 to 9,1,Male,3,Other Non Hispanic,3,Bronx,3663
+2017,2,1 to 9,2,Female,3,Other Non Hispanic,3,Bronx,3537
+2017,3,10 to 19,1,Male,3,Other Non Hispanic,3,Bronx,4072
+2017,3,10 to 19,2,Female,3,Other Non Hispanic,3,Bronx,3814
+2017,4,20 to 24,1,Male,3,Other Non Hispanic,3,Bronx,2249
+2017,4,20 to 24,2,Female,3,Other Non Hispanic,3,Bronx,2196
+2017,5,25 to 34,1,Male,3,Other Non Hispanic,3,Bronx,5298
+2017,5,25 to 34,2,Female,3,Other Non Hispanic,3,Bronx,6237
+2017,6,35 to 44,1,Male,3,Other Non Hispanic,3,Bronx,4331
+2017,6,35 to 44,2,Female,3,Other Non Hispanic,3,Bronx,5257
+2017,7,45 to 54,1,Male,3,Other Non Hispanic,3,Bronx,4354
+2017,7,45 to 54,2,Female,3,Other Non Hispanic,3,Bronx,4549
+2017,8,55 to 64,1,Male,3,Other Non Hispanic,3,Bronx,3894
+2017,8,55 to 64,2,Female,3,Other Non Hispanic,3,Bronx,3981
+2017,9,65 to 74,1,Male,3,Other Non Hispanic,3,Bronx,2156
+2017,9,65 to 74,2,Female,3,Other Non Hispanic,3,Bronx,2646
+2017,1,Less than 1,1,Male,5,Hispanic,3,Bronx,6844
+2017,1,Less than 1,2,Female,5,Hispanic,3,Bronx,6533
+2017,10,75 to 84,1,Male,5,Hispanic,3,Bronx,9311
+2017,10,75 to 84,2,Female,5,Hispanic,3,Bronx,15516
+2017,11,85+,1,Male,5,Hispanic,3,Bronx,2788
+2017,11,85+,2,Female,5,Hispanic,3,Bronx,6428
+2017,2,1 to 9,1,Male,5,Hispanic,3,Bronx,59292
+2017,2,1 to 9,2,Female,5,Hispanic,3,Bronx,56995
+2017,3,10 to 19,1,Male,5,Hispanic,3,Bronx,61011
+2017,3,10 to 19,2,Female,5,Hispanic,3,Bronx,58383
+2017,4,20 to 24,1,Male,5,Hispanic,3,Bronx,34036
+2017,4,20 to 24,2,Female,5,Hispanic,3,Bronx,34175
+2017,5,25 to 34,1,Male,5,Hispanic,3,Bronx,67423
+2017,5,25 to 34,2,Female,5,Hispanic,3,Bronx,70919
+2017,6,35 to 44,1,Male,5,Hispanic,3,Bronx,49330
+2017,6,35 to 44,2,Female,5,Hispanic,3,Bronx,57830
+2017,7,45 to 54,1,Male,5,Hispanic,3,Bronx,45406
+2017,7,45 to 54,2,Female,5,Hispanic,3,Bronx,56203
+2017,8,55 to 64,1,Male,5,Hispanic,3,Bronx,34649
+2017,8,55 to 64,2,Female,5,Hispanic,3,Bronx,45126
+2017,9,65 to 74,1,Male,5,Hispanic,3,Bronx,19890
+2017,9,65 to 74,2,Female,5,Hispanic,3,Bronx,28088
+2017,1,Less than 1,0,Total,1,White Non Hispanic,3,Bronx,1304
+2017,10,75 to 84,0,Total,1,White Non Hispanic,3,Bronx,11412
+2017,11,85+,0,Total,1,White Non Hispanic,3,Bronx,8613
+2017,2,1 to 9,0,Total,1,White Non Hispanic,3,Bronx,11876
+2017,3,10 to 19,0,Total,1,White Non Hispanic,3,Bronx,12698
+2017,4,20 to 24,0,Total,1,White Non Hispanic,3,Bronx,8203
+2017,5,25 to 34,0,Total,1,White Non Hispanic,3,Bronx,17953
+2017,6,35 to 44,0,Total,1,White Non Hispanic,3,Bronx,14519
+2017,7,45 to 54,0,Total,1,White Non Hispanic,3,Bronx,15877
+2017,8,55 to 64,0,Total,1,White Non Hispanic,3,Bronx,19116
+2017,9,65 to 74,0,Total,1,White Non Hispanic,3,Bronx,16968
+2017,1,Less than 1,0,Total,2,Black Non Hispanic,3,Bronx,6071
+2017,10,75 to 84,0,Total,2,Black Non Hispanic,3,Bronx,15873
+2017,11,85+,0,Total,2,Black Non Hispanic,3,Bronx,7016
+2017,2,1 to 9,0,Total,2,Black Non Hispanic,3,Bronx,52012
+2017,3,10 to 19,0,Total,2,Black Non Hispanic,3,Bronx,56606
+2017,4,20 to 24,0,Total,2,Black Non Hispanic,3,Bronx,32111
+2017,5,25 to 34,0,Total,2,Black Non Hispanic,3,Bronx,69541
+2017,6,35 to 44,0,Total,2,Black Non Hispanic,3,Bronx,55225
+2017,7,45 to 54,0,Total,2,Black Non Hispanic,3,Bronx,60810
+2017,8,55 to 64,0,Total,2,Black Non Hispanic,3,Bronx,53598
+2017,9,65 to 74,0,Total,2,Black Non Hispanic,3,Bronx,31652
+2017,1,Less than 1,0,Total,3,Other Non Hispanic,3,Bronx,740
+2017,10,75 to 84,0,Total,3,Other Non Hispanic,3,Bronx,2189
+2017,11,85+,0,Total,3,Other Non Hispanic,3,Bronx,767
+2017,2,1 to 9,0,Total,3,Other Non Hispanic,3,Bronx,7200
+2017,3,10 to 19,0,Total,3,Other Non Hispanic,3,Bronx,7886
+2017,4,20 to 24,0,Total,3,Other Non Hispanic,3,Bronx,4445
+2017,5,25 to 34,0,Total,3,Other Non Hispanic,3,Bronx,11535
+2017,6,35 to 44,0,Total,3,Other Non Hispanic,3,Bronx,9588
+2017,7,45 to 54,0,Total,3,Other Non Hispanic,3,Bronx,8903
+2017,8,55 to 64,0,Total,3,Other Non Hispanic,3,Bronx,7875
+2017,9,65 to 74,0,Total,3,Other Non Hispanic,3,Bronx,4802
+2017,1,Less than 1,0,Total,5,Hispanic,3,Bronx,13377
+2017,10,75 to 84,0,Total,5,Hispanic,3,Bronx,24827
+2017,11,85+,0,Total,5,Hispanic,3,Bronx,9216
+2017,2,1 to 9,0,Total,5,Hispanic,3,Bronx,116287
+2017,3,10 to 19,0,Total,5,Hispanic,3,Bronx,119394
+2017,4,20 to 24,0,Total,5,Hispanic,3,Bronx,68211
+2017,5,25 to 34,0,Total,5,Hispanic,3,Bronx,138342
+2017,6,35 to 44,0,Total,5,Hispanic,3,Bronx,107160
+2017,7,45 to 54,0,Total,5,Hispanic,3,Bronx,101609
+2017,8,55 to 64,0,Total,5,Hispanic,3,Bronx,79775
+2017,9,65 to 74,0,Total,5,Hispanic,3,Bronx,47978
+2017,0,Total,1,Male,1,White Non Hispanic,3,Bronx,67668
+2017,0,Total,2,Female,1,White Non Hispanic,3,Bronx,70871
+2017,0,Total,1,Male,2,Black Non Hispanic,3,Bronx,204532
+2017,0,Total,2,Female,2,Black Non Hispanic,3,Bronx,235983
+2017,0,Total,1,Male,3,Other Non Hispanic,3,Bronx,31621
+2017,0,Total,2,Female,3,Other Non Hispanic,3,Bronx,34309
+2017,0,Total,1,Male,5,Hispanic,3,Bronx,389980
+2017,0,Total,2,Female,5,Hispanic,3,Bronx,436196
