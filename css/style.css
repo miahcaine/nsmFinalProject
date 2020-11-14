@@ -1,1 +1,19 @@
+.section {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    padding: 50px;
+    display: none;
+    /*padding-top: 50px;
+    padding-bottom: 25px;*/
+}
 
+
+.vis-container {
+    width: 100%;
+    position: relative;
+  }
+
+/* #hook-sec {
+    display: none;
+} */

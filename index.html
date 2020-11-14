@@ -1,1 +1,80 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Stop and Frisk Final Project</title>
+
+		<!-- Load CSS libraries -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- GOOGLE FONTS -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+        <div id="timeline-sec" class="section">
+            <h1>Vis 1</h1>
+            <div id="vis-1" class="vis-container"></div>
+            <button class="next-section-button" onclick="showNextVis('map-sec')">Show Vis 2</button>
+        </div>
+
+        <div id="map-sec" class="section">
+            <h1>Vis 2</h1>
+            <div id="vis-2" class="vis-container"></div>
+            <button class="next-section-button" onclick="showNextVis('crimes-sec')">Show Vis 3</button>
+        </div>
+
+        <div id="crimes-sec" class="section">
+            <h1>Vis 3</h1>
+            <div id="vis-3" class="vis-container"></div>
+            <button class="next-section-button" onclick="showNextVis('victims-sec')">Show Vis 4</button>
+        </div>
+
+        <div id="victims-sec" class="section">
+            <h1>Vis 4</h1>
+            <div id="vis-4" class="vis-container"></div>
+            <button class="next-section-button" onclick="showNextVis('population-sec')">Show Vis 5</button>
+        </div>
+
+        <div id="population-sec" class="section">
+            <h1>Vis 5</h1>
+            <div id="vis-5" class="vis-container"></div>
+            <button class="next-section-button" onclick="showNextVis('likelihood-sec')">Show Vis 6</button>
+        </div>
+
+        <div id="likelihood-sec" class="section">
+            <h1>Vis 6</h1>
+            <div id="vis-6" class="vis-container"></div>
+        </div>
+    
+
+
+
+
+
+
+	<!-- embedding JS libraries -->
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="js/libraries/jquery.min.js"></script>
+
+	<!-- d3 -->
+	<script src="https://d3js.org/d3.v6.min.js"></script>
+
+	<!-- own js files -->
+    <script src="js/main.js"></script>
+
+    <script>
+
+        $(function() {
+            $("#timeline-sec").show();
+        })
+    </script>
+    
+	</body>
+</html>
 
