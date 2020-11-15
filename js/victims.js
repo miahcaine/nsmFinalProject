@@ -58,20 +58,6 @@ class VictimsVis {
 
             for(let j=0; j < dataByYear.length; j++) {
 
-                // vis.groupedData.push(
-                //     {
-                //         weight: +dataByYear[j].weight,
-                //         sex: dataByYear[j].sex,
-                //         race: dataByYear[j].race,
-                //         height_ft: +dataByYear[j].ht_feet,
-                //         height_inch: +dataByYear[j].ht_inch,
-                //         hair_color: dataByYear[j].haircolr,
-                //         eye_color: dataByYear[j].eyecolor,
-                //         build: dataByYear[j].build,
-                //         age: +dataByYear[j].age
-                //     }
-                // )
-
                 let sex = dataByYear[j].sex
                 if (vis.countBySex.hasOwnProperty(sex)) {
                     vis.countBySex[sex] += 1
