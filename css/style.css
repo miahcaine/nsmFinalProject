@@ -11,8 +11,9 @@
 
 .vis-container {
     width: 100%;
-    position: relative;
+    height: 80%;
   }
+
 
 /* #hook-sec {
     display: none;

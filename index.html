@@ -30,12 +30,13 @@
         <div id="crimes-sec" class="section">
             <h1>Vis 3</h1>
             <div id="vis-3" class="vis-container"></div>
-            <button class="next-section-button" onclick="showNextVis('victims-sec')">Show Vis 4</button>
+            <button class="next-section-button" onclick="showVis4('victims-sec')">Show Vis 4</button>
         </div>
 
         <div id="victims-sec" class="section">
             <h1>Vis 4</h1>
             <div id="vis-4" class="vis-container"></div>
+            <button class="next-section-button" onclick="updateVis4()">Transition</button>
             <button class="next-section-button" onclick="showNextVis('population-sec')">Show Vis 5</button>
         </div>
 
@@ -67,6 +68,7 @@
 
 	<!-- own js files -->
     <script src="js/main.js"></script>
+    <script src="js/victims.js"></script>
 
     <script>
 
