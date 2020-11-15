@@ -9,12 +9,22 @@
 }
 
 
+.map-vis {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
 .vis-container {
-    width: 50%;
+    width: 100%;
     height: 80%;
     position: relative;
-  }
+}
 
+#vis-2 .row {
+    width: 100%;
+    height: 100%;
+}
 /* #hook-sec {
     display: none;
 } */
