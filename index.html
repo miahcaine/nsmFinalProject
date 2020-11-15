@@ -8,7 +8,8 @@
 
 		<!-- Load CSS libraries -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-		<link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/leaflet.css">
 
 		<!-- GOOGLE FONTS -->
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic' rel='stylesheet' type='text/css'>
@@ -18,12 +19,29 @@
         <div id="timeline-sec" class="section">
             <h1>Vis 1</h1>
             <div id="vis-1" class="vis-container"></div>
-            <button class="next-section-button" onclick="showNextVis('map-sec')">Show Vis 2</button>
+            <button class="next-section-button" onclick="showVis2('map-sec')">Show Vis 2</button>
         </div>
 
         <div id="map-sec" class="section">
             <h1>Vis 2</h1>
-            <div id="vis-2" class="vis-container"></div>
+            <div id="vis-2" class="vis-container">
+                <div class="row">
+                    <div id="map-vis" class="col-6">
+                     
+                    </div>
+                    <div id="precinct-timeline-vis" class="col-6">
+                      This visualization combines a map of NYC and a linked view of a timeline. The map will be colored in to represent
+                      the amount of stops were conducted in a given precinct. When a user clicks on a precinct,
+                      the timeline of stops for that given precinct will be shown to the right of the map, which is a linked view. Likely
+                      will included brushing for the timeline that will update the map with stops for the selected time period.
+
+                      <br>
+                      
+                      This visualization is part of the hook and will show how some communities were more heavily affected by stop
+                      and frisk policies by others.
+                    </div>
+                  </div>
+            </div>
             <button class="next-section-button" onclick="showNextVis('crimes-sec')">Show Vis 3</button>
         </div>
 
@@ -67,6 +85,8 @@
 
 	<!-- own js files -->
     <script src="js/main.js"></script>
+    <script src="js/mapVis.js"></script>
+    <script src="js/leaflet.js"></script>
 
     <script>
 
