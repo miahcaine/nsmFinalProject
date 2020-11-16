@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+<<<<<<< HEAD
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="" />
@@ -64,6 +65,81 @@
         Show Vis 5
       </button>
     </div>
+=======
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>Stop and Frisk Final Project</title>
+
+		<!-- Load CSS libraries -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="css/leaflet.css">
+
+		<!-- GOOGLE FONTS -->
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic' rel='stylesheet' type='text/css'>
+	</head>
+
+	<body>
+        <div id="timeline-sec" class="section">
+            <h1>Vis 1</h1>
+            <div id="vis-1" class="vis-container"></div>
+            <button class="next-section-button" onclick="showVis2('map-sec')">Show Vis 2</button>
+        </div>
+
+        <div id="map-sec" class="section">
+            <h1>Vis 2</h1>
+            <div id="vis-2" class="vis-container">
+                <div class="row">
+                    <div id="map-vis" class="col-6">
+                     
+                    </div>
+                    <div id="precinct-timeline-vis" class="col-6">
+                      This visualization combines a map of NYC and a linked view of a timeline. The map will be colored in to represent
+                      the amount of stops were conducted in a given precinct. When a user clicks on a precinct,
+                      the timeline of stops for that given precinct will be shown to the right of the map, which is a linked view. Likely
+                      will included brushing for the timeline that will update the map with stops for the selected time period.
+
+                      <br>
+                      
+                      This visualization is part of the hook and will show how some communities were more heavily affected by stop
+                      and frisk policies by others.
+                    </div>
+                  </div>
+            </div>
+            <button class="next-section-button" onclick="showNextVis('crimes-sec')">Show Vis 3</button>
+        </div>
+
+        <div id="crimes-sec" class="section">
+            <h1>Vis 3</h1>
+            <div id="vis-3" class="vis-container"></div>
+            <button class="next-section-button" onclick="showVis4('victims-sec')">Show Vis 4</button>
+        </div>
+
+        <div id="victims-sec" class="section">
+            <h1>Vis 4</h1>
+            <div id="vis-4" class="vis-container">
+                <div class="row">
+                    <div id="victims-vis" class="col-8">
+                     
+                    </div>
+                    <div class="col-4">
+                      This visualization will show victims by a particular demographic. The idea is to have an animation with 10,000 circles
+                      that represents total stop and frisk victims. When the user clicks to see more, the dots with transition to break down
+                      sex / age / race / build demographic to show the story regarding how it was often young Black men who were tge targets
+                      of stop and frisk. Currently I am using a packing layout which does not show the data like I want it to, so this week
+                      I plan on looking at the Syra-Visualized final project to see how I can do more pleasing transitions.
+                      After the initial transition, the user should be able to click on a particular demographic and have 
+                      the circles filter / arrange based off of the selected demographic 
+                    </div>
+                  </div>
+            </div>
+            <button class="next-section-button" onclick="updateVis4()">Transition</button>
+            <button class="next-section-button" onclick="showNextVis('population-sec')">Show Vis 5</button>
+        </div>
+
+>>>>>>> ff3c857506a7cef90756b984449d7e5622a837b7
         <div id="population-sec" class="section">
                 <h1>Vis 5</h1>
                 <div id="vis-5" class="vis-container">
@@ -163,8 +239,14 @@
 
     <!-- own js files -->
     <script src="js/main.js"></script>
+<<<<<<< HEAD
     <script src="js/demographicBubbles.js"></script>
     <script src="js/likelinessVis.js"></script>
+=======
+    <script src="js/victims.js"></script>
+    <script src="js/mapVis.js"></script>
+    <script src="js/leaflet.js"></script>
+>>>>>>> ff3c857506a7cef90756b984449d7e5622a837b7
 
     <script>
       $(function() {
