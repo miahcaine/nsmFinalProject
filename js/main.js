@@ -29,8 +29,8 @@ let promises = [
     d3.json("sf_data/precinct/precincts.json"),
     d3.csv("sf_data/stops/2003.csv"),
     d3.csv("sf_data/stops/2004.csv"),
-    // d3.csv("sf_data/stops/2005.csv"),
-    // d3.csv("sf_data/stops/2006.csv"),
+    d3.csv("sf_data/stops/2005.csv"),
+    d3.csv("sf_data/stops/2006.csv"),
     // d3.csv("sf_data/stops/2007.csv"),
     // d3.csv("sf_data/stops/2008.csv"),
     // d3.csv("sf_data/stops/2009.csv"),
@@ -62,6 +62,6 @@ function initMainVis(dataArray) {
 
     precinctData = dataArray[0]
 
-    stopsData = dataArray.slice(1,3)
+    stopsData = dataArray.slice(1,5)
 
 }

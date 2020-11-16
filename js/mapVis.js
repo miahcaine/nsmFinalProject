@@ -28,11 +28,12 @@ class MapVis {
             maxZoom: 16
         }).addTo(vis.map);
 
-        vis.otherMmap = L.map('stops-timeline-vis').setView(vis.coordinates, 10);
-        L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
-            attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
-            maxZoom: 16
-        }).addTo(vis.otherMmap);
+        // disable zooming and dragging
+        vis.map.dragging.disable();
+        vis.map.removeControl(vis.map.zoomControl)
+        vis.map.scrollWheelZoom.disable();
+        vis.map.doubleClickZoom.disable(); 
+
 
     
         vis.wrangleData()
@@ -41,6 +42,7 @@ class MapVis {
 
     wrangleData(){
         let vis = this;
+        console.log('Map Vis Wrangle Data')
 
         // group data together
         vis.groupedData = []
@@ -59,8 +61,6 @@ class MapVis {
                 )
             }
         }
-
-        console.log(vis.groupedData)
 
         let dataByPrecinct = Array.from(d3.group(vis.groupedData, d =>d.pct), ([key, value]) => ({key, value}))
 
@@ -93,6 +93,8 @@ class MapVis {
     updateVis(){
         let vis = this;
 
+        console.log('Map Vis Update Vis')
+
         let precincts = L.geoJson(vis.precinctData, {
             style: stylePrecinct,
             weight: 5,
@@ -113,7 +115,7 @@ class MapVis {
         }
 
         function whenClicked(e) {
-            console.log(e);
+            stopsTimelineVis.updateByPrecinct(e.target.feature.properties.precinct)
           }
 
 
