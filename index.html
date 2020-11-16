@@ -1,69 +1,5 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8" />
-    <meta name="description" content="" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Stop and Frisk Final Project</title>
-
-    <!-- Load CSS libraries -->
-    <link
-      rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
-      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
-      crossorigin="anonymous"
-    />
-    <link rel="stylesheet" href="css/style.css" />
-
-    <!-- GOOGLE FONTS -->
-    <link
-      href="https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-  </head>
-
-  <body>
-      
-    <div id="timeline-sec" class="section">
-      <h1>Vis 1</h1>
-      <div id="vis-1" class="vis-container"></div>
-      <button class="next-section-button" onclick="showNextVis('map-sec')">
-        Show Vis 2
-      </button>
-    </div>
-
-    <div id="map-sec" class="section">
-      <h1>Vis 2</h1>
-      <div id="vis-2" class="vis-container"></div>
-      <button class="next-section-button" onclick="showNextVis('crimes-sec')">
-        Show Vis 3
-      </button>
-    </div>
-
-    <div id="crimes-sec" class="section">
-      <h1>Vis 3</h1>
-      <div id="vis-3" class="vis-container"></div>
-      <button class="next-section-button" onclick="showNextVis('victims-sec')">
-        Show Vis 4
-      </button>
-    </div>
-
-    <div id="victims-sec" class="section">
-      <h1>Vis 4</h1>
-      <div id="vis-4" class="vis-container"></div>
-      <button
-        class="next-section-button"
-        onclick="showNextVis('population-sec')"
-      >
-        Show Vis 5
-      </button>
-    </div>
 	<head>
 		<meta charset="utf-8">
 		<meta name="description" content="">
@@ -74,6 +10,12 @@
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/leaflet.css">
+
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
 
 		<!-- GOOGLE FONTS -->
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic' rel='stylesheet' type='text/css'>
@@ -245,6 +187,9 @@
 
     <!-- d3 -->
     <script src="https://d3js.org/d3.v6.min.js"></script>
+    
+    <!-- Leaflet -->
+    <script src="js/leaflet.js"></script>
 
     <!-- own js files -->
     <script src="js/main.js"></script>
@@ -252,7 +197,6 @@
     <script src="js/likelinessVis.js"></script>
     <script src="js/victims.js"></script>
     <script src="js/mapVis.js"></script>
-    <script src="js/leaflet.js"></script>
 
     <script>
       $(function() {

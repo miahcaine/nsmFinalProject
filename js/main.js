@@ -11,21 +11,10 @@ d3.csv("sf_data/population/bronx_population_data.csv", row => {
   return row;
 }).then(data => {
   boroughBubbles = new DemographicBubbles("borough-bubbles", data, "borough-perc", "borough-dem", false);
-  let stopData = aggStops();
+  // let stopData = aggStops();
   // TODO: add back once stop data is fixed
 //   demBubbles = new DemographicBubbles("sf-bubbles", stopData, "sf-perc", "sf-dem", true);
 });
-
-function aggStops() {
-  let retData = [];
-  // TODO: aggregate all stop years into retData
-  // for (var i = 2003; i < 2016; i++){
-  d3.csv(`sf_data/stops/2003.csv`).then(data => {
-    retData.push(data);
-  });
-  // }
-  return retData;
-}
 
 function showNextVis(sectionID) {
   //
@@ -34,10 +23,7 @@ function showNextVis(sectionID) {
     .getElementById(sectionID)
     .scrollIntoView({ behavior: "smooth", block: "start" });
 }
-    $("#" + sectionID).fadeIn();
-    document.getElementById(sectionID).scrollIntoView({ behavior: 'smooth', block: 'start', });
-
-
+    
 function showVis2(sectionID) {
     $("#" + sectionID).fadeIn();
     document.getElementById(sectionID).scrollIntoView({ behavior: 'smooth', block: 'start', });
@@ -50,10 +36,15 @@ function showVis4() {
     myVictimsVis = new VictimsVis('victims-vis', globalData);
 }
 
+function showVis6() {
+  $("#likelihood-sec").fadeIn();
+  document.getElementById("likelihood-sec").scrollIntoView({ behavior: 'smooth', block: 'start', });
+  // myVictimsVis = new VictimsVis('victims-vis', globalData);
+}
+
 function updateVis4() {
     myVictimsVis.updateVis()
 }
-
 
 // load data using promises
 let promises = [
