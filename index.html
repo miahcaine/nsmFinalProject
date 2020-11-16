@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
   <head>
     <meta charset="utf-8" />
     <meta name="description" content="" />
@@ -65,7 +64,6 @@
         Show Vis 5
       </button>
     </div>
-=======
 	<head>
 		<meta charset="utf-8">
 		<meta name="description" content="">
@@ -84,7 +82,25 @@
 	<body>
         <div id="timeline-sec" class="section">
             <h1>Vis 1</h1>
-            <div id="vis-1" class="vis-container"></div>
+            <div id="vis-1" class="vis-container">
+                <div class="row">
+                    <div id="radialplot-vis" class="col-6">
+                        <img src="img/vis1.JPG" alt="Radial Plot Sketch" style="width: 100%;">
+                    </div>
+                    <div id="radialplot-descrip" class="col-6">
+                        This visualization shows a radial plot of the crime rates of the most frequently suspected
+                        crimes for a Stop and Frisk in NYC from 2003-2016. Each concentric circle
+                        represents a crime rate percentage whose values increases radially. A slider from 2003-2016
+                        will be implemented below the radial plot (only allowed to stop on the years and not anywhere in
+                        between) which will allow the user to see the crime rates from any year and the radial plot will
+                        interactively transition to the user's choice.
+                        <br>
+                        This visualization is part of the hook since it allows the user to begin to get a general sense
+                        of how effective Stop and Frisk has been, if at all, and with which crimes it has been most
+                        often implemented.
+                    </div>
+                </div>
+            </div>
             <button class="next-section-button" onclick="showVis2('map-sec')">Show Vis 2</button>
         </div>
 
@@ -108,12 +124,6 @@
                     </div>
                   </div>
             </div>
-            <button class="next-section-button" onclick="showNextVis('crimes-sec')">Show Vis 3</button>
-        </div>
-
-        <div id="crimes-sec" class="section">
-            <h1>Vis 3</h1>
-            <div id="vis-3" class="vis-container"></div>
             <button class="next-section-button" onclick="showVis4('victims-sec')">Show Vis 4</button>
         </div>
 
@@ -139,7 +149,6 @@
             <button class="next-section-button" onclick="showNextVis('population-sec')">Show Vis 5</button>
         </div>
 
->>>>>>> ff3c857506a7cef90756b984449d7e5622a837b7
         <div id="population-sec" class="section">
                 <h1>Vis 5</h1>
                 <div id="vis-5" class="vis-container">
@@ -239,14 +248,11 @@
 
     <!-- own js files -->
     <script src="js/main.js"></script>
-<<<<<<< HEAD
     <script src="js/demographicBubbles.js"></script>
     <script src="js/likelinessVis.js"></script>
-=======
     <script src="js/victims.js"></script>
     <script src="js/mapVis.js"></script>
     <script src="js/leaflet.js"></script>
->>>>>>> ff3c857506a7cef90756b984449d7e5622a837b7
 
     <script>
       $(function() {

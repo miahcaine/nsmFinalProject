@@ -16,7 +16,6 @@ d3.csv("sf_data/population/bronx_population_data.csv", row => {
 //   demBubbles = new DemographicBubbles("sf-bubbles", stopData, "sf-perc", "sf-dem", true);
 });
 
-<<<<<<< HEAD
 function aggStops() {
   let retData = [];
   // TODO: aggregate all stop years into retData
@@ -35,10 +34,8 @@ function showNextVis(sectionID) {
     .getElementById(sectionID)
     .scrollIntoView({ behavior: "smooth", block: "start" });
 }
-=======
     $("#" + sectionID).fadeIn();
     document.getElementById(sectionID).scrollIntoView({ behavior: 'smooth', block: 'start', });
-}
 
 
 function showVis2(sectionID) {
@@ -97,4 +94,3 @@ function initMainVis(dataArray) {
     stopsData = dataArray.slice(1,4)
 
 }
->>>>>>> ff3c857506a7cef90756b984449d7e5622a837b7

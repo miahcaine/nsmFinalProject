@@ -8,12 +8,10 @@
     padding-bottom: 25px;*/
 }
 
-<<<<<<< HEAD
 .vis-container {
   width: 100%;
   position: relative;
-=======
-
+}
 .map-vis {
     width: 100%;
     height: 100%;
@@ -24,7 +22,6 @@
     width: 100%;
     height: 80%;
     position: relative;
->>>>>>> ff3c857506a7cef90756b984449d7e5622a837b7
 }
 
 #vis-2 .row {
