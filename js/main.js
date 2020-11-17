@@ -1,5 +1,7 @@
 let boroughBubbles, sfBubbles, likelinessVis;
 
+let testCount = 1;
+
 // borough bubble data
 d3.csv("sf_data/population/bronx_population_data.csv", row => {
   row["Age Group Code"] = +row["Age Group Code"];
@@ -11,10 +13,14 @@ d3.csv("sf_data/population/bronx_population_data.csv", row => {
   return row;
 }).then(data => {
   boroughBubbles = new DemographicBubbles("borough-bubbles", data, "borough-perc", "borough-dem", false);
-  // let stopData = aggStops();
   // TODO: add back once stop data is fixed
-//   demBubbles = new DemographicBubbles("sf-bubbles", stopData, "sf-perc", "sf-dem", true);
+  // stopBubbles = new DemographicBubbles("sf-bubbles", stopsData, "sf-perc", "sf-dem", true);
 });
+
+function changeBubbles(){
+  testCount++;
+  boroughBubbles.wrangleData(testCount%5, true);
+}
 
 function showNextVis(sectionID) {
   //
@@ -36,11 +42,6 @@ function showVis4() {
     myVictimsVis = new VictimsVis('victims-vis', globalData);
 }
 
-function showVis6() {
-  $("#likelihood-sec").fadeIn();
-  document.getElementById("likelihood-sec").scrollIntoView({ behavior: 'smooth', block: 'start', });
-  // myVictimsVis = new VictimsVis('victims-vis', globalData);
-}
 
 function updateVis4() {
     myVictimsVis.updateVis()
