@@ -1,4 +1,4 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -11,11 +11,21 @@
         <link rel="stylesheet" href="css/style.css">
         <link rel="stylesheet" href="css/leaflet.css">
 
+        <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
 		<!-- GOOGLE FONTS -->
 		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
+    <!--  -->
+    
+      
+        <!--  -->
         <div id="timeline-sec" class="section">
             <h1>Vis 1</h1>
             <div id="vis-1" class="vis-container">
@@ -75,45 +85,114 @@
         </div>
 
         <div id="population-sec" class="section">
-            <h1>Vis 5</h1>
-            <div id="vis-5" class="vis-container"></div>
-            <button class="next-section-button" onclick="showNextVis('likelihood-sec')">Show Vis 6</button>
+                <h1>Vis 5</h1>
+                <div id="vis-5" class="vis-container">
+                  <!-- BOROUGH BUBBLES -->
+                  <div class="row">
+                    <div class="col-8 bubbles" id="borough-bubbles"></div>
+                    <div class="col-4 description">
+                      <span class="bubble-description">
+                        <span id="borough-dem"></span> people
+                        make up <span id="borough-perc">TODO</span>% of this borough.
+                      </span>
+                    </div>
+                  </div>
+          
+                  <!-- STOP AND FRISK BUBBLES -->
+                  <div class="row">
+                    <div class="col-8 bubbles" id="sf-bubbles"> The same bubbles as above will be here once I figure out how to work with the stop data!</div>
+                    <div class="col-4 description">
+                      <span class="bubble-description">
+                        <span id="sf-dem">TODO</span>
+                        makes up <span id="sf-perc">TODO</span>% of Stop and Frisk stops
+                        in this borough.
+                      </span>
+                    </div>
+                  </div>
+                  <button class="next-section-button" onclick="showNextVis('likelihood-sec')">Show Vis 6</button>
+                  <button class="next-section-button" onclick="changeBubbles()">Change Bubbles</button>
+                </div>
+            </div>
+   <div id="likelihood-sec" class="section"> 
+      <h1>Vis 6</h1>
+      <div id="vis-6" class="vis-container">
+        <!--    INTERACTIVE LIKELINESS VIS    -->
+        <div class="row">
+          <p class="description-text">
+            How likely would you have been stopped?
+          </p>
         </div>
-
-        <div id="likelihood-sec" class="section">
-            <h1>Vis 6</h1>
-            <div id="vis-6" class="vis-container"></div>
+        <div class="row likeliness">
+          <div class="col-7" id="likeliness-vis">people here</div>
+          <div class="col-5" id="likeliness-selectors">
+            selectors here <br />
+            <!-- TODO: ADD VALUES FOR THE OPTIONS -->
+            <span class="selection-text">RACE</span>
+            <select id="race-select">
+              <option>White</option>
+              <option>Non-Hispanic Black</option>
+              <option>Hispanic</option>
+              <option>Other</option>
+            </select>
+            <br />
+            <span class="selection-text">AGE RANGE</span>
+            <select id="age-select">
+              <option>TODO</option>
+            </select>
+            <br />
+            <span class="selection-text">GENDER</span>
+            <select id="gender-select">
+              <option>Male</option>
+              <option>Female</option>
+            </select>
+            <br />
+            <span class="selection-text">BUILD</span>
+            <select id="build-select">
+              <option>TODO</option>
+            </select>
+            <br />
+          </div>
         </div>
-    
+      </div>
+    </div>
 
-
-
-
-
-
-	<!-- embedding JS libraries -->
-	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- embedding JS libraries -->
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <script src="js/libraries/jquery.min.js"></script>
 
-	<!-- d3 -->
-	<script src="https://d3js.org/d3.v6.min.js"></script>
+    <!-- d3 -->
+    <script src="https://d3js.org/d3.v6.min.js"></script>
+    
+    <!-- Leaflet -->
+    <script src="js/leaflet.js"></script>
 
-	<!-- own js files -->
+    <!-- own js files -->
     <script src="js/main.js"></script>
+    <script src="js/demographicBubbles.js"></script>
+    <script src="js/likelinessVis.js"></script>
     <script src="js/victims.js"></script>
     <script src="js/mapVis.js"></script>
     <script src="js/leaflet.js"></script>
     <script src="js/timeline.js"></script>
 
     <script>
-
-        $(function() {
-            $("#timeline-sec").show();
-        })
+      $(function() {
+        $("#timeline-sec").show();
+      });
     </script>
-    
-	</body>
+  </body>
 </html>
-

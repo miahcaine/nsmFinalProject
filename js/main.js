@@ -1,10 +1,35 @@
-function showNextVis(sectionID) {
+let boroughBubbles, sfBubbles, likelinessVis;
 
-    $("#" + sectionID).fadeIn();
-    document.getElementById(sectionID).scrollIntoView({ behavior: 'smooth', block: 'start', });
+let testCount = 1;
+
+// borough bubble data
+d3.csv("sf_data/population/bronx_population_data.csv", row => {
+  row["Age Group Code"] = +row["Age Group Code"];
+  row["County Code"] = +row["County Code"];
+  row["Gender Code"] = +row["Gender Code"];
+  row["Population"] = +row["Population"];
+  row["Race Ethnicity Code"] = +row["Race Ethnicity Code"];
+  row["Year"] = +row["Year"];
+  return row;
+}).then(data => {
+  boroughBubbles = new DemographicBubbles("borough-bubbles", data, "borough-perc", "borough-dem", false);
+  // TODO: add back once stop data is fixed
+  // stopBubbles = new DemographicBubbles("sf-bubbles", stopsData, "sf-perc", "sf-dem", true);
+});
+
+function changeBubbles(){
+  testCount++;
+  boroughBubbles.wrangleData(testCount%5, true);
 }
 
-
+function showNextVis(sectionID) {
+  //
+  $("#" + sectionID).fadeIn();
+  document
+    .getElementById(sectionID)
+    .scrollIntoView({ behavior: "smooth", block: "start" });
+}
+    
 function showVis2(sectionID) {
     $("#" + sectionID).fadeIn();
     document.getElementById(sectionID).scrollIntoView({ behavior: 'smooth', block: 'start', });
@@ -19,10 +44,10 @@ function showVis4() {
     
 }
 
+
 function updateVis4() {
     myVictimsVis.updateVis()
 }
-
 
 // load data using promises
 let promises = [

@@ -1,14 +1,17 @@
 .section {
-    height: 100vh;
-    width: 100%;
-    position: relative;
-    padding: 50px;
-    display: none;
-    /*padding-top: 50px;
+  height: 100vh;
+  width: 100%;
+  position: relative;
+  padding: 50px;
+  display: none;
+  /*padding-top: 50px;
     padding-bottom: 25px;*/
 }
 
-
+.vis-container {
+  width: 100%;
+  position: relative;
+}
 .map-vis {
     width: 100%;
     height: 100%;
@@ -37,4 +40,26 @@
 }
 /* #hook-sec {
     display: none;
+} */
+
+/* vis 5 and 6 styles */
+#vis-5,
+#vis-6 {
+  font-family: "Quicksand", sans-serif;
+}
+
+.description {
+  margin-top: 1.5em;
+  font-family: "Quicksand", sans-serif;
+}
+
+.bubbles {
+  margin-top: 1.5em;
+  /* background-color: #b1dfbb; */
+  height: 40vh;
+  width: 40vw;
+}
+
+/* .selection-text {
+  text-anchor: end;
 } */
