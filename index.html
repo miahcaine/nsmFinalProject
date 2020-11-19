@@ -47,30 +47,27 @@
                     </div>
                 </div>
             </div>
-            <button class="next-section-button" onclick="showVis2('map-sec')">Show Vis 2</button>
+            <button class="next-section-button" id="show-vis-2" onclick="showVis2('map-sec')">Show Vis 2</button>
         </div>
 
         <div id="map-sec" class="section">
-            <h1>Vis 2</h1>
             <div id="vis-2" class="vis-container">
                 <div class="row">
-                    <div id="map-vis" class="col-6">
-                     
+                    <div id="map-vis" class="col-5"></div>
+                    <div class="col-7">
+                      <div id="stops-timeline-text">
+                        <h1>Where are these stops occurring? And how frequently?</h1>
+                        <h4>Some police precinct conducted more stops than others since the inception of stop and frisk.
+                          Click on a precinct to show that precinct's timeline of stops, or filter by year to see how stop and frisk
+                          has varied throughout the years.
+                        </h4>
+                      </div>
+                      <div id="stops-timeline-vis"></div>
                     </div>
-                    <div id="precinct-timeline-vis" class="col-6">
-                      This visualization combines a map of NYC and a linked view of a timeline. The map will be colored in to represent
-                      the amount of stops were conducted in a given precinct. When a user clicks on a precinct,
-                      the timeline of stops for that given precinct will be shown to the right of the map, which is a linked view. Likely
-                      will included brushing for the timeline that will update the map with stops for the selected time period.
 
-                      <br>
-                      
-                      This visualization is part of the hook and will show how some communities were more heavily affected by stop
-                      and frisk policies by others.
-                    </div>
                   </div>
             </div>
-            <button class="next-section-button" onclick="showVis4('victims-sec')">Show Vis 4</button>
+            <button class="next-section-button" id="show-vis-4"  onclick="showVis4('victims-sec')">Show Vis 4</button>
         </div>
 
         <div id="victims-sec" class="section">
@@ -186,10 +183,18 @@
     <script src="js/likelinessVis.js"></script>
     <script src="js/victims.js"></script>
     <script src="js/mapVis.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/timeline.js"></script>
 
     <script>
       $(function() {
         $("#timeline-sec").show();
+        $("#show-vis-4").on('click', function() {
+          $("#show-vis-4").hide();
+        });
+        $("#show-vis-2").on('click', function() {
+          $("#show-vis-2").hide();
+        });
       });
     </script>
   </body>
