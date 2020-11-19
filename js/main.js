@@ -34,12 +34,14 @@ function showVis2(sectionID) {
     $("#" + sectionID).fadeIn();
     document.getElementById(sectionID).scrollIntoView({ behavior: 'smooth', block: 'start', });
     myMapVis = new MapVis('map-vis', precinctData, stopsData, [40.7128, - 74.0060])
+    stopsTimelineVis = new TimelineVis('stops-timeline-vis', stopsData)
 }
 
 function showVis4() {
     $("#victims-sec").fadeIn();
     document.getElementById("victims-sec").scrollIntoView({ behavior: 'smooth', block: 'start', });
     myVictimsVis = new VictimsVis('victims-vis', globalData);
+    
 }
 
 
@@ -73,8 +75,10 @@ Promise.all(promises)
 let precinctData = []
 let stopsData = []
 let globalData = []
-let myMapVis
-let myVictimsVis;
+let myMapVis, 
+myVictimsVis,
+stopsTimelineVis;
+
 
 function initMainVis(dataArray) {
     console.log(dataArray)
@@ -83,6 +87,6 @@ function initMainVis(dataArray) {
 
     precinctData = dataArray[0]
 
-    stopsData = dataArray.slice(1,4)
+    stopsData = dataArray.slice(1,5)
 
 }
