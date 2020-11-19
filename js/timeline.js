@@ -14,13 +14,15 @@ class TimelineVis {
         this.parseDateSlash = d3.timeParse("%m/%d/%Y");
         this.formatTime = d3.timeFormat("%m/%d/%Y");
 
+        this.colorGradient = d3.scaleSequential(d3.interpolatePurples);
+
         this.initVis()
     }
 
     initVis() {
         let vis = this;
 
-        vis.margin = {top: 20, right: 50, bottom: 20, left: 50};
+        vis.margin = {top: 40, right: 50, bottom: 20, left: 50};
         vis.width = $("#" + vis.parentElement).width() - vis.margin.left - vis.margin.right;
         vis.height = $("#" + vis.parentElement).height() - vis.margin.top - vis.margin.bottom;
 
@@ -31,6 +33,14 @@ class TimelineVis {
             .append("g")
             .attr("transform", "translate(" + vis.margin.left + "," + vis.margin.top + ")");
 
+        // Title Area
+        vis.title = vis.svg
+            .append("g")
+            .attr("transform", "translate(" + (vis.width / 2) + ",-" + (vis.margin.top/2) + ")")
+            .append("text")
+            .attr("class", "timeline-title")
+            .text("Daily Number of Stops")
+
         // Scales and axes
 		vis.x = d3.scaleLinear()
             .range([0, vis.width])
@@ -40,10 +50,13 @@ class TimelineVis {
 
         vis.xAxis = d3.axisBottom()
             .scale(vis.x)
-            .ticks(5);
+            .ticks(vis.displayData.length)
+            .tickFormat(d3.format(".0f"));
 
         vis.yAxis = d3.axisLeft()
-            .scale(vis.y);
+            .scale(vis.y)
+            .ticks(5)
+            
 
         vis.svg.append("g")
 			.attr("class", "x-axis axis")
@@ -70,18 +83,9 @@ class TimelineVis {
 
             for(let j=0; j < dataByYear.length; j++) {
 
-                let date = ""
-
-                if (dataByYear[j].datestop.length == 7) {
-                    date = "0" + dataByYear[j].datestop
-                } else {
-                    date = dataByYear[j].datestop
-                }
                 vis.groupedData.push(
                     {
-                        // pct: +dataByYear[j].pct,
                         year: dataByYear[j].year,
-                        // dateStop: vis.parseDate(date)
                     }
                 )
             }
@@ -109,18 +113,21 @@ class TimelineVis {
 
         // vis.countDataByDate.sort(function(a, b){return a.key - b.key});
 
-        // same thing for years
+        // consolidate data by year
         let countDataByYear = d3.rollup(vis.groupedData,leaves=>leaves.length,d=>+d.year)
         vis.countDataByYear = Array.from(countDataByYear, ([key, value]) => ({key, value}))
 
-		for (let i = 0; i < vis.countDataByYear.length; i++) {
-            vis.countDataByYear[i].key = vis.countDataByYear[i].key     
-        }
+        // //  Sort data by day
+		// for (let i = 0; i < vis.countDataByYear.length; i++) {
+        //     vis.countDataByYear[i].key = vis.countDataByYear[i].key     
+        // }
         vis.countDataByYear = vis.countDataByYear.filter(function(value, index, arr){ 
             let minDate = 2003
             let maxDate = 2016
             return value.key >= minDate && value.key <= maxDate;
         });        
+
+        vis.countDataByYear.sort(function(a, b){return a.key - b.key});
 
         
 
@@ -138,7 +145,8 @@ class TimelineVis {
 		vis.y.domain([0, d3.max(vis.countDataByYear, d=>d.value)])
 
 		// SVG area path generator
-		vis.area = d3.area()
+        vis.area = d3.area()
+            .curve(d3.curveCardinal)
 			.x(function(d) { return vis.x(d.key); })
 			.y0(vis.height)
 			.y1(function(d) { return vis.y(d.value); });
@@ -147,8 +155,8 @@ class TimelineVis {
         vis.svg.selectAll("path").remove()
 		vis.svg.append("path")
 			.datum(vis.countDataByYear)
-            .attr("fill", "#cce5df")
-            .attr("stroke", "#69b3a2")
+            .attr("fill", vis.colorGradient(.9))
+            .attr("stroke", vis.colorGradient(1))
             .attr("stroke-width", 1.5)
             .transition()
             .duration(2500)
@@ -196,8 +204,8 @@ class TimelineVis {
             vis.displayData.push(filteredData)
 
         }
-        console.log(vis.data)
-        console.log(vis.displayData)
+       
+        vis.title.text("Daily Number of Stops for Precinct " + pct)
 
         vis.wrangleData()
 

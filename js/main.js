@@ -56,16 +56,16 @@ let promises = [
     d3.csv("sf_data/stops/2004.csv"),
     d3.csv("sf_data/stops/2005.csv"),
     d3.csv("sf_data/stops/2006.csv"),
-    // d3.csv("sf_data/stops/2007.csv"),
-    // d3.csv("sf_data/stops/2008.csv"),
-    // d3.csv("sf_data/stops/2009.csv"),
-    // d3.csv("sf_data/stops/2010.csv"),
-    // d3.csv("sf_data/stops/2011.csv"),
-    // d3.csv("sf_data/stops/2012.csv"),
-    // d3.csv("sf_data/stops/2013.csv"),
-    // d3.csv("sf_data/stops/2014.csv"),
-    // d3.csv("sf_data/stops/2015.csv"),
-    // d3.csv("sf_data/stops/2016.csv"),
+    d3.csv("sf_data/stops/2007.csv"),
+    d3.csv("sf_data/stops/2008.csv"),
+    d3.csv("sf_data/stops/2009.csv"),
+    d3.csv("sf_data/stops/2010.csv"),
+    d3.csv("sf_data/stops/2011.csv"),
+    d3.csv("sf_data/stops/2012.csv"),
+    d3.csv("sf_data/stops/2013.csv"),
+    d3.csv("sf_data/stops/2014.csv"),
+    d3.csv("sf_data/stops/2015.csv"),
+    d3.csv("sf_data/stops/2016.csv"),
 ];
 
 Promise.all(promises)
@@ -87,6 +87,6 @@ function initMainVis(dataArray) {
 
     precinctData = dataArray[0]
 
-    stopsData = dataArray.slice(1,5)
+    stopsData = dataArray.slice(1,15)
 
 }

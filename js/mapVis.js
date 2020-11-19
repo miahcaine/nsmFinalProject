@@ -20,7 +20,17 @@ class MapVis {
         let vis = this;
 
         // // If the images are in the directory "/img":
-		// L.Icon.Default.imagePath = 'images/';
+        // L.Icon.Default.imagePath = 'images/';
+
+        vis.margin = {top: 20, right: 20, bottom: 20, left: 20};
+        vis.width = $("#" + vis.parentElement).width() - vis.margin.left - vis.margin.right;
+        vis.height = $("#" + vis.parentElement).height() - vis.margin.top - vis.margin.bottom;
+        
+        // init drawing area
+        vis.svg = d3.select("#" + vis.parentElement).append("svg")
+            .attr("width", vis.width)
+            .attr("height", vis.height)
+            .attr('transform', `translate (${vis.margin.left}, ${vis.margin.top})`);
 		 
 		vis.map = L.map(vis.parentElement).setView(vis.coordinates, 10);
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
@@ -56,7 +66,6 @@ class MapVis {
                     {
                         pct: +dataByYear[j].pct,
                         year: dataByYear[j].year,
-                        dateStop: dataByYear[j].datestop,
                     }
                 )
             }
@@ -64,12 +73,14 @@ class MapVis {
 
         let dataByPrecinct = Array.from(d3.group(vis.groupedData, d =>d.pct), ([key, value]) => ({key, value}))
 
-        vis.processedPrecinctData = {}
+
         vis.totalStopsByPrecinct = {}
+        vis.processedPrecinctData = {}
+        vis.maxStops = Number.MIN_SAFE_INTEGER
 
         // iterate over each precinct and clean up data
         dataByPrecinct.forEach( pct => {
-            let dataByYear = Array.from(d3.group(vis.groupedData, d =>d.year), ([key, value]) => ({key, value}))
+            let dataByYear = Array.from(d3.group(pct.value, d =>d.year), ([key, value]) => ({key, value}))
             let precinctByYear = []
             let totalStops = 0
             
@@ -78,12 +89,15 @@ class MapVis {
                 totalStops += stopsNum
         
                 precinctByYear.push (
-                    {year: year.key, date: year.key, stopsCount: stopsNum}
+                    {year: year.key, stopsCount: stopsNum}
                 )
             });
             vis.totalStopsByPrecinct[pct.key] = totalStops
             vis.processedPrecinctData[pct.key] = precinctByYear
+            vis.maxStops = Math.max(vis.maxStops, totalStops)
         });
+
+        vis.colorGradient.domain([0, vis.maxStops])
 
         vis.updateVis()
     }
@@ -106,11 +120,15 @@ class MapVis {
             layer.on({
                 click: whenClicked
             });
+
+            layer.bindPopup("Precinct " + feature.properties.precinct + ": " + vis.totalStopsByPrecinct[feature.properties.precinct] + " total stops");
+			layer.on('mouseover', function() { layer.openPopup(); });
+            layer.on('mouseout', function() { layer.closePopup(); });
         }
 
         function stylePrecinct(feature) {
             let pct = feature.properties.precinct
-            return { color: vis.colorGradient(vis.totalStopsByPrecinct[+pct]) };
+            return { fillColor: vis.colorGradient(vis.totalStopsByPrecinct[+pct]), color: 'white', strokeWidth: 1 };
 
         }
 
@@ -120,6 +138,32 @@ class MapVis {
 
 
 
+    
+    
+        let legend = L.control({position: 'bottomright'});
+
+        legend.onAdd = function (map) {
+        
+            var div = L.DomUtil.create('div', 'info legend'),
+                colors = [0]
+                for (let i = 1; i < 101; i++){
+                    colors.push((i / 100) * vis.maxStops)
+                }
+
+        
+            // loop through our density intervals and generate a label with a colored square for each interval
+            for (var i = 0; i < colors.length; i++) {
+                div.innerHTML +=
+                    '<i style="background:' + vis.colorGradient(colors[i]) + '"></i>';
+            }
+            div.innerHTML += '<br><br><div class="legend-text" ><div style="display: inline-block" >0</div>' + '<div style="display: inline-block" >' + d3.format((".0k", 1e3))(vis.maxStops) + "</div></div>"
+            return div;
+        };
+        
+        legend.addTo(vis.map);
+    
+
+        
         }
             
 }
