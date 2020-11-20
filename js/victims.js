@@ -29,6 +29,8 @@ class VictimsVis {
 
         vis.count = 0
 
+        vis.selected = 'allstops'
+
         this.wrangleData();
     }
 
@@ -146,6 +148,8 @@ class VictimsVis {
             
         }
 
+        vis.raceArr.push("Z")
+
         vis.ageRangePacks = []
         vis.ageRangeArr = []
         for (let property in vis.countByAgeRange) {
@@ -161,6 +165,8 @@ class VictimsVis {
             vis.ageRangePacks.push(countArr)
             
         }
+
+        vis.ageRangeArr.push("Z")
 
         vis.buildPacks = []
         vis.buildArr = []
@@ -221,66 +227,81 @@ class VictimsVis {
                 return "black";
             })
 
-        console.log(vis.countByRace)
+
+        let sizesBySex = [[vis.height * 0.9,vis.height* 0.9], [vis.height* .25 ,vis.height* .25], [vis.height* .2,vis.height* .2]]
+        let sizesByRace = [[vis.height * 0.18,vis.height*0.18], [vis.height * 0.7,vis.height*0.7], [vis.height * 0.07,vis.height*0.07],
+                [vis.height * 0.24,vis.height*0.24], [vis.height *0.45,vis.height*0.45], [vis.height *0.3,vis.height*0.3], 
+                [vis.height *0.2,vis.height*0.2]]
+        let sizesByAgeRange = [[vis.height*0.8,vis.height*0.8], [vis.height*0.6,vis.height*0.6], [vis.height*0.1,vis.height*0.1]]
+        let sizesByBuild = [[vis.height*0.3,vis.height*0.3], [vis.height*0.7,vis.height*0.7], [vis.height*0.5,vis.height*0.5], 
+                            [vis.height*0.05,vis.height*0.05], [vis.height*0.15,vis.height*0.15]]
+
+        let sizeBtwn = 100;
+        let sizeBtwnRace = 50
 
         // initialize data structure to aid in visualizations
         vis.graphinformation = {
             "sex": {
                 categories: ["M", "F", "Z"],
                 size: {
-                    M: [vis.height * 0.9,vis.height* 0.9],
-                    F: [vis.height* .2 ,vis.height* .2],
-                    Z: [vis.height* .2,vis.height* .2],
+                    M: sizesBySex[0],
+                    F: sizesBySex[1],
+                    Z: sizesBySex[2],
                 },
                 transform: {
-                    M: [(vis.width / 8),0],
-                    F: [(vis.width / 2),vis.height * 0.5],
-                    Z: [(vis.width / 1.5),vis.height * 0.5],
+                    M: [0,vis.height - sizesBySex[0][0]],
+                    F: [sizesBySex[0][0] + sizeBtwn,vis.height - sizesBySex[1][0]],
+                    Z: [sizesBySex[0][0] + sizesBySex[1][0] + (sizeBtwn * 2),vis.height - sizesBySex[2][0]],
                 },
-                recenter: 0,
                 data: vis.sexPacks,
                 indices: {
                     0: "M", 
                     1: "F",
                     2: "Z"
-                }
+                },
+                names: {
+                    M: "Male",
+                    F: "Female",
+                    Z: "Other / Not Recorded",
+                },
 
             },
             "allstops": {
                 categories: ["all"],
                 size: {
-                    all: [vis.height,vis.height]
+                    all: [vis.height * 0.9,vis.height * 0.9]
                 },
                 transform: {
-                    all: [(vis.width / 2) - (vis.height / 2),0]
+                    all: [(vis.width / 2) - (vis.height / 2),vis.height * 0.1]
                 },
-                recenter: 0,
                 data: vis.nodes,
                 indices: {
                     0: "all"
-                }
+                },
+                names: {
+                    all: "All Stops",
+                },
             },
             "race": {
                 categories: ["A", "B", "I", "P", "Q", "W", "Z"],
                 size: {
-                    A: [vis.height,vis.height*0.15],
-                    B: [vis.height,vis.height*0.7],
-                    I: [vis.height,vis.height*0.05],
-                    P: [vis.height,vis.height*0.2],
-                    Q: [vis.height,vis.height*0.4],
-                    W: [vis.height,vis.height*0.25],
-                    Z: [vis.height,vis.height*0.25],
+                    A: sizesByRace[0],
+                    B: sizesByRace[1],
+                    I: sizesByRace[2],
+                    P: sizesByRace[3],
+                    Q: sizesByRace[4],
+                    W: sizesByRace[5],
+                    Z: sizesByRace[6]
                 },
                 transform: {
-                    A: [(vis.width / 2.5),vis.height * 0.5],
-                    B: [0,0],
-                    I: [(vis.width / 2.5),vis.height * 0.7],
-                    P: [0,0],
-                    Q: [(vis.width / 4),vis.height * 0.25],
-                    W: [(vis.width / 3.25),0],
-                    Z: [(vis.width / 2.5),vis.height * 0.25],
+                    A: [sizesByRace[1][0] + sizesByRace[4][0] + sizesByRace[5][0] + sizesByRace[3][0] + sizesByRace[6][0] + (sizeBtwnRace * 5),vis.height - sizesByRace[0][0]],
+                    B: [0,vis.height - sizesByRace[1][0]],
+                    I: [sizesByRace[1][0] + sizesByRace[4][0] + sizesByRace[5][0] + sizesByRace[3][0] + sizesByRace[6][0] + sizesByRace[0][0] + (sizeBtwnRace * 6),vis.height - (sizesByRace[2][0] * 2)],
+                    P: [sizesByRace[1][0] + sizesByRace[4][0] + sizesByRace[5][0] + (sizeBtwnRace * 3),vis.height - sizesByRace[3][0]],
+                    Q: [sizesByRace[1][0] + sizeBtwnRace,vis.height - sizesByRace[4][0]],
+                    W: [sizesByRace[1][0] + sizesByRace[4][0] + (sizeBtwnRace * 2),vis.height - sizesByRace[5][0]],
+                    Z: [sizesByRace[1][0] + sizesByRace[4][0] + sizesByRace[5][0] + sizesByRace[3][0] + (sizeBtwnRace * 4),vis.height - sizesByRace[6][0]],
                 },
-                recenter: 0,
                 data: vis.racePacks,
                 indices: {
                     0: "A", 
@@ -290,47 +311,59 @@ class VictimsVis {
                     4: "Q",
                     5: "W",
                     6: "Z", 
-
-                }
+                },
+                names: {
+                    A: "Asian/Pacific Islander",
+                    B: "Black",
+                    I: "American Indian/Alaskan native",
+                    P: "Black-Hispanic",
+                    Q: "White-Hispanic",
+                    W: "White",
+                    Z: "Other / Not Recorded"
+                },
             },
             "ageRange": {
                 categories: ["30below", "30above", "Z"],
                 size: {
-                    "30below": [vis.height*0.8,vis.height*0.8],
-                    "30above": [vis.height*0.6,vis.height*0.6],
-                    "Z": [vis.height*0.25,vis.height*0.25],
+                    "30below": sizesByAgeRange[0],
+                    "30above": sizesByAgeRange[1],
+                    "Z": sizesByAgeRange[2],
                 },
                 transform: {
-                    "30below": [0,0],
-                    "30above": [(vis.width / 3),vis.height * 0.2],
-                    "Z": [(vis.width / 1.5),vis.height * 0.4]
+                    "30below": [0,vis.height - sizesByAgeRange[0][0]],
+                    "30above": [sizesByAgeRange[0][0] + sizeBtwn,vis.height - sizesByAgeRange[1][0]],
+                    "Z": [sizesByAgeRange[0][0] + sizesByAgeRange[1][0] + (sizeBtwn * 2),vis.height - sizesByAgeRange[2][0]]
+
                 },
-                recenter: 0,
                 data: vis.ageRangePacks,
                 indices: {
                     0: "30below", 
                     1: "30above",
                     2: "Z", 
 
-                }
+                },
+                names: {
+                    "30below": "30 and below",
+                    "30above": "30 and above",
+                    "Z": "Other / Not Recorded",
+                },
             },
             "build": {
                 categories: ["H", "M", "T", "U", "Z"],
                 size: {
-                    "H": [vis.height,vis.height*0.25],
-                    "M": [vis.height,vis.height*0.25],
-                    "T": [vis.height,vis.height*0.25],
-                    "U": [vis.height,vis.height*0.25],
-                    "Z": [vis.height,vis.height*0.25],
+                    "H": sizesByBuild[0],
+                    "M": sizesByBuild[1],
+                    "T": sizesByBuild[2],
+                    "U": sizesByBuild[3],
+                    "Z": sizesByBuild[4],
                 },
                 transform: {
-                    "H": [0,0],
-                    "M": [100,100],
-                    "T": [200,200],
-                    "U": [300,300],
-                    "Z": [100,300],
+                    "H": [sizesByBuild[1][0] + sizesByBuild[2][0] + (sizeBtwn * 2),vis.height - sizesByBuild[0][0]],
+                    "M": [0,vis.height - sizesByBuild[1][0]],
+                    "T": [sizesByBuild[1][0] + sizeBtwn,vis.height - sizesByBuild[2][0]],
+                    "U": [sizesByBuild[1][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + sizesByBuild[4][0] + (sizeBtwn * 4), vis.height - (sizesByBuild[3][0] * 2)],
+                    "Z": [sizesByBuild[1][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + (sizeBtwn * 3),vis.height - sizesByBuild[4][0]],
                 },
-                recenter: 0,
                 data: vis.buildPacks,
                 indices: {
                     0: "H", 
@@ -338,10 +371,16 @@ class VictimsVis {
                     2: "T",
                     3: "U", 
                     4: "Z",
-                }
+                },
+                names: {
+                    "H": "Heavy",
+                    "M": "Medium",
+                    "T": "Thin",
+                    "U": "Muscular",
+                    "Z": "Other / Not Recorded",
+                },
             }
         };
-
        
 
         vis.updateVis()
@@ -354,48 +393,19 @@ class VictimsVis {
     updateVis(){
         let vis = this;
 
-        vis.count += 1
+    
+        // clear current text
+        vis.svg.selectAll(".label-dem").text("")
+        let categories = vis.graphinformation[vis.selected].categories
 
-        let dataset = {}
-        let data;
-        let selected;
+        categories.forEach((name, index) => {
 
-        if ((vis.count % 5) == 1) {
-            selected = "allstops"
-        } else if ((vis.count % 5) == 2) {
-            selected = "sex"
-        } else if ((vis.count % 5) == 3){
-            selected = "ageRange"
-        } else if ((vis.count % 5) == 4){
-            selected = "race"
-        } else {
-            selected = "allstops"
-        }
+            vis.pack.size(vis.graphinformation[vis.selected].size[name]);
 
-        
-
-        let categories = vis.graphinformation[selected].categories
-        let graphsize = vis.graphinformation[selected].size;
-        let useThis = vis.graphinformation[selected];
-
-        (useThis.data).forEach((element, index) => {
-
-            
-            let name = vis.graphinformation[selected].indices[index]
-            vis.pack.size(vis.graphinformation[selected].size[name]);
-
-            console.log(selected)
-            console.log(name)
-            console.log(vis.graphinformation[selected])
-
-            let nodes = d3.hierarchy({children: vis.nodes[0].filter(function(d){
-                return d[selected]==(selected+name)
-            })})
+            let nodes = d3.hierarchy({children: vis.nodes[0].filter(function(d){return d[vis.selected]==(vis.selected+name)})})
                 .sum(function(d) { return 1; });
 
-
-
-            vis.svg.selectAll(".class"+selected+name)
+            vis.svg.selectAll(".class"+vis.selected+name)
                 .data(vis.pack(nodes).descendants().slice(1))
                 .transition()
                 .duration(1000)
@@ -407,14 +417,33 @@ class VictimsVis {
                 .attr("cy", function(d) { return d.y; })
                 .attr("transform", function(){
                             return "translate("+
-                            (useThis["transform"][name][0])+
-                            ","+useThis.transform[name][1]+")";
+                            (vis.graphinformation[vis.selected]["transform"][name][0])+
+                            ","+vis.graphinformation[vis.selected].transform[name][1]+")";
                         })
 
+            vis.svg.append("g")
+                .attr("transform", function(){
+                    return "translate("+
+                    (vis.graphinformation[vis.selected]["transform"][name][0] + vis.graphinformation[vis.selected]["size"][name][0]/2) +
+                    ","+vis.graphinformation[vis.selected].transform[name][1]+")";
+                })
+                .append('text')
+                .attr('class', 'label-dem')
+                .text(vis.graphinformation[vis.selected].names[name] + " - ")
+                .transition()
+                .duration(1000)
+
+            console.log(vis.graphinformation[vis.selected].data)
 
         });
         
 
+    }
+
+    updateBySelectedValue(selectedValue) {
+        let vis = this;
+        vis.selected = selectedValue
+        vis.updateVis()
     }
 
     // let node = vis.svg.selectAll(".class"+selected+name)
