@@ -71,25 +71,29 @@
         </div>
 
         <div id="victims-sec" class="section">
-            <h1>Vis 4</h1>
             <div id="vis-4" class="vis-container">
-                <div class="row">
-                    <div id="victims-vis" class="col-8">
-                     
-                    </div>
-                    <div class="col-4">
-                      This visualization will show victims by a particular demographic. The idea is to have an animation with 10,000 circles
-                      that represents total stop and frisk victims. When the user clicks to see more, the dots with transition to break down
-                      sex / age / race / build demographic to show the story regarding how it was often young Black men who were tge targets
-                      of stop and frisk. Currently I am using a packing layout which does not show the data like I want it to, so this week
-                      I plan on looking at the Syra-Visualized final project to see how I can do more pleasing transitions.
-                      After the initial transition, the user should be able to click on a particular demographic and have 
-                      the circles filter / arrange based off of the selected demographic 
-                    </div>
-                  </div>
+              <div id="victims-text">
+                <h1>Who was targeted?</h1>
+                <h4>
+                  Though the 'intention' of stop and frisk was to find criminals, stop and frisk seemed to target particular demographics 
+                  while leaving other demographics relatively unaffected. Of the over 5 million stops between 2003 and 2016, let these 1000
+                  dots be representative of all of the stops. Click the buttons on the right to see how these 1000 dots are distributed
+                  based on a particular demographic.
+                </h4>
+              </div>
+            <div class="row">
+              <div id="victims-vis" class = "col-11"></div>
+              <div id="victims-buttons" class="col-1 btn-group-sm btn-group-vertical "> 
+                <button type="button" class="btn btn-dark" onclick="updateVis4('allstops')">All</button> 
+                <button type="button" class="btn btn-light" onclick="updateVis4('race')">Race</button>
+                <button type="button" class="btn btn-light" onclick="updateVis4('sex')">Sex</button>
+                <button type="button" class="btn btn-light" onclick="updateVis4('ageRange')">Age</button> 
+                <button type="button" class="btn btn-light" onclick="updateVis4('build')">Build</button>
+              </div>
             </div>
-            <button class="next-section-button" onclick="updateVis4()">Transition</button>
-            <button class="next-section-button" onclick="showNextVis('population-sec')">Show Vis 5</button>
+            </div>
+              <button class="next-section-button" id="show-vis-5" onclick="showNextVis('population-sec')">Show Vis 5</button>
+            </div>
         </div>
 
         <div id="population-sec" class="section">
@@ -205,6 +209,9 @@
         });
         $("#show-vis-2").on('click', function() {
           $("#show-vis-2").hide();
+        });
+        $("#show-vis-5").on('click', function() {
+          $("#show-vis-5").hide();
         });
       });
     </script>

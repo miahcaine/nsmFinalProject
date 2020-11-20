@@ -44,9 +44,8 @@ function showVis4() {
     
 }
 
-
-function updateVis4() {
-    myVictimsVis.updateVis()
+function updateVis4(selectedValue) {
+  myVictimsVis.updateBySelectedValue(selectedValue)
 }
 
 // load data using promises

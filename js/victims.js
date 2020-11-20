@@ -29,25 +29,20 @@ class VictimsVis {
 
         vis.count = 0
 
+        vis.selected = 'allstops'
+
         this.wrangleData();
     }
 
     wrangleData(){
         let vis = this
 
-        // init final data structure in which both data sets will be merged into
-        vis.groupedData = []
-
         vis.countBySex = {}
         vis.countByRace = {}
         vis.countByAge = {}
         vis.countByAgeRange = {
-            "M": 0,
-            "20": 0,
-            "30": 0,
-            "40": 0,
-            "50": 0,
-            "60": 0,
+            "30below": 0,
+            "30above": 0,
             "Z": 0,
         }
         vis.countByBuild = {}
@@ -77,23 +72,11 @@ class VictimsVis {
                     case age == 0:
                         vis.countByAgeRange["Z"] += 1
                         break;
-                    case age < 18 :
-                        vis.countByAgeRange["M"] += 1
-                        break;
                     case age < 30:
-                        vis.countByAgeRange["20"] += 1
+                        vis.countByAgeRange["30below"] += 1
                         break;
-                    case age < 40:
-                        vis.countByAgeRange["30"] += 1
-                        break;
-                    case age < 50:
-                        vis.countByAgeRange["40"] += 1
-                        break;
-                    case age < 60:
-                        vis.countByAgeRange["50"] += 1
-                        break;
-                    case age < 101:
-                        vis.countByAgeRange["60"] += 1
+                    case age >= 30:
+                        vis.countByAgeRange["30above"] += 1
                         break;
                     default:
                         vis.countByAgeRange["Z"] += 1
@@ -109,8 +92,6 @@ class VictimsVis {
 
                 vis.totalVictims += 1
 
-
-
             }
 
         }
@@ -118,94 +99,289 @@ class VictimsVis {
         // some data cleaning
         vis.countBySex["Z"] += vis.countBySex[" "]
         vis.countBySex[" "] = 0
+        delete vis.countBySex[" "]
 
         vis.countByRace["Z"] += vis.countByRace[" "]
-        vis.countByRace[" "] = 0
+        vis.countByRace["Z"] += vis.countByRace["U"]
+        vis.countByRace["Z"] += vis.countByRace["X"]
+        delete vis.countByRace[" "]
+        delete vis.countByRace["U"]
+        delete vis.countByRace["X"]
 
         vis.countByBuild["Z"] += vis.countByBuild[" "]
         vis.countByBuild[" "] = 0
+        delete vis.countByBuild[" "]
 
-        
 
-        vis.scale = d3.scaleTime()
+
+        // scale number of victims to 1000
+        vis.scale = d3.scaleLinear()
             .range([0, 1000])
             .domain([0, vis.totalVictims])
 
-        vis.sexDataSet = []
-        let c1 = 0
+        vis.sexPacks = []
+        vis.sexArr = []
         for (let property in vis.countBySex) {
-            if (property == " ") {
-                break;
-            }
             let count = Math.round(vis.scale(vis.countBySex[property]))
             vis.countBySex[property] = count
             let countArr = []
             for (let i = 0; i < count; i++ ) {
                 countArr.push({"sex": property})
-                // vis.sexDataSet.push({"children": countArr})
+                vis.sexArr.push(property)
             }
-            vis.sexDataSet.push({"children": countArr})
+            vis.sexPacks.push(countArr)
             
-            c1 += 1
         }
 
-        console.log("here");
-        console.log(vis.sexDataSet)
-
-        vis.raceDataSet = []
-        vis.raceDataSet2 = []
-        c1 = 0
+        vis.racePacks = []
+        vis.raceArr = []
+        
         for (let property in vis.countByRace) {
-            if (property == " ") {
-                break;
-            }
             let count = Math.round(vis.scale(vis.countByRace[property]))
             vis.countByRace[property] = count
             let countArr = []
             for (let i = 0; i < count; i++ ) {
-                countArr.push({"build": property})
-                vis.raceDataSet2.push({"group": c1})
+                countArr.push({"race": property})
+                vis.raceArr.push(property)
             }
-            vis.raceDataSet.push({"children": countArr})
-            c1 += 1
+            vis.racePacks.push(countArr)
+            
         }
 
-       vis.ageRangeDataset = []
+        vis.raceArr.push("Z")
+
+        vis.ageRangePacks = []
+        vis.ageRangeArr = []
         for (let property in vis.countByAgeRange) {
-            if (property == " ") {
-                break;
-            }
+            console.log(property)
+
             let count = Math.round(vis.scale(vis.countByAgeRange[property]))
             vis.countByAgeRange[property] = count
             let countArr = []
             for (let i = 0; i < count; i++ ) {
-                countArr.push({"build": property})
+                countArr.push({"ageRange": property})
+                vis.ageRangeArr.push(property)
             }
-            vis.ageRangeDataset.push({"children": countArr})
+            vis.ageRangePacks.push(countArr)
+            
         }
 
-        vis.buildDataSet = []
+        vis.ageRangeArr.push("Z")
+
+        vis.buildPacks = []
+        vis.buildArr = []
         for (let property in vis.countByBuild) {
-            if (property == " ") {
-                break;
-            }
             let count = Math.round(vis.scale(vis.countByBuild[property]))
             vis.countByBuild[property] = count
             let countArr = []
             for (let i = 0; i < count; i++ ) {
                 countArr.push({"build": property})
+                vis.buildArr.push(property)
             }
-            vis.buildDataSet.push({"children": countArr})
+            vis.buildPacks.push(countArr)
+            
         }
 
-        vis.nodes = []
-        vis.nodes1 = []
+        vis.buildArr.push("U")
+
+        // initialize first 1000 nodes
+        vis.nodes = [[]]
 
         for (let i = 0; i < 1000; i++) {
-            vis.nodes.push({"victims": 0})
+            vis.nodes[0].push({
+                "allstops": "allstopsall",
+                "sex": "sex"+vis.sexArr[i],
+                "race": "race"+vis.raceArr[i],
+                "ageRange": "ageRange"+vis.ageRangeArr[i],
+                "build": "build"+vis.buildArr[i],
+                "id": i
+            })
         }
 
-        console.log(vis.nodes)
+        // init Vis
+        vis.pack = d3.pack()
+            .size([vis.width, vis.height])
+            .padding(1.5)
+
+        vis.nodesData = d3.hierarchy({children: vis.nodes[0]})
+            .sum(function(d) { return 1; });
+
+
+        vis.realNodes = vis.svg.selectAll(".classallstopsall")
+            .data(vis.pack(vis.nodesData).descendants().slice(1), function(d){return d.id})
+            .enter()
+            .append("circle")
+            .filter(function(d){
+                return  !d.children
+            })
+            .attr("cx", d=> d.x)
+            .attr("cy", d=> d.y)
+            .attr("r", function(d) {
+                return d.r;
+            })
+            .attr("class", function(d){
+                return "class"+ d.data.sex + " class"+ d.data.allstops + " class"+ d.data.race + " class"+ d.data.ageRange 
+                + " class"+ d.data.build ;
+            })
+            .style("fill", function(d,i) {
+                return "black";
+            })
+
+
+        let sizesBySex = [[vis.height * 0.9,vis.height* 0.9], [vis.height* .25 ,vis.height* .25], [vis.height* .2,vis.height* .2]]
+        let sizesByRace = [[vis.height * 0.18,vis.height*0.18], [vis.height * 0.7,vis.height*0.7], [vis.height * 0.07,vis.height*0.07],
+                [vis.height * 0.24,vis.height*0.24], [vis.height *0.45,vis.height*0.45], [vis.height *0.3,vis.height*0.3], 
+                [vis.height *0.2,vis.height*0.2]]
+        let sizesByAgeRange = [[vis.height*0.8,vis.height*0.8], [vis.height*0.6,vis.height*0.6], [vis.height*0.1,vis.height*0.1]]
+        let sizesByBuild = [[vis.height*0.3,vis.height*0.3], [vis.height*0.7,vis.height*0.7], [vis.height*0.5,vis.height*0.5], 
+                            [vis.height*0.05,vis.height*0.05], [vis.height*0.15,vis.height*0.15]]
+
+        let sizeBtwn = 100;
+        let sizeBtwnRace = 50
+
+        // initialize data structure to aid in visualizations
+        vis.graphinformation = {
+            "sex": {
+                categories: ["M", "F", "Z"],
+                size: {
+                    M: sizesBySex[0],
+                    F: sizesBySex[1],
+                    Z: sizesBySex[2],
+                },
+                transform: {
+                    M: [0,vis.height - sizesBySex[0][0]],
+                    F: [sizesBySex[0][0] + sizeBtwn,vis.height - sizesBySex[1][0]],
+                    Z: [sizesBySex[0][0] + sizesBySex[1][0] + (sizeBtwn * 2),vis.height - sizesBySex[2][0]],
+                },
+                data: vis.sexPacks,
+                indices: {
+                    0: "M", 
+                    1: "F",
+                    2: "Z"
+                },
+                names: {
+                    M: "Male",
+                    F: "Female",
+                    Z: "Other / Not Recorded",
+                },
+
+            },
+            "allstops": {
+                categories: ["all"],
+                size: {
+                    all: [vis.height * 0.9,vis.height * 0.9]
+                },
+                transform: {
+                    all: [(vis.width / 2) - (vis.height / 2),vis.height * 0.1]
+                },
+                data: vis.nodes,
+                indices: {
+                    0: "all"
+                },
+                names: {
+                    all: "All Stops",
+                },
+            },
+            "race": {
+                categories: ["A", "B", "I", "P", "Q", "W", "Z"],
+                size: {
+                    A: sizesByRace[0],
+                    B: sizesByRace[1],
+                    I: sizesByRace[2],
+                    P: sizesByRace[3],
+                    Q: sizesByRace[4],
+                    W: sizesByRace[5],
+                    Z: sizesByRace[6]
+                },
+                transform: {
+                    A: [sizesByRace[1][0] + sizesByRace[4][0] + sizesByRace[5][0] + sizesByRace[3][0] + sizesByRace[6][0] + (sizeBtwnRace * 5),vis.height - sizesByRace[0][0]],
+                    B: [0,vis.height - sizesByRace[1][0]],
+                    I: [sizesByRace[1][0] + sizesByRace[4][0] + sizesByRace[5][0] + sizesByRace[3][0] + sizesByRace[6][0] + sizesByRace[0][0] + (sizeBtwnRace * 6),vis.height - (sizesByRace[2][0] * 2)],
+                    P: [sizesByRace[1][0] + sizesByRace[4][0] + sizesByRace[5][0] + (sizeBtwnRace * 3),vis.height - sizesByRace[3][0]],
+                    Q: [sizesByRace[1][0] + sizeBtwnRace,vis.height - sizesByRace[4][0]],
+                    W: [sizesByRace[1][0] + sizesByRace[4][0] + (sizeBtwnRace * 2),vis.height - sizesByRace[5][0]],
+                    Z: [sizesByRace[1][0] + sizesByRace[4][0] + sizesByRace[5][0] + sizesByRace[3][0] + (sizeBtwnRace * 4),vis.height - sizesByRace[6][0]],
+                },
+                data: vis.racePacks,
+                indices: {
+                    0: "A", 
+                    1: "B",
+                    2: "I",
+                    3: "P", 
+                    4: "Q",
+                    5: "W",
+                    6: "Z", 
+                },
+                names: {
+                    A: "Asian/Pacific Islander",
+                    B: "Black",
+                    I: "American Indian/Alaskan native",
+                    P: "Black-Hispanic",
+                    Q: "White-Hispanic",
+                    W: "White",
+                    Z: "Other / Not Recorded"
+                },
+            },
+            "ageRange": {
+                categories: ["30below", "30above", "Z"],
+                size: {
+                    "30below": sizesByAgeRange[0],
+                    "30above": sizesByAgeRange[1],
+                    "Z": sizesByAgeRange[2],
+                },
+                transform: {
+                    "30below": [0,vis.height - sizesByAgeRange[0][0]],
+                    "30above": [sizesByAgeRange[0][0] + sizeBtwn,vis.height - sizesByAgeRange[1][0]],
+                    "Z": [sizesByAgeRange[0][0] + sizesByAgeRange[1][0] + (sizeBtwn * 2),vis.height - sizesByAgeRange[2][0]]
+
+                },
+                data: vis.ageRangePacks,
+                indices: {
+                    0: "30below", 
+                    1: "30above",
+                    2: "Z", 
+
+                },
+                names: {
+                    "30below": "30 and below",
+                    "30above": "30 and above",
+                    "Z": "Other / Not Recorded",
+                },
+            },
+            "build": {
+                categories: ["H", "M", "T", "U", "Z"],
+                size: {
+                    "H": sizesByBuild[0],
+                    "M": sizesByBuild[1],
+                    "T": sizesByBuild[2],
+                    "U": sizesByBuild[3],
+                    "Z": sizesByBuild[4],
+                },
+                transform: {
+                    "H": [sizesByBuild[1][0] + sizesByBuild[2][0] + (sizeBtwn * 2),vis.height - sizesByBuild[0][0]],
+                    "M": [0,vis.height - sizesByBuild[1][0]],
+                    "T": [sizesByBuild[1][0] + sizeBtwn,vis.height - sizesByBuild[2][0]],
+                    "U": [sizesByBuild[1][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + sizesByBuild[4][0] + (sizeBtwn * 4), vis.height - (sizesByBuild[3][0] * 2)],
+                    "Z": [sizesByBuild[1][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + (sizeBtwn * 3),vis.height - sizesByBuild[4][0]],
+                },
+                data: vis.buildPacks,
+                indices: {
+                    0: "H", 
+                    1: "M",
+                    2: "T",
+                    3: "U", 
+                    4: "Z",
+                },
+                names: {
+                    "H": "Heavy",
+                    "M": "Medium",
+                    "T": "Thin",
+                    "U": "Muscular",
+                    "Z": "Other / Not Recorded",
+                },
+            }
+        };
+       
 
         vis.updateVis()
 
@@ -217,183 +393,84 @@ class VictimsVis {
     updateVis(){
         let vis = this;
 
-        vis.count += 1
-
-        let dataset = {}
-
-        console.log(vis.count)
-        if (vis.count == 1) {
-            dataset = {
-                "children": vis.nodes
-            };
-        } else if (vis.count == 2) {
-            dataset = {
-                "children": vis.sexDataSet
-            };
-        } else if (vis.count == 3) {
-            dataset = {
-                "children": vis.raceDataSet
-            };
-        } else if (vis.count == 4) {
-            dataset = {
-                "children": vis.ageRangeDataset
-            };
-        } else if (vis.count == 5) {
-            dataset = {
-                "children": vis.buildDataSet
-            };
-        } else {
-            
-            dataset = {
-                "children": vis.nodes
-            };
-
-        }
-        
-
-        console.log(dataset)
-        let diameter = 550;
-
-        console.log(vis.width)
-        console.log(vis.height)
-        let bubble = d3.pack(dataset)
-            .size([diameter, diameter])
-            .padding(10);
-
-        let nodes = d3.hierarchy(dataset)
-            .sum(function(d) { return 1; });
-        
-        let node = vis.svg.selectAll("circle")
-            .data(bubble(nodes).descendants())
-
-                
-        node.enter()
-            .append("circle")
-            .attr("class", "node")
-            .merge(node)
-            .transition()
-            .duration(1000)
-            .filter(function(d){
-                return  !d.children
-            })
-            .attr("cx", d=> d.x)
-            .attr("cy", d=> d.y)
-            .attr("r", function(d) {
-                return d.r;
-            })
-            .style("fill", function(d,i) {
-                return "black";
-            });
     
+        // clear current text
+        vis.svg.selectAll(".label-dem").text("")
+        let categories = vis.graphinformation[vis.selected].categories
 
-        node.exit().remove()
+        categories.forEach((name, index) => {
 
-        // let dataset = []
-        // let data = [{ "name": "A", "group": 1 }, { "name": "B", "group": 1 }, { "name": "C", "group": 1 }, { "name": "D", "group": 1 }, { "name": "E", "group": 1 }, { "name": "F", "group": 1 },
-        // { "name": "G", "group": 2 }, { "name": "H", "group": 2 }, { "name": "I", "group": 2 }, { "name": "J", "group": 2 }, { "name": "K", "group": 2 }, { "name": "L", "group": 2 },
-        // { "name": "M", "group": 3 }, { "name": "N", "group": 3 }, { "name": "O", "group": 3 }]
+            vis.pack.size(vis.graphinformation[vis.selected].size[name]);
 
-        // console.log(vis.count)
-        // if (vis.count == 1) {
-        //     dataset = vis.nodes
-        //     data = data = [{ "name": "A", "group": 3 }, { "name": "B", "group": 2 }, { "name": "A", "group": 1 }]
+            let nodes = d3.hierarchy({children: vis.nodes[0].filter(function(d){return d[vis.selected]==(vis.selected+name)})})
+                .sum(function(d) { return 1; });
 
-        // // } else if (vis.count == 2) {
-        // //     dataset = {
-        // //         "children": vis.sexDataSet
-        // //     };
-        // // } else if (vis.count == 3) {
-        // //     dataset = {
-        // //         "children": vis.raceDataSet
-        // //     };
-        // // } else if (vis.count == 4) {
-        // //     dataset = {
-        // //         "children": vis.ageRangeDataset
-        // //     };
-        // // } else if (vis.count == 5) {
-        // //     dataset = {
-        // //         "children": vis.buildDataSet
-        // //     };
-        // } else {
-        //     console.log(vis.raceDataSet2)
-        //     dataset = vis.raceDataSet2
-        //     data = [{ "name": "C", "group": 3 }, { "name": "B", "group": 2 }, { "name": "A", "group": 1 }]
+            vis.svg.selectAll(".class"+vis.selected+name)
+                .data(vis.pack(nodes).descendants().slice(1))
+                .transition()
+                .duration(1000)
+                .filter(function(d){
+                            return  !d.children
+                        })
+                .attr("r", function(d) {return d.r; })
+                .attr("cx", function(d) { return d.x; })
+                .attr("cy", function(d) { return d.y; })
+                .attr("transform", function(){
+                            return "translate("+
+                            (vis.graphinformation[vis.selected]["transform"][name][0])+
+                            ","+vis.graphinformation[vis.selected].transform[name][1]+")";
+                        })
 
-        // }
+            vis.svg.append("g")
+                .attr("transform", function(){
+                    return "translate("+
+                    (vis.graphinformation[vis.selected]["transform"][name][0] + vis.graphinformation[vis.selected]["size"][name][0]/2) +
+                    ","+vis.graphinformation[vis.selected].transform[name][1]+")";
+                })
+                .append('text')
+                .attr('class', 'label-dem')
+                .text(vis.graphinformation[vis.selected].names[name] + " - ")
+                .transition()
+                .duration(1000)
 
+            console.log(vis.graphinformation[vis.selected].data)
+
+        });
         
-
-        // // A scale that gives a X target position for each group
-        // let x = d3.scaleOrdinal()
-        //     .domain([1, 2, 3, 4, 5, 6, 7])
-        //     .range([50, 150, 250, 50, 150, 250, 350])
-        
-        // let y = d3.scaleOrdinal()
-        //     .domain([1, 2, 3, 4, 5, 6, 7])
-        //     .range([vis.height * 0.25, vis.height * 0.25, vis.height * 0.25, vis.height * 0.75, vis.height * 0.75, vis.height * 0.75, vis.height * 0.5])
-
-        // // A color scale
-        // let color = d3.scaleOrdinal()
-        //     .domain([1, 2, 3, 4, 5, 6, 7])
-        //     .range([ "#F8766D", "#00BA38", "#619CFF", "blue", "black", "pink", "yellow"])
-
-        // // let node = vis.svg.append("g")
-        // //     .selectAll("circle")
-        // //     .data(data)
-
-        // // node.enter()
-        // //     .append("circle")
-        // //     // .attr("class", "node")
-        // //     // .merge(node)
-        // //     .attr("r", 5)
-        // //     .attr("cx", vis.width / 2)
-        // //     .attr("cy", vis.height / 2)
-        // //     .style("fill", function(d){ return color(d.group)})
-        // //     .style("fill-opacity", 0.8)
-        // //     .attr("stroke", "black")
-        // //     .style("stroke-width", 4)
-
-        // // // node.exit().remove()
-
-        // let node = vis.svg
-        //     .selectAll("circle")
-        //     .data(dataset)
-
-        // node.enter()
-        //     .append("circle")
-        //     .attr("class", "node")
-        //     .merge(node)
-        //     .attr("r", 3)
-        //     .attr("cx", vis.width / 2)
-        //     .attr("cy", vis.height / 2)
-        //     .style("fill", function(d){ return color(d.group)})
-        //     .style("fill-opacity", 0.8)
-        //     .attr("stroke", "black")
-        //     .style("stroke-width", 4)
-
-        // node.exit().remove
-            
-
-        // // Features of the forces applied to the nodes:
-        // var simulation = d3.forceSimulation()
-        //     .force("x", d3.forceX().strength(0.5).x( function(d){ return x(d.group) } ))
-        //     .force("y", d3.forceY().strength(0.1).y(  function(d){ return y(d.group) } ))
-        //     .force("center", d3.forceCenter().x(vis.width / 2).y(vis.height / 2)) // Attraction to the center of the svg area
-        //     .force("charge", d3.forceManyBody().strength(0)) // Nodes are attracted one each other of value is > 0
-        //     .force("collide", d3.forceCollide().strength(.1).radius(5).iterations(1)) // Force that avoids circle overlapping
-
-        // // Apply these forces to the nodes and update their positions.
-        // // Once the force algorithm is happy with positions ('alpha' value is low enough), simulations will stop.
-        // simulation
-        //     .nodes(dataset)
-        //     .on("tick", function(d){
-        //         node
-        //             .attr("cx", function(d){ return d.x; })
-        //             .attr("cy", function(d){ return d.y; })
-        //     });
-
 
     }
+
+    updateBySelectedValue(selectedValue) {
+        let vis = this;
+        vis.selected = selectedValue
+        vis.updateVis()
+    }
+
+    // let node = vis.svg.selectAll(".class"+selected+name)
+            //     .data(vis.pack(nodes).descendants().slice(1))
+
+
+            // node
+            //     .transition()
+            //     .duration(1000)
+            //     .filter(function(d){
+            //         return  !d.children
+            //     })
+            //     .attr("cx", d=> d.x)
+            //     .attr("cy", d=> d.y)
+            //     .attr("r", function(d) {
+            //         return d.r;
+            //     })
+            //     .style("fill", function(d,i) {
+            //         return "black";
+            //     })
+            //     .attr("transform", function(){
+            //         return "translate("+
+            //         (useThis["transform"][name][0])+
+            //         ","+useThis.transform[name][1]+")";
+            //     })
+                
+            // node.exit().remove()
 
 
 
