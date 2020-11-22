@@ -208,13 +208,17 @@ class VictimsVis {
             .attr("class", "victims-text")
             .text("")
 
+        vis.jitter = 0.6; // This will make sure that events happening in the same location will not overlap completely
+        vis.normaldist = Math.random
+        
+
         // init Vis
         vis.pack = d3.pack()
             .size([vis.width, vis.height])
             .padding(1.5)
 
         vis.nodesData = d3.hierarchy({children: vis.nodes[0]})
-            .sum(function(d) { return 1; });
+            .sum(function(d){return 1+vis.normaldist();});
 
 
         vis.realNodes = vis.svg.selectAll(".classallstopsall")
@@ -279,7 +283,7 @@ class VictimsVis {
                     F: vis.countBySex["F"],
                     Z: vis.countBySex["Z"],
                 },
-                text: "Most of stop and frisk victims were men, accounting for almost 90% of total stops between 2003 and 2016."
+                text: "Most of stop and frisk victims were men, accounting for over 90% of total stops between 2003 and 2016."
 
             },
             "allstops": {
@@ -448,7 +452,7 @@ class VictimsVis {
             vis.pack.size(vis.graphinformation[vis.selected].size[name]);
 
             let nodes = d3.hierarchy({children: vis.nodes[0].filter(function(d){return d[vis.selected]==(vis.selected+name)})})
-                .sum(function(d) { return 1; });
+                .sum(function(d){return 1+vis.normaldist();});
 
             vis.svg.selectAll(".class"+vis.selected+name)
                 .data(vis.pack(nodes).descendants().slice(1))
@@ -457,7 +461,10 @@ class VictimsVis {
                 .filter(function(d){
                             return  !d.children
                         })
-                .attr("r", function(d) {return d.r; })
+                .attr("r", function(d) {
+                    console.log(d.r)
+                    return d.r; 
+                })
                 .attr("cx", function(d) { return d.x; })
                 .attr("cy", function(d) { return d.y; })
                 .attr("transform", function(){
