@@ -198,6 +198,16 @@ class VictimsVis {
             })
         }
 
+        vis.supplementaryText = vis.svg.append("g")
+            .attr("transform", function(){
+                return "translate("+
+                (vis.width) +
+                ","+vis.height * 0.25+")";
+            })
+            .append('text')
+            .attr("class", "victims-text")
+            .text("")
+
         // init Vis
         vis.pack = d3.pack()
             .size([vis.width, vis.height])
@@ -264,6 +274,12 @@ class VictimsVis {
                     F: "Female",
                     Z: "Other / Not Recorded",
                 },
+                sum: {
+                    M: vis.countBySex["M"],
+                    F: vis.countBySex["F"],
+                    Z: vis.countBySex["Z"],
+                },
+                text: "Most of stop and frisk victims were men, accounting for almost 90% of total stops between 2003 and 2016."
 
             },
             "allstops": {
@@ -281,6 +297,10 @@ class VictimsVis {
                 names: {
                     all: "All Stops",
                 },
+                sum: {
+                    all: 1000,
+                },
+                text:  ""
             },
             "race": {
                 categories: ["A", "B", "I", "P", "Q", "W", "Z"],
@@ -321,6 +341,17 @@ class VictimsVis {
                     W: "White",
                     Z: "Other / Not Recorded"
                 },
+                sum: {
+                    A: vis.countByRace["A"],
+                    B: vis.countByRace["B"],
+                    I: vis.countByRace["I"],
+                    P: vis.countByRace["P"],
+                    Q: vis.countByRace["Q"],
+                    W: vis.countByRace["W"],
+                    Z: vis.countByRace["Z"] + 1,
+                },
+                text: "More than half of stop and frisk victims were Black, and the wild majority of stop and frisk victims were people" +
+                " of color."
             },
             "ageRange": {
                 categories: ["30below", "30above", "Z"],
@@ -347,6 +378,12 @@ class VictimsVis {
                     "30above": "30 and above",
                     "Z": "Other / Not Recorded",
                 },
+                sum: {
+                    "30below": vis.countByAgeRange["30below"],
+                    "30above": vis.countByAgeRange["30above"],
+                    "Z": vis.countByAgeRange["Z"] + 1,
+                },
+                text: "Most stop and frisk victims were young, and a significant amount were even minors."
             },
             "build": {
                 categories: ["H", "M", "T", "U", "Z"],
@@ -379,6 +416,14 @@ class VictimsVis {
                     "U": "Muscular",
                     "Z": "Other / Not Recorded",
                 },
+                sum: {
+                    "H": vis.countByBuild["H"],
+                    "M": vis.countByBuild["M"],
+                    "T": vis.countByBuild["T"],
+                    "U": vis.countByBuild["U"],
+                    "Z": vis.countByBuild["Z"],
+                },
+                text: "Most stop and frisk victims were described as having a medium build, followed by thin, heavy, and other."
             }
         };
        
@@ -429,13 +474,15 @@ class VictimsVis {
                 })
                 .append('text')
                 .attr('class', 'label-dem')
-                .text(vis.graphinformation[vis.selected].names[name] + " - ")
+                .text(vis.graphinformation[vis.selected].names[name] + " - " + vis.graphinformation[vis.selected].sum[name])
                 .transition()
                 .duration(1000)
 
             console.log(vis.graphinformation[vis.selected].data)
 
         });
+
+        vis.supplementaryText.text(vis.graphinformation[vis.selected].text)
         
 
     }
@@ -443,6 +490,7 @@ class VictimsVis {
     updateBySelectedValue(selectedValue) {
         let vis = this;
         vis.selected = selectedValue
+
         vis.updateVis()
     }
 
