@@ -14,7 +14,7 @@ class TimelineVis {
         this.parseDateSlash = d3.timeParse("%m/%d/%Y");
         this.formatTime = d3.timeFormat("%m/%d/%Y");
 
-        this.colorGradient = d3.scaleSequential(d3.interpolatePurples);
+        this.colorGradient = d3.scaleSequential(d3.interpolateBlues);
 
         this.initVis()
     }
@@ -182,7 +182,67 @@ class TimelineVis {
 			.call(vis.xAxis);
 
 		vis.svg.select('.y-axis')
-			.call(vis.yAxis);
+            .call(vis.yAxis);
+            
+
+        // define tooltipElement
+    let tooltipElements = vis.svg.append("g")
+    .attr("class", "tooltip-group")
+    .style("display", 'none');
+
+    // draw tooltip line
+    let line = tooltipElements.append("line")
+                            .attr("class", "line")
+                            .attr("x1", 0)
+                            .attr("y1", 0)
+                            .attr("x2", 0)
+                            .attr("y2", vis.height);
+
+    let stopsText = tooltipElements.append("text")
+        .attr('class', 'tooltip-stops')
+
+    let yearText = tooltipElements.append("text")
+        .attr('class', 'tooltip-year')
+
+    // create an svg rectange for mouseover events
+    let rect = vis.svg.append("rect")
+        .attr("width", vis.width)
+        .attr("height", vis.height)
+        .attr('fill-opacity', 0)
+        .attr("x", 0)
+        .attr('y', 0)
+        .on("mouseover", function(event,d){
+            tooltipElements.style('display', null)
+        })
+        .on("mouseout", function(event,d){
+            tooltipElements.style('display', 'none')
+        })
+        .on("mousemove", function(event,d){
+            mousemove(event)
+        })
+    
+    // function that moves the tooltip position to its most accurate spot
+    function mousemove(event) {
+
+        // get index of the current x position
+        let xPos = d3.pointer(event)[0]
+        let date = vis.x.invert(xPos)
+        let dateParsed = parseInt(vis.x.invert(xPos))
+
+        // draw new line and render new text
+        line.attr("x1", vis.x(date))
+            .attr("x2", vis.x(date))
+
+        console.log(vis.countDataByYear[dateParsed - 2003].value)
+        
+        stopsText.text(vis.countDataByYear[dateParsed - 2003].value + " stops")
+                    .attr('x', vis.x(date) + 10)
+                    .attr('y', 10)
+
+        yearText.text(dateParsed)
+                    .attr('x', vis.x(date) + 10)
+                    .attr('y', 30)
+    }
 
 
         }
@@ -209,6 +269,16 @@ class TimelineVis {
 
         vis.wrangleData()
 
+    }
+
+    resetVis() {
+
+        let vis = this;
+
+        vis.displayData = vis.data
+        vis.title.text("Daily Number of Stops")
+        vis.wrangleData()
+        
     }
             
 }

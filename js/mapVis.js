@@ -11,7 +11,7 @@ class MapVis {
         this.stopsData = stopsData;
         this.coordinates = coordinates
 
-        this.colorGradient = d3.scaleSequential(d3.interpolatePurples);
+        this.colorGradient = d3.scaleSequential(d3.interpolateBlues);
 
         this.initVis()
     }
@@ -109,6 +109,10 @@ class MapVis {
 
         console.log('Map Vis Update Vis')
 
+        // let p = d3.precisionPrefix(1e5, 1.3e6)
+        // let f = d3.formatPrefix("." + p, 1.3e6);
+        let formatThousands = d3.formatPrefix(",.0", 1e3);
+
         let precincts = L.geoJson(vis.precinctData, {
             style: stylePrecinct,
             weight: 5,
@@ -118,10 +122,10 @@ class MapVis {
 
         function onEachPrecinct(feature, layer) {
             layer.on({
-                click: whenClicked
+                click: onPrecinctClick
             });
 
-            layer.bindPopup("Precinct " + feature.properties.precinct + ": " + vis.totalStopsByPrecinct[feature.properties.precinct] + " total stops");
+            layer.bindPopup("Precinct " + feature.properties.precinct + ": " + formatThousands(vis.totalStopsByPrecinct[feature.properties.precinct]) + " stops");
 			layer.on('mouseover', function() { layer.openPopup(); });
             layer.on('mouseout', function() { layer.closePopup(); });
         }
@@ -132,14 +136,10 @@ class MapVis {
 
         }
 
-        function whenClicked(e) {
+        function onPrecinctClick(e) {
             stopsTimelineVis.updateByPrecinct(e.target.feature.properties.precinct)
-          }
+        }
 
-
-
-    
-    
         let legend = L.control({position: 'bottomright'});
 
         legend.onAdd = function (map) {
@@ -156,11 +156,13 @@ class MapVis {
                 div.innerHTML +=
                     '<i style="background:' + vis.colorGradient(colors[i]) + '"></i>';
             }
-            div.innerHTML += '<br><br><div class="legend-text" ><div style="display: inline-block" >0</div>' + '<div style="display: inline-block" >' + d3.format((".0k", 1e3))(vis.maxStops) + "</div></div>"
+            div.innerHTML += '<br><br><div class="legend-text" ><div style="display: inline-block" >0</div>' + '<div style="display: inline-block" >' + formatThousands(vis.maxStops) + "</div></div>"
             return div;
         };
         
         legend.addTo(vis.map);
+
+        vis.map.on('click', function(){stopsTimelineVis.resetVis()});
     
 
         
