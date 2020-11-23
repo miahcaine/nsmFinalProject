@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="22945327-7ef4-434e-b7d3-bdf651773af2" name="Default Changelist" comment="11.22.20 11:47 PM changes to vis1">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/demographicBubbles.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/demographicBubbles.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/likelinessVis.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/likelinessVis.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1kOdA3ynhf9UnGledsMpeNOSofq" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="22945327-7ef4-434e-b7d3-bdf651773af2" name="Default Changelist" comment="" />
+      <created>1605575425146</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1605575425146</updated>
+      <workItem from="1605575427238" duration="1475000" />
+      <workItem from="1606078924151" duration="18029000" />
+    </task>
+    <task id="LOCAL-00001" summary="commit (PLEASE HELP) - 11.16">
+      <created>1605576274880</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1605576274880</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new commit for branch pls">
+      <created>1605576606737</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1605576606737</updated>
+    </task>
+    <task id="LOCAL-00003" summary="11.22.20 11:25 PM changes to vis1">
+      <created>1606105576836</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1606105576836</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="commit (PLEASE HELP) - 11.16" />
+    <MESSAGE value="new commit for branch pls" />
+    <MESSAGE value="11.22.20 11:25 PM changes to vis1" />
+    <MESSAGE value="11.22.20 11:47 PM changes to vis1" />
+    <option name="LAST_COMMIT_MESSAGE" value="11.22.20 11:47 PM changes to vis1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="343" y="230" key="MultipleFileMergeDialog" timestamp="1606106425039">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="343" y="230" key="MultipleFileMergeDialog/0.23.1440.877@0.23.1440.877" timestamp="1606106425039" />
+    <state x="208" y="100" key="SettingsEditor" timestamp="1606103190322">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="208" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1606103190322" />
+    <state x="306" y="201" key="Vcs.Push.Dialog.v2" timestamp="1606105591837">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="306" y="201" key="Vcs.Push.Dialog.v2/0.23.1440.877@0.23.1440.877" timestamp="1606105591837" />
+    <state x="499" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1606106413389">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="499" y="382" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.877@0.23.1440.877" timestamp="1606106413389" />
+  </component>
+</project>
