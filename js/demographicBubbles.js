@@ -1,23 +1,23 @@
 class DemographicBubbles {
-  constructor(parentElement, data, percParent, demParent, is_stops) {
+  constructor(parentElement, data, percParent, is_stops) {
     this.parentElement = parentElement;
     this.data = data;
 
     // to display percent of demographic in DOM
     this.percParent = percParent;
-    this.demParent = demParent;
 
     // to handle data differently depending on type of bubbles
     this.is_stops = is_stops;
+    this.bubbleColor = d3.scaleSequential(d3.interpolatePurples);
+    this.raceCode = 0;
+    this.boroughCode = 2;
     this.initVis();
   }
 
   initVis() {
     let vis = this;
     vis.margin = { top: 0, bottom: 10, left: 20, right: 20 };
-    vis.width = 400;
-    $(`#${vis.parentElement}`).width() + vis.margin.left + vis.margin.right;
-    // console.log($(`#${vis.parentElement}`).width());
+    vis.width = $(`#${vis.parentElement}`).width() + vis.margin.left + vis.margin.right;
     vis.height =
       $(`#${vis.parentElement}`).height() + vis.margin.top + vis.margin.bottom;
 
@@ -29,23 +29,106 @@ class DemographicBubbles {
       .attr("width", vis.width)
       .attr("height", vis.height);
 
-    vis.wrangleData();
+    vis.wrangleData(vis.raceCode, vis.boroughCode, false);
   }
-  wrangleData(raceCode, changed) {
+  wrangleData(raceCode, boroughCode, changed) {
     let vis = this;
+    // create "data" for packed bubbles
+    vis.nodes = Array.from({ length: 100 }, () => ({
+      counted: false,
+      x: Math.random() * (vis.width - vis.margin.left - vis.margin.right),
+      y: Math.random() * (vis.height - vis.margin.top - vis.margin.bottom)
+    }));
+    // react to clicking filtering buttons
     if (changed) {
-      vis.raceCode = raceCode;
-    } else {
-      vis.raceCode = 1;
+      if (boroughCode != -1){
+        vis.boroughCode = boroughCode;
+      }
+      if (raceCode != -1){
+        vis.raceCode = raceCode;
+      }
     }
+    // console.log("race code is", vis.raceCode);
     vis.dataByYear = {};
-    // TODO: fix for stop data
+    vis.raceCodeObj = {
+      0: "Total",
+      1: "White Non Hispanic",
+      2: "Black Non Hispanic",
+      3: "Other Non Hispanic",
+      4: "Hispanic"
+    };
+
+    vis.stopsRaceObj = {
+      0 : [""],
+      1 : ["W"],
+      2 : ["B"],
+      3 : ["Z", "A"],
+      4 : ["P", "Q"]
+    }
+
+    vis.boroughObj = {
+      2 : "New York City",
+      3 : "Bronx",
+      4 : "Brooklyn",
+      5 : "Manhattan",
+      6 : "Queens",
+      7 : "Staten Island"
+    }
+
+    vis.stopsObj = {
+      3 : 2,
+      4 : 3,
+      5 : 1,
+      6 : 4,
+      7 : 5
+    }
+
+    vis.selectedDemographic = vis.raceCodeObj[vis.raceCode];
+    vis.selectedBorough = vis.boroughObj[vis.boroughCode];
+
+      // if we do year filtering, this needs to change
+      vis.selectedYear = 2006;
+    
+      // FIX THIS !!!!
     if (vis.is_stops) {
-      var x = 1;
-      // total population percentages
+      let stopCount = 0;
+      let totalStopCount = 0;
+      for (var i = 0; i < vis.data[3].length; i++){
+        // console.log("city is", vis.data[0][i].city);
+        if (vis.boroughCode == 2){
+          if (vis.stopsRaceObj[vis.raceCode].includes(vis.data[3][i].race)){
+            stopCount++;
+          }
+          totalStopCount = vis.data[3].length;
+        }
+
+        else {
+          if (vis.stopsRaceObj[vis.raceCode].includes(vis.data[3][i].race) && vis.data[3][i].city == vis.stopsObj[vis.boroughCode]){
+            stopCount++;
+          }
+          else if (vis.data[3][i].city == vis.stopsObj[vis.boroughCode]){
+            totalStopCount++;
+          }
+        }
+        
+      }
+      // 
+      console.log("stop Count is", stopCount);
+      console.log("total Count is", totalStopCount);
+      vis.demPerc = 100*(stopCount / totalStopCount);
+      console.log("demperc is", vis.demPerc);
+      if (changed){
+        $(`#${vis.percParent}`).text(`${vis.selectedDemographic} people make up ${vis.demPerc.toFixed()}% of the stops in ${vis.selectedBorough}.`);
+      }
     } else {
+      // find the selected borough
+      for (var i = 0; i < vis.data.length; i++){
+        if (vis.data[i][0]["County Code"] == vis.boroughCode){
+          vis.selectedData = vis.data[i];
+        }
+      }
       vis.groupData = Array.from(
-        d3.group(vis.data, d => d.Year),
+        d3.group(vis.selectedData, d => d.Year),
         ([key, value]) => ({ key, value })
       );
       vis.groupData.forEach(row => {
@@ -54,31 +137,15 @@ class DemographicBubbles {
       // console.log("final pop data", vis.dataByYear);
 
       // GET PERCENTAGES
-      // should we filter out the < 1 Age Group??
-      vis.raceCodeObj = {
-        0: "Total",
-        1: "White Non Hispanic",
-        2: "Black Non Hispanic",
-        3: "Other Non Hispanic",
-        5: "Hispanic"
-      };
-      vis.selectedDemographic = vis.raceCodeObj[vis.raceCode];
-      vis.selectedYear = 2003;
+      // filter to teens and adults, and add the whole population
       vis.totalPop = vis.dataByYear[vis.selectedYear][0]["Population"];
       vis.demPop = vis.dataByYear[vis.selectedYear][vis.raceCode]["Population"];
-      console.log(vis.totalPop);
-      console.log(vis.demPop);
+      vis.demPerc = (vis.demPop / vis.totalPop) * 100;
+      if (changed){
+        $(`#${vis.percParent}`).text(`${vis.selectedDemographic} people make up ${vis.demPerc.toFixed()}% of the population in ${vis.selectedBorough}.`);
+      }
     }
-    vis.demPerc = (vis.demPop / vis.totalPop) * 100;
-    $(`#${vis.percParent}`).text(vis.demPerc.toFixed());
-    $(`#${vis.demParent}`).text(vis.selectedDemographic);
-    // create "data" for packed bubbles
-    vis.nodes = Array.from({ length: 100 }, () => ({
-      counted: false,
-      x: Math.random() * (vis.width - vis.margin.left - vis.margin.right),
-      y: Math.random() * (vis.height - vis.margin.top - vis.margin.bottom)
-    }));
-
+    // console.log(vis.nodes);
     // associate bubbles with counted-ness????
     for (var i = 0; i < vis.demPerc.toFixed(); i++) {
       vis.nodes[i].counted = true;
@@ -86,13 +153,9 @@ class DemographicBubbles {
 
     vis.updateVis();
   }
-
   updateVis() {
     // create the circles
     let vis = this;
-
-    console.log(vis.nodes);
-
     // https://bl.ocks.org/officeofjane/a70f4b44013d06b9c0a973f163d8ab7a
     vis.simulation = d3
       .forceSimulation()
@@ -115,7 +178,7 @@ class DemographicBubbles {
         "collision",
         d3.forceCollide().radius(d => 11)
       );
-
+        // vis.simulation.tick(3);
     vis.bubbles = vis.svg.selectAll(".bubble").data(vis.nodes);
     vis.bubbles
       .enter()
@@ -126,7 +189,7 @@ class DemographicBubbles {
       .attr("cy", d => d.y)
       .attr("fill", function(d) {
         if (d.counted == true) {
-          return "blue";
+          return vis.bubbleColor(1);
         } else {
           return "gray";
         }
@@ -134,12 +197,12 @@ class DemographicBubbles {
       .style("fill-opacity", 0.7)
       .merge(vis.bubbles)
       .attr("class", "bubble")
-      .attr("r", 10)
+      .attr("r", 7)
       .attr("cx", d => d.x)
       .attr("cy", d => d.y)
       .attr("fill", function(d) {
         if (d.counted == true) {
-          return "blue";
+          return vis.bubbleColor(1);
         } else {
           return "gray";
         }

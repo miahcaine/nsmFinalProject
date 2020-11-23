@@ -55,6 +55,59 @@ function updateVis4(selectedValue) {
   myVictimsVis.updateBySelectedValue(selectedValue)
 }
 
+function showVis5() {
+  $("#population-sec").fadeIn();
+  document
+    .getElementById("population-sec")
+    .scrollIntoView({ behavior: "smooth", block: "start" });
+
+  boroughBubbles = new DemographicBubbles("borough-bubbles", populationData, "borough-perc", false);
+  stopBubbles = new DemographicBubbles("sf-bubbles", stopsData, "sf-perc", true);
+}
+
+function showVis6(){
+  $("#likeliness-sec").fadeIn();
+  document
+    .getElementById("population-sec")
+    .scrollIntoView({ behavior: "smooth", block: "start" });
+  //   $(document).ready();
+  //   $(function(){
+  //     var select = $("#age-select");
+  //     for (i=12;i<=80;i++){
+  //         select.append($('<option></option>').val(i).html(i))
+  //     }
+  // })
+  likelinessVis = new LikelinessVis("likeliness-vis", stopsData);
+}
+
+function updateVis6 (form ){
+  var race = document.getElementById("race-select").value;
+  var age = document.getElementById("age-select").value;
+  var sex = document.getElementById("sex-select").value;
+  var build = document.getElementById("build-select").value;
+  likelinessVis.wrangleData(race, age, sex, build, true);
+}
+
+function cleanRow(row){
+  row["Age Group Code"] = +row["Age Group Code"];
+  row["County Code"] = +row["County Code"];
+  row["Gender Code"] = +row["Gender Code"];
+  row["Population"] = +row["Population"];
+  row["Race Ethnicity Code"] = +row["Race Ethnicity Code"];
+  row["Year"] = +row["Year"];
+  return row;
+}
+
+function changeRace(code, type){
+  boroughBubbles.wrangleData(code, -1, true);
+  stopBubbles.wrangleData(code, -1, true);
+}
+
+function changeBorough(code, type){
+  boroughBubbles.wrangleData(-1, code, true);
+  stopBubbles.wrangleData(-1, code, true);
+}
+
 // load data using promises
 let promises = [
     d3.json("sf_data/precinct/precincts.json"),
@@ -62,6 +115,12 @@ let promises = [
     d3.csv("sf_data/stops/2004.csv"),
     d3.csv("sf_data/stops/2005.csv"),
     d3.csv("sf_data/stops/2006.csv"),
+    d3.csv("sf_data/population/bronx_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/kings_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/new_york_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/queens_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/richmond_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/nyc_population_data.csv", row => cleanRow(row)),
     d3.csv("sf_data/stops/2007.csv"),
     d3.csv("sf_data/stops/2008.csv"),
     d3.csv("sf_data/stops/2009.csv"),
@@ -94,13 +153,17 @@ let stopsData = []
 let crimeNumbersData = []
 let populationData;
 let myRadialVis;
-let myMapVis,
+
+// nneka's vis
+let myMapVis, 
 myVictimsVis,
-stopsTimelineVis;
+stopsTimelineVis,
+// miah's vis
+boroughBubbles, 
+stopBubbles, 
+likelinessVis;
 
 function initMainVis(dataArray) {
-    console.log("dataArray here:")
-    console.log(dataArray)
 
     globalData = dataArray
 
