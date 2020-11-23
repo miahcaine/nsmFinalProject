@@ -2,6 +2,7 @@ class DemographicBubbles {
   constructor(parentElement, data, percParent, is_stops) {
     this.parentElement = parentElement;
     this.data = data;
+    console.log(this.data);
 
     // to display percent of demographic in DOM
     this.percParent = percParent;
@@ -113,10 +114,10 @@ class DemographicBubbles {
         
       }
       // 
-      console.log("stop Count is", stopCount);
-      console.log("total Count is", totalStopCount);
+      // console.log("stop Count is", stopCount);
+      // console.log("total Count is", totalStopCount);
       vis.demPerc = 100*(stopCount / totalStopCount);
-      console.log("demperc is", vis.demPerc);
+      // console.log("demperc is", vis.demPerc);
       if (changed){
         $(`#${vis.percParent}`).text(`${vis.selectedDemographic} people make up ${vis.demPerc.toFixed()}% of the stops in ${vis.selectedBorough}.`);
       }

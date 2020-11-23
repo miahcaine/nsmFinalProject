@@ -1,24 +1,24 @@
 let boroughBubbles, sfBubbles, likelinessVis;
 
-let testCount = 1;
+// let testCount = 1;
 
-// borough bubble data
-d3.csv("sf_data/population/bronx_population_data.csv", row => {
-  row["Age Group Code"] = +row["Age Group Code"];
-  row["County Code"] = +row["County Code"];
-  row["Gender Code"] = +row["Gender Code"];
-  row["Population"] = +row["Population"];
-  row["Race Ethnicity Code"] = +row["Race Ethnicity Code"];
-  row["Year"] = +row["Year"];
-  return row;
-}).then(data => {
-  boroughBubbles = new DemographicBubbles("borough-bubbles", data, "borough-perc", "borough-dem", false);
+// // borough bubble data
+// d3.csv("sf_data/population/bronx_population_data.csv", row => {
+//   row["Age Group Code"] = +row["Age Group Code"];
+//   row["County Code"] = +row["County Code"];
+//   row["Gender Code"] = +row["Gender Code"];
+//   row["Population"] = +row["Population"];
+//   row["Race Ethnicity Code"] = +row["Race Ethnicity Code"];
+//   row["Year"] = +row["Year"];
+//   return row;
+// }).then(data => {
+//   boroughBubbles = new DemographicBubbles("borough-bubbles", data, "borough-perc", "borough-dem", false);
 
-  // let stopData = aggStops();
+//   // let stopData = aggStops();
 
-  // TODO: add back once stop data is fixed
-  // stopBubbles = new DemographicBubbles("sf-bubbles", stopsData, "sf-perc", "sf-dem", true);
-});
+//   // TODO: add back once stop data is fixed
+//   // stopBubbles = new DemographicBubbles("sf-bubbles", stopsData, "sf-perc", "sf-dem", true);
+// });
 
 function changeBubbles(){
   testCount++;
@@ -70,13 +70,7 @@ function showVis6(){
   document
     .getElementById("population-sec")
     .scrollIntoView({ behavior: "smooth", block: "start" });
-  //   $(document).ready();
-  //   $(function(){
-  //     var select = $("#age-select");
-  //     for (i=12;i<=80;i++){
-  //         select.append($('<option></option>').val(i).html(i))
-  //     }
-  // })
+
   likelinessVis = new LikelinessVis("likeliness-vis", stopsData);
 }
 
@@ -174,5 +168,5 @@ function initMainVis(dataArray) {
 
     NYCPopulationData = dataArray[dataArray.length - 1]
 
-    populationData = dataArray.slice(19, dataArray.length-1)
+    populationData = dataArray.slice(19, dataArray.length)
 }
