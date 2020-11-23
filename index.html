@@ -92,77 +92,108 @@
               </div>
             </div>
             </div>
-              <button class="next-section-button" id="show-vis-5" onclick="showNextVis('population-sec')">Show Vis 5</button>
+              <button class="next-section-button" id="show-vis-5" onclick="showVis5()">Show Vis 5</button>
             </div>
         </div>
-
+        <!-- TODO: ADD A BOROUGH SELECT -->
         <div id="population-sec" class="section">
-                <h1>Vis 5</h1>
+                <h1>Total demographic vs. the demographic of Stop and Frisk stops</h1>
                 <div id="vis-5" class="vis-container">
                   <!-- BOROUGH BUBBLES -->
                   <div class="row">
-                    <div class="col-8 bubbles" id="borough-bubbles"></div>
-                    <div class="col-4 description">
-                      <span class="bubble-description">
-                        <span id="borough-dem"></span> people
-                        make up <span id="borough-perc">TODO</span>% of this borough.
-                      </span>
+                    <div class="col-2" id="description-text"> In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons on the right to explore how the race of those stopped compare to the race in an entire borough. </div>
+                    <div class="col-6">
+                    <div class="row">
+                      <div class="col-8 bubbles" id="borough-bubbles"></div>
+                      <div class="col-3 description">
+                        <span class="bubble-description">
+                        <span id="borough-perc"></span>
+                        </span>
+                      </div>
+                    </div>
+                    
+                    <!-- STOP AND FRISK BUBBLES -->
+                    <div class="row">
+                      <div class="col-8 bubbles" id="sf-bubbles"></div>
+                      <div class="col-3 description">
+                        <span class="bubble-description">
+                          <span id="sf-perc"></span>
+                      </div>
+                    </div>
+                    </div>
+                    <div id="demographic-buttons" class="col-2 btn-group-sm btn-group-vertical "> 
+                        <!-- <button type="button" class="btn btn-dark" onclick="changeBubbles(0)">Total</button>  -->
+                        <button type="button" class="btn btn-light" onclick="changeRace(4)">Hispanic</button>
+                        <button type="button" class="btn btn-light" onclick="changeRace(2)">Black Non-Hispanic</button>
+                        <button type="button" class="btn btn-light" onclick="changeRace(1)">White Non-Hispanic</button> 
+                        <button type="button" class="btn btn-light" onclick="changeRace(3)">Other Non-Hispanic</button>
+                    </div>
+                    <div id="demographic-buttons" class="col-1 btn-group-sm btn-group-vertical "> 
+                        <button type="button" class="btn btn-light" onclick="changeBorough(2)">Total</button> 
+                        <button type="button" class="btn btn-light" onclick="changeBorough(3)">Bronx</button>
+                        <button type="button" class="btn btn-light" onclick="changeBorough(4)">Brooklyn</button>
+                        <button type="button" class="btn btn-light" onclick="changeBorough(5)">Manhattan</button> 
+                        <button type="button" class="btn btn-light" onclick="changeBorough(6)">Queens</button>
+                        <button type="button" class="btn btn-light" onclick="changeBorough(7)">Staten Island</button>
                     </div>
                   </div>
-          
-                  <!-- STOP AND FRISK BUBBLES -->
-                  <div class="row">
-                    <div class="col-8 bubbles" id="sf-bubbles"> The same bubbles as above will be here once I figure out how to work with the stop data!</div>
-                    <div class="col-4 description">
-                      <span class="bubble-description">
-                        <span id="sf-dem">TODO</span>
-                        makes up <span id="sf-perc">TODO</span>% of Stop and Frisk stops
-                        in this borough.
-                      </span>
-                    </div>
-                  </div>
-                  <button class="next-section-button" onclick="showNextVis('likelihood-sec')">Show Vis 6</button>
-                  <button class="next-section-button" onclick="changeBubbles()">Change Bubbles</button>
+                  <button class="next-section-button" id="show-vis-6" onclick="showVis6()">Show Vis 6</button>
+                  <!-- <button class="next-section-button" onclick="changeBubbles()">Change Bubbles</button> -->
                 </div>
+                
             </div>
-   <div id="likelihood-sec" class="section"> 
-      <h1>Vis 6</h1>
+
+   <div id="likeliness-sec" class="section"> 
+      <h1>How do you compare to Stop and Frisk demographics?</h1>
       <div id="vis-6" class="vis-container">
         <!--    INTERACTIVE LIKELINESS VIS    -->
         <div class="row">
           <p class="description-text">
-            How likely would you have been stopped?
+            The 100 squares below represent all of the stops from 2003 to 2016. Enter a description of yourself
+             to see how you compare to the total amount of Stop and Frisk stops.
           </p>
+          <p><span id="likeliness-perc"></span></p>
         </div>
         <div class="row likeliness">
-          <div class="col-7" id="likeliness-vis">people here</div>
-          <div class="col-5" id="likeliness-selectors">
-            selectors here <br />
-            <!-- TODO: ADD VALUES FOR THE OPTIONS -->
-            <span class="selection-text">RACE</span>
-            <select id="race-select">
-              <option>White</option>
-              <option>Non-Hispanic Black</option>
-              <option>Hispanic</option>
-              <option>Other</option>
-            </select>
-            <br />
-            <span class="selection-text">AGE RANGE</span>
-            <select id="age-select">
-              <option>TODO</option>
-            </select>
-            <br />
-            <span class="selection-text">GENDER</span>
-            <select id="gender-select">
-              <option>Male</option>
-              <option>Female</option>
-            </select>
-            <br />
-            <span class="selection-text">BUILD</span>
-            <select id="build-select">
-              <option>TODO</option>
-            </select>
-            <br />
+          <div class="col-9" id="likeliness-vis"></div>
+          <div class="col-3" id="likeliness-selectors">
+            <form name="likeliness-form" action="" method="GET">
+              <span class="selection-text">RACE</span>
+              <select id="race-select">
+                <option value="A">Asian/Pacific Islander</option>
+                <option value="B">Black</option>
+                <option value="I">Native American</option>
+                <option value="P">Black-Hispanic</option>
+                <option value="Q">White-Hispanic</option>
+                <option value="W">White</option>
+                <option value="Z">Other</option>
+              </select>
+              <br />
+              <span class="selection-text">AGE</span>
+              <select id="age-select">
+                <option value="0">12 - 17</option>
+                <option value="1">18 - 30</option>
+                <option value="2">31 - 45</option>
+                <option value="3">46 - 60</option>
+                <option value="4">61 - 80</option>
+              </select>
+              <br />
+              <span class="selection-text">SEX</span>
+              <select id="sex-select">
+                <option value="M">Male</option>
+                <option value="F">Female</option>
+              </select>
+              <br />
+              <span class="selection-text">BUILD</span>
+              <select id="build-select">
+                <option value="H">Heavy</option>
+                <option value="M">Medium</option>
+                <option value="T">Thin</option>
+                <option value="U">Muscular</option>
+              </select>
+              <br />
+              <input type="button" name="input-button" value="Update Likeliness" onclick="updateVis6(this.form)">
+            </form>
           </div>
         </div>
       </div>
@@ -212,6 +243,9 @@
         });
         $("#show-vis-5").on('click', function() {
           $("#show-vis-5").hide();
+        });
+        $("#show-vis-6").on('click', function() {
+          $("#show-vis-6").hide();
         });
       });
     </script>
