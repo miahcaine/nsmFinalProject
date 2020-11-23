@@ -11,6 +11,7 @@ d3.csv("sf_data/population/bronx_population_data.csv", row => {
   return row;
 }).then(data => {
   boroughBubbles = new DemographicBubbles("borough-bubbles", data, "borough-perc", "borough-dem", false);
+  // also need to access this data for radial plot
   // let stopData = aggStops();
   // TODO: add back once stop data is fixed
 //   demBubbles = new DemographicBubbles("sf-bubbles", stopData, "sf-perc", "sf-dem", true);
@@ -22,6 +23,10 @@ function showNextVis(sectionID) {
   document
     .getElementById(sectionID)
     .scrollIntoView({ behavior: "smooth", block: "start" });
+}
+
+function Vis1() {
+    myRadialVis = new RadialVis('radial-vis', stopsData, crimeNumbersData, populationData)
 }
     
 function showVis2(sectionID) {
@@ -63,19 +68,33 @@ let promises = [
     // d3.csv("sf_data/stops/2014.csv"),
     // d3.csv("sf_data/stops/2015.csv"),
     // d3.csv("sf_data/stops/2016.csv"),
+    // raw numbers of crimes/arrests
+    d3.csv("sf_data/arrests/majorFelonies.csv"),
+    d3.csv("sf_data/arrests/misdemeanors.csv"),
+    d3.csv("sf_data/arrests/nonMajorFelonies.csv"),
+    d3.csv("sf_data/arrests/violations.csv"),
+    // NYC population
+    d3.csv("sf_data/population/nyc_population_data.csv"),
 ];
 
 Promise.all(promises)
-    .then( function(data){ initMainVis(data) })
+    .then( function(data){
+        initMainVis(data)
+        Vis1();
+    })
     .catch( function (err){console.log(err)} );
 
+let globalData = []
 let precinctData = []
 let stopsData = []
-let globalData = []
+let crimeNumbersData = []
+let populationData;
+let myRadialVis;
 let myMapVis
 let myVictimsVis;
 
 function initMainVis(dataArray) {
+    console.log("dataArray here:")
     console.log(dataArray)
 
     globalData = dataArray
@@ -84,4 +103,7 @@ function initMainVis(dataArray) {
 
     stopsData = dataArray.slice(1,4)
 
+    crimeNumbersData = dataArray.slice(5,9)
+
+    populationData = dataArray[9]
 }

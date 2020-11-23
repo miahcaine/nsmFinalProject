@@ -24,6 +24,11 @@
     position: relative;
 }
 
+#vis-1 {
+    font-size: 18px;
+    font-family: "Quicksand", sans-serif;
+}
+
 #vis-2 .row {
     width: 100%;
     height: 100%;
