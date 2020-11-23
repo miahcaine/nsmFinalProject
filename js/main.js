@@ -34,7 +34,7 @@ function showNextVis(sectionID) {
 }
 
 function Vis1() {
-    myRadialVis = new RadialVis('radial-vis', stopsData, crimeNumbersData, populationData)
+    myRadialVis = new RadialVis('radial-vis', stopsData, crimeNumbersData, NYCPopulationData)
 }
     
 function showVis2(sectionID) {
@@ -115,12 +115,6 @@ let promises = [
     d3.csv("sf_data/stops/2004.csv"),
     d3.csv("sf_data/stops/2005.csv"),
     d3.csv("sf_data/stops/2006.csv"),
-    d3.csv("sf_data/population/bronx_population_data.csv", row => cleanRow(row)),
-    d3.csv("sf_data/population/kings_population_data.csv", row => cleanRow(row)),
-    d3.csv("sf_data/population/new_york_population_data.csv", row => cleanRow(row)),
-    d3.csv("sf_data/population/queens_population_data.csv", row => cleanRow(row)),
-    d3.csv("sf_data/population/richmond_population_data.csv", row => cleanRow(row)),
-    d3.csv("sf_data/population/nyc_population_data.csv", row => cleanRow(row)),
     d3.csv("sf_data/stops/2007.csv"),
     d3.csv("sf_data/stops/2008.csv"),
     d3.csv("sf_data/stops/2009.csv"),
@@ -136,8 +130,15 @@ let promises = [
     d3.csv("sf_data/arrests/misdemeanors.csv"),
     d3.csv("sf_data/arrests/nonMajorFelonies.csv"),
     d3.csv("sf_data/arrests/violations.csv"),
-    // NYC population
-    d3.csv("sf_data/population/nyc_population_data.csv"),
+    // // NYC population
+    // d3.csv("sf_data/population/nyc_population_data.csv"),
+    // County population
+    d3.csv("sf_data/population/bronx_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/kings_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/new_york_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/queens_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/richmond_population_data.csv", row => cleanRow(row)),
+    d3.csv("sf_data/population/nyc_population_data.csv", row => cleanRow(row)),
 ];
 
 Promise.all(promises)
@@ -151,6 +152,7 @@ let globalData = []
 let precinctData = []
 let stopsData = []
 let crimeNumbersData = []
+let NYCPopulationData;
 let populationData;
 let myRadialVis;
 
@@ -158,10 +160,7 @@ let myRadialVis;
 let myMapVis, 
 myVictimsVis,
 stopsTimelineVis,
-// miah's vis
-boroughBubbles, 
-stopBubbles, 
-likelinessVis;
+stopBubbles;
 
 function initMainVis(dataArray) {
 
@@ -171,7 +170,9 @@ function initMainVis(dataArray) {
 
     stopsData = dataArray.slice(1,15)
 
-    crimeNumbersData = dataArray.slice(5,9)
+    crimeNumbersData = dataArray.slice(15,19)
 
-    populationData = dataArray[9]
+    NYCPopulationData = dataArray[dataArray.length - 1]
+
+    populationData = dataArray.slice(19, dataArray.length-1)
 }
