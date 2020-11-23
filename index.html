@@ -22,6 +22,10 @@
 	</head>
 
 	<body>
+    <!--  -->
+    
+      
+        <!--  -->
         <div id="timeline-sec" class="section">
             <h1>Vis 1</h1>
             <div id="vis-1" class="vis-container">
@@ -47,52 +51,54 @@
 
                 </div>
             </div>
-            <button class="next-section-button" onclick="showVis2('map-sec')">Show Vis 2</button>
+            <button class="next-section-button" id="show-vis-2" onclick="showVis2('map-sec')">Show Vis 2</button>
         </div>
 
         <div id="map-sec" class="section">
-            <h1>Vis 2</h1>
             <div id="vis-2" class="vis-container">
                 <div class="row">
-                    <div id="map-vis" class="col-6">
-                     
+                    <div id="map-vis" class="col-5"></div>
+                    <div class="col-7">
+                      <div id="stops-timeline-text">
+                        <h1>Where are these stops occurring? And how frequently?</h1>
+                        <h4>There were over 5 million stops between 2003 and 2016, peeking in 2011 as you can see by the timeline below.
+                          Some police precincts conducted more stops than others.
+                          Click on a precinct to show that precinct's timeline of stops, and hover over the timeline to see the 
+                          number of stops per year.
+                        </h4>
+                      </div>
+                      <div id="stops-timeline-vis"></div>
                     </div>
-                    <div id="precinct-timeline-vis" class="col-6">
-                      This visualization combines a map of NYC and a linked view of a timeline. The map will be colored in to represent
-                      the amount of stops were conducted in a given precinct. When a user clicks on a precinct,
-                      the timeline of stops for that given precinct will be shown to the right of the map, which is a linked view. Likely
-                      will included brushing for the timeline that will update the map with stops for the selected time period.
 
-                      <br>
-                      
-                      This visualization is part of the hook and will show how some communities were more heavily affected by stop
-                      and frisk policies by others.
-                    </div>
                   </div>
             </div>
-            <button class="next-section-button" onclick="showVis4('victims-sec')">Show Vis 4</button>
+            <button class="next-section-button" id="show-vis-4"  onclick="showVis4('victims-sec')">Show Vis 4</button>
         </div>
 
         <div id="victims-sec" class="section">
-            <h1>Vis 4</h1>
             <div id="vis-4" class="vis-container">
-                <div class="row">
-                    <div id="victims-vis" class="col-8">
-                     
-                    </div>
-                    <div class="col-4">
-                      This visualization will show victims by a particular demographic. The idea is to have an animation with 10,000 circles
-                      that represents total stop and frisk victims. When the user clicks to see more, the dots with transition to break down
-                      sex / age / race / build demographic to show the story regarding how it was often young Black men who were tge targets
-                      of stop and frisk. Currently I am using a packing layout which does not show the data like I want it to, so this week
-                      I plan on looking at the Syra-Visualized final project to see how I can do more pleasing transitions.
-                      After the initial transition, the user should be able to click on a particular demographic and have 
-                      the circles filter / arrange based off of the selected demographic 
-                    </div>
-                  </div>
+              <div id="victims-text">
+                <h1>Who was targeted?</h1>
+                <h4 class = "targeted-text">
+                  Though the 'intention' of stop and frisk was to find criminals, stop and frisk seemed to target particular demographics 
+                  while leaving other demographics relatively unaffected. Of the over 5 million stops between 2003 and 2016, let these 1000
+                  dots be representative of all of the stops. Click the buttons on the right to see how these 1000 dots are distributed
+                  based on a particular statistic.
+                </h4>
+              </div>
+            <div class="row">
+              <div id="victims-vis" class = "col-11"></div>
+              <div id="victims-buttons" class="col-1 btn-group-sm btn-group-vertical "> 
+                <button type="button" class="btn btn-dark" onclick="updateVis4('allstops')">All</button> 
+                <button type="button" class="btn btn-light" onclick="updateVis4('race')">Race</button>
+                <button type="button" class="btn btn-light" onclick="updateVis4('sex')">Sex</button>
+                <button type="button" class="btn btn-light" onclick="updateVis4('ageRange')">Age</button> 
+                <button type="button" class="btn btn-light" onclick="updateVis4('build')">Build</button>
+              </div>
             </div>
-            <button class="next-section-button" onclick="updateVis4()">Transition</button>
-            <button class="next-section-button" onclick="showNextVis('population-sec')">Show Vis 5</button>
+            </div>
+              <button class="next-section-button" id="show-vis-5" onclick="showNextVis('population-sec')">Show Vis 5</button>
+            </div>
         </div>
 
         <div id="population-sec" class="section">
@@ -111,7 +117,7 @@
           
                   <!-- STOP AND FRISK BUBBLES -->
                   <div class="row">
-                    <div class="col-8 bubbles" id="sf-bubbles"></div>
+                    <div class="col-8 bubbles" id="sf-bubbles"> The same bubbles as above will be here once I figure out how to work with the stop data!</div>
                     <div class="col-4 description">
                       <span class="bubble-description">
                         <span id="sf-dem">TODO</span>
@@ -120,15 +126,11 @@
                       </span>
                     </div>
                   </div>
+                  <button class="next-section-button" onclick="showNextVis('likelihood-sec')">Show Vis 6</button>
+                  <button class="next-section-button" onclick="changeBubbles()">Change Bubbles</button>
                 </div>
-                <button
-                  class="next-section-button"
-                  onclick="showNextVis('likelihood-sec')"
-                >
-                  Show Vis 6
-                </button>
-              </div>
-    <div id="likelihood-sec" class="section">
+            </div>
+   <div id="likelihood-sec" class="section"> 
       <h1>Vis 6</h1>
       <div id="vis-6" class="vis-container">
         <!--    INTERACTIVE LIKELINESS VIS    -->
@@ -203,10 +205,21 @@
     <script src="js/likelinessVis.js"></script>
     <script src="js/victims.js"></script>
     <script src="js/mapVis.js"></script>
+    <script src="js/leaflet.js"></script>
+    <script src="js/timeline.js"></script>
 
     <script>
       $(function() {
         $("#timeline-sec").show();
+        $("#show-vis-4").on('click', function() {
+          $("#show-vis-4").hide();
+        });
+        $("#show-vis-2").on('click', function() {
+          $("#show-vis-2").hide();
+        });
+        $("#show-vis-5").on('click', function() {
+          $("#show-vis-5").hide();
+        });
       });
     </script>
   </body>
