@@ -158,10 +158,7 @@ let myRadialVis;
 let myMapVis, 
 myVictimsVis,
 stopsTimelineVis,
-// miah's vis
-boroughBubbles, 
-stopBubbles, 
-likelinessVis;
+stopBubbles;
 
 function initMainVis(dataArray) {
 
