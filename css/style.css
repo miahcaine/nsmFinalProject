@@ -75,9 +75,29 @@
   justify-content: space-between;
 }
 
+.line {
+  stroke: #1A5276;
+  stroke-width: 1;
+  fill: none;
+}
+
+.tooltip-year {
+  font-size: 10px;
+}
+
+.tooltip-stops {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+
  /* 
 Victims Vis Styles
  */
+
+ .victims-text {
+   text-anchor: end;
+ }
 
 #victims-vis {
   width: 100%;

@@ -198,13 +198,27 @@ class VictimsVis {
             })
         }
 
+        vis.supplementaryText = vis.svg.append("g")
+            .attr("transform", function(){
+                return "translate("+
+                (vis.width) +
+                ","+vis.height * 0.25+")";
+            })
+            .append('text')
+            .attr("class", "victims-text")
+            .text("")
+
+        vis.jitter = 0.6; // This will make sure that events happening in the same location will not overlap completely
+        vis.normaldist = Math.random
+        
+
         // init Vis
         vis.pack = d3.pack()
             .size([vis.width, vis.height])
             .padding(1.5)
 
         vis.nodesData = d3.hierarchy({children: vis.nodes[0]})
-            .sum(function(d) { return 1; });
+            .sum(function(d){return 1+vis.normaldist();});
 
 
         vis.realNodes = vis.svg.selectAll(".classallstopsall")
@@ -264,6 +278,12 @@ class VictimsVis {
                     F: "Female",
                     Z: "Other / Not Recorded",
                 },
+                sum: {
+                    M: vis.countBySex["M"],
+                    F: vis.countBySex["F"],
+                    Z: vis.countBySex["Z"],
+                },
+                text: "Most of stop and frisk victims were men, accounting for over 90% of total stops between 2003 and 2016."
 
             },
             "allstops": {
@@ -281,6 +301,10 @@ class VictimsVis {
                 names: {
                     all: "All Stops",
                 },
+                sum: {
+                    all: 1000,
+                },
+                text:  ""
             },
             "race": {
                 categories: ["A", "B", "I", "P", "Q", "W", "Z"],
@@ -321,6 +345,17 @@ class VictimsVis {
                     W: "White",
                     Z: "Other / Not Recorded"
                 },
+                sum: {
+                    A: vis.countByRace["A"],
+                    B: vis.countByRace["B"],
+                    I: vis.countByRace["I"],
+                    P: vis.countByRace["P"],
+                    Q: vis.countByRace["Q"],
+                    W: vis.countByRace["W"],
+                    Z: vis.countByRace["Z"] + 1,
+                },
+                text: "More than half of stop and frisk victims were Black, and the wild majority of stop and frisk victims were people" +
+                " of color."
             },
             "ageRange": {
                 categories: ["30below", "30above", "Z"],
@@ -347,6 +382,12 @@ class VictimsVis {
                     "30above": "30 and above",
                     "Z": "Other / Not Recorded",
                 },
+                sum: {
+                    "30below": vis.countByAgeRange["30below"],
+                    "30above": vis.countByAgeRange["30above"],
+                    "Z": vis.countByAgeRange["Z"] + 1,
+                },
+                text: "Most stop and frisk victims were young, and a significant amount were even minors."
             },
             "build": {
                 categories: ["H", "M", "T", "U", "Z"],
@@ -379,6 +420,14 @@ class VictimsVis {
                     "U": "Muscular",
                     "Z": "Other / Not Recorded",
                 },
+                sum: {
+                    "H": vis.countByBuild["H"],
+                    "M": vis.countByBuild["M"],
+                    "T": vis.countByBuild["T"],
+                    "U": vis.countByBuild["U"],
+                    "Z": vis.countByBuild["Z"],
+                },
+                text: "Most stop and frisk victims were described as having a medium build, followed by thin, heavy, and other."
             }
         };
        
@@ -403,7 +452,7 @@ class VictimsVis {
             vis.pack.size(vis.graphinformation[vis.selected].size[name]);
 
             let nodes = d3.hierarchy({children: vis.nodes[0].filter(function(d){return d[vis.selected]==(vis.selected+name)})})
-                .sum(function(d) { return 1; });
+                .sum(function(d){return 1+vis.normaldist();});
 
             vis.svg.selectAll(".class"+vis.selected+name)
                 .data(vis.pack(nodes).descendants().slice(1))
@@ -412,7 +461,10 @@ class VictimsVis {
                 .filter(function(d){
                             return  !d.children
                         })
-                .attr("r", function(d) {return d.r; })
+                .attr("r", function(d) {
+                    console.log(d.r)
+                    return d.r; 
+                })
                 .attr("cx", function(d) { return d.x; })
                 .attr("cy", function(d) { return d.y; })
                 .attr("transform", function(){
@@ -429,13 +481,15 @@ class VictimsVis {
                 })
                 .append('text')
                 .attr('class', 'label-dem')
-                .text(vis.graphinformation[vis.selected].names[name] + " - ")
+                .text(vis.graphinformation[vis.selected].names[name] + " - " + vis.graphinformation[vis.selected].sum[name])
                 .transition()
                 .duration(1000)
 
             console.log(vis.graphinformation[vis.selected].data)
 
         });
+
+        vis.supplementaryText.text(vis.graphinformation[vis.selected].text)
         
 
     }
@@ -443,6 +497,7 @@ class VictimsVis {
     updateBySelectedValue(selectedValue) {
         let vis = this;
         vis.selected = selectedValue
+
         vis.updateVis()
     }
 
