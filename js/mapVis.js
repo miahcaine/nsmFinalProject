@@ -99,6 +99,20 @@ class MapVis {
 
         vis.colorGradient.domain([0, vis.maxStops])
 
+        vis.precincts = []
+
+        for(let i = 0; i < vis.precinctData.features.length; i++) {
+
+            let pct = vis.precinctData.features[i].properties.precinct;
+        
+            vis.precincts.push(pct)
+        }
+
+        vis.precincts.sort(function(a, b){return a.key - b.key});
+
+        console.log(vis.precincts)
+
+
         vis.updateVis()
     }
 
@@ -132,7 +146,7 @@ class MapVis {
 
         function stylePrecinct(feature) {
             let pct = feature.properties.precinct
-            return { fillColor: vis.colorGradient(vis.totalStopsByPrecinct[+pct]), color: 'white', strokeWidth: 1 };
+            return { fillColor: vis.colorGradient(vis.totalStopsByPrecinct[+pct]), color: 'white', weight: 1 };
 
         }
 
@@ -161,6 +175,25 @@ class MapVis {
         };
         
         legend.addTo(vis.map);
+
+        let dropdown = L.control({position: 'topleft'});
+
+        dropdown.onAdd = function (map) {
+
+            let div = L.DomUtil.create('div', 'form-group')
+
+            // div.innerHTML += '<label for="selectPrecinct">Example select</label>';
+            div.innerHTML += '<select class="form-control" id="selectPrecinct">'
+
+            for (let i = 0; i < vis.precincts.length; i++) {
+                div.innerHTML +=
+                   '<option>1</option>';
+            }
+
+            div.innerHTML += '</select>';
+        }
+
+        dropdown.addTo(vis.map)
 
         vis.map.on('click', function(){stopsTimelineVis.resetVis()});
     
