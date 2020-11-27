@@ -176,24 +176,24 @@ class MapVis {
         
         legend.addTo(vis.map);
 
-        let dropdown = L.control({position: 'topleft'});
+        // let dropdown = L.control({position: 'topleft'});
 
-        dropdown.onAdd = function (map) {
+        // dropdown.onAdd = function (map) {
 
-            let div = L.DomUtil.create('div', 'form-group')
+        //     let div = L.DomUtil.create('div', 'form-group')
 
-            // div.innerHTML += '<label for="selectPrecinct">Example select</label>';
-            div.innerHTML += '<select class="form-control" id="selectPrecinct">'
+        //     // div.innerHTML += '<label for="selectPrecinct">Example select</label>';
+        //     div.innerHTML += '<select class="form-control" id="selectPrecinct">'
 
-            for (let i = 0; i < vis.precincts.length; i++) {
-                div.innerHTML +=
-                   '<option>1</option>';
-            }
+        //     for (let i = 0; i < vis.precincts.length; i++) {
+        //         div.innerHTML +=
+        //            '<option>1</option>';
+        //     }
 
-            div.innerHTML += '</select>';
-        }
+        //     div.innerHTML += '</select>';
+        // }
 
-        dropdown.addTo(vis.map)
+        // dropdown.addTo(vis.map)
 
         vis.map.on('click', function(){stopsTimelineVis.resetVis()});
     
