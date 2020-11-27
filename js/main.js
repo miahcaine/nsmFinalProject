@@ -1,80 +1,37 @@
 let boroughBubbles, sfBubbles, likelinessVis;
 
-// let testCount = 1;
-
-// // borough bubble data
-// d3.csv("sf_data/population/bronx_population_data.csv", row => {
-//   row["Age Group Code"] = +row["Age Group Code"];
-//   row["County Code"] = +row["County Code"];
-//   row["Gender Code"] = +row["Gender Code"];
-//   row["Population"] = +row["Population"];
-//   row["Race Ethnicity Code"] = +row["Race Ethnicity Code"];
-//   row["Year"] = +row["Year"];
-//   return row;
-// }).then(data => {
-//   boroughBubbles = new DemographicBubbles("borough-bubbles", data, "borough-perc", "borough-dem", false);
-
-//   // let stopData = aggStops();
-
-//   // TODO: add back once stop data is fixed
-//   // stopBubbles = new DemographicBubbles("sf-bubbles", stopsData, "sf-perc", "sf-dem", true);
-// });
-
 function changeBubbles(){
   testCount++;
   boroughBubbles.wrangleData(testCount%5, true);
-}
-
-function showNextVis(sectionID) {
-  //
-  $("#" + sectionID).fadeIn();
-  document
-    .getElementById(sectionID)
-    .scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function Vis1() {
     myRadialVis = new RadialVis('radial-vis', stopsData, crimeNumbersData, NYCPopulationData)
 }
     
-function showVis2(sectionID) {
-    $("#" + sectionID).fadeIn();
-    document.getElementById(sectionID).scrollIntoView({ behavior: 'smooth', block: 'start', });
+function showVis2() {
     myMapVis = new MapVis('map-vis', precinctData, stopsData, [40.7128, - 74.0060])
     stopsTimelineVis = new TimelineVis('stops-timeline-vis', stopsData)
 }
 
-function showVis4() {
-    $("#victims-sec").fadeIn();
-    document.getElementById("victims-sec").scrollIntoView({ behavior: 'smooth', block: 'start', });
+function showVis3() {
     myVictimsVis = new VictimsVis('victims-vis', globalData);
-    
 }
 
-function updateVis4(selectedValue) {
+function updateVis3(selectedValue) {
   myVictimsVis.updateBySelectedValue(selectedValue)
 }
 
-function showVis5() {
-  $("#population-sec").fadeIn();
-  document
-    .getElementById("population-sec")
-    .scrollIntoView({ behavior: "smooth", block: "start" });
-
+function showVis4() {
   boroughBubbles = new DemographicBubbles("borough-bubbles", populationData, "borough-perc", false);
   stopBubbles = new DemographicBubbles("sf-bubbles", stopsData, "sf-perc", true);
 }
 
-function showVis6(){
-  $("#likeliness-sec").fadeIn();
-  document
-    .getElementById("population-sec")
-    .scrollIntoView({ behavior: "smooth", block: "start" });
-
+function showVis5(){
   likelinessVis = new LikelinessVis("likeliness-vis", stopsData);
 }
 
-function updateVis6 (form ){
+function updateVis6 (){
   var race = document.getElementById("race-select").value;
   var age = document.getElementById("age-select").value;
   var sex = document.getElementById("sex-select").value;
@@ -139,6 +96,10 @@ Promise.all(promises)
     .then( function(data){
         initMainVis(data)
         Vis1();
+        showVis2();
+        showVis3();
+        showVis4();
+        showVis5();
     })
     .catch( function (err){console.log(err)} );
 
@@ -157,7 +118,6 @@ stopsTimelineVis,
 stopBubbles;
 
 function initMainVis(dataArray) {
-
     globalData = dataArray
 
     precinctData = dataArray[0]

@@ -43,7 +43,6 @@ class LikelinessVis {
       4: [61, 80]
     };
     vis.stopPerc = 0;
-    // let fullData = {};
     let totalStopCnt = 0;
     let matchingStopCnt = 0;
 
@@ -88,69 +87,73 @@ class LikelinessVis {
         }
       }
     }
-    vis.updateVis();
+    // console.log("the struct is", vis.struct);
+    vis.updateVis(vis.struct);
   }
 
-  updateVis() {
+  updateVis(struct) {
     let vis = this;
 
     vis.padding = 15;
     vis.boxSz = 30;
-    if (vis.changed){
-      vis.svg.selectAll("g").data(vis.struct);
-    }
     let row = vis.svg
       .selectAll("g")
-      .data(vis.struct)
+      .data(struct)
       .enter()
       .append("g")
-      .attr(
-       
-        "transform",
-        (d, i) =>{
-          console.log("the data is", vis.struct);
-          return `translate(${vis.margin.left}, ${i * (vis.boxSz + vis.padding) +
-            vis.margin.top})`
+      .attr("transform",(d, i) =>{
+          // console.log("before merge", d);
+          return `translate(${vis.margin.left}, ${i * (vis.boxSz + vis.padding) + vis.margin.top})`
+        });
 
-        }
-      );
-
-    row
-      .selectAll("rect")
+    row.selectAll("rect")
       .data(function(d) {
-        console.log("data loading", d);
+        console.log(d);
         return d;
       })
-      .enter()
-      .append("rect")
-      .attr("x", (d, i) => {
-        return i * (vis.boxSz + vis.padding);
-      })
-      .attr("width", vis.boxSz)
-      .attr("height", vis.boxSz)
-      .attr("fill", (d, i) => {
-        console.log(" 1 data in the row is", d);
-        if (d[i] == 1) {
-          return "red";
-        } else {
-          return "gray";
-        }
-      })
-      .merge(row)
-      .attr("x", (d, i) => {
-        return i * (vis.boxSz + vis.padding);
-      })
-      .attr("width", vis.boxSz)
-      .attr("height", vis.boxSz)
-      .attr("fill", (d, i) => {
-        console.log(" 2 data in the row is", d);
-        if (d[i] == 1) {
-          return "red";
-        } else {
-          return "gray";
-        }
-      });
-
-    row.exit().remove();
+      .join(
+        enter => enter.append("rect")
+        .attr("fill", (d, i) => {
+          console.log("in enter", d[i]);
+          if (d[i] == 1) {
+            return vis.sqColor(1);
+          } else {
+            return "gray";
+          }})
+        .attr("width", vis.boxSz)
+        .attr("height", vis.boxSz),
+        update => update.attr("fill", (d, i) => {
+          console.log("in update", d[i]);
+          if (d[i] == 1) {
+            return vis.sqColor(1);
+          } else {
+            return "gray";
+          }})
+        )
+      // .enter()
+      // .append("rect")
+      .attr("x", (d, i) => {return i * (vis.boxSz + vis.padding);})
+      // .attr("width", vis.boxSz)
+      // .attr("height", vis.boxSz)
+      // .attr("fill", (d, i) => {
+      //   if (d[i] == 1) {
+      //     return vis.sqColor(1);
+      //   } else {
+      //     return "gray";
+      //   }
+      // })
+      // .merge(row)
+      // .attr("x", (d, i) => {return i * (vis.boxSz + vis.padding);})
+      // .attr("width", vis.boxSz)
+      // .attr("height", vis.boxSz)
+      // .attr("fill", (d, i) => {
+      //   if (d[i] == 1) {
+      //     return vis.sqColor(1);
+      //   } else {
+      //     return "gray";
+      //   }
+      // });
+    // row.exit().remove();
+    console.log("hello");
   }
 }

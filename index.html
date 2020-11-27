@@ -8,10 +8,11 @@
 
 		<!-- Load CSS libraries -->
 		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/fullpage.css">
 
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
       href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
       rel="stylesheet"
@@ -22,186 +23,200 @@
 	</head>
 
 	<body>
-    <!--  -->
-    
+    <!-- STATIC 1 -->
+    <div id="fullpage">
+      <div id="static-1" class="section description">
+        <h1 class="title-header"> Stop, Question, and Frisk in New York City </h1>
+        <p> description here </p>
+      </div>
+
+      <!-- RADIAL PLOT -->
+      <div id="timeline-sec" class="section">
+          <div id="vis-1" class="vis-container">
+              <div class="row">
+                  <div id="radial-vis" class="col-6">
+                  </div>
+                  <div id="radialplot-descrip" class="col-6">
+                      <h1>Have Stop and Frisks Been Effective?</h1>
+                      Over 2003-2016, stop and frisks were most often conducted for criminal possession of a weapon,
+                      grand larceny, robbery, burglary, and criminal trespass. However, whether the
+                      high frequency correlated with a corresponding decrease in respective crime rates
+                      is still being discussed today. Interact with the slider below to see how rates for
+                      these top five crimes have changed, if at all, over the time period.
       
-        <!--  -->
-        <div id="timeline-sec" class="section">
-            <h1>Vis 1</h1>
-            <div id="vis-1" class="vis-container">
-                <div class="row">
-                    <div id="radial-vis" class="col-6">
-                    </div>
-                    <div id="radialplot-descrip" class="col-6">
-                        <h1>Have Stop and Frisks Been Effective?</h1>
-                        Over 2003-2016, stop and frisks were most often conducted for criminal possession of a weapon,
-                        grand larceny, robbery, burglary, and criminal trespass. However, whether the
-                        high frequency correlated with a corresponding decrease in respective crime rates
-                        is still being discussed today. Interact with the slider below to see how rates for
-                        these top five crimes have changed, if at all, over the time period.
-
-                        <br><br><br>
-
-                        <h2>Time</h2>
-                        <div class="row align-items-center">
-                            <div class="col-sm-2"><p id="value-time"></p></div>
-                            <div class="col-sm"><div id="slider-time"></div></div>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <button class="next-section-button" id="show-vis-2" onclick="showVis2('map-sec')">Show Vis 2</button>
-        </div>
-
-        <div id="map-sec" class="section">
-            <div id="vis-2" class="vis-container">
-                <div class="row">
-                    <div id="map-vis" class="col-5"></div>
-                    <div class="col-7">
-                      <div id="stops-timeline-text">
-                        <h1>Where are these stops occurring? And how frequently?</h1>
-                        <h4>There were over 5 million stops between 2003 and 2016, peeking in 2011 as you can see by the timeline below.
-                          Some police precincts conducted more stops than others.
-                          Click on a precinct to show that precinct's timeline of stops, and hover over the timeline to see the 
-                          number of stops per year.
-                        </h4>
+                      <br><br><br>
+      
+                      <h2>Time</h2>
+                      <div class="row align-items-center">
+                          <div class="col-sm-2"><p id="value-time"></p></div>
+                          <div class="col-sm"><div id="slider-time"></div></div>
                       </div>
-                      <div id="stops-timeline-vis"></div>
-                    </div>
-
                   </div>
-            </div>
-            <button class="next-section-button" id="show-vis-4"  onclick="showVis4('victims-sec')">Show Vis 4</button>
-        </div>
-
-        <div id="victims-sec" class="section">
-            <div id="vis-4" class="vis-container">
-              <div id="victims-text">
-                <h1>Who was targeted?</h1>
-                <h4 class = "targeted-text">
-                  Though the 'intention' of stop and frisk was to find criminals, stop and frisk seemed to target particular demographics 
-                  while leaving other demographics relatively unaffected. Of the over 5 million stops between 2003 and 2016, let these 1000
-                  dots be representative of all of the stops. Click the buttons on the right to see how these 1000 dots are distributed
-                  based on a particular statistic.
-                </h4>
+      
               </div>
+          </div>
+      </div>
+
+      <!-- STATIC 2 -->
+      <div class="section description">
+        <p> Second description here </p>
+      </div>
+
+      <!-- MAP -->
+      <div id="map-sec" class="section">
+          <div id="vis-2" class="vis-container">
+              <div class="row">
+                  <div id="map-vis" class="col-5"></div>
+                  <div class="col-7">
+                    <div id="stops-timeline-text">
+                      <h1>Where are these stops occurring? And how frequently?</h1>
+                      <h4>There were over 5 million stops between 2003 and 2016, peeking in 2011 as you can see by the timeline below.
+                        Some police precincts conducted more stops than others.
+                        Click on a precinct to show that precinct's timeline of stops, and hover over the timeline to see the 
+                        number of stops per year.
+                      </h4>
+                    </div>
+                    <div id="stops-timeline-vis"></div>
+                  </div>
+                </div>
+          </div>
+      </div>
+
+      <!-- STATIC 3 -->
+      <div class="section description">
+        <p> Third description here </p>
+      </div>
+
+      <!-- VICTIM BUBBLES -->
+      <div id="victims-sec" class="section">
+          <div id="vis-3" class="vis-container">
+            <div id="victims-text">
+              <h1>Who was targeted?</h1>
+              <h4 class = "targeted-text">
+                Though the 'intention' of stop and frisk was to find criminals, stop and frisk seemed to target particular demographics 
+                while leaving other demographics relatively unaffected. Of the over 5 million stops between 2003 and 2016, let these 1000
+                dots be representative of all of the stops. Click the buttons on the right to see how these 1000 dots are distributed
+                based on a particular statistic.
+              </h4>
+            </div>
+          <div class="row">
+            <div id="victims-vis" class = "col-11"></div>
+            <div id="victims-buttons" class="col-1 btn-group-sm btn-group-vertical "> 
+              <button type="button" class="btn btn-dark" onclick="updateVis3('allstops')">All</button> 
+              <button type="button" class="btn btn-secondary" onclick="updateVis3('race')">Race</button>
+              <button type="button" class="btn btn-secondary" onclick="updateVis3('sex')">Sex</button>
+              <button type="button" class="btn btn-secondary" onclick="updateVis3('ageRange')">Age</button> 
+              <button type="button" class="btn btn-secondary" onclick="updateVis3('build')">Build</button>
+            </div>
+          </div>
+          </div>
+      </div>
+
+      <!-- DEMOGRAPHIC BUBBLES -->
+      <div id="population-sec" class="section">
+          <h1>Total demographic vs. the demographic of Stop and Frisk stops</h1>
+          <div id="vis-4" class="vis-container">
+            <!-- BOROUGH BUBBLES -->
             <div class="row">
-              <div id="victims-vis" class = "col-11"></div>
-              <div id="victims-buttons" class="col-1 btn-group-sm btn-group-vertical "> 
-                <button type="button" class="btn btn-dark" onclick="updateVis4('allstops')">All</button> 
-                <button type="button" class="btn btn-light" onclick="updateVis4('race')">Race</button>
-                <button type="button" class="btn btn-light" onclick="updateVis4('sex')">Sex</button>
-                <button type="button" class="btn btn-light" onclick="updateVis4('ageRange')">Age</button> 
-                <button type="button" class="btn btn-light" onclick="updateVis4('build')">Build</button>
+              <div class="col-2" id="description-text"> In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons on the right to explore how the race of those stopped compare to the race in an entire borough. </div>
+              <div class="col-6">
+              <div class="row">
+                <div class="col-8 bubbles" id="borough-bubbles"></div>
+                <div class="col-3 description">
+                  <span class="bubble-description">
+                  <span id="borough-perc"></span>
+                  </span>
+                </div>
+              </div>
+              
+              <!-- STOP AND FRISK BUBBLES -->
+              <div class="row">
+                <div class="col-8 bubbles" id="sf-bubbles"></div>
+                <div class="col-3 description">
+                    <span class="bubble-description"></span>
+                    <span id="sf-perc"></span>
+                </div>
+              </div>
+              </div>
+              <div id="demographic-buttons" class="col-2 btn-group-sm btn-group-vertical ">
+                  <!-- <button type="button" class="btn btn-dark" onclick="changeBubbles(0)">Total</button>  -->
+                  <button type="button" class="btn btn-secondary" onclick="changeRace(4)">Hispanic</button>
+                  <button type="button" class="btn btn-secondary" onclick="changeRace(2)">Black Non-Hispanic</button>
+                  <button type="button" class="btn btn-secondary" onclick="changeRace(1)">White Non-Hispanic</button> 
+                  <button type="button" class="btn btn-secondary" onclick="changeRace(3)">Other Non-Hispanic</button>
+              </div>
+              <div id="demographic-buttons" class="col-1 btn-group-sm btn-group-vertical ">
+                  <button type="button" class="btn btn-secondary" onclick="changeBorough(2)">Total</button> 
+                  <button type="button" class="btn btn-secondary" onclick="changeBorough(3)">Bronx</button>
+                  <button type="button" class="btn btn-secondary" onclick="changeBorough(4)">Brooklyn</button>
+                  <button type="button" class="btn btn-secondary" onclick="changeBorough(5)">Manhattan</button> 
+                  <button type="button" class="btn btn-secondary" onclick="changeBorough(6)">Queens</button>
+                  <button type="button" class="btn btn-secondary" onclick="changeBorough(7)">Staten Island</button>
               </div>
             </div>
-            </div>
-              <button class="next-section-button" id="show-vis-5" onclick="showVis5()">Show Vis 5</button>
-            </div>
-        </div>
-        <!-- TODO: ADD A BOROUGH SELECT -->
-        <div id="population-sec" class="section">
-                <h1>Total demographic vs. the demographic of Stop and Frisk stops</h1>
-                <div id="vis-5" class="vis-container">
-                  <!-- BOROUGH BUBBLES -->
-                  <div class="row">
-                    <div class="col-2" id="description-text"> In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons on the right to explore how the race of those stopped compare to the race in an entire borough. </div>
-                    <div class="col-6">
-                    <div class="row">
-                      <div class="col-8 bubbles" id="borough-bubbles"></div>
-                      <div class="col-3 description">
-                        <span class="bubble-description">
-                        <span id="borough-perc"></span>
-                        </span>
-                      </div>
-                    </div>
-                    
-                    <!-- STOP AND FRISK BUBBLES -->
-                    <div class="row">
-                      <div class="col-8 bubbles" id="sf-bubbles"></div>
-                      <div class="col-3 description">
-                          <span class="bubble-description"></span>
-                          <span id="sf-perc"></span>
-                      </div>
-                    </div>
-                    </div>
-                    <div id="demographic-buttons" class="col-2 btn-group-sm btn-group-vertical ">
-                        <!-- <button type="button" class="btn btn-dark" onclick="changeBubbles(0)">Total</button>  -->
-                        <button type="button" class="btn btn-light" onclick="changeRace(4)">Hispanic</button>
-                        <button type="button" class="btn btn-light" onclick="changeRace(2)">Black Non-Hispanic</button>
-                        <button type="button" class="btn btn-light" onclick="changeRace(1)">White Non-Hispanic</button> 
-                        <button type="button" class="btn btn-light" onclick="changeRace(3)">Other Non-Hispanic</button>
-                    </div>
-                    <div id="demographic-buttons" class="col-1 btn-group-sm btn-group-vertical ">
-                        <button type="button" class="btn btn-light" onclick="changeBorough(2)">Total</button> 
-                        <button type="button" class="btn btn-light" onclick="changeBorough(3)">Bronx</button>
-                        <button type="button" class="btn btn-light" onclick="changeBorough(4)">Brooklyn</button>
-                        <button type="button" class="btn btn-light" onclick="changeBorough(5)">Manhattan</button> 
-                        <button type="button" class="btn btn-light" onclick="changeBorough(6)">Queens</button>
-                        <button type="button" class="btn btn-light" onclick="changeBorough(7)">Staten Island</button>
-                    </div>
-                  </div>
-                  <button class="next-section-button" id="show-vis-6" onclick="showVis6()">Show Vis 6</button>
-                  <!-- <button class="next-section-button" onclick="changeBubbles()">Change Bubbles</button> -->
-                </div>
-                
-            </div>
+          </div>
+      </div>
 
-   <div id="likeliness-sec" class="section"> 
-      <h1>How do you compare to Stop and Frisk demographics?</h1>
-      <div id="vis-6" class="vis-container">
-        <!--    INTERACTIVE LIKELINESS VIS    -->
-        <div class="row">
-          <p class="description-text">
-            The 100 squares below represent all of the stops from 2003 to 2016. Enter a description of yourself
-             to see how you compare to the total amount of Stop and Frisk stops.
-          </p>
-          <p><span id="likeliness-perc"></span></p>
-        </div>
-        <div class="row likeliness">
-          <div class="col-9" id="likeliness-vis"></div>
-          <div class="col-3" id="likeliness-selectors">
-            <form name="likeliness-form" action="" method="GET">
-              <span class="selection-text">RACE</span>
-              <select id="race-select">
-                <option value="A">Asian/Pacific Islander</option>
-                <option value="B">Black</option>
-                <option value="I">Native American</option>
-                <option value="P">Black-Hispanic</option>
-                <option value="Q">White-Hispanic</option>
-                <option value="W">White</option>
-                <option value="Z">Other</option>
-              </select>
-              <br />
-              <span class="selection-text">AGE</span>
-              <select id="age-select">
-                <option value="0">12 - 17</option>
-                <option value="1">18 - 30</option>
-                <option value="2">31 - 45</option>
-                <option value="3">46 - 60</option>
-                <option value="4">61 - 80</option>
-              </select>
-              <br />
-              <span class="selection-text">SEX</span>
-              <select id="sex-select">
-                <option value="M">Male</option>
-                <option value="F">Female</option>
-              </select>
-              <br />
-              <span class="selection-text">BUILD</span>
-              <select id="build-select">
-                <option value="H">Heavy</option>
-                <option value="M">Medium</option>
-                <option value="T">Thin</option>
-                <option value="U">Muscular</option>
-              </select>
-              <br />
-              <input type="button" name="input-button" value="Update Likeliness" onclick="updateVis6(this.form)">
-            </form>
+      <!-- STATIC 4 -->
+      <div class="section description">
+          <p> Third description here </p>
+      </div>
+
+      <!-- LIKELINESS VIS -->
+      <div id="likeliness-sec" class="section"> 
+          <h1>How do you compare to Stop and Frisk demographics?</h1>
+          <div id="vis-5" class="vis-container">
+            <div class="row">
+              <p class="description-text">
+                The 100 squares below represent all of the stops from 2003 to 2016. Enter a description of yourself
+                 to see how you compare to the total amount of Stop and Frisk stops.
+              </p>
+              <p><span id="likeliness-perc"></span></p>
+            </div>
+            <div class="row likeliness">
+              <div class="col-9" id="likeliness-vis"></div>
+              <div class="col-3" id="likeliness-selectors">
+                <form name="likeliness-form" action="" method="GET">
+                  <span class="selection-text">RACE</span>
+                  <select id="race-select">
+                    <option value="A">Asian/Pacific Islander</option>
+                    <option value="B">Black</option>
+                    <option value="I">Native American</option>
+                    <option value="P">Black-Hispanic</option>
+                    <option value="Q">White-Hispanic</option>
+                    <option value="W">White</option>
+                    <option value="Z">Other</option>
+                  </select>
+                  <br />
+                  <span class="selection-text">AGE</span>
+                  <select id="age-select">
+                    <option value="0">12 - 17</option>
+                    <option value="1">18 - 30</option>
+                    <option value="2">31 - 45</option>
+                    <option value="3">46 - 60</option>
+                    <option value="4">61 - 80</option>
+                  </select>
+                  <br />
+                  <span class="selection-text">SEX</span>
+                  <select id="sex-select">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                  </select>
+                  <br />
+                  <span class="selection-text">BUILD</span>
+                  <select id="build-select">
+                    <option value="H">Heavy</option>
+                    <option value="M">Medium</option>
+                    <option value="T">Thin</option>
+                    <option value="U">Muscular</option>
+                  </select>
+                  <br />
+                  <input type="button" name="input-button" value="Update Likeliness" onclick="updateVis6()">
+                </form>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
     </div>
 
     <!-- embedding JS libraries -->
@@ -226,8 +241,11 @@
     <script src="https://d3js.org/d3.v6.min.js"></script>
     <script src="https://unpkg.com/d3-simple-slider"></script>
 
-        <!-- Leaflet -->
+    <!-- Leaflet -->
     <script src="js/leaflet.js"></script>
+
+    <!-- Fullpage -->
+    <script src="js/fullpage.js"></script>
 
     <!-- own js files -->
     <script src="js/main.js"></script>
@@ -240,20 +258,9 @@
     <script src="js/timeline.js"></script>
 
     <script>
-      $(function() {
-        $("#timeline-sec").show();
-        $("#show-vis-4").on('click', function() {
-          $("#show-vis-4").hide();
-        });
-        $("#show-vis-2").on('click', function() {
-          $("#show-vis-2").hide();
-        });
-        $("#show-vis-5").on('click', function() {
-          $("#show-vis-5").hide();
-        });
-        $("#show-vis-6").on('click', function() {
-          $("#show-vis-6").hide();
-        });
+      new fullpage("#fullpage", {
+        autoScrolling: true,
+        navigation: true
       });
     </script>
   </body>
