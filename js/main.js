@@ -130,3 +130,29 @@ function initMainVis(dataArray) {
 
     populationData = dataArray.slice(19, dataArray.length)
 }
+
+
+// select option for timeline + map
+let selectPrecinct = document.querySelector('#precinctSelect');
+
+selectPrecinct.addEventListener('change', (event) => {
+  let pct = event.target.value
+  if (pct == "all") {
+    stopsTimelineVis.resetVis()
+    myMapVis.resetMap()
+  } else {
+    stopsTimelineVis.updateByPrecinct(pct)
+    myMapVis.hightlightCurrentSelection(pct)
+  }
+});
+
+
+// React to 'brushed' event and update all bar charts
+function brushed() {
+	
+	let selectionRange = d3.brushSelection(d3.select(".brush").node());
+  let selectionDomain = selectionRange.map(stopsTimelineVis.x.invert)
+  
+	myMapVis.onUpdateByYear(selectionDomain)
+
+}

@@ -462,7 +462,6 @@ class VictimsVis {
                             return  !d.children
                         })
                 .attr("r", function(d) {
-                    console.log(d.r)
                     return d.r; 
                 })
                 .attr("cx", function(d) { return d.x; })
