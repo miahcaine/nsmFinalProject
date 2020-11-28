@@ -3,7 +3,6 @@
   width: 100%;
   position: relative;
   padding: 50px;
-  display: none;
   /*padding-top: 50px;
     padding-bottom: 25px;*/
 }
@@ -46,6 +45,10 @@
   font-family: "Quicksand", sans-serif;
 }
 
+#precinctSelect {
+  width: fit-content;
+}
+
 #vis-1 {
     font-size: 18px;
     font-family: "Quicksand", sans-serif;
@@ -64,7 +67,7 @@
 
 .info {
   padding: 6px 8px;
-  font: 14px/16px Arial, Helvetica, sans-serif;
+  font-family: "Quicksand", sans-serif;
   background: white;
   background: rgba(255,255,255,0.8);
   box-shadow: 0 0 15px rgba(0,0,0,0.2);

@@ -73,7 +73,7 @@ class TimelineVis {
 
     wrangleData(){
         let vis = this;
-        console.log("wrangle")
+        console.log("Timeline Vis Wrangle Data")
 
         // group data together
         vis.groupedData = []
@@ -90,8 +90,6 @@ class TimelineVis {
                 )
             }
         }
-
-        console.log(vis.groupedData)
         
 
         // // consolidate by date
@@ -168,7 +166,6 @@ class TimelineVis {
 		// 	.on("brush", brushed)
 
 		// // Append brush component here
-		
 		// vis.svg.append("g")
 		// 	.attr("class", "x brush")
 		// 	.call(vis.brush)
@@ -185,41 +182,41 @@ class TimelineVis {
             .call(vis.yAxis);
             
 
-        // define tooltipElement
-    let tooltipElements = vis.svg.append("g")
-    .attr("class", "tooltip-group")
-    .style("display", 'none');
+    //     define tooltipElement
+        let tooltipElements = vis.svg.append("g")
+            .attr("class", "tooltip-group")
+            .style("display", 'none');
 
-    // draw tooltip line
-    let line = tooltipElements.append("line")
-                            .attr("class", "line")
-                            .attr("x1", 0)
-                            .attr("y1", 0)
-                            .attr("x2", 0)
-                            .attr("y2", vis.height);
+        // draw tooltip line
+        let line = tooltipElements.append("line")
+            .attr("class", "line")
+            .attr("x1", 0)
+            .attr("y1", 0)
+            .attr("x2", 0)
+            .attr("y2", vis.height);
 
-    let stopsText = tooltipElements.append("text")
-        .attr('class', 'tooltip-stops')
+        let stopsText = tooltipElements.append("text")
+            .attr('class', 'tooltip-stops')
 
-    let yearText = tooltipElements.append("text")
-        .attr('class', 'tooltip-year')
+        let yearText = tooltipElements.append("text")
+            .attr('class', 'tooltip-year')
 
-    // create an svg rectange for mouseover events
-    let rect = vis.svg.append("rect")
-        .attr("width", vis.width)
-        .attr("height", vis.height)
-        .attr('fill-opacity', 0)
-        .attr("x", 0)
-        .attr('y', 0)
-        .on("mouseover", function(event,d){
-            tooltipElements.style('display', null)
-        })
-        .on("mouseout", function(event,d){
-            tooltipElements.style('display', 'none')
-        })
-        .on("mousemove", function(event,d){
-            mousemove(event)
-        })
+        // create an svg rectange for mouseover events
+        let rect = vis.svg.append("rect")
+            .attr("width", vis.width)
+            .attr("height", vis.height)
+            .attr('fill-opacity', 0)
+            .attr("x", 0)
+            .attr('y', 0)
+            .on("mouseover", function(event,d){
+                tooltipElements.style('display', null)
+            })
+            .on("mouseout", function(event,d){
+                tooltipElements.style('display', 'none')
+            })
+            .on("mousemove", function(event,d){
+                mousemove(event)
+            })
     
     // function that moves the tooltip position to its most accurate spot
     function mousemove(event) {
@@ -232,8 +229,6 @@ class TimelineVis {
         // draw new line and render new text
         line.attr("x1", vis.x(date))
             .attr("x2", vis.x(date))
-
-        console.log(vis.countDataByYear[dateParsed - 2003].value)
         
         stopsText.text(vis.countDataByYear[dateParsed - 2003].value + " stops")
                     .attr('x', vis.x(date) + 10)
@@ -256,8 +251,6 @@ class TimelineVis {
             let dataByYear = vis.data[i]
 
             let filteredData = dataByYear.filter(function(value){ 
-                // console.log(value.pct)
-                // console.log(pct)
                 return value.pct == pct
             });
 
@@ -266,6 +259,14 @@ class TimelineVis {
         }
        
         vis.title.text("Daily Number of Stops for Precinct " + pct)
+
+        if (+pct === 121) {
+            vis.xAxis
+                .ticks(4)
+        } else {
+            vis.xAxis
+                .ticks(vis.displayData.length)
+        }
 
         vis.wrangleData()
 

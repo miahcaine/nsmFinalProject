@@ -9,9 +9,12 @@ class MapVis {
         this.parentElement = parentElement;
         this.precinctData = precinctData;
         this.stopsData = stopsData;
+        this.displayData = stopsData;
         this.coordinates = coordinates
 
         this.colorGradient = d3.scaleSequential(d3.interpolateBlues);
+
+        this.formatThousands = d3.formatPrefix(",.0", 1e3);
 
         this.initVis()
     }
@@ -19,19 +22,8 @@ class MapVis {
     initVis() {
         let vis = this;
 
-        // // If the images are in the directory "/img":
-        // L.Icon.Default.imagePath = 'images/';
 
-        vis.margin = {top: 20, right: 20, bottom: 20, left: 20};
-        vis.width = $("#" + vis.parentElement).width() - vis.margin.left - vis.margin.right;
-        vis.height = $("#" + vis.parentElement).height() - vis.margin.top - vis.margin.bottom;
-        
-        // init drawing area
-        vis.svg = d3.select("#" + vis.parentElement).append("svg")
-            .attr("width", vis.width)
-            .attr("height", vis.height)
-            .attr('transform', `translate (${vis.margin.left}, ${vis.margin.top})`);
-		 
+		// Map of NYC - Leaflet 
 		vis.map = L.map(vis.parentElement).setView(vis.coordinates, 10);
         L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
             attribution: 'Tiles &copy; Esri &mdash; Esri, DeLorme, NAVTEQ',
@@ -44,7 +36,9 @@ class MapVis {
         vis.map.scrollWheelZoom.disable();
         vis.map.doubleClickZoom.disable(); 
 
-
+        // Variables for keeping track of selected precinct
+        vis.prevHighlight = undefined
+        vis.currSelected = undefined
     
         vis.wrangleData()
 
@@ -57,8 +51,8 @@ class MapVis {
         // group data together
         vis.groupedData = []
 
-        for(let i=0; i < vis.stopsData.length; i++) {
-            let dataByYear = vis.stopsData[i]
+        for(let i=0; i < vis.displayData.length; i++) {
+            let dataByYear = vis.displayData[i]
 
             for(let j=0; j < dataByYear.length; j++) {
 
@@ -71,8 +65,8 @@ class MapVis {
             }
         }
 
+        // Group Data By Precinct
         let dataByPrecinct = Array.from(d3.group(vis.groupedData, d =>d.pct), ([key, value]) => ({key, value}))
-
 
         vis.totalStopsByPrecinct = {}
         vis.processedPrecinctData = {}
@@ -99,20 +93,18 @@ class MapVis {
 
         vis.colorGradient.domain([0, vis.maxStops])
 
-        vis.precincts = []
+        // Get Precinct Names
+        vis.precinctNames = []
 
         for(let i = 0; i < vis.precinctData.features.length; i++) {
-
             let pct = vis.precinctData.features[i].properties.precinct;
-        
-            vis.precincts.push(pct)
+            vis.precinctNames.push(+pct)
         }
 
-        vis.precincts.sort(function(a, b){return a.key - b.key});
-
-        console.log(vis.precincts)
+        vis.precinctNames = vis.precinctNames.sort(function(a, b){return a - b});
 
 
+        // Update Vis
         vis.updateVis()
     }
 
@@ -123,40 +115,121 @@ class MapVis {
 
         console.log('Map Vis Update Vis')
 
-        // let p = d3.precisionPrefix(1e5, 1.3e6)
-        // let f = d3.formatPrefix("." + p, 1.3e6);
-        let formatThousands = d3.formatPrefix(",.0", 1e3);
+        // Keep track of precinct layers
+        vis.layers = {};
 
-        let precincts = L.geoJson(vis.precinctData, {
+        vis.precincts = L.geoJson(vis.precinctData, {
             style: stylePrecinct,
             weight: 5,
             fillOpacity: 0.7,
             onEachFeature: onEachPrecinct,
         }).addTo(vis.map);
 
+        // Actions for each precinct
         function onEachPrecinct(feature, layer) {
+            layer.bindPopup();
             layer.on({
-                click: onPrecinctClick
+                mouseover: highlightFeature,
+                mouseout: resetHighlight,
+                click: onPrecinctClick,
             });
-
-            layer.bindPopup("Precinct " + feature.properties.precinct + ": " + formatThousands(vis.totalStopsByPrecinct[feature.properties.precinct]) + " stops");
-			layer.on('mouseover', function() { layer.openPopup(); });
-            layer.on('mouseout', function() { layer.closePopup(); });
+            vis.layers[feature.properties.precinct] = layer;
         }
 
+        // Style Precinct
         function stylePrecinct(feature) {
+
             let pct = feature.properties.precinct
-            return { fillColor: vis.colorGradient(vis.totalStopsByPrecinct[+pct]), color: 'white', weight: 1 };
+
+            return { 
+                fillColor: vis.colorGradient(vis.totalStopsByPrecinct[+pct]), 
+                color: 'white', 
+                weight: 1 
+            };
 
         }
 
+        // On Precinct Click
         function onPrecinctClick(e) {
-            stopsTimelineVis.updateByPrecinct(e.target.feature.properties.precinct)
+            let layer = e.target;
+            let pct = e.target.feature.properties.precinct
+
+            // Close Popup - Won't work without this line!
+            layer.closePopup();
+
+            // Update Visualization for Updated Precinct
+            stopsTimelineVis.updateByPrecinct(pct)
+
+            selectPrecinct.value = pct
+
+            if (vis.prevHighlight) {
+                vis.precincts.resetStyle(vis.layers[vis.prevHighlight]);
+            } 
+
+            // Update variables for keeping track of selected precinct
+            vis.currSelected = pct
+            vis.prevHighlight = pct
         }
 
-        let legend = L.control({position: 'bottomright'});
+        // Highlight Feature for when exploring on map (different from when user clicks on map)
+        function highlightFeature(e) {
+            var layer = e.target;
+        
+            layer.setStyle({
+                weight: 5,
+                color: 'white',
+                dashArray: '',
+                fillOpacity: 0.7
+            });
+        
+            if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+                layer.bringToFront();
+            }
 
-        legend.onAdd = function (map) {
+            vis.info.update(layer.feature.properties);
+
+        }
+
+        // Reset feature for when exploring on map (different from when user clicks on map)
+        function resetHighlight(e) {
+            let pct = e.target.feature.properties.precinct
+
+            // Don't reset if the currently selected precinct
+            if (vis.currSelected !== pct) {
+                vis.precincts.resetStyle(e.target);
+                vis.info.update();
+            }
+
+            // If there is a currently selected precinct update the displating information
+            if (vis.currSelected) {
+
+                vis.info.update(vis.layers[vis.currSelected].feature.properties);
+
+            }
+        }
+
+        // Information about Precinct
+        vis.info = L.control();
+
+        vis.info.onAdd = function (map) {
+            this._div = L.DomUtil.create('div', 'info'); // create a div with a class "info"
+            this.update();
+            return this._div;
+        };
+
+        vis.info.update = function (props) {
+            this._div.innerHTML = '<h4>NYC Precinct Stops</h4>' +  (props ?
+                '<b>Precinct ' + props.precinct + '</b><br />' + vis.formatThousands(vis.totalStopsByPrecinct[props.precinct]) + ' stops'
+                : 'Hover over a precinct');
+        };
+
+        vis.info.addTo(vis.map);
+
+
+        // Legend
+        vis.legend = L.control({position: 'bottomright'});
+
+        vis.legend.onAdd = function (map) {
         
             var div = L.DomUtil.create('div', 'info legend'),
                 colors = [0]
@@ -164,41 +237,81 @@ class MapVis {
                     colors.push((i / 100) * vis.maxStops)
                 }
 
-        
-            // loop through our density intervals and generate a label with a colored square for each interval
             for (var i = 0; i < colors.length; i++) {
                 div.innerHTML +=
                     '<i style="background:' + vis.colorGradient(colors[i]) + '"></i>';
             }
-            div.innerHTML += '<br><br><div class="legend-text" ><div style="display: inline-block" >0</div>' + '<div style="display: inline-block" >' + formatThousands(vis.maxStops) + "</div></div>"
+            div.innerHTML += '<br><br><div class="legend-text" ><div style="display: inline-block" >0</div>' + '<div style="display: inline-block" >' + vis.formatThousands(vis.maxStops) + "</div></div>"
             return div;
         };
         
-        legend.addTo(vis.map);
+        vis.legend.addTo(vis.map);
 
-        // let dropdown = L.control({position: 'topleft'});
+        // Update Select Box
+        let html = '<option value="all">All Precincts</option>'
 
-        // dropdown.onAdd = function (map) {
+        for (let i = 0; i < vis.precinctNames.length; i++) {
+            html += '<option value="' + vis.precinctNames[i] + '">' + vis.precinctNames[i] + '</option>';
+        }
 
-        //     let div = L.DomUtil.create('div', 'form-group')
-
-        //     // div.innerHTML += '<label for="selectPrecinct">Example select</label>';
-        //     div.innerHTML += '<select class="form-control" id="selectPrecinct">'
-
-        //     for (let i = 0; i < vis.precincts.length; i++) {
-        //         div.innerHTML +=
-        //            '<option>1</option>';
-        //     }
-
-        //     div.innerHTML += '</select>';
-        // }
-
-        // dropdown.addTo(vis.map)
-
-        vis.map.on('click', function(){stopsTimelineVis.resetVis()});
-    
-
+        d3.select('#precinctSelect').html(html);
         
         }
+
+    
+    hightlightCurrentSelection(pct){
+        let vis = this;
+
+        if (vis.prevHighlight) {
+            vis.precincts.resetStyle(vis.layers[vis.prevHighlight]);
+        } 
+        
+        vis.prevHighlight = pct
+        vis.currSelected = pct
+
+        vis.layers[pct].setStyle({
+            weight: 5,
+            color: 'white',
+            dashArray: '',
+            fillOpacity: 0.7
+        });
+
+        if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+            vis.layers[pct].bringToFront();
+        }
+
+        vis.info.update(vis.layers[pct].feature.properties);
+    }
+
+    resetMap() {
+
+        let vis = this;
+
+        if (vis.prevHighlight) {
+            vis.precincts.resetStyle(vis.layers[vis.prevHighlight]);
+        } 
+
+        vis.info.update();
+
+    }
+
+    onUpdateByYear(selectionDomain) {
+        let vis = this
+        let yearBegin = parseInt(selectionDomain[0])
+        let beginIndex = yearBegin - 2003
+        let yearEnd = parseInt(selectionDomain[1])
+        let endIndex = yearEnd - 2003
+
+        vis.displayData = vis.stopsData.slice(beginIndex, endIndex + 1)
+
+        vis.map.removeControl(vis.info);
+        vis.map.removeControl(vis.legend);
+
+        vis.wrangleData()
+
+        console.log(yearBegin)
+        console.log(yearEnd)
+
+    }
             
 }
