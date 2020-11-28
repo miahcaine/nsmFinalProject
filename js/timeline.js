@@ -22,7 +22,7 @@ class TimelineVis {
     initVis() {
         let vis = this;
 
-        vis.margin = {top: 40, right: 50, bottom: 20, left: 50};
+        vis.margin = {top: 40, right: 100, bottom: 20, left: 50};
         vis.width = $("#" + vis.parentElement).width() - vis.margin.left - vis.margin.right;
         vis.height = $("#" + vis.parentElement).height() - vis.margin.top - vis.margin.bottom;
 
@@ -203,7 +203,7 @@ class TimelineVis {
 
         // create an svg rectange for mouseover events
         let rect = vis.svg.append("rect")
-            .attr("width", vis.width)
+            .attr("width", vis.width + 3)
             .attr("height", vis.height)
             .attr('fill-opacity', 0)
             .attr("x", 0)
