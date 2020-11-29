@@ -17,6 +17,8 @@ class VictimsVis {
     initVis(){
         let vis = this;
 
+        console.log("Init Victims Vis")
+
         vis.margin = {top: 20, right: 20, bottom: 20, left: 20};
         vis.width = $("#" + vis.parentElement).width() - vis.margin.left - vis.margin.right;
         vis.height = ($("#" + vis.parentElement).height()) - vis.margin.top - vis.margin.bottom;
@@ -30,6 +32,7 @@ class VictimsVis {
         vis.selected = 'allstops'
 
         vis.totalNodes = 1000
+
         this.wrangleData();
     }
 
@@ -125,10 +128,6 @@ class VictimsVis {
         delete vis.countByBuild[" "]
         delete vis.countByBuild[undefined]
 
-        console.log(vis.countByAgeRange)
-
-
-
         // scale number of victims to 1000
         vis.scale = d3.scaleLinear()
             .range([0, vis.totalNodes])
@@ -197,12 +196,6 @@ class VictimsVis {
         }
 
         vis.buildArr.push("U")
-
-        // Arrays
-        // console.log(vis.sexArr)
-        // console.log(vis.raceArr)
-        // console.log(vis.buildArr)
-        // console.log(vis.ageRangeArr)
 
         // initialize first 1000 nodes
         vis.nodes = [[]]
