@@ -105,7 +105,8 @@ Victims Vis Styles
  */
 
  .victims-text {
-   text-anchor: end;
+   text-anchor: middle;
+   font-size: large;
  }
 
 #victims-vis {
@@ -137,7 +138,13 @@ Victims Vis Styles
 .label-dem {
   text-anchor: middle;
   font-size: large;
-  text-emphasis: bold;
+  font-weight: 600;
+}
+
+.label-dem-number {
+  text-anchor: middle;
+  font-size: medium;
+  font-weight: lighter;
 }
 /* #hook-sec {
     display: none;
