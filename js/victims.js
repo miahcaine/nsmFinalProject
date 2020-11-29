@@ -27,10 +27,9 @@ class VictimsVis {
             .attr("height", vis.height + vis.margin.top + vis.margin.bottom)
             .attr("class", "bubble")
 
-        vis.count = 0
-
         vis.selected = 'allstops'
 
+        vis.totalNodes = 1000
         this.wrangleData();
     }
 
@@ -41,8 +40,11 @@ class VictimsVis {
         vis.countByRace = {}
         vis.countByAge = {}
         vis.countByAgeRange = {
-            "30below": 0,
-            "30above": 0,
+            "12_17": 0,
+            "18_30": 0,
+            "31_45": 0,
+            "46_60": 0,
+            "61_80": 0,
             "Z": 0,
         }
         vis.countByBuild = {}
@@ -69,14 +71,20 @@ class VictimsVis {
 
                 let age = +dataByYear[j].age
                 switch(true) {
-                    case age == 0:
-                        vis.countByAgeRange["Z"] += 1
+                    case age <= 17 && age >= 12:
+                        vis.countByAgeRange["12_17"] += 1
                         break;
-                    case age < 30:
-                        vis.countByAgeRange["30below"] += 1
+                    case age <= 30 && age >= 18:
+                        vis.countByAgeRange["18_30"] += 1
                         break;
-                    case age >= 30:
-                        vis.countByAgeRange["30above"] += 1
+                    case age <= 45 && age >= 31:
+                        vis.countByAgeRange["31_45"] += 1
+                        break;
+                    case age <= 60 && age >= 46:
+                        vis.countByAgeRange["46_60"] += 1
+                        break;
+                    case age <= 80 && age >= 61:
+                        vis.countByAgeRange["61_80"] += 1
                         break;
                     default:
                         vis.countByAgeRange["Z"] += 1
@@ -96,27 +104,34 @@ class VictimsVis {
 
         }
 
+
         // some data cleaning
         vis.countBySex["Z"] += vis.countBySex[" "]
-        vis.countBySex[" "] = 0
+        vis.countBySex["Z"] += vis.countBySex[undefined]
         delete vis.countBySex[" "]
+        delete vis.countBySex[undefined]
 
         vis.countByRace["Z"] += vis.countByRace[" "]
         vis.countByRace["Z"] += vis.countByRace["U"]
         vis.countByRace["Z"] += vis.countByRace["X"]
+        vis.countByRace["Z"] += vis.countByRace[undefined]
         delete vis.countByRace[" "]
         delete vis.countByRace["U"]
         delete vis.countByRace["X"]
+        delete vis.countByRace[undefined]
 
         vis.countByBuild["Z"] += vis.countByBuild[" "]
-        vis.countByBuild[" "] = 0
+        vis.countByBuild["Z"] += vis.countByBuild[undefined]
         delete vis.countByBuild[" "]
+        delete vis.countByBuild[undefined]
+
+        console.log(vis.countByAgeRange)
 
 
 
         // scale number of victims to 1000
         vis.scale = d3.scaleLinear()
-            .range([0, 1000])
+            .range([0, vis.totalNodes])
             .domain([0, vis.totalVictims])
 
         vis.sexPacks = []
@@ -135,8 +150,10 @@ class VictimsVis {
 
         vis.racePacks = []
         vis.raceArr = []
+        let numRace = 0
         
         for (let property in vis.countByRace) {
+            numRace += 1
             let count = Math.round(vis.scale(vis.countByRace[property]))
             vis.countByRace[property] = count
             let countArr = []
@@ -148,12 +165,11 @@ class VictimsVis {
             
         }
 
-        vis.raceArr.push("Z")
-
         vis.ageRangePacks = []
         vis.ageRangeArr = []
+        let numAges = 0
         for (let property in vis.countByAgeRange) {
-            console.log(property)
+            numAges += 1
 
             let count = Math.round(vis.scale(vis.countByAgeRange[property]))
             vis.countByAgeRange[property] = count
@@ -165,8 +181,6 @@ class VictimsVis {
             vis.ageRangePacks.push(countArr)
             
         }
-
-        vis.ageRangeArr.push("Z")
 
         vis.buildPacks = []
         vis.buildArr = []
@@ -184,10 +198,16 @@ class VictimsVis {
 
         vis.buildArr.push("U")
 
+        // Arrays
+        // console.log(vis.sexArr)
+        // console.log(vis.raceArr)
+        // console.log(vis.buildArr)
+        // console.log(vis.ageRangeArr)
+
         // initialize first 1000 nodes
         vis.nodes = [[]]
 
-        for (let i = 0; i < 1000; i++) {
+        for (let i = 0; i < vis.totalNodes; i++) {
             vis.nodes[0].push({
                 "allstops": "allstopsall",
                 "sex": "sex"+vis.sexArr[i],
@@ -197,16 +217,6 @@ class VictimsVis {
                 "id": i
             })
         }
-
-        vis.supplementaryText = vis.svg.append("g")
-            .attr("transform", function(){
-                return "translate("+
-                (vis.width) +
-                ","+vis.height * 0.25+")";
-            })
-            .append('text')
-            .attr("class", "victims-text")
-            .text("")
 
         vis.jitter = 0.6; // This will make sure that events happening in the same location will not overlap completely
         vis.normaldist = Math.random
@@ -242,16 +252,20 @@ class VictimsVis {
             })
 
 
-        let sizesBySex = [[vis.height * 0.9,vis.height* 0.9], [vis.height* .25 ,vis.height* .25], [vis.height* .2,vis.height* .2]]
+        let sizesBySex = [[vis.height * 0.85,vis.height* 0.85], [vis.height* .25 ,vis.height* .25], [vis.height* .18,vis.height* .18]]
         let sizesByRace = [[vis.height * 0.18,vis.height*0.18], [vis.height * 0.7,vis.height*0.7], [vis.height * 0.07,vis.height*0.07],
                 [vis.height * 0.24,vis.height*0.24], [vis.height *0.45,vis.height*0.45], [vis.height *0.3,vis.height*0.3], 
                 [vis.height *0.2,vis.height*0.2]]
-        let sizesByAgeRange = [[vis.height*0.8,vis.height*0.8], [vis.height*0.6,vis.height*0.6], [vis.height*0.1,vis.height*0.1]]
+        let sizesByAgeRange = [[vis.height*0.4,vis.height*0.4], [vis.height*0.7,vis.height*0.7], [vis.height*0.4,vis.height*0.4],
+                [vis.height*0.3,vis.height*0.3], [vis.height*0.1,vis.height*0.1], [vis.height*0.15,vis.height*0.15]]
         let sizesByBuild = [[vis.height*0.3,vis.height*0.3], [vis.height*0.7,vis.height*0.7], [vis.height*0.5,vis.height*0.5], 
                             [vis.height*0.05,vis.height*0.05], [vis.height*0.15,vis.height*0.15]]
 
-        let sizeBtwn = 100;
-        let sizeBtwnRace = 50
+        let sizeBtwn = 50;
+        let sizeBtwnRace = 30
+        let sizeBtwnBuild = 150;
+        let sizeBtwnAge = 40
+        let sizeBtwnSex = 150
 
         // initialize data structure to aid in visualizations
         vis.graphinformation = {
@@ -264,8 +278,8 @@ class VictimsVis {
                 },
                 transform: {
                     M: [0,vis.height - sizesBySex[0][0]],
-                    F: [sizesBySex[0][0] + sizeBtwn,vis.height - sizesBySex[1][0]],
-                    Z: [sizesBySex[0][0] + sizesBySex[1][0] + (sizeBtwn * 2),vis.height - sizesBySex[2][0]],
+                    F: [sizesBySex[0][0] + sizeBtwnSex,vis.height - sizesBySex[1][0]],
+                    Z: [sizesBySex[0][0] + sizesBySex[1][0] + (sizeBtwnSex * 2),vis.height - sizesBySex[2][0]],
                 },
                 data: vis.sexPacks,
                 indices: {
@@ -274,16 +288,16 @@ class VictimsVis {
                     2: "Z"
                 },
                 names: {
-                    M: "Male",
-                    F: "Female",
-                    Z: "Other / Not Recorded",
+                    M: ["Male"],
+                    F: ["Female"],
+                    Z: ["not Recorded", "Other or" ]
                 },
                 sum: {
                     M: vis.countBySex["M"],
                     F: vis.countBySex["F"],
                     Z: vis.countBySex["Z"],
                 },
-                text: "Most of stop and frisk victims were men, accounting for over 90% of total stops between 2003 and 2016."
+                text: ["Out of 1000 representative stops, ","almost 900 of those stops between ",  "2003 and 2016 would have been men."]
 
             },
             "allstops": {
@@ -292,19 +306,19 @@ class VictimsVis {
                     all: [vis.height * 0.9,vis.height * 0.9]
                 },
                 transform: {
-                    all: [(vis.width / 2) - (vis.height / 2),vis.height * 0.1]
+                    all: [(vis.width / 2) - (vis.height / 2),vis.height * 0.15]
                 },
                 data: vis.nodes,
                 indices: {
                     0: "all"
                 },
                 names: {
-                    all: "All Stops",
+                    all: ["All Stops"],
                 },
                 sum: {
-                    all: 1000,
+                    all: vis.totalNodes,
                 },
-                text:  ""
+                text:  [""]
             },
             "race": {
                 categories: ["A", "B", "I", "P", "Q", "W", "Z"],
@@ -337,13 +351,13 @@ class VictimsVis {
                     6: "Z", 
                 },
                 names: {
-                    A: "Asian/Pacific Islander",
-                    B: "Black",
-                    I: "American Indian/Alaskan native",
-                    P: "Black-Hispanic",
-                    Q: "White-Hispanic",
-                    W: "White",
-                    Z: "Other / Not Recorded"
+                    A: ["Islander", "Asian/Pacific"],
+                    B: ["Black"],
+                    I: ["American", "Native"],
+                    P: ["Black-Hispanic"],
+                    Q: ["White-Hispanic"],
+                    W: ["White"],
+                    Z: ["not Recorded", "Other or" ],
                 },
                 sum: {
                     A: vis.countByRace["A"],
@@ -352,42 +366,60 @@ class VictimsVis {
                     P: vis.countByRace["P"],
                     Q: vis.countByRace["Q"],
                     W: vis.countByRace["W"],
-                    Z: vis.countByRace["Z"] + 1,
+                    Z: vis.countByRace["Z"],
                 },
-                text: "More than half of stop and frisk victims were Black, and the wild majority of stop and frisk victims were people" +
-                " of color."
+                text: ["Out of 1000 representative stops, ", "more than half of those stopped ", "would be Black."]
             },
             "ageRange": {
-                categories: ["30below", "30above", "Z"],
+                categories: ["12_17", "18_30", "31_45", "46_60", "61_80", "Z"],
                 size: {
-                    "30below": sizesByAgeRange[0],
-                    "30above": sizesByAgeRange[1],
-                    "Z": sizesByAgeRange[2],
+                    "12_17": sizesByAgeRange[0],
+                    "18_30": sizesByAgeRange[1],
+                    "31_45": sizesByAgeRange[2],
+                    "46_60": sizesByAgeRange[3],
+                    "61_80": sizesByAgeRange[4],
+                    "Z": sizesByAgeRange[5],
                 },
                 transform: {
-                    "30below": [0,vis.height - sizesByAgeRange[0][0]],
-                    "30above": [sizesByAgeRange[0][0] + sizeBtwn,vis.height - sizesByAgeRange[1][0]],
-                    "Z": [sizesByAgeRange[0][0] + sizesByAgeRange[1][0] + (sizeBtwn * 2),vis.height - sizesByAgeRange[2][0]]
+                    "12_17": [0,vis.height - sizesByAgeRange[0][0]],
+                    "18_30": [sizesByAgeRange[0][0] + sizeBtwnAge,vis.height - sizesByAgeRange[1][0]],
+                    "31_45": [sizesByAgeRange[0][0] + sizesByAgeRange[1][0] + (sizeBtwnAge * 2),vis.height - sizesByAgeRange[2][0]],
+                    "46_60": [sizesByAgeRange[0][0] + sizesByAgeRange[1][0] + sizesByAgeRange[2][0] 
+                                + (sizeBtwnAge * 3),vis.height - sizesByAgeRange[3][0]],
+                    "61_80": [sizesByAgeRange[0][0] + sizesByAgeRange[1][0] + sizesByAgeRange[2][0] + sizesByAgeRange[3][0] 
+                                + (sizeBtwnAge * 4),vis.height - sizesByAgeRange[4][0]],
+                    "Z": [sizesByAgeRange[0][0] + sizesByAgeRange[1][0] + sizesByAgeRange[2][0] + sizesByAgeRange[3][0] + sizesByAgeRange[4][0] 
+                                + (sizeBtwnAge * 5),vis.height - sizesByAgeRange[5][0]],
 
                 },
                 data: vis.ageRangePacks,
                 indices: {
-                    0: "30below", 
-                    1: "30above",
-                    2: "Z", 
+                    0: "12_17", 
+                    1: "18_30",
+                    2: "31_45", 
+                    3: "46_60", 
+                    4: "61_80",
+                    5: "Z", 
 
                 },
                 names: {
-                    "30below": "30 and below",
-                    "30above": "30 and above",
-                    "Z": "Other / Not Recorded",
+                    "12_17": ["12 - 17"],
+                    "18_30": ["18 - 30"],
+                    "31_45": ["31 - 45"],
+                    "46_60": ["46 - 60"],
+                    "61_80": ["61 - 80"],
+                    "Z": ["not Recorded", "Other or" ],
                 },
                 sum: {
-                    "30below": vis.countByAgeRange["30below"],
-                    "30above": vis.countByAgeRange["30above"],
-                    "Z": vis.countByAgeRange["Z"] + 1,
+                    "12_17": vis.countByAgeRange["12_17"],
+                    "18_30": vis.countByAgeRange["18_30"],
+                    "31_45": vis.countByAgeRange["31_45"],
+                    "46_60": vis.countByAgeRange["46_60"],
+                    "61_80": vis.countByAgeRange["61_80"],
+                    "Z": vis.countByAgeRange["Z"] - 2,
                 },
-                text: "Most stop and frisk victims were young, and a significant amount were even minors."
+                text: ["Most stop and frisk victims were young,", "and a significant amount were even minors.",
+                "Out of 1000 representative stops, ", "half of those stopped were under 30 years old."]
             },
             "build": {
                 categories: ["H", "M", "T", "U", "Z"],
@@ -399,11 +431,11 @@ class VictimsVis {
                     "Z": sizesByBuild[4],
                 },
                 transform: {
-                    "H": [sizesByBuild[1][0] + sizesByBuild[2][0] + (sizeBtwn * 2),vis.height - sizesByBuild[0][0]],
-                    "M": [0,vis.height - sizesByBuild[1][0]],
-                    "T": [sizesByBuild[1][0] + sizeBtwn,vis.height - sizesByBuild[2][0]],
-                    "U": [sizesByBuild[1][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + sizesByBuild[4][0] + (sizeBtwn * 4), vis.height - (sizesByBuild[3][0] * 2)],
-                    "Z": [sizesByBuild[1][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + (sizeBtwn * 3),vis.height - sizesByBuild[4][0]],
+                    "H": [sizesByBuild[3][0] + sizesByBuild[2][0] + (sizeBtwnBuild * 2.5),vis.height - sizesByBuild[0][0]],
+                    "M": [sizesByBuild[3][0] + (sizeBtwnBuild * 1.5),vis.height - sizesByBuild[1][0]],
+                    "T": [0,vis.height - sizesByBuild[2][0]],
+                    "U": [sizesByBuild[3][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + (sizeBtwnBuild * 3),vis.height - (sizesByBuild[3][0] * 1.5)],
+                    "Z": [sizesByBuild[3][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + sizesByBuild[3][0] + (sizeBtwnBuild * 4), vis.height - (sizesByBuild[4][0] )],
                 },
                 data: vis.buildPacks,
                 indices: {
@@ -414,11 +446,11 @@ class VictimsVis {
                     4: "Z",
                 },
                 names: {
-                    "H": "Heavy",
-                    "M": "Medium",
-                    "T": "Thin",
-                    "U": "Muscular",
-                    "Z": "Other / Not Recorded",
+                    "H": ["Heavy"],
+                    "M": ["Medium"],
+                    "T": ["Thin"],
+                    "U": ["Muscular"],
+                    "Z": ["not Recorded", "Other or" ],
                 },
                 sum: {
                     "H": vis.countByBuild["H"],
@@ -427,7 +459,7 @@ class VictimsVis {
                     "U": vis.countByBuild["U"],
                     "Z": vis.countByBuild["Z"],
                 },
-                text: "Most stop and frisk victims were described as having a medium build, followed by thin, heavy, and other."
+                text: ["Out of 1000 representative stops, ", "most stop and frisk victims", "were described as having a medium build,", "followed by thin, heavy, and other."]
             }
         };
        
@@ -445,6 +477,8 @@ class VictimsVis {
     
         // clear current text
         vis.svg.selectAll(".label-dem").text("")
+        vis.svg.selectAll('.label-dem').remove();
+        vis.svg.selectAll('.label-dem-number').remove();
         let categories = vis.graphinformation[vis.selected].categories
 
         categories.forEach((name, index) => {
@@ -472,23 +506,47 @@ class VictimsVis {
                             ","+vis.graphinformation[vis.selected].transform[name][1]+")";
                         })
 
-            vis.svg.append("g")
-                .attr("transform", function(){
-                    return "translate("+
-                    (vis.graphinformation[vis.selected]["transform"][name][0] + vis.graphinformation[vis.selected]["size"][name][0]/2) +
-                    ","+vis.graphinformation[vis.selected].transform[name][1]+")";
-                })
-                .append('text')
-                .attr('class', 'label-dem')
-                .text(vis.graphinformation[vis.selected].names[name] + " - " + vis.graphinformation[vis.selected].sum[name])
-                .transition()
-                .duration(1000)
+            let labelNames = vis.graphinformation[vis.selected].names[name]
 
-            console.log(vis.graphinformation[vis.selected].data)
+
+            for (let i = 0; i < labelNames.length; i++) {
+                vis.svg
+                    .append("text")
+                    .attr("class", "label-dem")
+                    .attr("x", vis.graphinformation[vis.selected]["transform"][name][0] + vis.graphinformation[vis.selected]["size"][name][0]/2)
+                    .attr("y", (vis.graphinformation[vis.selected].transform[name][1] - (20 * (i + 2)) ))
+                    .transition()
+                    .delay(1100)
+                    .text(labelNames[i]);
+                
+            }
+
+            vis.svg
+                .append("text")
+                .attr("class", "label-dem-number")
+                .attr("x", vis.graphinformation[vis.selected]["transform"][name][0] + vis.graphinformation[vis.selected]["size"][name][0]/2)
+                .attr("y", (vis.graphinformation[vis.selected].transform[name][1] - (20) ))
+                .transition()
+                .delay(1100)
+                .text(vis.graphinformation[vis.selected].sum[name] + " dots");
+
 
         });
 
-        vis.supplementaryText.text(vis.graphinformation[vis.selected].text)
+        let texts = vis.graphinformation[vis.selected].text
+        vis.svg.selectAll('.victims-text').remove();
+
+        for (let i = 0; i < texts.length; i++) {
+            vis.svg
+                .append("text")
+                .attr("class", "victims-text")
+                .attr("x", vis.width * 0.85)
+                .attr("y", (vis.height * 0.15) + (i * 20))
+                .transition()
+                .delay(1100)
+                .text(texts[i]);
+            
+        }
         
 
     }
