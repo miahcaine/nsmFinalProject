@@ -116,48 +116,43 @@
 
       <!-- DEMOGRAPHIC BUBBLES -->
       <div id="population-sec" class="section">
-          <h1>Total demographic vs. the demographic of Stop and Frisk stops</h1>
-          <div id="vis-4" class="vis-container">
-            <!-- BOROUGH BUBBLES -->
-            <div class="row">
-              <div class="col-2"> <p class="description-text">In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons on the right to explore how the race of those stopped compare to the race in an entire borough. </p> </div>
-              <div class="col-6"> 
-              <div class="row">
-                <div class="col-8 bubbles" id="borough-bubbles"></div>
-                <div class="col-3 description">
-                  <span class="bubble-description">
-                  <span id="borough-perc"></span>
-                  </span>
-                </div>
-              </div>
+        <div id="vis-4" class="vis-container">
+            <h1>Total demographic vs. the demographic of Stop and Frisk stops</h1>
+            <p class="description-text">In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons below to explore how the race of those stopped compare to the race in an entire borough.</p>
+            
               
+            <div class="row"> 
+                <!-- BOROUGH BUBBLES -->
+              <div class="col-6 bubbles" id="borough-bubbles">
+                <span class="bubble-description">
+                  <span id="borough-perc"></span>
+                </span></div>
               <!-- STOP AND FRISK BUBBLES -->
-              <div class="row">
-                <div class="col-8 bubbles" id="sf-bubbles"></div>
-                <div class="col-3 description">
-                    <span class="bubble-description"></span>
-                    <span id="sf-perc"></span>
+              <div class="col-6 bubbles" id="sf-bubbles">
+                <span class="bubble-description">
+                  <span id="sf-perc"></span>
+                </span></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-2 btn-group-sm btn-group-vertical demographic-buttons-2">
+                    <button type="button" class="btn btn-secondary" onclick="changeRace(4)">Hispanic*</button>
+                    <button type="button" class="btn btn-secondary" onclick="changeRace(2)">Black</button>
+                    <button type="button" class="btn btn-secondary" onclick="changeRace(1)">White</button> 
+                    <button type="button" class="btn btn-secondary" onclick="changeRace(3)">Other</button>
+                </div>
+                <div class="col-2 btn-group-sm btn-group-vertical demographic-buttons-2">
+                    <button type="button" class="btn btn-secondary" onclick="changeBorough(2)">Total</button> 
+                    <button type="button" class="btn btn-secondary" onclick="changeBorough(3)">Bronx</button>
+                    <button type="button" class="btn btn-secondary" onclick="changeBorough(4)">Brooklyn</button>
+                    <button type="button" class="btn btn-secondary" onclick="changeBorough(5)">Manhattan</button> 
+                    <button type="button" class="btn btn-secondary" onclick="changeBorough(6)">Queens</button>
+                    <button type="button" class="btn btn-secondary" onclick="changeBorough(7)">Staten Island</button>
                 </div>
               </div>
-              </div>
-              <div id="demographic-buttons" class="col-2 btn-group-sm btn-group-vertical ">
-                  <!-- <button type="button" class="btn btn-dark" onclick="changeBubbles(0)">Total</button>  -->
-                  <button type="button" class="btn btn-secondary" onclick="changeRace(4)">Hispanic</button>
-                  <button type="button" class="btn btn-secondary" onclick="changeRace(2)">Black Non-Hispanic</button>
-                  <button type="button" class="btn btn-secondary" onclick="changeRace(1)">White Non-Hispanic</button> 
-                  <button type="button" class="btn btn-secondary" onclick="changeRace(3)">Other Non-Hispanic</button>
-              </div>
-              <div id="demographic-buttons" class="col-1 btn-group-sm btn-group-vertical ">
-                  <button type="button" class="btn btn-secondary" onclick="changeBorough(2)">Total</button> 
-                  <button type="button" class="btn btn-secondary" onclick="changeBorough(3)">Bronx</button>
-                  <button type="button" class="btn btn-secondary" onclick="changeBorough(4)">Brooklyn</button>
-                  <button type="button" class="btn btn-secondary" onclick="changeBorough(5)">Manhattan</button> 
-                  <button type="button" class="btn btn-secondary" onclick="changeBorough(6)">Queens</button>
-                  <button type="button" class="btn btn-secondary" onclick="changeBorough(7)">Staten Island</button>
-              </div>
-            </div>
+              <p>*The New York Census does not distinguish between different races within the "Hispanic" population (i.e. Black-Hispanic or White-Hispanic).</p>
           </div>
-      </div>
+        </div>
 
       <!-- STATIC 4 -->
       <div class="section description">
@@ -251,6 +246,7 @@
 
     <!-- own js files -->
     <script src="js/main.js"></script>
+    <script src="js/cleanData.js"></script>
     <script src="js/radialVis.js"></script>
     <script src="js/demographicBubbles.js"></script>
     <script src="js/likelinessVis.js"></script>

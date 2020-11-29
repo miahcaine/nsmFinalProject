@@ -130,8 +130,8 @@ Victims Vis Styles
 
 
 #vis-3 .row {
-    width: 100%;
-    height: 70%;
+  width: 100%;
+  height: 70%;
 }
 
 .label-dem {
@@ -146,7 +146,7 @@ Victims Vis Styles
   font-weight: lighter;
 }
 /* #hook-sec {
-    display: none;
+  display: none;
 } */
 
 /* vis 5 and 6 styles */
@@ -155,7 +155,12 @@ Victims Vis Styles
   font-family: "Quicksand", sans-serif;
 }
 
+.demographic-buttons-2 {
+  height: 75%;
+  width: 50%;
+}
 .description-text {
+  font-size: 18px;
   text-align: left;
   font-family: "Quicksand", sans-serif;
   /* margin-right: 5vh;
@@ -163,10 +168,14 @@ Victims Vis Styles
 }
 
 .bubbles {
-  margin-top: 1.5em;
+  /* margin-top: 1.5em; */
   /* background-color: #b1dfbb; */
   height: 40vh;
   width: 40vw;
+  text-align: center;
+}
+span {
+  font-weight: bold;
 }
 
 #likeliness-vis {
