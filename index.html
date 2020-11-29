@@ -38,11 +38,11 @@
                   </div>
                   <div id="radialplot-descrip" class="col-6">
                       <h1>Have Stop and Frisks Been Effective?</h1>
-                      Over 2003-2016, stop and frisks were most often conducted for criminal possession of a weapon,
+                      <p class="description-text">Over 2003-2016, stop and frisks were most often conducted for criminal possession of a weapon,
                       grand larceny, robbery, burglary, and criminal trespass. However, whether the
                       high frequency correlated with a corresponding decrease in respective crime rates
                       is still being discussed today. Interact with the slider below to see how rates for
-                      these top five crimes have changed, if at all, over the time period.
+                      these top five crimes have changed, if at all, over the time period.</p>
       
                       <br><br><br>
       
@@ -70,7 +70,7 @@
                   <div class="col-7">
                     <div id="stops-timeline-text">
                       <h1>Where are these stops occurring? And how frequently?</h1>
-                      <h4>There were over 5 million stops between 2003 and 2016, peeking in 2011 as you can see by the timeline below.
+                      <h4 class="description-text">There were over 5 million stops between 2003 and 2016, peeking in 2011 as you can see by the timeline below.
                         Some police precincts conducted more stops than others.
                         Click on a precinct or use the select box below to show that precinct's timeline of stops. Hover over the timeline to see the 
                         number of stops per year, or select a time period to filter the map by year.
@@ -94,7 +94,7 @@
           <div id="vis-3" class="vis-container">
             <div id="victims-text">
               <h1>Who was targeted?</h1>
-              <h4 class = "targeted-text">
+              <h4 class = "description-text targeted-text">
                 Though the 'intention' of stop and frisk was to find criminals, stop and frisk seemed to target particular demographics 
                 while leaving other demographics relatively unaffected. Of the over 5 million stops between 2003 and 2016, let these 1000
                 dots be representative of all of the stops. Click the buttons on the right to see how these 1000 dots are distributed
@@ -120,8 +120,8 @@
           <div id="vis-4" class="vis-container">
             <!-- BOROUGH BUBBLES -->
             <div class="row">
-              <div class="col-2" id="description-text"> In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons on the right to explore how the race of those stopped compare to the race in an entire borough. </div>
-              <div class="col-6">
+              <div class="col-2"> <p class="description-text">In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons on the right to explore how the race of those stopped compare to the race in an entire borough. </p> </div>
+              <div class="col-6"> 
               <div class="row">
                 <div class="col-8 bubbles" id="borough-bubbles"></div>
                 <div class="col-3 description">
@@ -262,7 +262,9 @@
     <script>
       new fullpage("#fullpage", {
         autoScrolling: true,
-        navigation: true
+        navigation: true,
+        paddingTop: '5vh',
+        paddingBottom: '5vh'
       });
     </script>
   </body>

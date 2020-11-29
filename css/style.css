@@ -2,9 +2,8 @@
   height: 100vh;
   width: 100%;
   position: relative;
-  padding: 50px;
-  /*padding-top: 50px;
-    padding-bottom: 25px;*/
+  padding-left: 3vw;
+  padding-right: 3vw;
 }
 
 .vis-container {
@@ -156,14 +155,12 @@ Victims Vis Styles
   font-family: "Quicksand", sans-serif;
 }
 
-.description {
-  /* margin-top: 1.5em; */
+.description-text {
+  text-align: left;
   font-family: "Quicksand", sans-serif;
+  /* margin-right: 5vh;
+  margin-left: 5vh; */
 }
-/* #vis-5 .row {
-  width: 100%;
-  height: 70%;
-} */
 
 .bubbles {
   margin-top: 1.5em;
@@ -179,13 +176,13 @@ Victims Vis Styles
 
 body {
   background-color: #FFFAF0;
+  font-family: "Quicksand", sans-serif;
 }
 h1{
   font-weight: bold;
 }
 .title-header {
   font-size: 5em;
-  /* font-weight: bold; */
   text-align: center;
 }
 p {
