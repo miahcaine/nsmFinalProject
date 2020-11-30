@@ -62,6 +62,7 @@ function changeBorough(code, type){
 // load data using promises
 let promises = [
     d3.json("sf_data/precinct/precincts.json"),
+    d3.csv("sf_data/precinct/precincts.csv"),
     d3.csv("sf_data/stops/2003.csv"),
     d3.csv("sf_data/stops/2004.csv"),
     d3.csv("sf_data/stops/2005.csv"),
@@ -120,15 +121,15 @@ stopBubbles;
 function initMainVis(dataArray) {
     globalData = dataArray
 
-    precinctData = dataArray[0]
+    precinctData = dataArray.slice(0,2)
 
-    stopsData = dataArray.slice(1,15)
+    stopsData = dataArray.slice(2,16)
 
-    crimeNumbersData = dataArray.slice(15,19)
+    crimeNumbersData = dataArray.slice(16,20)
 
     NYCPopulationData = dataArray[dataArray.length - 1]
 
-    populationData = dataArray.slice(19, dataArray.length)
+    populationData = dataArray.slice(20, dataArray.length)
 }
 
 

@@ -7,10 +7,11 @@ class MapVis {
 
     constructor(parentElement, precinctData, stopsData, coordinates) {
         this.parentElement = parentElement;
-        this.precinctData = precinctData;
+        this.precinctData = precinctData[0];
+        this.precinctByBorough = precinctData[1];
         this.stopsData = stopsData;
         this.displayData = stopsData;
-        this.coordinates = coordinates
+        this.coordinates = coordinates;
 
         this.colorGradient = d3.scaleSequential(d3.interpolateBlues);
 
@@ -103,6 +104,14 @@ class MapVis {
 
         vis.precinctNames = vis.precinctNames.sort(function(a, b){return a - b});
 
+        vis.precinctToBorough = {}
+        for (let i = 0; i < vis.precinctByBorough.length; i++) {
+            vis.precinctToBorough[vis.precinctByBorough[i].pct] = vis.precinctByBorough[i].borough;
+        }
+
+        console.log(vis.precinctToBorough)
+
+
 
         // Update Vis
         vis.updateVis()
@@ -162,7 +171,7 @@ class MapVis {
 
             selectPrecinct.value = pct
 
-            if (vis.prevHighlight) {
+            if (vis.prevHighlight && vis.prevHighlight !== pct) {
                 vis.precincts.resetStyle(vis.layers[vis.prevHighlight]);
             } 
 
@@ -219,7 +228,7 @@ class MapVis {
 
         vis.info.update = function (props) {
             this._div.innerHTML = '<h4>NYC Precinct Stops</h4>' +  (props ?
-                '<b>Precinct ' + props.precinct + '</b><br />' + vis.formatThousands(vis.totalStopsByPrecinct[props.precinct]) + ' stops'
+                '<b>Precinct ' + props.precinct + ' - ' + vis.precinctToBorough[props.precinct] + '</b><br />' + vis.formatThousands(vis.totalStopsByPrecinct[props.precinct]) + ' stops'
                 : 'Hover over a precinct');
         };
 
