@@ -260,8 +260,9 @@ class MapVis {
         let html = '<option value="all">All Precincts</option>'
 
         for (let i = 0; i < vis.precinctNames.length; i++) {
-            html += '<option value="' + vis.precinctNames[i] + '">' + vis.precinctNames[i] + '</option>';
+            html += '<option value="' + vis.precinctNames[i] + '">' + vis.precinctNames[i] + ' - ' + vis.precinctToBorough[vis.precinctNames[i]] +'</option>';
         }
+
 
         d3.select('#precinctSelect').html(html);
         
