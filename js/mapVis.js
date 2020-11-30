@@ -109,9 +109,6 @@ class MapVis {
             vis.precinctToBorough[vis.precinctByBorough[i].pct] = vis.precinctByBorough[i].borough;
         }
 
-        console.log(vis.precinctToBorough)
-
-
 
         // Update Vis
         vis.updateVis()
@@ -318,9 +315,6 @@ class MapVis {
         vis.map.removeControl(vis.legend);
 
         vis.wrangleData()
-
-        console.log(yearBegin)
-        console.log(yearEnd)
 
     }
             
