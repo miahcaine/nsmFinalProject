@@ -15,6 +15,7 @@ class TimelineVis {
         this.formatTime = d3.timeFormat("%m/%d/%Y");
 
         this.colorGradient = d3.scaleSequential(d3.interpolateBlues);
+        this.formatThousands = d3.format(",");
 
         this.initVis()
     }
@@ -230,7 +231,7 @@ class TimelineVis {
         line.attr("x1", vis.x(date))
             .attr("x2", vis.x(date))
         
-        stopsText.text(vis.countDataByYear[dateParsed - 2003].value + " stops")
+        stopsText.text(vis.formatThousands(vis.countDataByYear[dateParsed - 2003].value) + " stops")
                     .attr('x', vis.x(date) + 10)
                     .attr('y', 10)
 
@@ -258,14 +259,17 @@ class TimelineVis {
 
         }
        
-        vis.title.text("Daily Number of Stops for Precinct " + pct)
-
         if (+pct === 121) {
             vis.xAxis
                 .ticks(4)
+            d3.select("#disclaimerPrecinct121").text("*Precinct 121 only has data from 2013 to 2016")
+            vis.title.text("Daily Number of Stops for Precinct " + pct + "*")
+            
         } else {
             vis.xAxis
                 .ticks(vis.displayData.length)
+            d3.select("#disclaimerPrecinct121").text("")
+            vis.title.text("Daily Number of Stops for Precinct " + pct)
         }
 
         vis.wrangleData()
@@ -277,7 +281,10 @@ class TimelineVis {
         let vis = this;
 
         vis.displayData = vis.data
+        vis.xAxis
+            .ticks(vis.displayData.length)
         vis.title.text("Daily Number of Stops")
+        d3.select("#disclaimerPrecinct121").text("")
         vis.wrangleData()
         
     }

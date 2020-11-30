@@ -98,6 +98,10 @@
   font-weight: bold;
 }
 
+.example {
+  justify-content: space-between;
+}
+
 
  /* 
 Victims Vis Styles
