@@ -23,11 +23,16 @@
 	</head>
 
 	<body>
-    <!-- STATIC 1 -->
     <div id="fullpage">
-      <div id="static-1" class="section description">
+      <!-- TITLE PAGE -->
+      <div id="title-page" class="section description">
         <h1 class="title-header"> Stop, Question, and Frisk in New York City </h1>
         <p> description here </p>
+      </div>
+
+      <!-- HISTORY OF CRIME AND STOP AND FRISK -->
+      <div class="section">
+        <p> HISTORY OF CRIME AND STOP AND FRISK </p>
       </div>
 
       <!-- RADIAL PLOT -->
@@ -57,11 +62,6 @@
           </div>
       </div>
 
-      <!-- STATIC 2 -->
-      <div class="section description">
-        <p> Second description here </p>
-      </div>
-
       <!-- MAP -->
       <div id="map-sec" class="section">
           <div id="vis-2" class="vis-container">
@@ -70,10 +70,10 @@
                   <div class="col-7">
                     <div id="stops-timeline-text">
                       <h1>Where are these stops occurring? And how frequently?</h1>
-                      <h4 class="description-text">There were over 5 million stops between 2003 and 2016, peeking in 2011 as you can see by the timeline below.
-                        Some police precincts conducted more stops than others.
-                        Click on a precinct or use the select box below to show that precinct's timeline of stops. Hover over the timeline to see the 
-                        number of stops per year, or select a time period to filter the map by year.
+                      <h4 class="description-text">There were over 5 million stops between 2003 and 2016, peeking in 2011. After 2011 there is a
+                        drastic decrease in the number of stops after the practice was ruled unconstitutional in 2012. Hover over the timeline
+                        to see the number of stops per year. Click on a precinct or use the select box below to show that precinct's timeline of stops
+                        and understand the differences in the amount of stops conducted between precincts.
                       </h4>
                       <label for="precinctSelect">Select Precinct:</label>
                       <select class="form-control" id="precinctSelect"></select>
@@ -85,34 +85,43 @@
           </div>
       </div>
 
-      <!-- STATIC 3 -->
+      <!-- QUOTES OF POLICE OFFICERS -->
       <div class="section description">
-        <p> Third description here </p>
-      </div>
+        <h4 class="quote-header">In 2010, Officer Adrian Schoolcraft released secretly taped recordings of meetings and interactions between 
+          officers in the 81st Precinct. The 81st Precinct is located in Bedford-Stuyvesant, a Brooklyn neighborhood that is 
+          historically Black. Here are some quotes that stand out.</h4>
 
-      <!-- VICTIM BUBBLES -->
-      <div id="victims-sec" class="section">
-          <div id="vis-3" class="vis-container">
-            <div id="victims-text">
-              <h1>Who was targeted?</h1>
-              <h4 class = "description-text targeted-text">
-                Though the 'intention' of stop and frisk was to find criminals, stop and frisk seemed to target particular demographics 
-                while leaving other demographics relatively unaffected. Of the over 5 million stops between 2003 and 2016, let these 1000
-                dots be representative of all of the stops. Click the buttons on the right to see how these 1000 dots are distributed
-                based on a particular statistic.
-              </h4>
-            </div>
-          <div class="row">
-            <div id="victims-vis" class = "col-11"></div>
-            <div id="victims-buttons" class="col-1 btn-group-sm btn-group-vertical "> 
-              <button type="button" class="btn btn-dark" onclick="updateVis3('allstops')">All</button> 
-              <button type="button" class="btn btn-secondary" onclick="updateVis3('race')">Race</button>
-              <button type="button" class="btn btn-secondary" onclick="updateVis3('sex')">Sex</button>
-              <button type="button" class="btn btn-secondary" onclick="updateVis3('ageRange')">Age</button> 
-              <button type="button" class="btn btn-secondary" onclick="updateVis3('build')">Build</button>
-            </div>
-          </div>
-          </div>
+        <br>
+        <br>
+
+        <p class="quote">"[Your] not working in Midtown Manhattan where people are walking around smiling and happy. <b>You’re working in 
+          Bed-Stay where everyone’s probably got a warrant</b>.</p>
+        <p class = "quotee">- Lieutenant Jean Delafuente, November 1, 2008</p>
+
+        <br>
+        
+        <p class="quote">Tonight is zero tolerance. It’s New Years Eve all over again. <b>Everybody goes. I don’t care </b> . . . . They’re throwing dice? 
+          They all go, promote gambling. I don’t care. Let the DA discuss what they’re going to do tomorrow . . . . They got [bandanas] 
+          on and they’re running like nuts down the block, chasing people? <b>Grab them.</b> Fuck it. You’re preventing a robbery . . . . 
+          You know that and I know that.</p>
+        <p class = "quotee">- Deputy Inspector Steven Mauriello, October 31, 2008</p>
+
+        <br>
+
+        <p class="quote"> All right, I went out there [to Howard and Chauncey] yesterday and . . . we’ve got the old man out there with the grey hairs. 
+          A loud mouth. He thinks since he’s 55 years old he’s not going to get locked up. Well, guess what? I don’t tolerate shit out 
+          there. He went in and two of his pals went in. All right? So we’ve got to keep the corner clear. . . . Because if you get too 
+          big of a crowd there, you know, . . . they’re going to think that they own the block. <b>We own the block. They don’t own the 
+          block, all right? They might live there but we own the block. All right? We own the streets here. You tell them what to do.</b></p>
+        <p class = "quotee">- Lieutenant Jean Delafuente, November 8, 2008</p>
+
+        <br>
+        
+        <p class="quote">“If they’re on a corner, make them move. <b>They don’t want to move, you lock them up. </b> Done deal. You can always 
+          articulate later.”</p>
+        <p class = "quotee">- Sergeant Raymond Stukes, November 23, 2008</p>
+        
+        
       </div>
 
       <!-- DEMOGRAPHIC BUBBLES -->
@@ -155,9 +164,71 @@
           </div>
         </div>
 
-      <!-- STATIC 4 -->
-      <div class="section description">
-          <p> Third description here </p>
+
+      <!-- VICTIM BUBBLES -->
+      <div id="victims-sec" class="section">
+        <div id="vis-3" class="vis-container">
+          <div id="victims-text">
+            <h1>Who was targeted?</h1>
+            <h4 class = "description-text targeted-text">
+              Though the 'intention' of stop and frisk was to find criminals, stop and frisk seemed to target particular demographics 
+              while leaving other demographics relatively unaffected. Of the over 5 million stops between 2003 and 2016, let these 1000
+              dots be representative of all of the stops. Click the buttons on the right to see how these 1000 dots are distributed
+              based on a particular statistic.
+            </h4>
+          </div>
+        <div class="row">
+          <div id="victims-vis" class = "col-11"></div>
+          <div id="victims-buttons" class="col-1 btn-group-sm btn-group-vertical "> 
+            <button type="button" class="btn btn-dark" onclick="updateVis3('allstops')">All</button> 
+            <button type="button" class="btn btn-secondary" onclick="updateVis3('race')">Race</button>
+            <button type="button" class="btn btn-secondary" onclick="updateVis3('sex')">Sex</button>
+            <button type="button" class="btn btn-secondary" onclick="updateVis3('ageRange')">Age</button> 
+            <button type="button" class="btn btn-secondary" onclick="updateVis3('build')">Build</button>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- TESTIMONIAL VIDEO 1-->
+      <div class="section">
+        <div class="row">
+          <div class="col-6">
+          <iframe width="640" height="480" src="https://www.youtube.com/embed/01rsXYIXOrU" frameborder="0" allowfullscreen></iframe>
+          </div>
+          <div id="testimonial-text" class="col-5">
+            <h4 class="quote-header">
+              Listen to the words of Kasiem Walters of Flatbush Brooklyn, who by the time he was a high school senior, had been stopped
+              by police 7 times.
+            </h4>
+
+            <br><br>
+            <p>"The thing that changed for me first is the way I looked at police. I couldn't look at them the same. Um, I remember, I mean
+              it was bad to a point where I got robbed I didn't call the police. They scare you you know, so they instill this fear in 
+              you and then it forces you to have this mindset that you are a criminal."</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- TESTIMONIAL VIDEO 2-->
+      <div class="section">
+        <div class="row">
+          <div id="testimonial-text" class="col-5">
+            <h4 class="quote-header">
+              Listen to the words of Adhyl Polanco, a police officer who grew up in Washington Heights, Manhattan. 
+              He, himself has been stopped by police even after he joined the force.
+            </h4>
+
+            <br><br>
+            <p>"We would stop a person in the street at the corner because the sergeant said stop. Why? You don’t ask. 
+              You stop him, you frisk him, if it’s possible you search him. And these kids, sometimes they’re just walking home 
+              from school, they’re just walking to the store, they’re not doing absolutely anything."</p>
+          </div>
+
+          <div class="col-6">
+            <iframe width="640" height="480" src="https://www.youtube.com/embed/tt4O62_VXs4" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </div>
       </div>
 
       <!-- LIKELINESS VIS -->
@@ -217,6 +288,43 @@
                 </form>
               </div>
             </div>
+          </div>
+        </div>
+
+
+        <!-- ENDING SECTION -->
+        <div class="section description">
+          <div class="row">
+              <div class="col-6">
+                <h1>About US</h1>
+                <div>Our names</div>
+
+                <br>
+
+                <h5>To learn more about the project</h5>
+                <div>Github, process book</div>
+
+                <br>
+
+                <h5>Screencast</h5>
+                <div>Insert Video Here</div>
+
+              </div>
+              <div class="col-6">
+                <h1>References</h1>
+                <h5>Data Sources</h5>
+                <div>links to data sources</div>
+
+                <br>
+
+                <h5>Libraries</h5>
+                <div>leaflet, fullpage, ...</div>
+
+                <br>
+
+                <h5>Other references</h5>
+                <div>any youtube links, news articles</div>
+              </div>
           </div>
         </div>
     </div>

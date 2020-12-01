@@ -98,6 +98,30 @@
   font-weight: bold;
 }
 
+/* Quotes */
+
+.quotee {
+  font-size: small;
+  text-align: center;
+}
+
+.quote {
+  font-size: medium;
+  text-align: center;
+}
+
+.quote-header {
+  text-align: center;
+  font-weight: bold;
+}
+
+/* Testimonial */
+
+#testimonial-text {
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
 
  /* 
 Victims Vis Styles
