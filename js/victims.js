@@ -452,7 +452,7 @@ class VictimsVis {
                     "U": vis.countByBuild["U"],
                     "Z": vis.countByBuild["Z"],
                 },
-                text: ["Out of 1000 representative stops, ", "most stop and frisk victims", "were described as having a medium build,", "followed by thin, heavy, and other."]
+                text: ["Out of 1000 representative stops, ", "most stop and frisk victims", "were described as having a medium build,", "followed by thin, heavy, other, and muscular."]
             }
         };
        
