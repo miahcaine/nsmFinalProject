@@ -85,73 +85,50 @@ class LikelinessVis {
         }
       }
     }
-    // console.log("the struct is", vis.struct);
+    // console.log("updated data", vis.struct);
     vis.updateVis();
   }
 
   updateVis() {
     let vis = this;
-
+    console.log("updated data", vis.struct);
     vis.padding = 15;
     vis.boxSz = 30;
-    let row = vis.svg
-      .selectAll("g")
-      .data(vis.struct)
-      .enter()
-      .append("g")
-      .attr("transform",(d, i) =>{
-          // console.log("before merge", d);
-          return `translate(${vis.margin.left}, ${i * (vis.boxSz + vis.padding) + vis.margin.top})`
-        });
+    vis.svg
+        .selectAll("g")
+        .data(vis.struct)
+        .enter()
+        .append("g")
+        .attr("transform",(d, i) =>{
+            return `translate(${vis.margin.left}, ${i * (vis.boxSz + vis.padding) + vis.margin.top})`
+          });
+    let row = vis.svg.selectAll("g")
+          .data(vis.struct)
+          .attr("transform",(d, i) =>{
+              return `translate(${vis.margin.left}, ${i * (vis.boxSz + vis.padding) + vis.margin.top})`
+            });
 
     row.selectAll("rect")
-      .data(function(d) {
-        console.log(d);
+      .data(function(d, i) {
         return d;
       })
-      // .join(
-      //   enter => enter.append("rect")
-      //   .attr("fill", (d, i) => {
-      //     console.log("in enter", d[i]);
-      //     if (d[i] == 1) {
-      //       return vis.sqColor(1);
-      //     } else {
-      //       return "gray";
-      //     }})
-      //   .attr("width", vis.boxSz)
-      //   .attr("height", vis.boxSz),
-      //   update => update.attr("fill", (d, i) => {
-      //     console.log("in update", d[i]);
-      //     if (d[i] == 1) {
-      //       return vis.sqColor(1);
-      //     } else {
-      //       return "gray";
-      //     }})
-      //   )
       .enter()
       .append("rect")
       .attr("x", (d, i) => {return i * (vis.boxSz + vis.padding);})
       .attr("width", vis.boxSz)
-      .attr("height", vis.boxSz)
-      .attr("fill", (d, i) => {
-        if (d[i] == 1) {
-          return vis.sqColor(1);
-        } else {
-          return "gray";
-        }
+      .attr("height", vis.boxSz);
+
+      row.selectAll("rect")
+      .data(function(d, i) {
+        return d;
       })
-      .merge(row)
-      .attr("x", (d, i) => {return i * (vis.boxSz + vis.padding);})
-      .attr("width", vis.boxSz)
-      .attr("height", vis.boxSz)
       .attr("fill", (d, i) => {
-        if (d[i] == 1) {
+        if (d == 1) {
           return vis.sqColor(1);
         } else {
-          return "gray";
+          return "#DCDCDC";
         }
       });
     row.exit().remove();
-    console.log("hello");
   }
 }

@@ -31,7 +31,7 @@ function showVis5(){
   likelinessVis = new LikelinessVis("likeliness-vis", stopsData);
 }
 
-function updateVis6 (){
+function updateVis5 (){
   var race = document.getElementById("race-select").value;
   var age = document.getElementById("age-select").value;
   var sex = document.getElementById("sex-select").value;

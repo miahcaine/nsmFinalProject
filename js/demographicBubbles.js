@@ -161,7 +161,7 @@ class DemographicBubbles {
     let vis = this;
     vis.simulation = d3
       .forceSimulation()
-      .force("charge", d3.forceManyBody().strength([-15]))
+      .force("charge", d3.forceManyBody().strength([-20]))
       .force(
         "x",
         d3
@@ -178,7 +178,7 @@ class DemographicBubbles {
       )
       .force(
         "collision",
-        d3.forceCollide().radius(d => 4)
+        d3.forceCollide().radius(d => 8)
       );
         // vis.simulation.tick(3);
     vis.bubbles = vis.svg.selectAll(".bubble").data(vis.nodes);
