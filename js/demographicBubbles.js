@@ -44,8 +44,10 @@ class DemographicBubbles {
     // create "data" for packed bubbles
     vis.nodes = Array.from({ length: 100 }, () => ({
       counted: false,
-      x: Math.random() * (vis.width - vis.margin.left - vis.margin.right),
-      y: Math.random() * ((vis.height - vis.margin.bottom) - vis.margin.top) + vis.margin.top
+      x:vis.xCenter,
+      y: vis.yCenter
+      // x: Math.random() * (vis.width - vis.margin.left - vis.margin.right),
+      // y: Math.random() * ((vis.height - vis.margin.bottom) - vis.margin.top) + vis.margin.top
     }));
 
     // react to clicking filtering buttons
@@ -159,24 +161,24 @@ class DemographicBubbles {
     let vis = this;
     vis.simulation = d3
       .forceSimulation()
-      .force("charge", d3.forceManyBody().strength([-35]))
+      .force("charge", d3.forceManyBody().strength([-15]))
       .force(
         "x",
         d3
           .forceX()
-          .strength([0.2])
+          .strength([0.15])
           .x(vis.xCenter)
       )
       .force(
         "y",
         d3
           .forceY()
-          .strength([0.2])
+          .strength([0.15])
           .y(vis.yCenter)
       )
       .force(
         "collision",
-        d3.forceCollide().radius(d => 1)
+        d3.forceCollide().radius(d => 4)
       );
         // vis.simulation.tick(3);
     vis.bubbles = vis.svg.selectAll(".bubble").data(vis.nodes);
@@ -191,10 +193,10 @@ class DemographicBubbles {
         if (d.counted == true) {
           return vis.bubbleColor(1);
         } else {
-          return "gray";
+          return "#DCDCDC";
         }
       })
-      .style("fill-opacity", 0.7)
+      // .style("fill-opacity", 0.7)
       .merge(vis.bubbles)
       .attr("class", "bubble")
       .attr("r", 8)
@@ -204,7 +206,7 @@ class DemographicBubbles {
         if (d.counted == true) {
           return vis.bubbleColor(1);
         } else {
-          return "gray";
+          return "#DCDCDC";
         }
       })
       .style("fill-opacity", 0.7);

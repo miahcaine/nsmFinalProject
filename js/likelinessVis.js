@@ -8,9 +8,9 @@ class LikelinessVis {
     this.sex = "";
     this.build = "";
 
-    this.sqColor = d3.scaleSequential(d3.interpolatePurples);
+    this.sqColor = d3.scaleSequential(d3.interpolateBlues);
 
-    console.log(this.data);
+    console.log("boxes data is", this.data);
     this.initVis();
   }
 
@@ -56,8 +56,6 @@ class LikelinessVis {
       vis.ageHi = vis.ageObj[age][1];
       vis.sex = sex;
       vis.build = build;
-      // console.log(race, age, sex, build);
-
       for (var i = 0; i < vis.data.length; i++) {
         for (var j = 0; j < vis.data[i].length; j++) {
           if (
@@ -88,17 +86,17 @@ class LikelinessVis {
       }
     }
     // console.log("the struct is", vis.struct);
-    vis.updateVis(vis.struct);
+    vis.updateVis();
   }
 
-  updateVis(struct) {
+  updateVis() {
     let vis = this;
 
     vis.padding = 15;
     vis.boxSz = 30;
     let row = vis.svg
       .selectAll("g")
-      .data(struct)
+      .data(vis.struct)
       .enter()
       .append("g")
       .attr("transform",(d, i) =>{
@@ -111,49 +109,49 @@ class LikelinessVis {
         console.log(d);
         return d;
       })
-      .join(
-        enter => enter.append("rect")
-        .attr("fill", (d, i) => {
-          console.log("in enter", d[i]);
-          if (d[i] == 1) {
-            return vis.sqColor(1);
-          } else {
-            return "gray";
-          }})
-        .attr("width", vis.boxSz)
-        .attr("height", vis.boxSz),
-        update => update.attr("fill", (d, i) => {
-          console.log("in update", d[i]);
-          if (d[i] == 1) {
-            return vis.sqColor(1);
-          } else {
-            return "gray";
-          }})
-        )
-      // .enter()
-      // .append("rect")
+      // .join(
+      //   enter => enter.append("rect")
+      //   .attr("fill", (d, i) => {
+      //     console.log("in enter", d[i]);
+      //     if (d[i] == 1) {
+      //       return vis.sqColor(1);
+      //     } else {
+      //       return "gray";
+      //     }})
+      //   .attr("width", vis.boxSz)
+      //   .attr("height", vis.boxSz),
+      //   update => update.attr("fill", (d, i) => {
+      //     console.log("in update", d[i]);
+      //     if (d[i] == 1) {
+      //       return vis.sqColor(1);
+      //     } else {
+      //       return "gray";
+      //     }})
+      //   )
+      .enter()
+      .append("rect")
       .attr("x", (d, i) => {return i * (vis.boxSz + vis.padding);})
-      // .attr("width", vis.boxSz)
-      // .attr("height", vis.boxSz)
-      // .attr("fill", (d, i) => {
-      //   if (d[i] == 1) {
-      //     return vis.sqColor(1);
-      //   } else {
-      //     return "gray";
-      //   }
-      // })
-      // .merge(row)
-      // .attr("x", (d, i) => {return i * (vis.boxSz + vis.padding);})
-      // .attr("width", vis.boxSz)
-      // .attr("height", vis.boxSz)
-      // .attr("fill", (d, i) => {
-      //   if (d[i] == 1) {
-      //     return vis.sqColor(1);
-      //   } else {
-      //     return "gray";
-      //   }
-      // });
-    // row.exit().remove();
+      .attr("width", vis.boxSz)
+      .attr("height", vis.boxSz)
+      .attr("fill", (d, i) => {
+        if (d[i] == 1) {
+          return vis.sqColor(1);
+        } else {
+          return "gray";
+        }
+      })
+      .merge(row)
+      .attr("x", (d, i) => {return i * (vis.boxSz + vis.padding);})
+      .attr("width", vis.boxSz)
+      .attr("height", vis.boxSz)
+      .attr("fill", (d, i) => {
+        if (d[i] == 1) {
+          return vis.sqColor(1);
+        } else {
+          return "gray";
+        }
+      });
+    row.exit().remove();
     console.log("hello");
   }
 }
