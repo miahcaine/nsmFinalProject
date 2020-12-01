@@ -255,9 +255,9 @@ class VictimsVis {
                             [vis.height*0.05,vis.height*0.05], [vis.height*0.15,vis.height*0.15]]
 
         let sizeBtwn = 50;
-        let sizeBtwnRace = 30
+        let sizeBtwnRace = 45
         let sizeBtwnBuild = 150;
-        let sizeBtwnAge = 40
+        let sizeBtwnAge = 50
         let sizeBtwnSex = 150
 
         // initialize data structure to aid in visualizations

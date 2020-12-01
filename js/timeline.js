@@ -15,6 +15,7 @@ class TimelineVis {
         this.formatTime = d3.timeFormat("%m/%d/%Y");
 
         this.colorGradient = d3.scaleSequential(d3.interpolateBlues);
+        this.formatThousands = d3.format(",");
 
         this.initVis()
     }
@@ -65,7 +66,7 @@ class TimelineVis {
 		vis.svg.append("g")
 			.attr("class", "y-axis axis");
 
-        
+        vis.pct = undefined
     
         vis.wrangleData()
 
@@ -203,10 +204,10 @@ class TimelineVis {
 
         // create an svg rectange for mouseover events
         let rect = vis.svg.append("rect")
-            .attr("width", vis.width + 3)
+            .attr("width", vis.width + 2)
             .attr("height", vis.height)
             .attr('fill-opacity', 0)
-            .attr("x", 0)
+            .attr("x", 1)
             .attr('y', 0)
             .on("mouseover", function(event,d){
                 tooltipElements.style('display', null)
@@ -230,9 +231,14 @@ class TimelineVis {
         line.attr("x1", vis.x(date))
             .attr("x2", vis.x(date))
         
-        stopsText.text(vis.countDataByYear[dateParsed - 2003].value + " stops")
-                    .attr('x', vis.x(date) + 10)
-                    .attr('y', 10)
+        let yearBase = 2003
+        if (+vis.pct === 121) {
+            yearBase = 2013
+        }
+
+        stopsText.text(vis.formatThousands(vis.countDataByYear[dateParsed - yearBase].value) + " stops")
+                .attr('x', vis.x(date) + 10)
+                .attr('y', 10)
 
         yearText.text(dateParsed)
                     .attr('x', vis.x(date) + 10)
@@ -246,6 +252,7 @@ class TimelineVis {
         let vis = this;
 
         vis.displayData = []
+        vis.pct = pct
 
         for(let i=0; i < vis.data.length; i++) {
             let dataByYear = vis.data[i]
@@ -258,14 +265,17 @@ class TimelineVis {
 
         }
        
-        vis.title.text("Daily Number of Stops for Precinct " + pct)
-
         if (+pct === 121) {
             vis.xAxis
                 .ticks(4)
+            d3.select("#disclaimerPrecinct121").text("*Precinct 121 only has data from 2013 to 2016")
+            vis.title.text("Daily Number of Stops for Precinct " + pct + "*")
+            
         } else {
             vis.xAxis
                 .ticks(vis.displayData.length)
+            d3.select("#disclaimerPrecinct121").text("")
+            vis.title.text("Daily Number of Stops for Precinct " + pct)
         }
 
         vis.wrangleData()
@@ -277,7 +287,11 @@ class TimelineVis {
         let vis = this;
 
         vis.displayData = vis.data
+        vis.pct = undefined
+        vis.xAxis
+            .ticks(vis.displayData.length)
         vis.title.text("Daily Number of Stops")
+        d3.select("#disclaimerPrecinct121").text("")
         vis.wrangleData()
         
     }
