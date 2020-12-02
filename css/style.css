@@ -26,6 +26,60 @@
   text-align: center;
 }
 
+/*Image Styling*/
+.historyImgContainer {
+  position: relative;
+  width: 100%;
+}
+
+.image {
+  opacity: .3;
+  display: block;
+  width: 50%;
+  height: 250px;
+  width: 250px;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%)
+}
+
+.historyImgContainer:hover .image {
+  opacity: .8;
+}
+
+.historyImgContainer .middle {
+  opacity: 1;
+}
+
+a.history{
+  color: white;
+  font-style: normal;
+  font-weight: bold;
+  font-size: large;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  /* text-shadow: 0 0 3px Black; */
+}
+
+a.history:hover{
+  color: white;
+
+}
+
+
+.historyImgRow{
+  padding-top: 20px;
+  padding-bottom: 5px;
+}
+
  /* 
  Map / Timeline Vis Styles
  */
