@@ -59,6 +59,10 @@ function changeBorough(code, type){
   stopBubbles.wrangleData(-1, code, true);
 }
 
+function hideDataLoader() {
+  document.getElementById("data-loading-section").style.display = "none";
+}
+
 // load data using promises
 let promises = [
     d3.json("sf_data/precinct/precincts.json"),
@@ -101,6 +105,7 @@ Promise.all(promises)
         showVis3();
         showVis4();
         showVis5();
+        hideDataLoader();
     })
     .catch( function (err){console.log(err)} );
 
@@ -130,6 +135,7 @@ function initMainVis(dataArray) {
     NYCPopulationData = dataArray[dataArray.length - 1]
 
     populationData = dataArray.slice(20, dataArray.length)
+ 
 }
 
 
