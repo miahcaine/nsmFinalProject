@@ -14,7 +14,6 @@ class MapVis {
         this.coordinates = coordinates;
 
         this.colorGradient = d3.scaleSequential(d3.interpolateBlues);
-
         this.formatThousands = d3.formatPrefix(",.0", 1e3);
 
         this.initVis()
