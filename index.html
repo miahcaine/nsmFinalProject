@@ -137,18 +137,18 @@
 
             <div class="row justify-content-center">
                 <div class="col-2 btn-group-sm btn-group-vertical demographic-buttons-2">
-                    <button type="button" class="btn btn-secondary" onclick="changeRace(4)">Hispanic*</button>
-                    <button type="button" class="btn btn-secondary" onclick="changeRace(2)">Black</button>
-                    <button type="button" class="btn btn-secondary" onclick="changeRace(1)">White</button> 
-                    <button type="button" class="btn btn-secondary" onclick="changeRace(3)">Other</button>
+                    <button type="button" class="btn btn-secondary vis-4-race" onclick="changeRace(4)">Hispanic*</button>
+                    <button type="button" class="btn btn-secondary vis-4-race" onclick="changeRace(2)">Black</button>
+                    <button type="button" class="btn btn-secondary vis-4-race" onclick="changeRace(1)">White</button> 
+                    <button type="button" class="btn btn-secondary vis-4-race" onclick="changeRace(3)">Other</button>
                 </div>
                 <div class="col-2 btn-group-sm btn-group-vertical demographic-buttons-2">
-                    <button type="button" class="btn btn-secondary" onclick="changeBorough(2)">Total</button> 
-                    <button type="button" class="btn btn-secondary" onclick="changeBorough(3)">Bronx</button>
-                    <button type="button" class="btn btn-secondary" onclick="changeBorough(4)">Brooklyn</button>
-                    <button type="button" class="btn btn-secondary" onclick="changeBorough(5)">Manhattan</button> 
-                    <button type="button" class="btn btn-secondary" onclick="changeBorough(6)">Queens</button>
-                    <button type="button" class="btn btn-secondary" onclick="changeBorough(7)">Staten Island</button>
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(2)">Total</button> 
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(3)">Bronx</button>
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(4)">Brooklyn</button>
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(5)">Manhattan</button> 
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(6)">Queens</button>
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(7)">Staten Island</button>
                 </div>
               </div>
               <p>*The New York Census does not distinguish between different races within the "Hispanic" population (i.e. Black-Hispanic or White-Hispanic).</p>
@@ -164,19 +164,19 @@
       <div id="likeliness-sec" class="section"> 
           <h1>How do you compare to Stop and Frisk demographics?</h1>
           <div id="vis-5" class="vis-container">
-            <div class="row">
-              <p class="description-text">
-                The 100 squares below represent all of the stops from 2003 to 2016. Enter a description of yourself
-                 to see how you compare to the total amount of Stop and Frisk stops.
-              </p>
-              <p><span id="likeliness-perc"></span></p>
-            </div>
-            <div class="row likeliness">
-              <div class="col-9" id="likeliness-vis"></div>
+            <div class="row likeliness justify-content-center">
+              <div class="col-4">
+                <p class="description-text">
+                  The 100 squares to the right represent all of the stops from 2003 to 2016. Enter a description 
+                  to see how someone would compare to the total amount of Stop and Frisk stops.
+                </p>
+                <p class="likeliness-perc"><span id="likeliness-perc"></span></p>
+              </div>
+              <div class="col-5 " id="likeliness-vis"></div>
               <div class="col-3" id="likeliness-selectors">
                 <form name="likeliness-form" action="" method="GET">
-                  <span class="selection-text">RACE</span>
-                  <select id="race-select">
+                  <p class="selection-text">RACE</p>
+                  <select id="race-select" class ="form-control">
                     <option value="ANY">Any</option>
                     <option value="A">Asian/Pacific Islander</option>
                     <option value="B">Black</option>
@@ -187,9 +187,9 @@
                     <option value="Z">Other</option>
                   </select>
                   <br />
-                  <span class="selection-text">AGE</span>
-                  <select id="age-select">
-                    <option value="ANY">Any</option>
+                  <p class="selection-text">AGE</p>
+                  <select id="age-select" class ="form-control">
+                    <option value="5">Any</option>
                     <option value="0">12 - 17</option>
                     <option value="1">18 - 30</option>
                     <option value="2">31 - 45</option>
@@ -197,15 +197,15 @@
                     <option value="4">61 - 80</option>
                   </select>
                   <br />
-                  <span class="selection-text">SEX</span>
-                  <select id="sex-select">
+                  <p class="selection-text">SEX</p>
+                  <select id="sex-select" class ="form-control">
                     <option value="ANY">Any</option>
                     <option value="M">Male</option>
                     <option value="F">Female</option>
                   </select>
                   <br />
-                  <span class="selection-text">BUILD</span>
-                  <select id="build-select">
+                  <p class="selection-text">BUILD</p>
+                  <select id="build-select" class ="form-control">
                     <option value="ANY">Any</option>
                     <option value="H">Heavy</option>
                     <option value="M">Medium</option>
@@ -213,7 +213,7 @@
                     <option value="U">Muscular</option>
                   </select>
                   <br />
-                  <input type="button" name="input-button" value="Update Likeliness" onclick="updateVis5()">
+                  <input class="btn btn-secondary" type="button" name="input-button" value="Update Likeliness" onclick="updateVis5()">
                 </form>
               </div>
             </div>

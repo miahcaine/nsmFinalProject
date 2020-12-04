@@ -147,6 +147,14 @@ selectPrecinct.addEventListener('change', (event) => {
   }
 });
 
+$(".vis-4-race").click(function(){
+  $(".vis-4-race").removeClass("active")
+  $(this).toggleClass("active");
+});
+$(".vis-4-bor").click(function(){
+  $(".vis-4-bor").removeClass("active")
+  $(this).toggleClass("active");
+});
 
 // React to 'brushed' event and update all bar charts
 function brushed() {

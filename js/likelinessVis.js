@@ -35,47 +35,19 @@ class LikelinessVis {
     
     let vis = this;
     vis.changed = changed;
-    vis.ageObj = {
-      0: [12, 17],
-      1: [18, 30],
-      2: [31, 45],
-      3: [46, 60],
-      4: [61, 80]
-    };
-    vis.stopPerc = 0;
-    let totalStopCnt = 0;
-    let matchingStopCnt = 0;
 
     vis.struct = Array.from({ length: 10 }, () =>
       Array.from({ length: 10 }, () => 0)
     );
-    // console.log(vis.struct);
     if (changed) {
-      vis.race = race;
-      vis.ageLow = vis.ageObj[age][0];
-      vis.ageHi = vis.ageObj[age][1];
-      vis.sex = sex;
-      vis.build = build;
-      for (var i = 0; i < vis.data.length; i++) {
-        for (var j = 0; j < vis.data[i].length; j++) {
-          if (
-            vis.data[i][j].race == vis.race &&
-            vis.data[i][j].sex == vis.sex &&
-            vis.data[i][j].age >= vis.ageLow &&
-              vis.data[i][j].age <= vis.ageHi &&
-            vis.data[i][j].build == vis.build
-          ) {
-            matchingStopCnt++;
-          }
-        }
-        totalStopCnt += vis.data[i].length;
-      }
-      vis.stopPerc = (100 * (matchingStopCnt / totalStopCnt)).toFixed(); // make whole
+      let counts = getTotalStopCount(vis.data, race, age, sex, build);
+      let matchingStopCnt = counts[0];
+      let totalStopCnt = counts[1];
+      vis.stopPerc = (100 * (matchingStopCnt / totalStopCnt)).toFixed();
       $("#likeliness-perc").text(
-        `Every ${vis.stopPerc} out of every 100 stops have this description.`
-      );
+        `${vis.stopPerc} out of every 100 stops have this description.`
+      );        
     }
-
     let counter = 0;
     for (var i = 0; i < 10; i++) {
       for (var j = 0; j < 10; j++) {
@@ -85,13 +57,11 @@ class LikelinessVis {
         }
       }
     }
-    // console.log("updated data", vis.struct);
     vis.updateVis();
   }
 
   updateVis() {
     let vis = this;
-    console.log("updated data", vis.struct);
     vis.padding = 15;
     vis.boxSz = 30;
     vis.svg
@@ -121,7 +91,7 @@ class LikelinessVis {
       row.selectAll("rect")
       .data(function(d, i) {
         return d;
-      })
+      }).transition().duration(500)
       .attr("fill", (d, i) => {
         if (d == 1) {
           return vis.sqColor(1);
