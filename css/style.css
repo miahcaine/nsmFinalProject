@@ -270,10 +270,23 @@ Victims Vis Styles
   font-size: 18px;
   text-align: left;
   font-family: "Quicksand", sans-serif;
-  /* margin-right: 5vh;
-  margin-left: 5vh; */
 }
 
+.likeliness {
+  margin-top: 1em;
+}
+
+.likeliness-perc {
+  margin-top: 2em;
+}
+#likeliness-perc {
+  font-size: 2em;
+  font-style: oblique;
+}
+
+.selection-text {
+  text-anchor: end;
+}
 .bubbles {
   /* margin-top: 1.5em; */
   /* background-color: #b1dfbb; */

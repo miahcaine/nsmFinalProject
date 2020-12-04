@@ -84,7 +84,7 @@ function getStopCounts (data){
 }
 
 function getPopCounts (data) {
-    // vis.boroughObj = {
+    // boroughObj = {
     //     2 : "Total",
     //     3 : "BRONX",
     //     4 : "BROOKLYN",
@@ -179,4 +179,50 @@ function getPopCounts (data) {
         }
     }
     return popObj;
+}
+
+function getTotalStopCount(data, race, age, sex, build){
+    let totalStopCnt = 0;
+    let matchingStopCnt = 0;
+    let ageObj = {
+        0: [12, 17],
+        1: [18, 30],
+        2: [31, 45],
+        3: [46, 60],
+        4: [61, 80],
+        5: [12, 90]  // for the 'ANY' age category
+    };
+
+    let races, sexes, builds;
+    if (race == "ANY"){
+        races = ["A", "B", "I", "P", "Q", "W", "Z", "X"];
+    } else {
+        races = [race];
+    }
+
+    if (sex == "ANY"){
+        sexes = ["M", "F", "Z"];
+    }
+    else {
+        sexes = [sex];
+    }
+
+    if (build == "ANY"){
+        builds = ["H", "M", "T", "U", "Z"];
+    }
+    else {
+        builds = [build];
+    }
+    let ageLow = ageObj[age][0];
+    let ageHi = ageObj[age][1];
+
+      for (var i = 0; i < data.length; i++) {
+        for (var j = 0; j < data[i].length; j++) {
+          if (races.includes(data[i][j].race) && sexes.includes(data[i][j].sex) && builds.includes(data[i][j].build) && data[i][j].age >= ageLow && data[i][j].age <= ageHi){
+              matchingStopCnt++;
+          }
+        }
+        totalStopCnt += data[i].length;
+    }
+    return [matchingStopCnt, totalStopCnt];
 }
