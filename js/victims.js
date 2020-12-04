@@ -13,7 +13,6 @@ class VictimsVis {
 
     }
 
-
     initVis(){
         let vis = this;
 
@@ -28,6 +27,7 @@ class VictimsVis {
             .attr("width", vis.width + vis.margin.left + vis.margin.right)
             .attr("height", vis.height + vis.margin.top + vis.margin.bottom)
             .attr("class", "bubble")
+            .call(responsivefy)
 
         vis.selected = 'allstops'
 
@@ -249,12 +249,11 @@ class VictimsVis {
         let sizesByRace = [[vis.height * 0.18,vis.height*0.18], [vis.height * 0.7,vis.height*0.7], [vis.height * 0.07,vis.height*0.07],
                 [vis.height * 0.24,vis.height*0.24], [vis.height *0.45,vis.height*0.45], [vis.height *0.3,vis.height*0.3], 
                 [vis.height *0.2,vis.height*0.2]]
-        let sizesByAgeRange = [[vis.height*0.4,vis.height*0.4], [vis.height*0.7,vis.height*0.7], [vis.height*0.4,vis.height*0.4],
-                [vis.height*0.3,vis.height*0.3], [vis.height*0.1,vis.height*0.1], [vis.height*0.15,vis.height*0.15]]
-        let sizesByBuild = [[vis.height*0.3,vis.height*0.3], [vis.height*0.7,vis.height*0.7], [vis.height*0.5,vis.height*0.5], 
-                            [vis.height*0.05,vis.height*0.05], [vis.height*0.15,vis.height*0.15]]
+        let sizesByAgeRange = [[vis.height*0.37,vis.height*0.37], [vis.height*0.7,vis.height*0.7], [vis.height*0.43,vis.height*0.43],
+                [vis.height*0.27,vis.height*0.27], [vis.height*0.1,vis.height*0.1], [vis.height*0.12,vis.height*0.12]]
+        let sizesByBuild = [[vis.height*0.27,vis.height*0.27], [vis.height*0.7,vis.height*0.7], [vis.height*0.5,vis.height*0.5], 
+                            [vis.height*0.05,vis.height*0.05], [vis.height*0.12,vis.height*0.12]]
 
-        let sizeBtwn = 50;
         let sizeBtwnRace = 45
         let sizeBtwnBuild = 150;
         let sizeBtwnAge = 50
@@ -283,14 +282,14 @@ class VictimsVis {
                 names: {
                     M: ["Male"],
                     F: ["Female"],
-                    Z: ["not Recorded", "Other or" ]
+                    Z: ["Recorded", "Other/Not" ]
                 },
                 sum: {
                     M: vis.countBySex["M"],
                     F: vis.countBySex["F"],
                     Z: vis.countBySex["Z"],
                 },
-                text: ["Out of 1000 representative stops, ","almost 900 of those stops between ",  "2003 and 2016 would have been men."]
+                text: "Almost 90% of those stopped were men."
 
             },
             "allstops": {
@@ -311,7 +310,7 @@ class VictimsVis {
                 sum: {
                     all: vis.totalNodes,
                 },
-                text:  [""]
+                text:  ""
             },
             "race": {
                 categories: ["A", "B", "I", "P", "Q", "W", "Z"],
@@ -350,7 +349,7 @@ class VictimsVis {
                     P: ["Black-Hispanic"],
                     Q: ["White-Hispanic"],
                     W: ["White"],
-                    Z: ["not Recorded", "Other or" ],
+                    Z: ["Recorded", "Other/Not" ],
                 },
                 sum: {
                     A: vis.countByRace["A"],
@@ -361,7 +360,7 @@ class VictimsVis {
                     W: vis.countByRace["W"],
                     Z: vis.countByRace["Z"],
                 },
-                text: ["Out of 1000 representative stops, ", "more than half of those stopped ", "would be Black."]
+                text: "More than half of those stopped were Black."
             },
             "ageRange": {
                 categories: ["12_17", "18_30", "31_45", "46_60", "61_80", "Z"],
@@ -401,7 +400,7 @@ class VictimsVis {
                     "31_45": ["31 - 45"],
                     "46_60": ["46 - 60"],
                     "61_80": ["61 - 80"],
-                    "Z": ["not Recorded", "Other or" ],
+                    "Z": ["Recorded", "Other/Not" ],
                 },
                 sum: {
                     "12_17": vis.countByAgeRange["12_17"],
@@ -411,8 +410,7 @@ class VictimsVis {
                     "61_80": vis.countByAgeRange["61_80"],
                     "Z": vis.countByAgeRange["Z"] - 2,
                 },
-                text: ["Most stop and frisk victims were young,", "and a significant amount were even minors.",
-                "Out of 1000 representative stops, ", "half of those stopped were under 30 years old."]
+                text: "More than half of those stopped were young."
             },
             "build": {
                 categories: ["H", "M", "T", "U", "Z"],
@@ -427,7 +425,7 @@ class VictimsVis {
                     "H": [sizesByBuild[3][0] + sizesByBuild[2][0] + (sizeBtwnBuild * 2.5),vis.height - sizesByBuild[0][0]],
                     "M": [sizesByBuild[3][0] + (sizeBtwnBuild * 1.5),vis.height - sizesByBuild[1][0]],
                     "T": [0,vis.height - sizesByBuild[2][0]],
-                    "U": [sizesByBuild[3][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + (sizeBtwnBuild * 3),vis.height - (sizesByBuild[3][0] * 1.5)],
+                    "U": [sizesByBuild[3][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + (sizeBtwnBuild * 3.25),vis.height - (sizesByBuild[3][0] * 1.5)],
                     "Z": [sizesByBuild[3][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + sizesByBuild[3][0] + (sizeBtwnBuild * 4), vis.height - (sizesByBuild[4][0] )],
                 },
                 data: vis.buildPacks,
@@ -443,7 +441,7 @@ class VictimsVis {
                     "M": ["Medium"],
                     "T": ["Thin"],
                     "U": ["Muscular"],
-                    "Z": ["not Recorded", "Other or" ],
+                    "Z": ["Recorded", "Other/Not" ],
                 },
                 sum: {
                     "H": vis.countByBuild["H"],
@@ -452,7 +450,7 @@ class VictimsVis {
                     "U": vis.countByBuild["U"],
                     "Z": vis.countByBuild["Z"],
                 },
-                text: ["Out of 1000 representative stops, ", "most stop and frisk victims", "were described as having a medium build,", "followed by thin, heavy, other, and muscular."]
+                text: "More than half of those stopped had a medium body composition."
             }
         };
        
@@ -500,6 +498,7 @@ class VictimsVis {
                         })
 
             let labelNames = vis.graphinformation[vis.selected].names[name]
+            let showText = vis.selected !== "allstops"
 
 
             for (let i = 0; i < labelNames.length; i++) {
@@ -510,7 +509,7 @@ class VictimsVis {
                     .attr("y", (vis.graphinformation[vis.selected].transform[name][1] - (20 * (i + 2)) ))
                     .transition()
                     .delay(1100)
-                    .text(labelNames[i]);
+                    .text(showText ? labelNames[i] : "");
                 
             }
 
@@ -521,25 +520,16 @@ class VictimsVis {
                 .attr("y", (vis.graphinformation[vis.selected].transform[name][1] - (20) ))
                 .transition()
                 .delay(1100)
-                .text(vis.graphinformation[vis.selected].sum[name] + " dots");
+                .text(showText ? ((vis.graphinformation[vis.selected].sum[name] * 100) / vis.totalNodes) + "%" : "");
 
 
         });
 
-        let texts = vis.graphinformation[vis.selected].text
-        vis.svg.selectAll('.victims-text').remove();
-
-        for (let i = 0; i < texts.length; i++) {
-            vis.svg
-                .append("text")
-                .attr("class", "victims-text")
-                .attr("x", vis.width * 0.85)
-                .attr("y", (vis.height * 0.15) + (i * 20))
-                .transition()
-                .delay(1100)
-                .text(texts[i]);
-            
-        }
+        d3.select('#victims-supplementary-text').text(" ");
+        d3.select("#victims-supplementary-text")
+            .transition()
+            .delay(1100)
+            .text(vis.graphinformation[vis.selected].text)
         
 
     }
@@ -550,32 +540,6 @@ class VictimsVis {
 
         vis.updateVis()
     }
-
-    // let node = vis.svg.selectAll(".class"+selected+name)
-            //     .data(vis.pack(nodes).descendants().slice(1))
-
-
-            // node
-            //     .transition()
-            //     .duration(1000)
-            //     .filter(function(d){
-            //         return  !d.children
-            //     })
-            //     .attr("cx", d=> d.x)
-            //     .attr("cy", d=> d.y)
-            //     .attr("r", function(d) {
-            //         return d.r;
-            //     })
-            //     .style("fill", function(d,i) {
-            //         return "black";
-            //     })
-            //     .attr("transform", function(){
-            //         return "translate("+
-            //         (useThis["transform"][name][0])+
-            //         ","+useThis.transform[name][1]+")";
-            //     })
-                
-            // node.exit().remove()
 
 
 
