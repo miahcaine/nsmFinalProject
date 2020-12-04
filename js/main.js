@@ -10,7 +10,7 @@ function Vis1() {
 }
     
 function showVis2() {
-    myMapVis = new MapVis('map-vis', precinctData, stopsData, [40.7128, - 74.0060])
+    myMapVis = new MapVis('map-vis', precinctData, stopsData, [40.741895, -73.989308])
     stopsTimelineVis = new TimelineVis('stops-timeline-vis', stopsData)
 }
 

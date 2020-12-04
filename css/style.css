@@ -44,6 +44,14 @@
   text-align: center;
 }
 
+.history-sec h4 {
+  font-size:1.5vw;
+}
+
+.history-sec h1 {
+  font-size:3vw;
+}
+
 /*Image Styling*/
 .historyImgContainer {
   position: relative;
@@ -51,7 +59,7 @@
 }
 
 .image {
-  opacity: .3;
+  opacity: .8;
   display: block;
   width: 50%;
   height: 250px;
@@ -71,7 +79,7 @@
 }
 
 .historyImgContainer:hover .image {
-  opacity: .8;
+  opacity: 1;
 }
 
 .historyImgContainer .middle {
@@ -82,15 +90,11 @@ a.history{
   color: white;
   font-style: normal;
   font-weight: bold;
-  font-size: large;
+  font-size: medium;
   text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
   /* text-shadow: 0 0 3px Black; */
 }
 
-a.history:hover{
-  color: white;
-
-}
 
 
 .historyImgRow{
@@ -109,7 +113,7 @@ a.history:hover{
 }
 
 #stops-timeline-vis {
-    height: 50%;
+    height: 40%;
     width: 100%;
     font-family: "Quicksand", sans-serif;
 }
@@ -121,7 +125,7 @@ a.history:hover{
 }
 
 #stops-timeline-text {
-  height: 50%;
+  height: 60%;
   width: 90%;
   font-family: "Quicksand", sans-serif;
 }
@@ -183,18 +187,22 @@ a.history:hover{
 /* Quotes */
 
 .quotee {
-  font-size: small;
+  font-size: 1.5vh;
   text-align: center;
 }
 
 .quote {
-  font-size: medium;
+  font-size: 2vh;
   text-align: center;
 }
 
 .quote-header {
   text-align: center;
   font-weight: bold;
+}
+
+#quotes h4 {
+  font-size: 3vh;
 }
 
 /* Testimonial */
@@ -209,10 +217,15 @@ a.history:hover{
 Victims Vis Styles
  */
 
- .victims-text {
-   text-anchor: middle;
-   font-size: large;
- }
+.victims-text {
+  text-anchor: middle;
+  font-size: large;
+}
+
+#victims-supplementary-text {
+  font-weight: bold;
+  height: 10px;
+}
 
 #victims-vis {
   width: 100%;
@@ -317,4 +330,21 @@ h1{
 p {
   color: black;
   text-align: center;
+}
+
+
+/* Youtube Video Styles */
+
+.iframe-container{
+  position: relative;
+  width: 100%;
+  padding-bottom: 23%; 
+  height: 0;
+}
+.iframe-container iframe{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
 }
