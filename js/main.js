@@ -153,15 +153,27 @@ selectPrecinct.addEventListener('change', (event) => {
   }
 });
 
+// Listeners for active button behavior
 $(".victims-filter").click(function(){
   $(".victims-filter").removeClass("active")
   $(this).toggleClass("active");
 });
+
 $(".vis-4-race").click(function(){
   $(".vis-4-race").removeClass("active")
   $(this).toggleClass("active");
 });
+
 $(".vis-4-bor").click(function(){
   $(".vis-4-bor").removeClass("active")
   $(this).toggleClass("active");
 });
+
+$(".historyImgContainer").hover(function(){
+  $(".history-button").removeClass("active")
+  $(this.children[1].children).toggleClass("active");
+},
+function () {
+  $(".history-button").removeClass("active")
+});
+
