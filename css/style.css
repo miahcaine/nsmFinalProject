@@ -2,7 +2,7 @@
 
 .footer {
   position: absolute; 
-  bottom: 0; 
+  bottom: 20px;  
   width:100%; 
   font-size: 1vw;
 }
@@ -19,10 +19,6 @@
   height: 90%;
   position: relative;
 }
-
-/* .next-section-button {
-  margin: 16px;
-} */
 
 /* Title Page Styles */
 
@@ -114,7 +110,7 @@ a.history{
   font-family: "Quicksand", sans-serif;
 }
 
- /*  Map / Timeline Vis Styles */
+ /*  Map + Timeline Vis Styles */
 .map-vis {
     width: 100%;
     height: 100%;
@@ -210,13 +206,7 @@ a.history{
   font-size:1.5vw;
 }
 
-#quotes .footer {
-  bottom: 20px; 
-}
-
- /* 
-Victims Vis Styles
- */
+ /* Victims Vis Styles */
 
 .victims-text {
   text-anchor: middle;
