@@ -1,5 +1,5 @@
 /* * * * * * * * * * * * * *
-*          TimelineVis          *
+*        TimelineVis       *
 * * * * * * * * * * * * * */
 
 
@@ -10,12 +10,14 @@ class TimelineVis {
         this.data = data;
         this.displayData = data;
 
+        // Data formatters
         this.parseDate = d3.timeParse("%m%d%Y");
         this.parseDateSlash = d3.timeParse("%m/%d/%Y");
         this.formatTime = d3.timeFormat("%m/%d/%Y");
-
-        this.colorGradient = d3.scaleSequential(d3.interpolateBlues);
         this.formatThousands = d3.format(",");
+
+        // Colors
+        this.colorGradient = d3.scaleSequential(d3.interpolateBlues);
 
         this.initVis()
     }
@@ -59,7 +61,6 @@ class TimelineVis {
             .scale(vis.y)
             .ticks(5)
             
-
         vis.svg.append("g")
 			.attr("class", "x-axis axis")
 			.attr("transform", "translate(0," + vis.height + ")");
@@ -68,6 +69,13 @@ class TimelineVis {
 			.attr("class", "y-axis axis");
 
         vis.pct = undefined
+
+        // SVG area path generator
+        vis.area = d3.area()
+            .curve(d3.curveCardinal)
+			.x(function(d) { return vis.x(d.key); })
+			.y0(vis.height)
+			.y1(function(d) { return vis.y(d.value); });
     
         vis.wrangleData()
 
@@ -75,7 +83,6 @@ class TimelineVis {
 
     wrangleData(){
         let vis = this;
-        console.log("Timeline Vis Wrangle Data")
 
         // group data together
         vis.groupedData = []
@@ -93,34 +100,10 @@ class TimelineVis {
             }
         }
         
-
-        // // consolidate by date
-        // let countDataByDate = d3.rollup(vis.groupedData,leaves=>leaves.length,d=>vis.formatTime(d.dateStop))
-        // vis.countDataByDate = Array.from(countDataByDate, ([key, value]) => ({key, value}))
-
-		// // (2) Sort data by day
-		// for (let i = 0; i < vis.countDataByDate.length; i++) {
-        //     vis.countDataByDate[i].key = vis.parseDateSlash(vis.countDataByDate[i].key)
-			
-        // }
-        
-        // // filter out bad values
-        // vis.countDataByDate = vis.countDataByDate.filter(function(value, index, arr){ 
-        //     let minDate = vis.parseDateSlash("01/01/2003")
-        //     let maxDate = vis.parseDateSlash("12/31/2016")
-        //     return value.key >= minDate && value.key <= maxDate;
-        // });
-
-        // vis.countDataByDate.sort(function(a, b){return a.key - b.key});
-
-        // consolidate data by year
+        // consolidate data by year and sort
         let countDataByYear = d3.rollup(vis.groupedData,leaves=>leaves.length,d=>+d.year)
         vis.countDataByYear = Array.from(countDataByYear, ([key, value]) => ({key, value}))
 
-        // //  Sort data by day
-		// for (let i = 0; i < vis.countDataByYear.length; i++) {
-        //     vis.countDataByYear[i].key = vis.countDataByYear[i].key     
-        // }
         vis.countDataByYear = vis.countDataByYear.filter(function(value, index, arr){ 
             let minDate = 2003
             let maxDate = 2016
@@ -129,27 +112,16 @@ class TimelineVis {
 
         vis.countDataByYear.sort(function(a, b){return a.key - b.key});
 
-        
-
+        // Update Visualization
         vis.updateVis()
     }
-
-
 
     updateVis(){
         let vis = this;
 
-        
         // Scales and axes
 		vis.x.domain(d3.extent(vis.countDataByYear, function(d) { return d.key; }));
 		vis.y.domain([0, d3.max(vis.countDataByYear, d=>d.value)])
-
-		// SVG area path generator
-        vis.area = d3.area()
-            .curve(d3.curveCardinal)
-			.x(function(d) { return vis.x(d.key); })
-			.y0(vis.height)
-			.y1(function(d) { return vis.y(d.value); });
 
         // Draw area by using the path generator
         vis.svg.selectAll("path").remove()
@@ -162,29 +134,14 @@ class TimelineVis {
             .duration(2500)
 			.attr("d", vis.area);
 
-		// // Initialize brush component
-		// vis.brush = d3.brushX()
-		// 	.extent([[0,0], [vis.width, vis.height]])
-		// 	.on("brush", brushed)
-
-		// // Append brush component here
-		// vis.svg.append("g")
-		// 	.attr("class", "x brush")
-		// 	.call(vis.brush)
-		// .selectAll("rect")
-		// 	.attr("y", -6)
-		// 	.attr("height", vis.height + 7)
-
-
 		// Append x-axis
 		vis.svg.select('.x-axis')
 			.call(vis.xAxis);
 
 		vis.svg.select('.y-axis')
-            .call(vis.yAxis);
-            
+            .call(vis.yAxis);        
 
-    //     define tooltipElement
+        // define tooltipElement
         let tooltipElements = vis.svg.append("g")
             .attr("class", "tooltip-group")
             .style("display", 'none');
@@ -220,41 +177,44 @@ class TimelineVis {
                 mousemove(event)
             })
     
-    // function that moves the tooltip position to its most accurate spot
-    function mousemove(event) {
+        // function that moves the tooltip position to its most accurate spot
+        function mousemove(event) {
 
-        // get index of the current x position
-        let xPos = d3.pointer(event)[0]
-        let date = vis.x.invert(xPos)
-        let dateParsed = parseInt(vis.x.invert(xPos))
+            // get index of the current x position
+            let xPos = d3.pointer(event)[0]
+            let date = vis.x.invert(xPos)
+            let dateParsed = parseInt(vis.x.invert(xPos))
 
-        // draw new line and render new text
-        line.attr("x1", vis.x(date))
-            .attr("x2", vis.x(date))
-        
-        let yearBase = 2003
-        if (+vis.pct === 121) {
-            yearBase = 2013
+            // draw new line and render new text
+            line.attr("x1", vis.x(date))
+                .attr("x2", vis.x(date))
+            
+            // define base year (precinct 121 is an outlier)
+            let yearBase = 2003
+            if (+vis.pct === 121) {
+                yearBase = 2013
+            }
+
+            // Add text to tooltip
+            stopsText.text(vis.formatThousands(vis.countDataByYear[dateParsed - yearBase].value) + " stops")
+                    .attr('x', vis.x(date) + 10)
+                    .attr('y', 10)
+
+            yearText.text(dateParsed)
+                        .attr('x', vis.x(date) + 10)
+                        .attr('y', 30)
         }
 
-        stopsText.text(vis.formatThousands(vis.countDataByYear[dateParsed - yearBase].value) + " stops")
-                .attr('x', vis.x(date) + 10)
-                .attr('y', 10)
-
-        yearText.text(dateParsed)
-                    .attr('x', vis.x(date) + 10)
-                    .attr('y', 30)
     }
 
-
-        }
-
+    // Update Visualization by Precinct
     updateByPrecinct(pct) {
         let vis = this;
 
         vis.displayData = []
         vis.pct = pct
 
+        // Filter Data
         for(let i=0; i < vis.data.length; i++) {
             let dataByYear = vis.data[i]
 
@@ -266,6 +226,7 @@ class TimelineVis {
 
         }
        
+        // Update axes, title, disclaimer
         if (+pct === 121) {
             vis.xAxis
                 .ticks(4)
@@ -283,16 +244,20 @@ class TimelineVis {
 
     }
 
+    // Reset Visualization
     resetVis() {
 
         let vis = this;
 
+        // Reset data, precinct, axes, title, disclaimer
         vis.displayData = vis.data
         vis.pct = undefined
         vis.xAxis
             .ticks(vis.displayData.length)
         vis.title.text("Daily Number of Stops")
         d3.select("#disclaimerPrecinct121").text("")
+
+
         vis.wrangleData()
         
     }

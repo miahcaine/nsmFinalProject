@@ -46,7 +46,6 @@ class MapVis {
 
     wrangleData(){
         let vis = this;
-        console.log('Map Vis Wrangle Data')
 
         // group data together
         vis.groupedData = []
@@ -103,11 +102,11 @@ class MapVis {
 
         vis.precinctNames = vis.precinctNames.sort(function(a, b){return a - b});
 
+        // Map Precinct to Borough
         vis.precinctToBorough = {}
         for (let i = 0; i < vis.precinctByBorough.length; i++) {
             vis.precinctToBorough[vis.precinctByBorough[i].pct] = vis.precinctByBorough[i].borough;
         }
-
 
         // Update Vis
         vis.updateVis()
@@ -118,11 +117,10 @@ class MapVis {
     updateVis(){
         let vis = this;
 
-        console.log('Map Vis Update Vis')
-
         // Keep track of precinct layers
         vis.layers = {};
 
+        // Draw precincts
         vis.precincts = L.geoJson(vis.precinctData, {
             style: stylePrecinct,
             weight: 5,
@@ -207,9 +205,7 @@ class MapVis {
 
             // If there is a currently selected precinct update the displating information
             if (vis.currSelected) {
-
                 vis.info.update(vis.layers[vis.currSelected].feature.properties);
-
             }
         }
 
@@ -252,26 +248,27 @@ class MapVis {
         
         vis.legend.addTo(vis.map);
 
-        // Update Select Box
+        //  Select Box
         let html = '<option value="all">All Precincts</option>'
 
         for (let i = 0; i < vis.precinctNames.length; i++) {
             html += '<option value="' + vis.precinctNames[i] + '">' + vis.precinctNames[i] + ' - ' + vis.precinctToBorough[vis.precinctNames[i]] +'</option>';
         }
 
-
         d3.select('#precinctSelect').html(html);
         
-        }
+    }
 
-    
+    // highlight precinct when user selects via select box
     hightlightCurrentSelection(pct){
         let vis = this;
 
+        // if previous selection, remove highlight
         if (vis.prevHighlight) {
             vis.precincts.resetStyle(vis.layers[vis.prevHighlight]);
         } 
         
+        // udpate variables to keep track of selected precinct
         vis.prevHighlight = pct
         vis.currSelected = pct
 
@@ -289,6 +286,7 @@ class MapVis {
         vis.info.update(vis.layers[pct].feature.properties);
     }
 
+    // reset map when user clicks "all precincts" via select box
     resetMap() {
 
         let vis = this;
@@ -298,22 +296,6 @@ class MapVis {
         } 
 
         vis.info.update();
-
-    }
-
-    onUpdateByYear(selectionDomain) {
-        let vis = this
-        let yearBegin = parseInt(selectionDomain[0])
-        let beginIndex = yearBegin - 2003
-        let yearEnd = parseInt(selectionDomain[1])
-        let endIndex = yearEnd - 2003
-
-        vis.displayData = vis.stopsData.slice(beginIndex, endIndex + 1)
-
-        vis.map.removeControl(vis.info);
-        vis.map.removeControl(vis.legend);
-
-        vis.wrangleData()
 
     }
             
