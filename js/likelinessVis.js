@@ -26,7 +26,8 @@ class LikelinessVis {
       .select(`#${vis.parentElement}`)
       .append("svg")
       .attr("width", vis.width)
-      .attr("height", vis.height);
+      .attr("height", vis.height)
+      .call(responsivefy);
 
     vis.wrangleData(vis.race, vis.age, vis.sex, vis.build, false);
   }

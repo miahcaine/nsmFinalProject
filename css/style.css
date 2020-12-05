@@ -7,7 +7,7 @@
   font-size: 1vw;
 }
 .section {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   position: relative;
   padding-left: 3vw;
@@ -20,9 +20,9 @@
   position: relative;
 }
 
-.next-section-button {
+/* .next-section-button {
   margin: 16px;
-}
+} */
 
 /* Title Page Styles */
 
@@ -313,6 +313,9 @@ span {
 #likeliness-vis {
   height: 70vh;
   /* width: 30vw; */
+}
+#likeliness-vis h1{
+  font-size: 4em;
 }
 
 body {
