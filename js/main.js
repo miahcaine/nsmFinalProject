@@ -1,43 +1,48 @@
-let boroughBubbles, sfBubbles, likelinessVis;
+let boroughBubbles, sfBubbles, likelinessVis, myRadialVis,
+myMapVis, myVictimsVis, stopsTimelineVis, stopBubbles;
 
-function changeBubbles(){
-  testCount++;
-  boroughBubbles.wrangleData(testCount%5, true);
-}
+let globalData, precinctData, stopsData, crimeNumbersData,
+NYCPopulationData, populationData
 
-function Vis1() {
+// Load Visualizations
+function showRadialVis() {
     myRadialVis = new RadialVis('radial-vis', stopsData, crimeNumbersData, NYCPopulationData)
 }
     
-function showVis2() {
+function showTimelineMapVis() {
     myMapVis = new MapVis('map-vis', precinctData, stopsData, [40.741895, -73.989308])
     stopsTimelineVis = new TimelineVis('stops-timeline-vis', stopsData)
 }
 
-function showVis3() {
+function showVictimsVis() {
     myVictimsVis = new VictimsVis('victims-vis', globalData);
 }
 
-function updateVis3(selectedValue) {
-  myVictimsVis.updateBySelectedValue(selectedValue)
-}
-
-function showVis4() {
+function showBubblesVis() {
   boroughBubbles = new DemographicBubbles("borough-bubbles", populationData, "borough-perc", false);
   stopBubbles = new DemographicBubbles("sf-bubbles", stopsData, "sf-perc", true);
 }
 
-function showVis5(){
+function showLikelinessVis(){
   likelinessVis = new LikelinessVis("likeliness-vis", stopsData);
 }
 
-function updateVis5 (){
+// Update Visualizations
+
+function updateVictimsVis(selectedValue) {
+  myVictimsVis.updateBySelectedValue(selectedValue)
+}
+
+function updateLikelinessVis (){
   var race = document.getElementById("race-select").value;
   var age = document.getElementById("age-select").value;
   var sex = document.getElementById("sex-select").value;
   var build = document.getElementById("build-select").value;
   likelinessVis.wrangleData(race, age, sex, build, true);
 }
+
+
+// Helpfer Functions
 
 function cleanRow(row){
   row["Age Group Code"] = +row["Age Group Code"];
@@ -47,6 +52,11 @@ function cleanRow(row){
   row["Race Ethnicity Code"] = +row["Race Ethnicity Code"];
   row["Year"] = +row["Year"];
   return row;
+}
+
+function changeBubbles(){
+  testCount++;
+  boroughBubbles.wrangleData(testCount%5, true);
 }
 
 function changeRace(code, type){
@@ -65,8 +75,10 @@ function hideDataLoader() {
 
 // load data using promises
 let promises = [
+    // precinct data
     d3.json("sf_data/precinct/precincts.json"),
     d3.csv("sf_data/precinct/precincts.csv"),
+    // stops data
     d3.csv("sf_data/stops/2003.csv"),
     d3.csv("sf_data/stops/2004.csv"),
     d3.csv("sf_data/stops/2005.csv"),
@@ -99,31 +111,19 @@ let promises = [
 
 Promise.all(promises)
     .then( function(data){
-        initMainVis(data)
-        Vis1();
-        showVis2();
-        showVis3();
-        showVis4();
-        showVis5();
+        InitDataArrays(data)
+        showRadialVis();
+        showTimelineMapVis();
+        showVictimsVis();
+        showBubblesVis();
+        showLikelinessVis();
         hideDataLoader();
     })
     .catch( function (err){console.log(err)} );
 
-let globalData = []
-let precinctData = []
-let stopsData = []
-let crimeNumbersData = []
-let NYCPopulationData;
-let populationData;
-let myRadialVis;
 
-// nneka's vis
-let myMapVis, 
-myVictimsVis,
-stopsTimelineVis,
-stopBubbles;
+function InitDataArrays(dataArray) {
 
-function initMainVis(dataArray) {
     globalData = dataArray
 
     precinctData = dataArray.slice(0,2)
@@ -153,6 +153,10 @@ selectPrecinct.addEventListener('change', (event) => {
   }
 });
 
+$(".victims-filter").click(function(){
+  $(".victims-filter").removeClass("active")
+  $(this).toggleClass("active");
+});
 $(".vis-4-race").click(function(){
   $(".vis-4-race").removeClass("active")
   $(this).toggleClass("active");
@@ -161,13 +165,3 @@ $(".vis-4-bor").click(function(){
   $(".vis-4-bor").removeClass("active")
   $(this).toggleClass("active");
 });
-
-// React to 'brushed' event and update all bar charts
-function brushed() {
-	
-	let selectionRange = d3.brushSelection(d3.select(".brush").node());
-  let selectionDomain = selectionRange.map(stopsTimelineVis.x.invert)
-  
-	myMapVis.onUpdateByYear(selectionDomain)
-
-}

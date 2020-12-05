@@ -1,3 +1,11 @@
+/* General Styles */
+
+.footer {
+  position: absolute; 
+  bottom: 20px;  
+  width:100%; 
+  font-size: 1vw;
+}
 .section {
   height: 80vh;
   width: 100%;
@@ -11,10 +19,6 @@
   height: 90%;
   position: relative;
 }
-
-/* .next-section-button {
-  margin: 16px;
-} */
 
 /* Title Page Styles */
 
@@ -34,7 +38,7 @@
   100% { transform: rotate(360deg); }
 }
 
-/* History Slides */
+/* History Sections */
 
 .intro-history {
   text-align: center;
@@ -52,7 +56,7 @@
   font-size:3vw;
 }
 
-/*Image Styling*/
+/* Image Styling For History Sections*/
 .historyImgContainer {
   position: relative;
   width: 100%;
@@ -95,16 +99,18 @@ a.history{
   /* text-shadow: 0 0 3px Black; */
 }
 
-
-
 .historyImgRow{
   padding-top: 20px;
   padding-bottom: 5px;
 }
 
- /* 
- Map / Timeline Vis Styles
- */
+/* Radial Plot Styles */
+#vis-1 {
+  font-size: 18px;
+  font-family: "Quicksand", sans-serif;
+}
+
+ /*  Map + Timeline Vis Styles */
 .map-vis {
     width: 100%;
     height: 100%;
@@ -132,11 +138,6 @@ a.history{
 
 #precinctSelect {
   width: fit-content;
-}
-
-#vis-1 {
-    font-size: 18px;
-    font-family: "Quicksand", sans-serif;
 }
 
 .legend {
@@ -187,12 +188,12 @@ a.history{
 /* Quotes */
 
 .quotee {
-  font-size: 1.5vh;
+  font-size: 1vw;
   text-align: center;
 }
 
 .quote {
-  font-size: 2vh;
+  font-size: 1.1vw;
   text-align: center;
 }
 
@@ -202,20 +203,10 @@ a.history{
 }
 
 #quotes h4 {
-  font-size: 3vh;
+  font-size:1.5vw;
 }
 
-/* Testimonial */
-
-#testimonial-text {
-  margin-top: auto;
-  margin-bottom: auto;
-}
-
-
- /* 
-Victims Vis Styles
- */
+ /* Victims Vis Styles */
 
 .victims-text {
   text-anchor: middle;
@@ -242,12 +233,6 @@ Victims Vis Styles
   width: 50%;
 }
 
-#demographic-buttons {
-  height: 75%;
-  width: 50%;
-}
-
-
 #vis-3 .row {
   width: 100%;
   height: 70%;
@@ -264,11 +249,15 @@ Victims Vis Styles
   font-size: medium;
   font-weight: lighter;
 }
-/* #hook-sec {
-  display: none;
-} */
 
-/* vis 5 and 6 styles */
+/* DEMOGRAPHIC BUBBLES VIS and LIKELINESS VIS */
+
+
+#demographic-buttons {
+  height: 75%;
+  width: 50%;
+}
+
 #population-sec,
 #likeliness-sec {
   font-family: "Quicksand", sans-serif;
@@ -350,4 +339,9 @@ p {
   left: 0;
   width: 100%;
   height: 100%;
+}
+
+#testimonial-text {
+  margin-top: auto;
+  margin-bottom: auto;
 }
