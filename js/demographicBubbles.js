@@ -34,7 +34,8 @@ class DemographicBubbles {
       .select(`#${vis.parentElement}`)
       .append("svg")
       .attr("width", vis.width)
-      .attr("height", vis.height);
+      .attr("height", vis.height)
+      .call(responsivefy);
 
 
     vis.wrangleData(vis.raceCode, vis.boroughCode, false);
