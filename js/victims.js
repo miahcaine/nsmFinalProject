@@ -1,5 +1,5 @@
 /* * * * * * * * * * * * * *
-*      class VictimsVis        *
+*        VictimsVis        *
 * * * * * * * * * * * * * */
 
 
@@ -8,15 +8,11 @@ class VictimsVis {
     constructor(parentElement, dataArray) {
         this.parentElement = parentElement;
         this.dataSets = dataArray;
-
         this.initVis()
-
     }
 
     initVis(){
         let vis = this;
-
-        console.log("Init Victims Vis")
 
         vis.margin = {top: 20, right: 20, bottom: 20, left: 20};
         vis.width = $("#" + vis.parentElement).width() - vis.margin.left - vis.margin.right;
@@ -29,9 +25,11 @@ class VictimsVis {
             .attr("class", "bubble")
             .call(responsivefy)
 
-        vis.selected = 'allstops'
-
+        // Define number of nodes
         vis.totalNodes = 1000
+
+        // Default to show all nodes
+        vis.selected = 'allstops'
 
         this.wrangleData();
     }
@@ -39,6 +37,7 @@ class VictimsVis {
     wrangleData(){
         let vis = this
 
+        // Initialize mappings to count by each demographic
         vis.countBySex = {}
         vis.countByRace = {}
         vis.countByAge = {}
@@ -53,11 +52,13 @@ class VictimsVis {
         vis.countByBuild = {}
         vis.totalVictims = 0
 
+        // Go through data and populate dictionaries
         for(let i=0; i < vis.dataSets.length; i++) {
             let dataByYear = vis.dataSets[i]
 
             for(let j=0; j < dataByYear.length; j++) {
 
+                // Sex
                 let sex = dataByYear[j].sex
                 if (vis.countBySex.hasOwnProperty(sex)) {
                     vis.countBySex[sex] += 1
@@ -65,6 +66,7 @@ class VictimsVis {
                     vis.countBySex[sex] = 1
                 }
 
+                // Race
                 let race = dataByYear[j].race
                 if (vis.countByRace.hasOwnProperty(race)) {
                     vis.countByRace[race] += 1
@@ -72,6 +74,7 @@ class VictimsVis {
                     vis.countByRace[race] = 1
                 }
 
+                // Age
                 let age = +dataByYear[j].age
                 switch(true) {
                     case age <= 17 && age >= 12:
@@ -94,6 +97,7 @@ class VictimsVis {
                       break;
                 }
 
+                // Build
                 let build = dataByYear[j].build
                 if (vis.countByBuild.hasOwnProperty(build)) {
                     vis.countByBuild[build] += 1
@@ -101,14 +105,14 @@ class VictimsVis {
                     vis.countByBuild[build] = 1
                 }
 
+                // Increment Total Victims Count
                 vis.totalVictims += 1
-
+                
             }
-
         }
 
 
-        // some data cleaning
+        // some data cleaning - consolidate undefined / missing / other entries
         vis.countBySex["Z"] += vis.countBySex[" "]
         vis.countBySex["Z"] += vis.countBySex[undefined]
         delete vis.countBySex[" "]
@@ -133,7 +137,9 @@ class VictimsVis {
             .range([0, vis.totalNodes])
             .domain([0, vis.totalVictims])
 
-        vis.sexPacks = []
+        // Create arrays (of size 1000) for each statistic: each element corresponds to a trait: ex: ["M", "F", "M", "F"]
+
+        // Create array for sex
         vis.sexArr = []
         for (let property in vis.countBySex) {
             let count = Math.round(vis.scale(vis.countBySex[property]))
@@ -143,45 +149,33 @@ class VictimsVis {
                 countArr.push({"sex": property})
                 vis.sexArr.push(property)
             }
-            vis.sexPacks.push(countArr)
-            
         }
 
-        vis.racePacks = []
+        // Create array for race
         vis.raceArr = []
-        let numRace = 0
-        
         for (let property in vis.countByRace) {
-            numRace += 1
             let count = Math.round(vis.scale(vis.countByRace[property]))
             vis.countByRace[property] = count
             let countArr = []
             for (let i = 0; i < count; i++ ) {
                 countArr.push({"race": property})
                 vis.raceArr.push(property)
-            }
-            vis.racePacks.push(countArr)
-            
+            }    
         }
 
-        vis.ageRangePacks = []
+        // Create array for age range
         vis.ageRangeArr = []
-        let numAges = 0
         for (let property in vis.countByAgeRange) {
-            numAges += 1
-
             let count = Math.round(vis.scale(vis.countByAgeRange[property]))
             vis.countByAgeRange[property] = count
             let countArr = []
             for (let i = 0; i < count; i++ ) {
                 countArr.push({"ageRange": property})
                 vis.ageRangeArr.push(property)
-            }
-            vis.ageRangePacks.push(countArr)
-            
+            }   
         }
 
-        vis.buildPacks = []
+        // Create array for build
         vis.buildArr = []
         for (let property in vis.countByBuild) {
             let count = Math.round(vis.scale(vis.countByBuild[property]))
@@ -190,14 +184,12 @@ class VictimsVis {
             for (let i = 0; i < count; i++ ) {
                 countArr.push({"build": property})
                 vis.buildArr.push(property)
-            }
-            vis.buildPacks.push(countArr)
-            
+            }  
         }
-
+        // Some more data cleaning
         vis.buildArr.push("U")
 
-        // initialize first 1000 nodes
+        // initialize first 1000 nodes using first data structure
         vis.nodes = [[]]
 
         for (let i = 0; i < vis.totalNodes; i++) {
@@ -211,19 +203,19 @@ class VictimsVis {
             })
         }
 
-        vis.jitter = 0.6; // This will make sure that events happening in the same location will not overlap completely
+        // Variables for bubble pack vis -> helps randomizee te look
         vis.normaldist = Math.random
-        
 
         // init Vis
         vis.pack = d3.pack()
             .size([vis.width, vis.height])
             .padding(1.5)
 
+        // Data for each node
         vis.nodesData = d3.hierarchy({children: vis.nodes[0]})
             .sum(function(d){return 1+vis.normaldist();});
 
-
+        // Draw each node
         vis.realNodes = vis.svg.selectAll(".classallstopsall")
             .data(vis.pack(vis.nodesData).descendants().slice(1), function(d){return d.id})
             .enter()
@@ -245,6 +237,7 @@ class VictimsVis {
             })
 
 
+        // Define sizes for each circle pack and size between each circle pack for data structure beloew
         let sizesBySex = [[vis.height * 0.85,vis.height* 0.85], [vis.height* .25 ,vis.height* .25], [vis.height* .18,vis.height* .18]]
         let sizesByRace = [[vis.height * 0.18,vis.height*0.18], [vis.height * 0.7,vis.height*0.7], [vis.height * 0.07,vis.height*0.07],
                 [vis.height * 0.24,vis.height*0.24], [vis.height *0.45,vis.height*0.45], [vis.height *0.3,vis.height*0.3], 
@@ -260,6 +253,9 @@ class VictimsVis {
         let sizeBtwnSex = 150
 
         // initialize data structure to aid in visualizations
+
+        // for each statistic, need to record categories, size of each bubble, location of each bubble, label names, count, 
+        // supplementary text, and other stuff
         vis.graphinformation = {
             "sex": {
                 categories: ["M", "F", "Z"],
@@ -273,7 +269,6 @@ class VictimsVis {
                     F: [sizesBySex[0][0] + sizeBtwnSex,vis.height - sizesBySex[1][0]],
                     Z: [sizesBySex[0][0] + sizesBySex[1][0] + (sizeBtwnSex * 2),vis.height - sizesBySex[2][0]],
                 },
-                data: vis.sexPacks,
                 indices: {
                     0: "M", 
                     1: "F",
@@ -300,7 +295,6 @@ class VictimsVis {
                 transform: {
                     all: [(vis.width / 2) - (vis.height / 2),vis.height * 0.15]
                 },
-                data: vis.nodes,
                 indices: {
                     0: "all"
                 },
@@ -332,7 +326,6 @@ class VictimsVis {
                     W: [sizesByRace[1][0] + sizesByRace[4][0] + (sizeBtwnRace * 2),vis.height - sizesByRace[5][0]],
                     Z: [sizesByRace[1][0] + sizesByRace[4][0] + sizesByRace[5][0] + sizesByRace[3][0] + (sizeBtwnRace * 4),vis.height - sizesByRace[6][0]],
                 },
-                data: vis.racePacks,
                 indices: {
                     0: "A", 
                     1: "B",
@@ -384,7 +377,6 @@ class VictimsVis {
                                 + (sizeBtwnAge * 5),vis.height - sizesByAgeRange[5][0]],
 
                 },
-                data: vis.ageRangePacks,
                 indices: {
                     0: "12_17", 
                     1: "18_30",
@@ -428,7 +420,6 @@ class VictimsVis {
                     "U": [sizesByBuild[3][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + (sizeBtwnBuild * 3.25),vis.height - (sizesByBuild[3][0] * 1.5)],
                     "Z": [sizesByBuild[3][0] + sizesByBuild[2][0] + sizesByBuild[0][0] + sizesByBuild[3][0] + (sizeBtwnBuild * 4), vis.height - (sizesByBuild[4][0] )],
                 },
-                data: vis.buildPacks,
                 indices: {
                     0: "H", 
                     1: "M",
@@ -453,32 +444,38 @@ class VictimsVis {
                 text: "More than half of those stopped had a medium body composition."
             }
         };
-       
 
+        // Update Vis
         vis.updateVis()
 
     }
 
 
-
-
     updateVis(){
         let vis = this;
 
-    
-        // clear current text
+        // clear all current text
         vis.svg.selectAll(".label-dem").text("")
         vis.svg.selectAll('.label-dem').remove();
         vis.svg.selectAll('.label-dem-number').remove();
+
+        // determine categories
         let categories = vis.graphinformation[vis.selected].categories
 
+        // Foor each category (bubble):
+        // 1. Draw circles
+        // 2. Move bubble to prooper location
+        // 3. Draw labels
         categories.forEach((name, index) => {
 
+            // Determine bubble size
             vis.pack.size(vis.graphinformation[vis.selected].size[name]);
 
+            // define nodes
             let nodes = d3.hierarchy({children: vis.nodes[0].filter(function(d){return d[vis.selected]==(vis.selected+name)})})
                 .sum(function(d){return 1+vis.normaldist();});
 
+            // transition nodes
             vis.svg.selectAll(".class"+vis.selected+name)
                 .data(vis.pack(nodes).descendants().slice(1))
                 .transition()
@@ -497,9 +494,9 @@ class VictimsVis {
                             ","+vis.graphinformation[vis.selected].transform[name][1]+")";
                         })
 
+            // Draw labels
             let labelNames = vis.graphinformation[vis.selected].names[name]
             let showText = vis.selected !== "allstops"
-
 
             for (let i = 0; i < labelNames.length; i++) {
                 vis.svg
@@ -509,8 +506,7 @@ class VictimsVis {
                     .attr("y", (vis.graphinformation[vis.selected].transform[name][1] - (20 * (i + 2)) ))
                     .transition()
                     .delay(1100)
-                    .text(showText ? labelNames[i] : "");
-                
+                    .text(showText ? labelNames[i] : "");  
             }
 
             vis.svg
@@ -522,9 +518,9 @@ class VictimsVis {
                 .delay(1100)
                 .text(showText ? ((vis.graphinformation[vis.selected].sum[name] * 100) / vis.totalNodes) + "%" : "");
 
-
         });
 
+        // Draw supplementary text after bubbles are placed
         d3.select('#victims-supplementary-text').text(" ");
         d3.select("#victims-supplementary-text")
             .transition()
@@ -536,11 +532,10 @@ class VictimsVis {
 
     updateBySelectedValue(selectedValue) {
         let vis = this;
+        
+        // Get selected value and update vis
         vis.selected = selectedValue
-
         vis.updateVis()
     }
-
-
 
 }
