@@ -1,260 +1,583 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Stop and Frisk Final Project</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stop and Frisk Final Project</title>
 
-		<!-- Load CSS libraries -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-        <link rel="stylesheet" href="css/style.css">
-        <link rel="stylesheet" href="css/leaflet.css">
+    <!-- Load CSS libraries -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/leaflet.css">
+    <link rel="stylesheet" href="css/fullpage.css">
 
-        <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
+            rel="stylesheet"
     />
 
-		<!-- GOOGLE FONTS -->
-		<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic' rel='stylesheet' type='text/css'>
-	</head>
+    <!-- GOOGLE FONTS -->
+    <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,400italic,300italic' rel='stylesheet' type='text/css'>
+</head>
 
-	<body>
-    <!--  -->
-    
-      
-        <!--  -->
-        <div id="timeline-sec" class="section">
-            <h1>Vis 1</h1>
-            <div id="vis-1" class="vis-container">
-                <div class="row">
-                    <div id="radial-vis" class="col-6">
+<body>
+<div id="fullpage">
+    <!-- TITLE PAGE -->
+    <div id="title-page" class="section description">
+        <h1 class="title-header"> Stop, Question, and Frisk in New York City </h1>
+        <div id='data-loading-section'>
+            <br>
+            <div class="loader"></div>
+            <br>
+            <p> Data is loading. </p>
+        </div>
+    </div>
+
+    <!-- HISTORY OF CRIME AND STOP AND FRISK -->
+    <div id="title-page" class="section description">
+        <div class="history-sec">
+            <h1>What is Stop, Question, and Frisk?</h1>
+            <br>
+            <h4>
+                Stop, Question, and Frisk, also known by Stop and Frisk, is the police practice of stopping those suspected of having committed,
+                are currently commited, or are about to commit a crime. Several things can happen for the duration of a stop like
+                some questioning, a light frisk on the outside of the body, a full on search of the person and their belongings, and an ultimate
+                arrest. The Predecessor to stop and frisk was the 1968 Supreme Court Case Terry v. Ohio, which ruled that police officers
+                do not need probable cause, but only reasonable suspicion to stop and question individuals. However, the introduction of CompStat
+                in the 1990s which was used to essentially “predict” where crime was most likely to occur changed the typically 'terry' stop. Whereas
+                before, police were required to let go people they had stopped with no subsequent search if further
+                questioning did not raise levels of suspicion, the new norm was to stop, question, frisk, and search potential criminals under
+                a police officers’ discretion.
+            </h4>
+            <div class="row justify-content-md-center historyImgRow">
+                <div class="col-md-3">
+                    <div class="historyImgContainer">
+                        <a href="https://www.oyez.org/cases/1967/67" target="_blank">
+                            <img src="img/warren.png" class="image" style="width:100%">
+                        </a>
+                        <div class="middle">
+                            <button type="button" class="btn btn-dark"><a class="history" href="https://www.oyez.org/cases/1967/67" target="_blank">Oyez:<br>Terry v. Ohio</a></button>
+                        </div>
                     </div>
-                    <div id="radialplot-descrip" class="col-6">
-                        <h1>Have Stop and Frisks Been Effective?</h1>
-                        Over 2003-2016, stop and frisks were most often conducted for criminal possession of a weapon,
+                </div>
+                <div class="col-md-3">
+                    <div class="historyImgContainer">
+                        <a href="https://nymag.com/intelligencer/2018/03/the-crime-fighting-program-that-changed-new-york-forever.html" target="_blank">
+                            <img src="img/nyc.png" class="image" style="width:100%">
+                        </a>
+                        <div class="middle">
+                            <button type="button" class="btn btn-dark"><a class="history" href="https://nymag.com/intelligencer/2018/03/the-crime-fighting-program-that-changed-new-york-forever.html" target="_blank">Intelligencer:<br>The Controversial Crime-Fighting Program That Changed Big-City Policing Forever</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer'>
+            Image Sources:
+            <a href= 'https://commons.wikimedia.org/wiki/File:Earl_Warren_(7222732764).jpg' target="_blank">
+                1
+            </a>
+            ,
+            <a href= 'https://commons.wikimedia.org/wiki/File:EmpireStateNewYokCity.jpg' target="_blank">
+                2
+            </a>
+        </div>
+    </div>
+
+
+    <!-- RADIAL PLOT -->
+    <div id="timeline-sec" class="section">
+        <div id="vis-1" class="vis-container">
+            <div class="row">
+                <div id="radial-vis" class="col-6">
+                </div>
+                <div id="radialplot-descrip" class="col-6">
+                    <h1>Have Stop and Frisks Been Effective?</h1>
+                    <p class="description-text">Over 2003-2016, stop and frisks were most often conducted for criminal possession of a weapon,
                         grand larceny, robbery, burglary, and criminal trespass. However, whether the
                         high frequency correlated with a corresponding decrease in respective crime rates
                         is still being discussed today. Interact with the slider below to see how rates for
-                        these top five crimes have changed, if at all, over the time period.
+                        these top five crimes have changed, if at all, over the time period.</p>
 
-                        <br><br><br>
+                    <br><br><br>
 
-                        <h2>Time</h2>
-                        <div class="row align-items-center">
-                            <div class="col-sm-2"><p id="value-time"></p></div>
-                            <div class="col-sm"><div id="slider-time"></div></div>
-                        </div>
+                    <h2>Time</h2>
+                    <div class="row align-items-center">
+                        <div class="col-sm-2"><p id="value-time"></p></div>
+                        <div class="col-sm-2"><div class ="slider" id="slider-time"></div></div>
                     </div>
-
                 </div>
-            </div>
-            <button class="next-section-button" id="show-vis-2" onclick="showVis2('map-sec')">Show Vis 2</button>
-        </div>
 
-        <div id="map-sec" class="section">
-            <div id="vis-2" class="vis-container">
-                <div class="row">
-                    <div id="map-vis" class="col-5"></div>
-                    <div class="col-7">
-                      <div id="stops-timeline-text">
-                        <h1>Where are these stops occurring? And how frequently?</h1>
-                        <h4>There were over 5 million stops between 2003 and 2016, peeking in 2011 as you can see by the timeline below.
-                          Some police precincts conducted more stops than others.
-                          Click on a precinct to show that precinct's timeline of stops, and hover over the timeline to see the 
-                          number of stops per year.
-                        </h4>
-                      </div>
-                      <div id="stops-timeline-vis"></div>
-                    </div>
-
-                  </div>
-            </div>
-            <button class="next-section-button" id="show-vis-4"  onclick="showVis4('victims-sec')">Show Vis 4</button>
-        </div>
-
-        <div id="victims-sec" class="section">
-            <div id="vis-4" class="vis-container">
-              <div id="victims-text">
-                <h1>Who was targeted?</h1>
-                <h4 class = "targeted-text">
-                  Though the 'intention' of stop and frisk was to find criminals, stop and frisk seemed to target particular demographics 
-                  while leaving other demographics relatively unaffected. Of the over 5 million stops between 2003 and 2016, let these 1000
-                  dots be representative of all of the stops. Click the buttons on the right to see how these 1000 dots are distributed
-                  based on a particular statistic.
-                </h4>
-              </div>
-            <div class="row">
-              <div id="victims-vis" class = "col-11"></div>
-              <div id="victims-buttons" class="col-1 btn-group-sm btn-group-vertical "> 
-                <button type="button" class="btn btn-dark" onclick="updateVis4('allstops')">All</button> 
-                <button type="button" class="btn btn-light" onclick="updateVis4('race')">Race</button>
-                <button type="button" class="btn btn-light" onclick="updateVis4('sex')">Sex</button>
-                <button type="button" class="btn btn-light" onclick="updateVis4('ageRange')">Age</button> 
-                <button type="button" class="btn btn-light" onclick="updateVis4('build')">Build</button>
-              </div>
-            </div>
-            </div>
-              <button class="next-section-button" id="show-vis-5" onclick="showVis5()">Show Vis 5</button>
             </div>
         </div>
-        <!-- TODO: ADD A BOROUGH SELECT -->
-        <div id="population-sec" class="section">
-                <h1>Total demographic vs. the demographic of Stop and Frisk stops</h1>
-                <div id="vis-5" class="vis-container">
-                  <!-- BOROUGH BUBBLES -->
-                  <div class="row">
-                    <div class="col-2" id="description-text"> In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons on the right to explore how the race of those stopped compare to the race in an entire borough. </div>
-                    <div class="col-6">
-                    <div class="row">
-                      <div class="col-8 bubbles" id="borough-bubbles"></div>
-                      <div class="col-3 description">
-                        <span class="bubble-description">
-                        <span id="borough-perc"></span>
-                        </span>
-                      </div>
-                    </div>
-                    
-                    <!-- STOP AND FRISK BUBBLES -->
-                    <div class="row">
-                      <div class="col-8 bubbles" id="sf-bubbles"></div>
-                      <div class="col-3 description">
-                          <span class="bubble-description"></span>
-                          <span id="sf-perc"></span>
-                      </div>
-                    </div>
-                    </div>
-                    <div id="demographic-buttons-1" class="col-2 btn-group-sm btn-group-vertical ">
-                        <!-- <button type="button" class="btn btn-dark" onclick="changeBubbles(0)">Total</button>  -->
-                        <button type="button" class="btn btn-light" onclick="changeRace(4)">Hispanic</button>
-                        <button type="button" class="btn btn-light" onclick="changeRace(2)">Black Non-Hispanic</button>
-                        <button type="button" class="btn btn-light" onclick="changeRace(1)">White Non-Hispanic</button> 
-                        <button type="button" class="btn btn-light" onclick="changeRace(3)">Other Non-Hispanic</button>
-                    </div>
-                    <div id="demographic-buttons-2" class="col-1 btn-group-sm btn-group-vertical ">
-                        <button type="button" class="btn btn-light" onclick="changeBorough(2)">Total</button> 
-                        <button type="button" class="btn btn-light" onclick="changeBorough(3)">Bronx</button>
-                        <button type="button" class="btn btn-light" onclick="changeBorough(4)">Brooklyn</button>
-                        <button type="button" class="btn btn-light" onclick="changeBorough(5)">Manhattan</button> 
-                        <button type="button" class="btn btn-light" onclick="changeBorough(6)">Queens</button>
-                        <button type="button" class="btn btn-light" onclick="changeBorough(7)">Staten Island</button>
-                    </div>
-                  </div>
-                  <button class="next-section-button" id="show-vis-6" onclick="showVis6()">Show Vis 6</button>
-                  <!-- <button class="next-section-button" onclick="changeBubbles()">Change Bubbles</button> -->
-                </div>
-                
-            </div>
-
-   <div id="likeliness-sec" class="section"> 
-      <h1>How do you compare to Stop and Frisk demographics?</h1>
-      <div id="vis-6" class="vis-container">
-        <!--    INTERACTIVE LIKELINESS VIS    -->
-        <div class="row">
-          <p class="description-text">
-            The 100 squares below represent all of the stops from 2003 to 2016. Enter a description of yourself
-             to see how you compare to the total amount of Stop and Frisk stops.
-          </p>
-          <p><span id="likeliness-perc"></span></p>
-        </div>
-        <div class="row likeliness">
-          <div class="col-9" id="likeliness-vis"></div>
-          <div class="col-3" id="likeliness-selectors">
-            <form name="likeliness-form" action="" method="GET">
-              <span class="selection-text">RACE</span>
-              <select id="race-select">
-                <option value="A">Asian/Pacific Islander</option>
-                <option value="B">Black</option>
-                <option value="I">Native American</option>
-                <option value="P">Black-Hispanic</option>
-                <option value="Q">White-Hispanic</option>
-                <option value="W">White</option>
-                <option value="Z">Other</option>
-              </select>
-              <br />
-              <span class="selection-text">AGE</span>
-              <select id="age-select">
-                <option value="0">12 - 17</option>
-                <option value="1">18 - 30</option>
-                <option value="2">31 - 45</option>
-                <option value="3">46 - 60</option>
-                <option value="4">61 - 80</option>
-              </select>
-              <br />
-              <span class="selection-text">SEX</span>
-              <select id="sex-select">
-                <option value="M">Male</option>
-                <option value="F">Female</option>
-              </select>
-              <br />
-              <span class="selection-text">BUILD</span>
-              <select id="build-select">
-                <option value="H">Heavy</option>
-                <option value="M">Medium</option>
-                <option value="T">Thin</option>
-                <option value="U">Muscular</option>
-              </select>
-              <br />
-              <input type="button" name="input-button" value="Update Likeliness" onclick="updateVis6(this.form)">
-            </form>
-          </div>
-        </div>
-      </div>
     </div>
 
-    <!-- embedding JS libraries -->
-    <script
-      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
-      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
-      crossorigin="anonymous"
-    ></script>
-    <script
-      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
-      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
-      crossorigin="anonymous"
-    ></script>
-    <script src="js/libraries/jquery.min.js"></script>
+    <!-- BLOOMBERG TAKES STOP AND FRISK TO UNPRECEDENTED LEVELS -->
+    <div class="section">
+        <div class="history-sec">
+            <h1>Bloomberg Takes Stop and Frisk to Unprecedented Levels</h1>
+            <br>
+            <h4>
+                The 1999 killing of 23-year-old unarmed Black man, Amadou Diallo, raised questions and concerns regarding stop and
+                frisk in relation to racial profiling. This resulted in the requirement that police officers record information
+                about their stops including things like race, gender, and age. Though Michael Bloomberg did not create stop and frisk, when
+                he became the mayor of New York City in 2002, stop and frisk numbers soared. As mayor, he became a major advocate
+                of stop and frisk, dismissed concerns regarding racial profiling, and believed that the practices led to decreased
+                crime rates. His claims regarding crime remain disputed to this day, as other sources have noted that crime decreased before stop and
+                frisk was implemented, and after it was cut back.
+            </h4>
+            <div class="row justify-content-md-center historyImgRow">
+                <div class="col-md-3">
+                    <div class="historyImgContainer">
+                        <a href="https://www.nyclu.org/en/publications/stop-and-frisk-during-bloomberg-administration-2002-2013-2014" target="_blank">
+                            <img src="img/bloomberg1.png" class="image" style="width:100%">
+                        </a>
+                        <div class="middle">
+                            <button type="button" class="btn btn-dark"><a class="history" href="https://www.nyclu.org/en/publications/stop-and-frisk-during-bloomberg-administration-2002-2013-2014" target="_blank">NYCLU:<br>Stop and Frisk during the Bloomberg Administration</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="historyImgContainer">
+                        <a href="https://www.nytimes.com/1999/02/05/nyregion/officers-in-bronx-fire-41-shots-and-an-unarmed-man-is-killed.html" target="_blank">
+                            <img src="img/diallo-protest.png" class="image" style="width:100%">
+                        </a>
+                        <div class="middle">
+                            <button type="button" class="btn btn-dark"><a class="history" href="https://www.nytimes.com/1999/02/05/nyregion/officers-in-bronx-fire-41-shots-and-an-unarmed-man-is-killed.html" target="_blank">New York Times:<br>Officers in Bronx Fire 42 Shots, and an Unarmed Man is Killed</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="historyImgContainer">
+                        <a href="https://www.politifact.com/article/2020/feb/19/mike-bloombergs-record-stop-and-frisk/" target="_blank">
+                            <img src="img/bloomberg2.png" class="image" style="width:100%">
+                        </a>
+                        <div class="middle">
+                            <button type="button" class="btn btn-dark"><a class="history" href="https://www.politifact.com/article/2020/feb/19/mike-bloombergs-record-stop-and-frisk/" target="_blank">PolitiFact:<br>Mike Bloomberg's Record on Stop and Frisk</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer'>
+            Image Sources:
+            <a href= 'https://commons.wikimedia.org/wiki/File:Michael_Bloomberg_(49475476406).jpg' target="_blank">
+                1
+            </a>
+            ,
+            <a href= 'https://commons.wikimedia.org/wiki/File:17a.Rally.AmadouDiallo.DOJ.WDC.2March2000_(24693120100).jpg' target="_blank">
+                2
+            </a>
+            ,
+            <a href= 'https://commons.wikimedia.org/wiki/File:Michael_Bloomberg_(48604023932).jpg' target="_blank">
+                3
+            </a>
+        </div>
+    </div>
 
-    <!-- d3 -->
-    <script src="https://d3js.org/d3.v6.min.js"></script>
-    <script src="https://unpkg.com/d3-simple-slider"></script>
+    <!-- MAP -->
+    <div id="map-sec" class="section">
+        <div id="vis-2" class="vis-container">
+            <div class="row">
+                <div id="map-vis" class="col-5"></div>
+                <div class="col-7">
+                    <div id="stops-timeline-text">
+                        <h1>Where were these stops occurring? How frequently?</h1>
+                        <h5 class="description-text">There were over 5 million stops between 2003 and 2016, peeking in 2011. After 2011 there is a
+                            drastic decrease in the number of stops after the practice was ruled unconstitutional in 2012. Hover over the timeline
+                            to see the number of stops per year. Click on a precinct or use the select box below to show that precinct's timeline of stops
+                            and understand the differences in the amount of stops conducted between precincts.
+                        </h5>
+                        <label for="precinctSelect" style="display: inline-block">Select Precinct:</label>
+                        <select class="form-control" id="precinctSelect" style="display: inline-block"></select>
+                        <div id="disclaimerPrecinct121"></div>
+                    </div>
+                    <div id="stops-timeline-vis"></div>
+                </div>
+            </div>
+        </div>
+    </div>
 
-        <!-- Leaflet -->
-    <script src="js/leaflet.js"></script>
+    <!-- DEMOGRAPHIC BUBBLES -->
+    <div id="population-sec" class="section">
+        <div id="vis-4" class="vis-container">
+            <h1>Total demographic vs. the demographic of Stop and Frisk stops</h1>
+            <p class="description-text">In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons below to explore how the race of those stopped compare to the race in an entire borough.</p>
 
-    <!-- own js files -->
-    <script src="js/main.js"></script>
-    <script src="js/radialVis.js"></script>
-    <script src="js/demographicBubbles.js"></script>
-    <script src="js/likelinessVis.js"></script>
-    <script src="js/victims.js"></script>
-    <script src="js/mapVis.js"></script>
-    <script src="js/leaflet.js"></script>
-    <script src="js/timeline.js"></script>
 
-    <script>
-      $(function() {
-        $("#timeline-sec").show();
-        $("#show-vis-4").on('click', function() {
-          $("#show-vis-4").hide();
-        });
-        $("#show-vis-2").on('click', function() {
-          $("#show-vis-2").hide();
-        });
-        $("#show-vis-5").on('click', function() {
-          $("#show-vis-5").hide();
-        });
-        $("#show-vis-6").on('click', function() {
-          $("#show-vis-6").hide();
-        });
-      });
-    </script>
-  </body>
+            <div class="row">
+                <!-- BOROUGH BUBBLES -->
+                <div class="col-6 bubbles" id="borough-bubbles">
+                <span class="bubble-description">
+                  <span id="borough-perc"></span>
+                </span></div>
+                <!-- STOP AND FRISK BUBBLES -->
+                <div class="col-6 bubbles" id="sf-bubbles">
+                <span class="bubble-description">
+                  <span id="sf-perc"></span>
+                </span></div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-2 btn-group-sm btn-group-vertical demographic-buttons-2">
+                    <button type="button" class="btn btn-secondary vis-4-race" onclick="changeRace(4)">Hispanic*</button>
+                    <button type="button" class="btn btn-secondary vis-4-race" onclick="changeRace(2)">Black</button>
+                    <button type="button" class="btn btn-secondary vis-4-race" onclick="changeRace(1)">White</button>
+                    <button type="button" class="btn btn-secondary vis-4-race" onclick="changeRace(3)">Other</button>
+                </div>
+                <div class="col-2 btn-group-sm btn-group-vertical demographic-buttons-2">
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(2)">Total</button>
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(3)">Bronx</button>
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(4)">Brooklyn</button>
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(5)">Manhattan</button>
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(6)">Queens</button>
+                    <button type="button" class="btn btn-secondary vis-4-bor" onclick="changeBorough(7)">Staten Island</button>
+                </div>
+            </div>
+            <p>*The New York Census does not distinguish between different races within the "Hispanic" population (i.e. Black-Hispanic or White-Hispanic).</p>
+        </div>
+    </div>
+
+
+    <!-- VICTIM BUBBLES -->
+    <div id="victims-sec" class="section">
+        <div id="vis-3" class="vis-container">
+            <div id="victims-text">
+                <h1>Who was targeted?</h1>
+                <h4 class = "description-text targeted-text">
+                    Though the 'intention' of stop and frisk was to find criminals, stop and frisk seemed to target particular demographics
+                    while leaving other demographics relatively unaffected. Of the over 5 million stops between 2003 and 2016, let these 1000
+                    dots be representative of all of the stops. Click the buttons on the right to see how these 1000 dots are distributed
+                    based on a particular statistic.
+                </h4>
+                <br>
+                <div id="victims-supplementary-text"></div>
+                <br>
+            </div>
+            <div class="row">
+                <div id="victims-vis" class = "col-11"></div>
+                <div id="victims-buttons" class="col-1 btn-group-sm btn-group-vertical ">
+                    <button type="button" class="btn btn-secondary victims-filter active" onclick="updateVictimsVis('allstops')">All</button>
+                    <button type="button" class="btn btn-secondary victims-filter" onclick="updateVictimsVis('race')">Race</button>
+                    <button type="button" class="btn btn-secondary victims-filter" onclick="updateVictimsVis('sex')">Sex</button>
+                    <button type="button" class="btn btn-secondary victims-filter" onclick="updateVictimsVis('ageRange')">Age</button>
+                    <button type="button" class="btn btn-secondary victims-filter" onclick="updateVictimsVis('build')">Build</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- QUOTES OF POLICE OFFICERS -->
+    <div class="section description">
+        <h4 class="quote-header">In 2010, Officer Adrian Schoolcraft released secretly taped recordings of meetings and interactions between
+            officers in the 81st Precinct. The 81st Precinct is located in Bedford-Stuyvesant, a Brooklyn neighborhood that is
+            historically Black. Here are some quotes that stand out.</h4>
+
+        <br>
+        <br>
+
+        <p class="quote">"[Your] not working in Midtown Manhattan where people are walking around smiling and happy. <b>You’re working in
+            Bed-Stuy where everyone’s probably got a warrant</b>.</p>
+        <p class = "quotee">- Lieutenant Jean Delafuente, November 1, 2008</p>
+
+        <br>
+
+        <p class="quote">Tonight is zero tolerance. It’s New Years Eve all over again. <b>Everybody goes. I don’t care </b> . . . . They’re throwing dice?
+            They all go, promote gambling. I don’t care. Let the DA discuss what they’re going to do tomorrow . . . . They got [bandanas]
+            on and they’re running like nuts down the block, chasing people? <b>Grab them.</b> Fuck it. You’re preventing a robbery . . . .
+            You know that and I know that.</p>
+        <p class = "quotee">- Deputy Inspector Steven Mauriello, October 31, 2008</p>
+
+        <br>
+
+        <p class="quote"> All right, I went out there [to Howard and Chauncey] yesterday and . . . we’ve got the old man out there with the grey hairs.
+            A loud mouth. He thinks since he’s 55 years old he’s not going to get locked up. Well, guess what? I don’t tolerate shit out
+            there. He went in and two of his pals went in. All right? So we’ve got to keep the corner clear. . . . Because if you get too
+            big of a crowd there, you know, . . . they’re going to think that they own the block. <b>We own the block. They don’t own the
+                block, all right? They might live there but we own the block. All right? We own the streets here. You tell them what to do.</b></p>
+        <p class = "quotee">- Lieutenant Jean Delafuente, November 8, 2008</p>
+
+        <br>
+
+        <p class="quote">“If they’re on a corner, make them move. <b>They don’t want to move, you lock them up. </b> Done deal. You can always
+            articulate later.”</p>
+        <p class = "quotee">- Sergeant Raymond Stukes, November 23, 2008</p>
+
+        <div class='footer'>
+            Source:
+            <a href= 'https://www.google.com/books/edition/Racial_Purity_and_Dangerous_Bodies/w-omDwAAQBAJ?hl=en&gbpv=1' target="_blank">
+                Racial Purity and Dangerous Bodies: Moral Pollutions Moral Pollution, Black Lives, and the Struggle for Justice
+            </a>
+            , book by Rima Vesely-Flad
+        </div>
+
+
+    </div>
+
+    <!-- TESTIMONIAL VIDEO 1-->
+    <div class="section">
+        <div class="row justify-content-around">
+            <div class="col-5 iframe-container" >
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/01rsXYIXOrU"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+            <div id="testimonial-text" class="col-5">
+                <h4 class="quote-header">
+                    Listen to the words of Kasiem Walters of Flatbush Brooklyn, who by the time he was a high school senior, had been stopped
+                    by police 7 times.
+                </h4>
+
+                <br><br>
+                <p>"The thing that changed for me first is the way I looked at police. I couldn't look at them the same. Um, I remember, I mean
+                    it was bad to a point where I got robbed I didn't call the police. They scare you you know, so they instill this fear in
+                    you and then it forces you to have this mindset that you are a criminal."</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- TESTIMONIAL VIDEO 2-->
+    <div class="section">
+        <div class="row justify-content-around">
+            <div id="testimonial-text" class="col-5">
+                <h4 class="quote-header">
+                    Listen to the words of Adhyl Polanco, a police officer who grew up in Washington Heights, Manhattan.
+                    He, himself has been stopped by police even after he joined the force.
+                </h4>
+
+                <br><br>
+                <p>"We would stop a person in the street at the corner because the sergeant said stop. Why? You don’t ask.
+                    You stop him, you frisk him, if it’s possible you search him. And these kids, sometimes they’re just walking home
+                    from school, they’re just walking to the store, they’re not doing absolutely anything."</p>
+            </div>
+
+            <div class="col-5 iframe-container">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/tt4O62_VXs4"
+                        frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+
+    <!-- LIKELINESS VIS -->
+    <div id="likeliness-sec" class="section">
+        <h1>How do you compare to Stop and Frisk demographics?</h1>
+        <div id="vis-5" class="vis-container">
+            <div class="row likeliness justify-content-center">
+                <div class="col-4">
+                    <p class="description-text">
+                        The 100 squares to the right represent all of the stops from 2003 to 2016. Enter a description
+                        to see how someone would compare to the total amount of Stop and Frisk stops.
+                    </p>
+                    <p class="likeliness-perc"><span id="likeliness-perc"></span></p>
+                </div>
+                <div class="col-5 " id="likeliness-vis"></div>
+                <div class="col-3" id="likeliness-selectors">
+                    <form name="likeliness-form" action="" method="GET">
+                        <p class="selection-text">RACE</p>
+                        <select id="race-select" class ="form-control">
+                            <option value="ANY">Any</option>
+                            <option value="A">Asian/Pacific Islander</option>
+                            <option value="B">Black</option>
+                            <option value="I">Native American</option>
+                            <option value="P">Black-Hispanic</option>
+                            <option value="Q">White-Hispanic</option>
+                            <option value="W">White</option>
+                            <option value="Z">Other</option>
+                        </select>
+                        <br />
+                        <p class="selection-text">AGE</p>
+                        <select id="age-select" class ="form-control">
+                            <option value="5">Any</option>
+                            <option value="0">12 - 17</option>
+                            <option value="1">18 - 30</option>
+                            <option value="2">31 - 45</option>
+                            <option value="3">46 - 60</option>
+                            <option value="4">61 - 80</option>
+                        </select>
+                        <br />
+                        <p class="selection-text">SEX</p>
+                        <select id="sex-select" class ="form-control">
+                            <option value="ANY">Any</option>
+                            <option value="M">Male</option>
+                            <option value="F">Female</option>
+                        </select>
+                        <br />
+                        <p class="selection-text">BUILD</p>
+                        <select id="build-select" class ="form-control">
+                            <option value="ANY">Any</option>
+                            <option value="H">Heavy</option>
+                            <option value="M">Medium</option>
+                            <option value="T">Thin</option>
+                            <option value="U">Muscular</option>
+                        </select>
+                        <br />
+                        <input class="btn btn-secondary" type="button" name="input-button" value="Update Likeliness" onclick="updateLikelinessVis()">
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="history-sec">
+            <h1>Stop and Frisk: The Aftermath</h1>
+            <br>
+            <h4>
+                Stop and Frisk peaked in 2011, closing in on almost 700,000 stops that year. In 2013, a federal judge ruled in the case of
+                Floyd v. City of New York that stop and frisk was unconstitutional and that it violated the 4th amendment, the 14th amendment,
+                and Section VI of the Civil Rights Act. Bloomberg left office and Bill de Blasio assumed his position as mayor 2014. Though during
+                his time in office, Stop and Frisk numbers dramatically plummeted, many believe that racial disparities
+                in New York City policing remain. Though the height of stop and frisk is in the past, it leaves a legacy that
+                will be very hard to break from. Its effect on crime is at best debatable, and at its worst ineffective. To quote
+                a <a href="https://www.nytimes.com/2020/03/02/upshot/stop-and-frisk-bloomberg.html" target="_blank">New York Times Article</a>:
+            </h4>
+            <br>
+            <h4>
+                <i>“We now know that students heavily exposed to stop-and-frisk were more likely to struggle in school,
+                    that young men were more likely to experience symptoms of anxiety and depression,
+                    that this exposure fostered cynicism in policing and government writ large,
+                    and that it made residents more likely to retreat from civic life.” </i>
+            </h4>
+            <div class="row justify-content-md-center historyImgRow">
+                <div class="col-md-3">
+                    <div class="historyImgContainer">
+                        <a href="https://www.nytimes.com/2013/08/13/nyregion/stop-and-frisk-practice-violated-rights-judge-rules.html" target="_blank">
+                            <img src="img/protest2.png" class="image" style="width:100%">
+                        </a>
+                        <div class="middle">
+                            <button type="button" class="btn btn-dark"><a class="history" href="https://www.nytimes.com/2013/08/13/nyregion/stop-and-frisk-practice-violated-rights-judge-rules.html" target="_blank">The New York Times:<br>Judge Reject's New York's Stop and Frisk Policy</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="historyImgContainer">
+                        <a href="https://www.nyclu.org/en/publications/stop-and-frisk-de-blasio-era-2019" target="_blank">
+                            <img src="img/deblasio.png" class="image" style="width:100%">
+                        </a>
+                        <div class="middle">
+                            <button type="button" class="btn btn-dark"><a class="history" href="https://www.nyclu.org/en/publications/stop-and-frisk-de-blasio-era-2019" target="_blank">NYCLU:<br>Stop-And-Frisk in the De Blasio Era</a></button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="historyImgContainer">
+                        <a href="https://www.nytimes.com/2020/03/02/upshot/stop-and-frisk-bloomberg.html" target="_blank">
+                            <img src="img/protest.png" class="image" style="width:100%">
+                        </a>
+                        <div class="middle">
+                            <button type="button" class="btn btn-dark"><a class="history" href="https://www.nytimes.com/2020/03/02/upshot/stop-and-frisk-bloomberg.html" target="_blank">The New York Times:<br>The Lasting Effects of Stop-and-Frisk in Bloomberg’s New York</a></button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class='footer'>
+            Image Sources:
+            <a href= 'https://commons.wikimedia.org/wiki/File:Silent_march_to_end_stop_and_frisk_and_racial_profiling.jpg' target="_blank">
+                1
+            </a>
+            ,
+            <a href= 'https://commons.wikimedia.org/wiki/File:Bill_de_Blasio_(48609239938).jpg' target="_blank">
+                2
+            </a>
+            ,
+            <a href= 'https://en.wikipedia.org/wiki/File:Ray_Kelly_Protest.jpg' target="_blank">
+                3
+            </a>
+        </div>
+    </div>
+
+    <!-- ENDING SECTION -->
+    <div class="section description">
+        <div class="row">
+            <div class="col-6">
+                <h1>About US</h1>
+                <div>Our names</div>
+
+                <br>
+
+                <h5>To learn more about the project</h5>
+                <div>Github, process book</div>
+
+                <br>
+
+                <h5>Screencast</h5>
+                <div>Insert Video Here</div>
+
+            </div>
+            <div class="col-6">
+                <h1>References</h1>
+                <h5>Data Sources</h5>
+                <div>links to data sources</div>
+
+                <br>
+
+                <h5>Libraries</h5>
+                <div>leaflet, fullpage, ...</div>
+
+                <br>
+
+                <h5>Other references</h5>
+                <div>any youtube links, news articles</div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- embedding JS libraries -->
+<script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+></script>
+<script src="js/libraries/jquery.min.js"></script>
+
+<!-- d3 -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+<script src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
+
+
+<!-- Leaflet -->
+<script src="js/leaflet.js"></script>
+
+<!-- Fullpage -->
+<script src="js/fullpage.js"></script>
+
+<!-- own js files -->
+<script src="js/main.js"></script>
+<script src="js/cleanData.js"></script>
+<script src="js/radialVis.js"></script>
+<script src="js/demographicBubbles.js"></script>
+<script src="js/likelinessVis.js"></script>
+<script src="js/victims.js"></script>
+<script src="js/mapVis.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/responsivefy.js"></script>
+
+<script>
+    new fullpage("#fullpage", {
+        autoScrolling: true,
+        controlArrows: false,
+        navigation: true,
+        paddingTop: '3vh',
+        paddingBottom: '5vh',
+        slidesNavigation: true,
+    });
+</script>
+</body>
 </html>
