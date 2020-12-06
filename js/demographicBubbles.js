@@ -120,9 +120,18 @@ class DemographicBubbles {
             vis.selectedBorough = fixTitle[0][0].toUpperCase() + fixTitle[0].slice(1);
           }
         }
+        let popPerc = parseInt($("#perc-holder").text(), 10);
         $(`#${vis.percParent}`).text(`${vis.selectedDemographic} people make up ${((vis.demPerc)).toFixed()}% of the stops in ${vis.selectedBorough}.`);
+        if (popPerc < vis.demPerc.toFixed()){
+          $(`#${vis.percParent}`).css("color","#8B0000");
+          vis.color = "#8B0000";
+        } else {
+          $(`#${vis.percParent}`).css("color","black");
+          vis.color = vis.bubbleColor(1);
+        }
       }
     } else {
+      vis.color = vis.bubbleColor(1);
       if (changed){
         vis.demPop = vis.popObj[vis.raceCode][vis.boroughObj[vis.boroughCode]];
         vis.totalPop = vis.popObj[1][vis.boroughObj[vis.boroughCode]] + vis.popObj[2][vis.boroughObj[vis.boroughCode]] 
@@ -148,6 +157,7 @@ class DemographicBubbles {
           }
         }
         $(`#${vis.percParent}`).text(`${vis.selectedDemographic} people make up ${((vis.demPerc)).toFixed()}% of the population in ${vis.selectedBorough}.`);
+        $(`#perc-holder`).text(`${vis.demPerc.toFixed()}`);
       }
     }
     // associate bubbles with counted-ness????
@@ -192,7 +202,7 @@ class DemographicBubbles {
       .attr("cy", d => d.y)
       .attr("fill", function(d) {
         if (d.counted == true) {
-          return vis.bubbleColor(1);
+          return vis.color;
         } else {
           return "#DCDCDC";
         }
@@ -205,7 +215,7 @@ class DemographicBubbles {
       .attr("cy", d => d.y)
       .attr("fill", function(d) {
         if (d.counted == true) {
-          return vis.bubbleColor(1);
+          return vis.color;
         } else {
           return "#DCDCDC";
         }
