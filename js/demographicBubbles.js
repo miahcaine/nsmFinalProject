@@ -97,6 +97,7 @@ class DemographicBubbles {
     vis.selectedDemographic = vis.raceCodeObj[vis.raceCode];
     vis.selectedBorough = vis.boroughObj[vis.boroughCode];
     let stopCount, totalStopCount;
+    vis.color = vis.bubbleColor(1);
     if (vis.is_stops) {
       if (changed){
         stopCount = vis.stopData[vis.raceCode][vis.selectedBorough];
@@ -127,11 +128,9 @@ class DemographicBubbles {
           vis.color = "#8B0000";
         } else {
           $(`#${vis.percParent}`).css("color","black");
-          vis.color = vis.bubbleColor(1);
         }
       }
     } else {
-      vis.color = vis.bubbleColor(1);
       if (changed){
         vis.demPop = vis.popObj[vis.raceCode][vis.boroughObj[vis.boroughCode]];
         vis.totalPop = vis.popObj[1][vis.boroughObj[vis.boroughCode]] + vis.popObj[2][vis.boroughObj[vis.boroughCode]] 
