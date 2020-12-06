@@ -238,17 +238,17 @@ class VictimsVis {
 
 
         // Define sizes for each circle pack and size between each circle pack for data structure beloew
-        let sizesBySex = [[vis.height * 0.85,vis.height* 0.85], [vis.height* .25 ,vis.height* .25], [vis.height* .18,vis.height* .18]]
-        let sizesByRace = [[vis.height * 0.18,vis.height*0.18], [vis.height * 0.7,vis.height*0.7], [vis.height * 0.07,vis.height*0.07],
-                [vis.height * 0.24,vis.height*0.24], [vis.height *0.45,vis.height*0.45], [vis.height *0.3,vis.height*0.3], 
-                [vis.height *0.2,vis.height*0.2]]
-        let sizesByAgeRange = [[vis.height*0.37,vis.height*0.37], [vis.height*0.7,vis.height*0.7], [vis.height*0.43,vis.height*0.43],
-                [vis.height*0.27,vis.height*0.27], [vis.height*0.1,vis.height*0.1], [vis.height*0.12,vis.height*0.12]]
-        let sizesByBuild = [[vis.height*0.27,vis.height*0.27], [vis.height*0.7,vis.height*0.7], [vis.height*0.5,vis.height*0.5], 
-                            [vis.height*0.05,vis.height*0.05], [vis.height*0.12,vis.height*0.12]]
+        let sizesBySex = [[vis.height * 0.68,vis.height* 0.68], [vis.height* .2 ,vis.height* .26], [vis.height* .144,vis.height* .144]]
+        let sizesByRace = [[vis.height * 0.144,vis.height*0.144], [vis.height * 0.56,vis.height*0.56], [vis.height * 0.056,vis.height*0.056],
+                [vis.height * 0.192,vis.height*0.192], [vis.height *0.36,vis.height*0.36], [vis.height *0.24,vis.height*0.24], 
+                [vis.height *0.16,vis.height*0.16]]
+        let sizesByAgeRange = [[vis.height*0.296,vis.height*0.296], [vis.height*0.56,vis.height*0.56], [vis.height*0.344,vis.height*0.344],
+                [vis.height*0.216,vis.height*0.216], [vis.height*0.08,vis.height*0.08], [vis.height*0.096,vis.height*0.096]]
+        let sizesByBuild = [[vis.height*0.216,vis.height*0.216], [vis.height*0.56,vis.height*0.56], [vis.height*0.4,vis.height*0.4], 
+                            [vis.height*0.04,vis.height*0.04], [vis.height*0.096,vis.height*0.096]]
 
-        let sizeBtwnRace = 45
-        let sizeBtwnBuild = 150;
+        let sizeBtwnRace = 50
+        let sizeBtwnBuild = 120;
         let sizeBtwnAge = 50
         let sizeBtwnSex = 150
 
@@ -277,7 +277,7 @@ class VictimsVis {
                 names: {
                     M: ["Male"],
                     F: ["Female"],
-                    Z: ["Recorded", "Other/Not" ]
+                    Z: ["Recorded","Not", "Other/" ]
                 },
                 sum: {
                     M: vis.countBySex["M"],
@@ -290,10 +290,10 @@ class VictimsVis {
             "allstops": {
                 categories: ["all"],
                 size: {
-                    all: [vis.height * 0.9,vis.height * 0.9]
+                    all: [vis.height * 0.8,vis.height * 0.8]
                 },
                 transform: {
-                    all: [(vis.width / 2) - (vis.height / 2),vis.height * 0.15]
+                    all: [(vis.width / 2) - ((vis.height * 0.8) / 2),vis.height * 0.15]
                 },
                 indices: {
                     0: "all"
@@ -336,13 +336,13 @@ class VictimsVis {
                     6: "Z", 
                 },
                 names: {
-                    A: ["Islander", "Asian/Pacific"],
+                    A: ["Islander","Pacific", "Asian/"],
                     B: ["Black"],
                     I: ["American", "Native"],
                     P: ["Black-Hispanic"],
                     Q: ["White-Hispanic"],
                     W: ["White"],
-                    Z: ["Recorded", "Other/Not" ],
+                    Z: ["Recorded","Not", "Other/" ],
                 },
                 sum: {
                     A: vis.countByRace["A"],
@@ -392,7 +392,7 @@ class VictimsVis {
                     "31_45": ["31 - 45"],
                     "46_60": ["46 - 60"],
                     "61_80": ["61 - 80"],
-                    "Z": ["Recorded", "Other/Not" ],
+                    "Z": ["Recorded","Not", "Other/" ],
                 },
                 sum: {
                     "12_17": vis.countByAgeRange["12_17"],
@@ -432,7 +432,7 @@ class VictimsVis {
                     "M": ["Medium"],
                     "T": ["Thin"],
                     "U": ["Muscular"],
-                    "Z": ["Recorded", "Other/Not" ],
+                    "Z": ["Recorded","Not", "Other/" ],
                 },
                 sum: {
                     "H": vis.countByBuild["H"],
