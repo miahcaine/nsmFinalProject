@@ -204,9 +204,13 @@
       <div id="population-sec" class="section">
         <div id="vis-4" class="vis-container">
             <h1>Total demographic vs. the demographic of Stop and Frisk stops</h1>
-            <p class="description-text">In addition to affecting more leaving certain demographics relatively unaffected, Stop and Frisk disproportionately affected certain races and ethnicities. Click on the buttons below to explore how the race of those stopped compare to the race in an entire borough.</p>
+            <p class="description-text">In addition to affecting more leaving certain demographics relatively unaffected, 
+              Stop and Frisk disproportionately affected certain races and ethnicities. 
+              Click on the buttons below to explore how the race of those stopped compare to the race in an entire borough.
+              If the selected demographic's stop percentage is greater than its population percentage, the text and bubbles will be highlighted 
+              in <span id="red-text">red</span>.
+            </p>
             
-              
             <div class="row"> 
                 <!-- BOROUGH BUBBLES -->
               <div class="col-6 bubbles" id="borough-bubbles">
@@ -218,6 +222,7 @@
                 <span class="bubble-description">
                   <span id="sf-perc"></span>
                 </span></div>
+                <span style="visibility: hidden;" id="perc-holder"></span>
             </div>
 
             <div class="row justify-content-center">
@@ -492,16 +497,34 @@
         </div>
 
         <!-- ENDING SECTION -->
-        <div class="section description">
+        <div class="section description ending">
           <div class="row">
               <div class="col-6">
-                <h1>About US</h1>
-                <div>Our names</div>
-
+                <h1>About Us</h1>
+                <div>This project was created for Harvard University's Fall 2020 course, CS171: Visualization by: </div>
+                <div class="row justify-content-center">
+                  <div class="col-3">
+                    <img class="headshot" src= "img/nnekaCropped.jpg">
+                    <p class="headshot-p">Nwanneka Okolo</p>
+                  </div>
+                  <div class="col-3">
+                      <img class="headshot" src= "img/miahCropped.JPG">
+                      <p class="headshot-p">Miah Caine</p>
+                  </div>
+                  <div class="col-3">
+                      <img class="headshot"src= "img/sang-oCropped.jpg">
+                      <p class="headshot-p">Sang-O Park</p>
+                  </div>
+                </div>
                 <br>
 
-                <h5>To learn more about the project</h5>
-                <div>Github, process book</div>
+                <h5>To learn more about our project:</h5>
+                <div>
+                  <ul>
+                    <li>View our <a href="https://github.com/miahcaine/nsmFinalProject" target="_blank">Github</a></li>
+                    <li>Read our <a href="https://docs.google.com/document/d/1inCxJwx6ghS2Z3-Pv2s4m3bgNAKVMZbBy4oFkDpmwD4/edit?usp=sharing" target="_blank">process book</a></li>
+                  </ul>
+                </div>
 
                 <br>
 
@@ -512,17 +535,27 @@
               <div class="col-6">
                 <h1>References</h1>
                 <h5>Data Sources</h5>
-                <div>links to data sources</div>
+                <div>
+                  <ul>
+                    <li>Stop, Question, and Frisk stop data: <a href="https://www1.nyc.gov/site/nypd/stats/reports-analysis/stopfrisk.page" target="_blank">Publications, Reports - NYPD</a></li>
+                    <li>Yearly Arrests Data: <a href="https://www1.nyc.gov/site/nypd/stats/crime-statistics/historical.page" target="_blank">Crime Stats - Historical - NYPD</a></li>
+                    <li>Precinct geoJSON Data: <a href="https://data.cityofnewyork.us/Public-Safety/Police-Precincts/78dh-3ptz" target="_blank">NYC Open Data: Police Precincts</a></li>
+                    <li>New York State Census Data: <a href="https://health.data.ny.gov/Health/New-York-State-Population-Data-Beginning-2003/e9uj-s3sf" target="_blank">New York State Population Data: Beginning 2003</a></li>
+                  </ul>
+                </div>
 
                 <br>
 
                 <h5>Libraries</h5>
-                <div>leaflet, fullpage, ...</div>
-
+                <div>
+                  <ul>
+                    <li><a href="https://d3js.org/" target="_blank">d3.js</a></li>
+                    <li><a href="leafletjs.com" target="_blank">Leaflet.js</a></li>
+                    <li><a href="https://alvarotrigo.com/fullPage/" target="_blank">Fullpage.js</a></li>
+                    <li><a href="https://jquery.com/" target="_blank">jQuery</a></li>
+                  </ul>
+                </div>
                 <br>
-
-                <h5>Other references</h5>
-                <div>any youtube links, news articles</div>
               </div>
           </div>
         </div>

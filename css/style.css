@@ -252,6 +252,9 @@ a.history{
 
 /* DEMOGRAPHIC BUBBLES VIS and LIKELINESS VIS */
 
+span#red-text {
+  color: #8B0000;
+}
 
 #demographic-buttons {
   height: 75%;
@@ -344,4 +347,19 @@ p {
 #testimonial-text {
   margin-top: auto;
   margin-bottom: auto;
+}
+
+/* ABOUT US */
+.ending h5{
+  font-weight: bold;
+}
+
+.headshot{
+  margin-top: 1.5em;
+  max-width: 100%;
+  height: auto;
+  border-radius: 50%;
+}
+.headshot-p {
+  font-weight: bold;
 }
