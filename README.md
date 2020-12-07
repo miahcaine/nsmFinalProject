@@ -24,7 +24,7 @@
 4. index.html is our main html page
 5. sf_data folder holds all of our data. Links to the data sources can be found in our process book. We have data for stops and frisks, for the NY census, for NY crime statistics, and for NY police precincts.
 
-Video is included in the website, and can be found here:
+Video is included in the website, and can be found [here](https://drive.google.com/file/d/16QCuCawuYIt_OXAV_jXM6MKaGT8dZf3B/view):
 
 [Link to Process Book](https://docs.google.com/document/d/1inCxJwx6ghS2Z3-Pv2s4m3bgNAKVMZbBy4oFkDpmwD4/edit)
 
