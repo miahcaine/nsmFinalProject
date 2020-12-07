@@ -1,6 +1,6 @@
-# nsmFinalProject
+# README
 
-### [Process Book](https://docs.google.com/document/d/1inCxJwx6ghS2Z3-Pv2s4m3bgNAKVMZbBy4oFkDpmwD4/edit).
+## Submitting:
 
 ### Data (located in sf_data folder). Links to the data sources can be found in our process book. We have data for stops and frisks, for NY census, for NY crime statistics, and for NY precincts.
 
@@ -28,6 +28,8 @@
 4. index.html is our main html page
 
 ### Video is included in the website, and can be found here:
+
+### [Process Book](https://docs.google.com/document/d/1inCxJwx6ghS2Z3-Pv2s4m3bgNAKVMZbBy4oFkDpmwD4/edit).
 
 ### [Project Website](https://miahcaine.github.io/nsmFinalProject/?fbclid=IwAR05z9XuAcKtmL9GdN38GMP4-PKFB-SMok0OPJQEaKk58m7lrv22Be84L1Q).
 
