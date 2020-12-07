@@ -6,7 +6,7 @@
   - Leaflet.css is a library
   - Style.css is our own code
 2. JS folder holds the javascript code, including code from outside libraries and our own code
-  - Libraries (everything in this file is a library)
+  - Libraries (everything in this folder is a library)
     - jquery.min.js
     - fullpage.js
     - leafelet.js
@@ -27,9 +27,9 @@
 
 ### Video is included in the website, and can be found here:
 
-### [Process Book](https://docs.google.com/document/d/1inCxJwx6ghS2Z3-Pv2s4m3bgNAKVMZbBy4oFkDpmwD4/edit).
+### [Link to Process Book](https://docs.google.com/document/d/1inCxJwx6ghS2Z3-Pv2s4m3bgNAKVMZbBy4oFkDpmwD4/edit)
 
-### [Project Website](https://miahcaine.github.io/nsmFinalProject/?fbclid=IwAR05z9XuAcKtmL9GdN38GMP4-PKFB-SMok0OPJQEaKk58m7lrv22Be84L1Q).
+### [Link to Project Website](https://miahcaine.github.io/nsmFinalProject/?fbclid=IwAR05z9XuAcKtmL9GdN38GMP4-PKFB-SMok0OPJQEaKk58m7lrv22Be84L1Q)
 
 
 # Nonobvious Features
