@@ -1,21 +1,21 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<meta name="description" content="">
-		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<title>Stop and Frisk Final Project</title>
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Stop and Frisk Final Project</title>
 
-		<!-- Load CSS libraries -->
-		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Load CSS libraries -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/leaflet.css">
     <link rel="stylesheet" href="css/fullpage.css">
 
     <link rel="preconnect" href="https://fonts.gstatic.com" />
     <link
-      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap"
+            rel="stylesheet"
     />
 
 		<!-- GOOGLE FONTS -->
@@ -94,20 +94,34 @@
                   <div id="radial-vis" class="col-6">
                   </div>
                   <div id="radialplot-descrip" class="col-6">
-                      <h1>Have Stop and Frisks Been Effective?</h1>
-                      <p class="description-text">Over 2003-2016, stop and frisks were most often conducted for criminal possession of a weapon,
-                      grand larceny, robbery, burglary, and criminal trespass. However, whether the
-                      high frequency correlated with a corresponding decrease in respective crime rates
-                      is still being discussed today. Interact with the slider below to see how rates for
-                      these top five crimes have changed, if at all, over the time period.</p>
+                      <h1>How Have Stop and Frisks Impacted Crime Rates Since 2003?</h1>
+                      <p class="description-text">From 2003-2016, the New York Police Department (NYPD) utilized
+                          stop and frisks in an attempt to decrease the crime rates of the <b>seven major felonies:</b>
+                          murder and non-negligible manslaughter, rape, robbery, felony assault, burglary,
+                          grand larceny (theft of personal property), and grand larceny of motor vehicle.
+                          <br>
+                          Before we take a closer look at how stop and frisks were carried out, it is equally
+                          important to investigate the impact these initatives objectively had on crime rates.
+                          Thus, interact with the slider below and hover over the white dots to see <b>how crime rates have changed since 2003,
+                              the start of the stop and frisk era.</b></p>
+
+                      <br>
       
-                      <br><br><br>
-      
-                      <h2>Time</h2>
+                      <h3>Time</h3>
                       <div class="row align-items-center">
                           <div class="col-sm-2"><p id="value-time"></p></div>
                           <div class="col-sm"><div id="slider-time"></div></div>
                       </div>
+
+                      <h3>Percent Change Since 2003</h3>
+                      <div class="row align-items-center">
+                          <div class = "col" id = percent-change>
+                              <text id="percent-change-descrip"><i>Hover over the
+                                  white dots to reveal values</i></text><br>
+                              <text id="percent-change-1">Percent Change: </text>
+                          </div>
+                      </div>
+
                   </div>
       
               </div>
@@ -560,6 +574,49 @@
           </div>
         </div>
     </div>
+</div>
+
+<!-- embedding JS libraries -->
+<script
+        src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"
+></script>
+<script
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"
+></script>
+<script src="js/libraries/jquery.min.js"></script>
+
+<!-- d3 -->
+<script src="https://d3js.org/d3.v6.min.js"></script>
+<script src="https://unpkg.com/d3-simple-slider"></script>
+<script src="https://cdn.jsdelivr.net/npm/underscore@1.12.0/underscore-min.js"></script>
+
+
+<!-- Leaflet -->
+<script src="js/leaflet.js"></script>
+
+<!-- Fullpage -->
+<script src="js/fullpage.js"></script>
+
+<!-- own js files -->
+<script src="js/main.js"></script>
+<script src="js/cleanData.js"></script>
+<script src="js/radialVis.js"></script>
+<script src="js/demographicBubbles.js"></script>
+<script src="js/likelinessVis.js"></script>
+<script src="js/victims.js"></script>
+<script src="js/mapVis.js"></script>
+<script src="js/leaflet.js"></script>
+<script src="js/timeline.js"></script>
+<script src="js/responsivefy.js"></script>
 
     <!-- embedding JS libraries -->
     <script

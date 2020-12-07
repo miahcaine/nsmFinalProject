@@ -19,10 +19,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="22945327-7ef4-434e-b7d3-bdf651773af2" name="Default Changelist" comment="11.22.20 11:47 PM changes to vis1">
+    <list default="true" id="22945327-7ef4-434e-b7d3-bdf651773af2" name="Default Changelist" comment="radialVis changes">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/radialVis.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/radialVis.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +112,8 @@
     <MESSAGE value="new commit for branch pls" />
     <MESSAGE value="11.22.20 11:25 PM changes to vis1" />
     <MESSAGE value="11.22.20 11:47 PM changes to vis1" />
-    <option name="LAST_COMMIT_MESSAGE" value="11.22.20 11:47 PM changes to vis1" />
+    <MESSAGE value="radialVis changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="radialVis changes" />
   </component>
   <component name="WindowStateProjectService">
     <state x="343" y="230" key="MultipleFileMergeDialog" timestamp="1606106425039">

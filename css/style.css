@@ -110,6 +110,11 @@ a.history{
   font-family: "Quicksand", sans-serif;
 }
 
+#radial-vis {
+  width: 100%;
+  height: 80vh;
+}
+
  /*  Map + Timeline Vis Styles */
 .map-vis {
     width: 100%;
