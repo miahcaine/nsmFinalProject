@@ -1,9 +1,5 @@
 # README
 
-## Submitting:
-
-### Data (located in sf_data folder). Links to the data sources can be found in our process book. We have data for stops and frisks, for NY census, for NY crime statistics, and for NY precincts.
-
 ### Code
 1. CSS folder holds all of the styles
   - Fullpage.css is a library
@@ -27,6 +23,8 @@
 3. img folder contains all of the images used for the submission
 4. index.html is our main html page
 
+### Data (located in sf_data folder in the code). Links to the data sources can be found in our process book. We have data for stops and frisks, for NY census, for NY crime statistics, and for NY precincts.
+
 ### Video is included in the website, and can be found here:
 
 ### [Process Book](https://docs.google.com/document/d/1inCxJwx6ghS2Z3-Pv2s4m3bgNAKVMZbBy4oFkDpmwD4/edit).
@@ -35,6 +33,6 @@
 
 
 # Nonobvious Features
-1. It would be useful to start the visualization with full screen and with any developer tabs close, just to help with the initial sizing of the visualizations. Once all data is loaded, feel free to resize the visualization.
+1. It would be useful to start the visualization with full screen and with any developer tabs close, just to help with the initial sizing of the visualizations. Once all data is loaded, feel free to resize the visualization. (This is particular helpful with the visualization entitled "Who Was Targeted". If it seems to be getting cut off at the right hand side, try reloading the website in the fullest screen.
 2. For the sections of the website that provide more history and context to stop and frisk, the pictures act as buttons and they link to articles to learn more about stop and frisk
 3. In the “Where were these stops occurring? How frequently?” section, the timeline features a tooltip. Additionally, for the map you can hover to learn more information about each precinct and you can click on a precinct to update the timeline to that particular precinct. To reset to the regular timeline, use the select box.
