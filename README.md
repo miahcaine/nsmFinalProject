@@ -3,11 +3,11 @@
 he README file must give an overview of what you are handing in: which parts are your code, which parts are libraries, and so on. The README must contain URLs to your project websites and screencast videos. The README must also explain any non-obvious features of your interface.
 
 ## What we are handing in: 
-# Process Book: https://docs.google.com/document/d/1inCxJwx6ghS2Z3-Pv2s4m3bgNAKVMZbBy4oFkDpmwD4/edit
+## Process Book: https://docs.google.com/document/d/1inCxJwx6ghS2Z3-Pv2s4m3bgNAKVMZbBy4oFkDpmwD4/edit
 
-# Data (located in sf_data folder). Links to the data sources can be found in our process book. We have data for stops and frisks, for NY census, for NY crime statistics, and for NY precincts.
+## Data (located in sf_data folder). Links to the data sources can be found in our process book. We have data for stops and frisks, for NY census, for NY crime statistics, and for NY precincts.
 
-# Code
+## Code
 1. CSS folder holds all of the styles
   - Fullpage.css is a library
   - Leaflet.css is a library
@@ -30,9 +30,9 @@ he README file must give an overview of what you are handing in: which parts are
 3. img folder contains all of the images used for the submission
 4. index.html is our main html page
 
-# Video is included in the website, and can be found here:
+## Video is included in the website, and can be found here:
 
-# Project Website: https://miahcaine.github.io/nsmFinalProject/?fbclid=IwAR05z9XuAcKtmL9GdN38GMP4-PKFB-SMok0OPJQEaKk58m7lrv22Be84L1Q
+## Project Website: https://miahcaine.github.io/nsmFinalProject/?fbclid=IwAR05z9XuAcKtmL9GdN38GMP4-PKFB-SMok0OPJQEaKk58m7lrv22Be84L1Q
 
 
 # Nonobvious Features
