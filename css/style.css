@@ -368,3 +368,8 @@ p {
 .headshot-p {
   font-weight: bold;
 }
+
+.screencast iframe{
+  width: 90%;
+  height: 100%;
+}
